@@ -2,9 +2,9 @@
 menu:
   home: /
   categories: /categories
-  about: /about
+  #about: /about
   archives: /archives
-  #tags: /tags
+  tags: /tags
   #commonweal: /404.html
 
 
@@ -14,7 +14,7 @@ menu:
 #   Key is the name of menu item and value is the name of FontAwsome icon.
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
-  enable: true
+  enable: false
   # Icon Mapping.
   home: home
   about: user
@@ -28,7 +28,7 @@ menu_icons:
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo,next"
+keywords: "McK,Note,Consulting,Management"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -41,8 +41,8 @@ rss:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /images/logo.png
 
 
 
@@ -103,11 +103,17 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: true
+  app_id:       537807449725839
+  fb_admin:     kiminire
+  like_button:  true
+  webmaster:    true
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+#creative_commons:
 
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS

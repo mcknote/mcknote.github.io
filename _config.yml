@@ -5,14 +5,14 @@
 # Site
 title: McK & Note
 subtitle:
-description:
+description: In reasoning we believe.
 author: Jimmy Lin
 language: zh-tw
-timezone: TW
+timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mcknote.github.io
+url: http://mcknote.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -69,4 +69,61 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: mcknote.github.io
+  repo: git@github.com:mcknote/mcknote.github.io.git
+  branch: master
+  #repo: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
+
+# Avatar
+avatar: /images/default_avatar.jpg
+
+# Disqus
+disqus_shortname: mcknote
+
+# hexo-admin
+admin:
+  username: kiminire
+  password_hash: $2a$08$wvUospKCnKVmZWIRS8UGV.cmSTLEzo5RVIORY91StDQ9OBMges5sW
+  secret: In reasoning we believe.
+
+# Search
+swiftype_key: qWd1K1oxNSEz3qhuzqBB
+
+#hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+#hexo-renderer-stylus
+stylus:
+  compress: false
+  sourcemaps:
+    comment: true
+    inline: true
+    sourceRoot: ''
+    basePath: .
+
+#Google Analytics
+google_analytics: UA-75181285-1
+
+#Sitemap
+sitemap:
+path: sitemap.xml
+
+#hexo-generator-category
+category_generator:
+  per_page: 10
+
+#hexo-git-backup
+backup:
+    type: git
+    repository:
+       openshift: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
+
+
+
+

@@ -1,11 +1,11 @@
 title:
-  archive: 歸檔
+  archive: 文庫
   category: 分類
   tag: 標籤
 
 menu:
   home: 首頁
-  archives: 歸檔
+  archives: 文庫
   categories: 分類
   tags: 標籤
   about: 關於
@@ -28,8 +28,8 @@ page:
   tags: 標籤
 
 footer:
-  powered: "由 %s 強力驅動"
-  theme: 主題
+  powered: "Powered by %s"
+  theme: Theme
 
 
 counter:
@@ -58,9 +58,9 @@ cheers:
   um: 嗯..
   ok: OK
   nice: 好
-  good: 很好
-  great: 非常好
-  excellent: 非常屌
+  good: 讚
+  great: 非常讚
+  excellent: 讚讚讚
 
 keep_on: 繼續努力。
 

@@ -1,4 +1,14 @@
 {% macro render(is_post) %}
+  
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=176081199193364";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
       <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
@@ -53,15 +63,6 @@
 
         </nav>
 
-        {% if theme.rss %}
-          <div class="feed-link motion-element">
-            <a href="{{ url_for(theme.rss) }}" rel="alternate">
-              <i class="menu-item-icon icon-next-feed"></i>
-              RSS
-            </a>
-          </div>
-        {% endif %}
-
         <div class="links-of-author motion-element">
           {% if theme.social %}
             {% for name, link in theme.social %}
@@ -73,6 +74,17 @@
             {% endfor %}
           {% endif %}
         </div>
+
+        <div class="fb-page motion-element" data-href="https://www.facebook.com/mcknote" data-tabs="timeline" data-width="240" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mcknote"><a href="https://www.facebook.com/mcknote">McK &amp; Note</a></blockquote></div></div>
+
+        {% if theme.rss %}
+          <div class="feed-link motion-element">
+            <a href="{{ url_for(theme.rss) }}" rel="alternate">
+              <i class="menu-item-icon icon-next-feed"></i>
+              RSS
+            </a>
+          </div>
+        {% endif %}
 
         {% set cc = {'by': 1, 'by-nc': 1, 'by-nc-nd': 1, 'by-nc-sa': 1, 'by-nd': 1, 'by-sa': 1, 'zero': 1} %}
         {% if theme.creative_commons in cc %}
@@ -108,6 +120,7 @@
             {% endif %}
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+
         </section>
       {% endif %}
 
