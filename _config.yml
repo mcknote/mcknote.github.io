@@ -121,9 +121,9 @@ category_generator:
 #hexo-git-backup
 backup:
     type: git
+    theme: next
     repository:
-       openshift: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
-
+       github: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
 
 
 
