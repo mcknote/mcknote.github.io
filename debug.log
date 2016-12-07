@@ -1713,3 +1713,1009 @@
 {"name":"hexo","hostname":"pn-206-134.itsc.cuhk.edu.hk","pid":61677,"level":20,"msg":"Rendering archive: \u001b[35marchives/index.html\u001b[39m","time":"2016-03-15T07:01:18.620Z","v":0}
 {"name":"hexo","hostname":"pn-206-134.itsc.cuhk.edu.hk","pid":61677,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2016-03-15T07:01:26.945Z","v":0}
 {"name":"hexo","hostname":"pn-206-134.itsc.cuhk.edu.hk","pid":61677,"level":20,"msg":"Rendering post: \u001b[35m2016/03/15/hello-world/index.html\u001b[39m","time":"2016-03-15T07:03:17.376Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2016-12-06T03:36:34.981Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Working directory: \u001b[35m~/GitHub/mcknote.github.io/\u001b[39m","time":"2016-12-06T03:36:34.983Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Config loaded: \u001b[35m~/GitHub/mcknote.github.io/_config.yml\u001b[39m","time":"2016-12-06T03:36:35.117Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-admin\u001b[39m","time":"2016-12-06T03:36:35.399Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-algolia\u001b[39m","time":"2016-12-06T03:36:35.470Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-autoprefixer\u001b[39m","time":"2016-12-06T03:36:35.711Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2016-12-06T03:36:35.959Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-heroku\u001b[39m","time":"2016-12-06T03:36:36.241Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-rsync\u001b[39m","time":"2016-12-06T03:36:36.313Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-openshift\u001b[39m","time":"2016-12-06T03:36:36.591Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2016-12-06T03:36:36.595Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-baidu-sitemap\u001b[39m","time":"2016-12-06T03:36:36.601Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2016-12-06T03:36:36.605Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2016-12-06T03:36:36.708Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2016-12-06T03:36:36.713Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-sitemap\u001b[39m","time":"2016-12-06T03:36:36.723Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2016-12-06T03:36:36.727Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-git-backup\u001b[39m","time":"2016-12-06T03:36:36.812Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-pdf\u001b[39m","time":"2016-12-06T03:36:36.816Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2016-12-06T03:36:36.939Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2016-12-06T03:36:36.944Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2016-12-06T03:36:37.099Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2016-12-06T03:36:37.100Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/merge-configs.js\u001b[39m","time":"2016-12-06T03:36:37.101Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/center-quote.js\u001b[39m","time":"2016-12-06T03:36:37.101Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/full-image.js\u001b[39m","time":"2016-12-06T03:36:37.102Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/note.js\u001b[39m","time":"2016-12-06T03:36:37.102Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Script loaded: \u001b[35mthemes/next/scripts/tags/group-pictures.js\u001b[39m","time":"2016-12-06T03:36:37.103Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Loading database.","time":"2016-12-06T03:36:37.104Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Start processing","time":"2016-12-06T03:36:37.937Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m404.md\u001b[39m","time":"2016-12-06T03:36:38.117Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m404 copy.md\u001b[39m","time":"2016-12-06T03:36:38.118Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2016-12-06T03:36:38.119Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mrobots.txt\u001b[39m","time":"2016-12-06T03:36:38.120Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/A-Funky-Space-Reincarnation.md\u001b[39m","time":"2016-12-06T03:36:38.242Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/ADAS-Future.md\u001b[39m","time":"2016-12-06T03:36:38.242Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Android-Development.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Apple-CEO.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Automation-Connectivity-Davos.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Connection-2016.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BDI-Maersk.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Baidu-MGI.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Beginning.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Body-and-Soul.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BNEF-Off-Grid.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Blue-in-Green.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Bus-Surfing.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Preparation-Competition.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Southeast-Asia.md\u001b[39m","time":"2016-12-06T03:36:38.243Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Canyon-Lady.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CT-1.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Charles-Mingus-Moanin.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-2D-Economy.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-Consumption.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-Digitalization.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-O2O.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Circuit-Breaker.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Consulting-Template-Slide-Design.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Cross-Boarder-China.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Data-Visualization-Storytelling.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12.md\u001b[39m","time":"2016-12-06T03:36:38.244Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Democracy-2015.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Different-Trains.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Due-Diligence-Intro.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Ebony-Samba.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/El-Chapo.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Election-Aldermanry.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/FAQ-1.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Fintech-Development.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Five-Spot-After-Dark.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Goldman-Sachs-China-Consumption.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/HBS-Case-Method.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/How-to-Read-The-Economist.md\u001b[39m","time":"2016-12-06T03:36:38.245Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/IoT-Potential.md\u001b[39m","time":"2016-12-06T03:36:38.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Japan-Fourth-Arrow.md\u001b[39m","time":"2016-12-06T03:36:38.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Jessie-J-Bang-Bang.md\u001b[39m","time":"2016-12-06T03:36:38.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Kodak.md\u001b[39m","time":"2016-12-06T03:36:38.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Kasetsu-Shikou-Uchida-Kazunari.md\u001b[39m","time":"2016-12-06T03:36:38.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Leadership-OHI.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/LEMMiNO-Presentation.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Lin-Manuel-Miranda-Hamilton-My-Shot.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/LinkedIn-The-StartUp-Of-You.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Love-in-Portofino.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/MGI-Digital-Globalization.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/MGI-Essay-For-Europe.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Marijuana.md\u001b[39m","time":"2016-12-06T03:36:38.248Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Mommy-Kissing.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/New-Media.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/New-Normal.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Nintendo-Development.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Obama-gun.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Oil-Plunge.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/One-Year-Five-Year.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Passacaille-Tres-large.md\u001b[39m","time":"2016-12-06T03:36:38.249Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Report-Conclusion.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Pineapple-TW.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Bain-ATKearney-Accenture-OCC.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Quantitative-Methods-II.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Bank-Accounting.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-bcgperspectives.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-MGI-MQ.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-News.md\u001b[39m","time":"2016-12-06T03:36:38.250Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Podcast.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Saudi-After-Oil.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Saudi-Oil-IPO.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Set-up-McK-Note-Advanced.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Set-up-McK-Note.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Sheena-Ishiki.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Silhouette-Dance.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Stella.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Standout-HBS-Essay.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/TC-Car.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/The Danish Girl.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/social-B2B.md\u001b[39m","time":"2016-12-06T03:36:38.251Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/eSIM.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/minimum-wage.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/taishou-a.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mcategories/index.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mtags/index.md\u001b[39m","time":"2016-12-06T03:36:38.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mimages/classic.jpg\u001b[39m","time":"2016-12-06T03:36:38.253Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mimages/default_avatar.jpg\u001b[39m","time":"2016-12-06T03:36:38.253Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/favicon.ico\u001b[39m","time":"2016-12-06T03:36:38.253Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mimages/old.jpg\u001b[39m","time":"2016-12-06T03:36:38.280Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Theme config loaded.","time":"2016-12-06T03:36:38.522Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Resources/Resource-Bain-ATKearney-Accenture-OCC.md\u001b[39m","time":"2016-12-06T03:36:38.533Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Resources/Resource-Bank-Accounting.md\u001b[39m","time":"2016-12-06T03:36:38.533Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Resources/Resource-MGI-MQ.md\u001b[39m","time":"2016-12-06T03:36:38.533Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Resources/Resource-News.md\u001b[39m","time":"2016-12-06T03:36:38.533Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Resources/Resource-bcgperspectives.md\u001b[39m","time":"2016-12-06T03:36:38.533Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Backup/Set-up-McK-Note.md\u001b[39m","time":"2016-12-06T03:36:38.534Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2016-12-06T03:36:38.536Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Apple-CEO/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.536Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/css/main.styl\u001b[39m","time":"2016-12-06T03:36:38.537Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Connection-2016/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.538Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/algolia_logo.svg\u001b[39m","time":"2016-12-06T03:36:38.538Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/android.png\u001b[39m","time":"2016-12-06T03:36:38.540Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/avatar.gif\u001b[39m","time":"2016-12-06T03:36:38.540Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Automation-Connectivity-Davos/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.540Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by-nc-nd.svg\u001b[39m","time":"2016-12-06T03:36:38.541Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/ios.png\u001b[39m","time":"2016-12-06T03:36:38.542Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by-nc-sa.svg\u001b[39m","time":"2016-12-06T03:36:38.542Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Data-Visualization-Storytelling/hankbeer.jpg\u001b[39m","time":"2016-12-06T03:36:38.543Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by-nc.svg\u001b[39m","time":"2016-12-06T03:36:38.543Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/green.jpg\u001b[39m","time":"2016-12-06T03:36:38.544Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by-nd.svg\u001b[39m","time":"2016-12-06T03:36:38.544Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/red.jpg\u001b[39m","time":"2016-12-06T03:36:38.545Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by-sa.svg\u001b[39m","time":"2016-12-06T03:36:38.545Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/yellow.jpg\u001b[39m","time":"2016-12-06T03:36:38.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-zero.svg\u001b[39m","time":"2016-12-06T03:36:38.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Podcast/foreigner.jpg\u001b[39m","time":"2016-12-06T03:36:38.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/loading.gif\u001b[39m","time":"2016-12-06T03:36:38.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/cc-by.svg\u001b[39m","time":"2016-12-06T03:36:38.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/logo.png\u001b[39m","time":"2016-12-06T03:36:38.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/placeholder.gif\u001b[39m","time":"2016-12-06T03:36:38.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/quote-l.svg\u001b[39m","time":"2016-12-06T03:36:38.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/quote-r.svg\u001b[39m","time":"2016-12-06T03:36:38.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/images/searchicon.png\u001b[39m","time":"2016-12-06T03:36:38.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Baidu-MGI/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.822Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Preparation-Competition/lake_michigan.jpg\u001b[39m","time":"2016-12-06T03:36:38.823Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CT-1/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.824Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-Consumption/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.825Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Circuit-Breaker/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.826Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Due-Diligence-Intro/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.827Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/El-Chapo/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.828Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/How-to-Read-The-Economist/1843.png\u001b[39m","time":"2016-12-06T03:36:38.829Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/How-to-Read-The-Economist/suscription.jpg\u001b[39m","time":"2016-12-06T03:36:38.830Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Japan-Fourth-Arrow/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.830Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/LinkedIn-The-StartUp-Of-You/cover.png\u001b[39m","time":"2016-12-06T03:36:38.831Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/New-Normal/cover.jpg\u001b[39m","time":"2016-12-06T03:36:38.832Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Quantitative-Methods-II/datacamp.jpg\u001b[39m","time":"2016-12-06T03:36:38.833Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Podcast/mosaic.jpg\u001b[39m","time":"2016-12-06T03:36:38.833Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/.DS_Store\u001b[39m","time":"2016-12-06T03:36:38.996Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_layout.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/archive.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/category.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/index.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/page.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/post.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/schedule.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/tag.swig\u001b[39m","time":"2016-12-06T03:36:38.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/de.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/fr-FR.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/id.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/ja.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/ko.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/ru.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/pt.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/pt-BR.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-Hans.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-hk.yml\u001b[39m","time":"2016-12-06T03:36:39.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-tw.yml\u001b[39m","time":"2016-12-06T03:36:39.290Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/ADAS-Future/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.291Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/hook-duoshuo.js\u001b[39m","time":"2016-12-06T03:36:39.291Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Android-Development/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.295Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/bootstrap.js\u001b[39m","time":"2016-12-06T03:36:39.295Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BDI-Maersk/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.297Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/affix.js\u001b[39m","time":"2016-12-06T03:36:39.297Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Cross-Boarder-China/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.298Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/algolia-search.js\u001b[39m","time":"2016-12-06T03:36:39.298Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/HBS-Case-Method/OnedayIwill.jpg\u001b[39m","time":"2016-12-06T03:36:39.299Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/motion.js\u001b[39m","time":"2016-12-06T03:36:39.299Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Kodak/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.299Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/post-details.js\u001b[39m","time":"2016-12-06T03:36:39.300Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Lin-Manuel-Miranda-Hamilton-My-Shot/hamilton.jpg\u001b[39m","time":"2016-12-06T03:36:39.300Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/scrollspy.js\u001b[39m","time":"2016-12-06T03:36:39.300Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/LinkedIn-The-StartUp-Of-You/hoffman.png\u001b[39m","time":"2016-12-06T03:36:39.301Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/utils.js\u001b[39m","time":"2016-12-06T03:36:39.301Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Marijuana/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.303Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/algolia-instant-search/instantsearch.min.css\u001b[39m","time":"2016-12-06T03:36:39.303Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Nintendo-Development/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.310Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fastclick/LICENSE\u001b[39m","time":"2016-12-06T03:36:39.310Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Obama-gun/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.311Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fastclick/bower.json\u001b[39m","time":"2016-12-06T03:36:39.311Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/One-Year-Five-Year/OnedayIwill.jpg\u001b[39m","time":"2016-12-06T03:36:39.312Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fastclick/README.md\u001b[39m","time":"2016-12-06T03:36:39.312Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Oil-Plunge/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.313Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/HELP-US-OUT.txt\u001b[39m","time":"2016-12-06T03:36:39.313Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Saudi-Oil-IPO/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.314Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/bower.json\u001b[39m","time":"2016-12-06T03:36:39.314Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Standout-HBS-Essay/OnedayIwill.jpg\u001b[39m","time":"2016-12-06T03:36:39.314Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery_lazyload/README.md\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/eSIM/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery_lazyload/CONTRIBUTING.md\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery_lazyload/bower.json\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery_lazyload/jquery.scrollstop.js\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/velocity/bower.json\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery_lazyload/jquery.lazyload.js\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/velocity/velocity.min.js\u001b[39m","time":"2016-12-06T03:36:39.315Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/velocity/velocity.ui.min.js\u001b[39m","time":"2016-12-06T03:36:39.316Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/velocity/velocity.ui.js\u001b[39m","time":"2016-12-06T03:36:39.316Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/archetypes.png\u001b[39m","time":"2016-12-06T03:36:39.670Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/jquery/index.js\u001b[39m","time":"2016-12-06T03:36:39.670Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/strategy.png\u001b[39m","time":"2016-12-06T03:36:39.671Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BNEF-Off-Grid/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.672Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Bus-Surfing/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.673Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Data-Visualization-Storytelling/tableau.png\u001b[39m","time":"2016-12-06T03:36:39.674Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Democracy-2015/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.675Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/FAQ-1/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.675Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Fintech-Development/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.676Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Election-Aldermanry/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.677Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Jessie-J-Bang-Bang/chicago.jpg\u001b[39m","time":"2016-12-06T03:36:39.677Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Jessie-J-Bang-Bang/fiveguys.jpg\u001b[39m","time":"2016-12-06T03:36:39.678Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Leadership-OHI/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.679Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Pineapple-TW/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.679Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-News/person-woman-hand-relaxing.jpg\u001b[39m","time":"2016-12-06T03:36:39.680Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Report-Conclusion/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.681Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Saudi-After-Oil/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.682Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/TC-Car/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.682Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer/mcknote.jpg\u001b[39m","time":"2016-12-06T03:36:39.683Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/social-B2B/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.683Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_custom/header.swig\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_custom/sidebar.swig\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/.DS_Store\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/post-collapse.swig\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/modify-post.swig\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/post.swig\u001b[39m","time":"2016-12-06T03:36:39.751Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/reward.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/comments.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/duoshuo-hot-articles.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/footer.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/head.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/header.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/rss-sidebar.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/pagination.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/sidebar.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_macro/wechat-subscriber.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/baidu-push.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/boostrap.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/commons.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/vendors.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/page-header.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/search.swig\u001b[39m","time":"2016-12-06T03:36:39.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-2D-Economy/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.895Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/js/src/schemes/pisces.js\u001b[39m","time":"2016-12-06T03:36:39.895Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-O2O/cover.jpeg\u001b[39m","time":"2016-12-06T03:36:39.896Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/blank.gif\u001b[39m","time":"2016-12-06T03:36:39.896Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Goldman-Sachs-China-Consumption/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.897Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/fancybox_loading.gif\u001b[39m","time":"2016-12-06T03:36:39.897Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/New-Media/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.898Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/fancybox_overlay.png\u001b[39m","time":"2016-12-06T03:36:39.898Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/One-Year-Five-Year/cover.png\u001b[39m","time":"2016-12-06T03:36:39.899Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/fancybox_loading@2x.gif\u001b[39m","time":"2016-12-06T03:36:39.900Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Stella/content.jpg\u001b[39m","time":"2016-12-06T03:36:39.901Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/fancybox_sprite.png\u001b[39m","time":"2016-12-06T03:36:39.901Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/minimum-wage/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.901Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/fancybox_sprite@2x.png\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/jquery.fancybox.css\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/jquery.fancybox.js\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/jquery.fancybox.pack.js\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fastclick/lib/fastclick.min.js\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fastclick/lib/fastclick.js\u001b[39m","time":"2016-12-06T03:36:39.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/css/font-awesome.css\u001b[39m","time":"2016-12-06T03:36:39.903Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/css/font-awesome.css.map\u001b[39m","time":"2016-12-06T03:36:39.903Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/css/font-awesome.min.css\u001b[39m","time":"2016-12-06T03:36:39.903Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/ua-parser-js/dist/ua-parser.min.js\u001b[39m","time":"2016-12-06T03:36:39.903Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/ua-parser-js/dist/ua-parser.pack.js\u001b[39m","time":"2016-12-06T03:36:39.903Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/schemes/mist.swig\u001b[39m","time":"2016-12-06T03:36:39.910Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/schemes/muse.swig\u001b[39m","time":"2016-12-06T03:36:39.911Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Southeast-Asia/grand_ballroom.jpg\u001b[39m","time":"2016-12-06T03:36:39.952Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/fontawesome-webfont.eot\u001b[39m","time":"2016-12-06T03:36:39.952Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/China-Digitalization/cover.jpg\u001b[39m","time":"2016-12-06T03:36:39.952Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/FontAwesome.otf\u001b[39m","time":"2016-12-06T03:36:39.952Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/velocity/velocity.js\u001b[39m","time":"2016-12-06T03:36:39.953Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/fontawesome-webfont.woff\u001b[39m","time":"2016-12-06T03:36:39.953Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/fontawesome-webfont.woff2\u001b[39m","time":"2016-12-06T03:36:39.953Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_components/algolia-search/assets.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_components/algolia-search/dom.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/head/custom-head.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/head/external-fonts.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/search/swiftype.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/search/localsearch.swig\u001b[39m","time":"2016-12-06T03:36:39.971Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/search/tinysou.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/share/add-this.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/share/baidushare.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/share/duoshuo_share.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_partials/share/jiathis.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/pages/post-details.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/comments.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/lean-analytics.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/localsearch.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/mathjax.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/tinysou.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/schedule.swig\u001b[39m","time":"2016-12-06T03:36:39.972Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/schemes/pisces.swig\u001b[39m","time":"2016-12-06T03:36:39.973Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Southeast-Asia/local_room.jpg\u001b[39m","time":"2016-12-06T03:36:40.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/fancybox_buttons.png\u001b[39m","time":"2016-12-06T03:36:40.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Charles-Mingus-Moanin/tenor_saxophone.jpg\u001b[39m","time":"2016-12-06T03:36:40.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/jquery.fancybox-thumbs.css\u001b[39m","time":"2016-12-06T03:36:40.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/How-to-Read-The-Economist/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/jquery.fancybox-buttons.js\u001b[39m","time":"2016-12-06T03:36:40.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/IoT-Potential/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/jquery.fancybox-buttons.css\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Quantitative-Methods-II/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/jquery.fancybox-media.js\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/fancybox/source/helpers/jquery.fancybox-thumbs.js\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/fontawesome-webfont.ttf\u001b[39m","time":"2016-12-06T03:36:40.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Resource-Podcast/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.103Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/baidu-analytics.swig\u001b[39m","time":"2016-12-06T03:36:40.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/busuanzi-counter.swig\u001b[39m","time":"2016-12-06T03:36:40.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/facebook-sdk.swig\u001b[39m","time":"2016-12-06T03:36:40.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/google-analytics.swig\u001b[39m","time":"2016-12-06T03:36:40.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/tencent-analytics.swig\u001b[39m","time":"2016-12-06T03:36:40.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/analytics/cnzz-analytics.swig\u001b[39m","time":"2016-12-06T03:36:40.115Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/comments/disqus.swig\u001b[39m","time":"2016-12-06T03:36:40.115Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/comments/duoshuo.swig\u001b[39m","time":"2016-12-06T03:36:40.115Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35mlayout/_scripts/third-party/comments/hypercomments.swig\u001b[39m","time":"2016-12-06T03:36:40.115Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/algolia-instant-search/instantsearch.min.js\u001b[39m","time":"2016-12-06T03:36:40.116Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/cars.jpg\u001b[39m","time":"2016-12-06T03:36:40.155Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35msource/lib/font-awesome/fonts/fontawesome-webfont.svg\u001b[39m","time":"2016-12-06T03:36:40.155Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Standout-HBS-Essay/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.155Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.218Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_drafts/Backup/Set-up-McK-Note/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.219Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.219Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/DataCamp-12/highway.jpg\u001b[39m","time":"2016-12-06T03:36:40.258Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.258Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/BCG-Your-Strategy-Needs-A-Strategy/game.png\u001b[39m","time":"2016-12-06T03:36:40.353Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Preparation-Competition/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.354Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/CFA-IRC-Southeast-Asia/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.355Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Quantitative-Methods-II/train.jpg\u001b[39m","time":"2016-12-06T03:36:40.355Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer/sfo.jpg\u001b[39m","time":"2016-12-06T03:36:40.355Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer/reception.jpg\u001b[39m","time":"2016-12-06T03:36:40.377Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/how-I-got-an-offer/cf.jpg\u001b[39m","time":"2016-12-06T03:36:40.396Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/HBS-Case-Method/cover.jpg\u001b[39m","time":"2016-12-06T03:36:40.426Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Data-Visualization-Storytelling/cover.png\u001b[39m","time":"2016-12-06T03:36:40.447Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/Data-Visualization-Storytelling/calpoly.png\u001b[39m","time":"2016-12-06T03:36:40.468Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Processed: \u001b[35m_posts/One-Year-Five-Year/slo.png\u001b[39m","time":"2016-12-06T03:36:40.500Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mbaidusitemap\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2016-12-06T03:36:40.906Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2016-12-06T03:36:40.951Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Files loaded in \u001b[36m3.98 s\u001b[39m","time":"2016-12-06T03:36:41.082Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering page: \u001b[35mprivacy.html\u001b[39m","time":"2016-12-06T03:36:41.149Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering page: \u001b[35m404.html\u001b[39m","time":"2016-12-06T03:36:41.297Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2016-12-06T03:36:41.326Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering page: \u001b[35mcategories/index.html\u001b[39m","time":"2016-12-06T03:36:41.370Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/11/15/how-I-got-an-offer/index.html\u001b[39m","time":"2016-12-06T03:36:41.411Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/09/25/Quantitative-Methods-II/index.html\u001b[39m","time":"2016-12-06T03:36:41.501Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/10/31/DataCamp-12/index.html\u001b[39m","time":"2016-12-06T03:36:41.560Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/09/04/Data-Visualization-Storytelling/index.html\u001b[39m","time":"2016-12-06T03:36:41.623Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/09/08/Standout-HBS-Essay/index.html\u001b[39m","time":"2016-12-06T03:36:41.666Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/08/24/LinkedIn-The-StartUp-Of-You/index.html\u001b[39m","time":"2016-12-06T03:36:41.721Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/07/09/Resource-Podcast/index.html\u001b[39m","time":"2016-12-06T03:36:41.760Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering page: \u001b[35mtags/index.html\u001b[39m","time":"2016-12-06T03:36:41.806Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/06/23/BCG-Your-Strategy-Needs-A-Strategy/index.html\u001b[39m","time":"2016-12-06T03:36:41.922Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/08/19/One-Year-Five-Year/index.html\u001b[39m","time":"2016-12-06T03:36:41.957Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/06/16/How-to-Read-The-Economist/index.html\u001b[39m","time":"2016-12-06T03:36:42.004Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/06/12/Lin-Manuel-Miranda-Hamilton-My-Shot/index.html\u001b[39m","time":"2016-12-06T03:36:42.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/05/12/HBS-Case-Method/index.html\u001b[39m","time":"2016-12-06T03:36:42.082Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/27/CFA-IRC-Southeast-Asia/index.html\u001b[39m","time":"2016-12-06T03:36:42.126Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/30/Charles-Mingus-Moanin/index.html\u001b[39m","time":"2016-12-06T03:36:42.177Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/25/CFA-IRC-Preparation-Competition/index.html\u001b[39m","time":"2016-12-06T03:36:42.218Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/22/Jessie-J-Bang-Bang/index.html\u001b[39m","time":"2016-12-06T03:36:42.257Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/20/Resource-News/index.html\u001b[39m","time":"2016-12-06T03:36:42.296Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/06/Set-up-McK-Note-Advanced/index.html\u001b[39m","time":"2016-12-06T03:36:42.352Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/04/Set-up-McK-Note/index.html\u001b[39m","time":"2016-12-06T03:36:42.407Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/11/Consulting-Template-Slide-Design/index.html\u001b[39m","time":"2016-12-06T03:36:42.461Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/13/Kasetsu-Shikou-Uchida-Kazunari/index.html\u001b[39m","time":"2016-12-06T03:36:42.519Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/04/02/Passacaille-Tres-large/index.html\u001b[39m","time":"2016-12-06T03:36:42.580Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/30/MGI-Digital-Globalization/index.html\u001b[39m","time":"2016-12-06T03:36:42.621Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/28/Resource-Bank-Accounting/index.html\u001b[39m","time":"2016-12-06T03:36:42.664Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/28/Resource-Bain-ATKearney-Accenture-OCC/index.html\u001b[39m","time":"2016-12-06T03:36:42.721Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/23/Resource-bcgperspectives/index.html\u001b[39m","time":"2016-12-06T03:36:42.755Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/21/Resource-MGI-MQ/index.html\u001b[39m","time":"2016-12-06T03:36:42.790Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/25/Blue-in-Green/index.html\u001b[39m","time":"2016-12-06T03:36:42.840Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/16/Automation-Connectivity-Davos/index.html\u001b[39m","time":"2016-12-06T03:36:42.874Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/19/MGI-Essay-For-Europe/index.html\u001b[39m","time":"2016-12-06T03:36:42.929Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/18/Sheena-Ishiki/index.html\u001b[39m","time":"2016-12-06T03:36:42.965Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/14/BNEF-Off-Grid/index.html\u001b[39m","time":"2016-12-06T03:36:43.000Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/12/Ebony-Samba/index.html\u001b[39m","time":"2016-12-06T03:36:43.048Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/07/China-2D-Economy/index.html\u001b[39m","time":"2016-12-06T03:36:43.081Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/02/Japan-Fourth-Arrow/index.html\u001b[39m","time":"2016-12-06T03:36:43.124Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/03/04/Different-Trains/index.html\u001b[39m","time":"2016-12-06T03:36:43.163Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/25/Stella/index.html\u001b[39m","time":"2016-12-06T03:36:43.197Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/29/Cross-Boarder-China/index.html\u001b[39m","time":"2016-12-06T03:36:43.241Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/22/Due-Diligence-Intro/index.html\u001b[39m","time":"2016-12-06T03:36:43.274Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/19/Goldman-Sachs-China-Consumption/index.html\u001b[39m","time":"2016-12-06T03:36:43.318Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/17/Bus-Surfing/index.html\u001b[39m","time":"2016-12-06T03:36:43.352Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/24/LEMMiNO-Presentation/index.html\u001b[39m","time":"2016-12-06T03:36:43.389Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/19/The Danish Girl/index.html\u001b[39m","time":"2016-12-06T03:36:43.441Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/15/Nintendo-Development/index.html\u001b[39m","time":"2016-12-06T03:36:43.471Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/12/Silhouette-Dance/index.html\u001b[39m","time":"2016-12-06T03:36:43.517Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/12/BDI-Maersk/index.html\u001b[39m","time":"2016-12-06T03:36:43.550Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/03/Android-Development/index.html\u001b[39m","time":"2016-12-06T03:36:43.585Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/11/Fintech-Development/index.html\u001b[39m","time":"2016-12-06T03:36:43.622Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/05/Love-in-Portofino/index.html\u001b[39m","time":"2016-12-06T03:36:43.656Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/02/01/Saudi-Oil-IPO/index.html\u001b[39m","time":"2016-12-06T03:36:43.693Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/27/Democracy-2015/index.html\u001b[39m","time":"2016-12-06T03:36:43.724Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/26/BCG-Connection-2016/index.html\u001b[39m","time":"2016-12-06T03:36:43.759Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/29/A-Funky-Space-Reincarnation/index.html\u001b[39m","time":"2016-12-06T03:36:43.803Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/25/Saudi-After-Oil/index.html\u001b[39m","time":"2016-12-06T03:36:43.833Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/22/Oil-Plunge/index.html\u001b[39m","time":"2016-12-06T03:36:43.873Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/20/New-Normal/index.html\u001b[39m","time":"2016-12-06T03:36:43.902Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/22/Five-Spot-After-Dark/index.html\u001b[39m","time":"2016-12-06T03:36:43.941Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/19/ADAS-Future/index.html\u001b[39m","time":"2016-12-06T03:36:43.975Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/15/TC-Car/index.html\u001b[39m","time":"2016-12-06T03:36:44.012Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/15/taishou-a/index.html\u001b[39m","time":"2016-12-06T03:36:44.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/12/China-Consumption/index.html\u001b[39m","time":"2016-12-06T03:36:44.085Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/14/eSIM/index.html\u001b[39m","time":"2016-12-06T03:36:44.123Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/13/El-Chapo/index.html\u001b[39m","time":"2016-12-06T03:36:44.159Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/13/CT-1/index.html\u001b[39m","time":"2016-12-06T03:36:44.188Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/08/IoT-Potential/index.html\u001b[39m","time":"2016-12-06T03:36:44.224Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/07/Election-Aldermanry/index.html\u001b[39m","time":"2016-12-06T03:36:44.258Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/11/China-Digitalization/index.html\u001b[39m","time":"2016-12-06T03:36:44.292Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/08/Canyon-Lady/index.html\u001b[39m","time":"2016-12-06T03:36:44.330Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/07/Obama-gun/index.html\u001b[39m","time":"2016-12-06T03:36:44.363Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/07/minimum-wage/index.html\u001b[39m","time":"2016-12-06T03:36:44.398Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/07/social-B2B/index.html\u001b[39m","time":"2016-12-06T03:36:44.435Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/05/Report-Conclusion/index.html\u001b[39m","time":"2016-12-06T03:36:44.468Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/06/Circuit-Breaker/index.html\u001b[39m","time":"2016-12-06T03:36:44.502Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/05/Leadership-OHI/index.html\u001b[39m","time":"2016-12-06T03:36:44.536Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/02/Pineapple-TW/index.html\u001b[39m","time":"2016-12-06T03:36:44.570Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/01/Baidu-MGI/index.html\u001b[39m","time":"2016-12-06T03:36:44.597Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/30/China-O2O/index.html\u001b[39m","time":"2016-12-06T03:36:44.635Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2016/01/01/Body-and-Soul/index.html\u001b[39m","time":"2016-12-06T03:36:44.663Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/25/FAQ-1/index.html\u001b[39m","time":"2016-12-06T03:36:44.695Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/23/Kodak/index.html\u001b[39m","time":"2016-12-06T03:36:44.733Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/25/New-Media/index.html\u001b[39m","time":"2016-12-06T03:36:44.769Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/24/Mommy-Kissing/index.html\u001b[39m","time":"2016-12-06T03:36:44.807Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/21/Apple-CEO/index.html\u001b[39m","time":"2016-12-06T03:36:44.835Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/12/22/Marijuana/index.html\u001b[39m","time":"2016-12-06T03:36:44.871Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/index.html\u001b[39m","time":"2016-12-06T03:36:44.904Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering post: \u001b[35m2015/11/03/Beginning/index.html\u001b[39m","time":"2016-12-06T03:36:44.952Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:44.982Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/page/4/index.html\u001b[39m","time":"2016-12-06T03:36:45.028Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:45.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/page/5/index.html\u001b[39m","time":"2016-12-06T03:36:45.112Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2015/index.html\u001b[39m","time":"2016-12-06T03:36:45.140Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2015/12/index.html\u001b[39m","time":"2016-12-06T03:36:45.171Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/index.html\u001b[39m","time":"2016-12-06T03:36:45.209Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2015/11/index.html\u001b[39m","time":"2016-12-06T03:36:45.238Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:45.268Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:45.306Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/01/index.html\u001b[39m","time":"2016-12-06T03:36:45.336Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/page/4/index.html\u001b[39m","time":"2016-12-06T03:36:45.369Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/01/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:45.420Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/03/index.html\u001b[39m","time":"2016-12-06T03:36:45.448Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/04/index.html\u001b[39m","time":"2016-12-06T03:36:45.483Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/02/index.html\u001b[39m","time":"2016-12-06T03:36:45.515Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/05/index.html\u001b[39m","time":"2016-12-06T03:36:45.548Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/06/index.html\u001b[39m","time":"2016-12-06T03:36:45.577Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/08/index.html\u001b[39m","time":"2016-12-06T03:36:45.607Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/07/index.html\u001b[39m","time":"2016-12-06T03:36:45.634Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/10/index.html\u001b[39m","time":"2016-12-06T03:36:45.670Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/11/index.html\u001b[39m","time":"2016-12-06T03:36:45.697Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering archive: \u001b[35marchives/2016/09/index.html\u001b[39m","time":"2016-12-06T03:36:45.727Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/聽/index.html\u001b[39m","time":"2016-12-06T03:36:45.760Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/想/index.html\u001b[39m","time":"2016-12-06T03:36:45.796Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/聽/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:45.825Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/讀/index.html\u001b[39m","time":"2016-12-06T03:36:45.863Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/想/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:45.887Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/想/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:45.914Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/＃/index.html\u001b[39m","time":"2016-12-06T03:36:45.953Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/讀/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:45.984Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/＃/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:46.014Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/＃/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:46.051Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2016-12-06T03:36:46.077Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering category: \u001b[35mcategories/M/index.html\u001b[39m","time":"2016-12-06T03:36:46.119Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/2/index.html\u001b[39m","time":"2016-12-06T03:36:46.157Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/3/index.html\u001b[39m","time":"2016-12-06T03:36:46.187Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/5/index.html\u001b[39m","time":"2016-12-06T03:36:46.218Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/4/index.html\u001b[39m","time":"2016-12-06T03:36:46.258Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/6/index.html\u001b[39m","time":"2016-12-06T03:36:46.288Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/7/index.html\u001b[39m","time":"2016-12-06T03:36:46.322Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/10/index.html\u001b[39m","time":"2016-12-06T03:36:46.359Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/9/index.html\u001b[39m","time":"2016-12-06T03:36:46.388Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/8/index.html\u001b[39m","time":"2016-12-06T03:36:46.417Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/13/index.html\u001b[39m","time":"2016-12-06T03:36:46.450Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/14/index.html\u001b[39m","time":"2016-12-06T03:36:46.481Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/12/index.html\u001b[39m","time":"2016-12-06T03:36:46.515Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/11/index.html\u001b[39m","time":"2016-12-06T03:36:46.551Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/15/index.html\u001b[39m","time":"2016-12-06T03:36:46.576Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/17/index.html\u001b[39m","time":"2016-12-06T03:36:46.607Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/16/index.html\u001b[39m","time":"2016-12-06T03:36:46.635Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/19/index.html\u001b[39m","time":"2016-12-06T03:36:46.666Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/18/index.html\u001b[39m","time":"2016-12-06T03:36:46.702Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/20/index.html\u001b[39m","time":"2016-12-06T03:36:46.732Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/22/index.html\u001b[39m","time":"2016-12-06T03:36:46.763Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/21/index.html\u001b[39m","time":"2016-12-06T03:36:46.797Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/23/index.html\u001b[39m","time":"2016-12-06T03:36:46.827Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/24/index.html\u001b[39m","time":"2016-12-06T03:36:46.855Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/27/index.html\u001b[39m","time":"2016-12-06T03:36:46.895Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/28/index.html\u001b[39m","time":"2016-12-06T03:36:46.925Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/26/index.html\u001b[39m","time":"2016-12-06T03:36:46.959Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/25/index.html\u001b[39m","time":"2016-12-06T03:36:46.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering index: \u001b[35mpage/29/index.html\u001b[39m","time":"2016-12-06T03:36:47.026Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/ADAS/index.html\u001b[39m","time":"2016-12-06T03:36:47.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Marvin-Gaye/index.html\u001b[39m","time":"2016-12-06T03:36:47.100Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/汽車/index.html\u001b[39m","time":"2016-12-06T03:36:47.129Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Android/index.html\u001b[39m","time":"2016-12-06T03:36:47.160Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/McKinsey/index.html\u001b[39m","time":"2016-12-06T03:36:47.194Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/有物報告/index.html\u001b[39m","time":"2016-12-06T03:36:47.227Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/硬體/index.html\u001b[39m","time":"2016-12-06T03:36:47.254Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Apple/index.html\u001b[39m","time":"2016-12-06T03:36:47.290Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Yahoo-Finance/index.html\u001b[39m","time":"2016-12-06T03:36:47.319Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/AlphaGo/index.html\u001b[39m","time":"2016-12-06T03:36:47.348Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/連結性/index.html\u001b[39m","time":"2016-12-06T03:36:47.383Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/自動化/index.html\u001b[39m","time":"2016-12-06T03:36:47.417Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Davos/index.html\u001b[39m","time":"2016-12-06T03:36:47.448Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/BCG/index.html\u001b[39m","time":"2016-12-06T03:36:47.481Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/UBS/index.html\u001b[39m","time":"2016-12-06T03:36:47.516Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/台灣/index.html\u001b[39m","time":"2016-12-06T03:36:47.547Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/BDI/index.html\u001b[39m","time":"2016-12-06T03:36:47.583Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Connection-Event/index.html\u001b[39m","time":"2016-12-06T03:36:47.610Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/通貨緊縮/index.html\u001b[39m","time":"2016-12-06T03:36:47.638Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/BNEF/index.html\u001b[39m","time":"2016-12-06T03:36:47.675Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Lighting-Global/index.html\u001b[39m","time":"2016-12-06T03:36:47.706Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Off-grid-Solar/index.html\u001b[39m","time":"2016-12-06T03:36:47.732Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/百度百家/index.html\u001b[39m","time":"2016-12-06T03:36:47.766Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/華爾街見聞/index.html\u001b[39m","time":"2016-12-06T03:36:47.798Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Miles-Davis/index.html\u001b[39m","time":"2016-12-06T03:36:47.828Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/John-Coltrane/index.html\u001b[39m","time":"2016-12-06T03:36:47.865Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Kind-of-Blue/index.html\u001b[39m","time":"2016-12-06T03:36:47.891Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/MGI/index.html\u001b[39m","time":"2016-12-06T03:36:47.922Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Bus-Surfing/index.html\u001b[39m","time":"2016-12-06T03:36:47.961Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/CFA/index.html\u001b[39m","time":"2016-12-06T03:36:47.996Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Institute-Research-Challenge/index.html\u001b[39m","time":"2016-12-06T03:36:48.027Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/投資分析/index.html\u001b[39m","time":"2016-12-06T03:36:48.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/GMAT/index.html\u001b[39m","time":"2016-12-06T03:36:48.095Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/便當/index.html\u001b[39m","time":"2016-12-06T03:36:48.126Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Critical-Reasoning/index.html\u001b[39m","time":"2016-12-06T03:36:48.162Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Charles-Mingus/index.html\u001b[39m","time":"2016-12-06T03:36:48.194Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/二次元/index.html\u001b[39m","time":"2016-12-06T03:36:48.223Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Joe-Henderson/index.html\u001b[39m","time":"2016-12-06T03:36:48.258Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/兩岸/index.html\u001b[39m","time":"2016-12-06T03:36:48.289Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/平安證券/index.html\u001b[39m","time":"2016-12-06T03:36:48.324Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/消費/index.html\u001b[39m","time":"2016-12-06T03:36:48.361Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/bcgperspectives/index.html\u001b[39m","time":"2016-12-06T03:36:48.389Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/電商/index.html\u001b[39m","time":"2016-12-06T03:36:48.417Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/McKinsey-Quarterly/index.html\u001b[39m","time":"2016-12-06T03:36:48.453Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/O2O/index.html\u001b[39m","time":"2016-12-06T03:36:48.486Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/股市/index.html\u001b[39m","time":"2016-12-06T03:36:48.514Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/跨境電商/index.html\u001b[39m","time":"2016-12-06T03:36:48.552Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/MECE/index.html\u001b[39m","time":"2016-12-06T03:36:48.583Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Presentation/index.html\u001b[39m","time":"2016-12-06T03:36:48.610Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Storytelling/index.html\u001b[39m","time":"2016-12-06T03:36:48.645Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/MSBA/index.html\u001b[39m","time":"2016-12-06T03:36:48.679Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Cal-Poly/index.html\u001b[39m","time":"2016-12-06T03:36:48.709Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/DataCamp/index.html\u001b[39m","time":"2016-12-06T03:36:48.752Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Statistics/index.html\u001b[39m","time":"2016-12-06T03:36:48.787Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/民主/index.html\u001b[39m","time":"2016-12-06T03:36:48.816Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/R/index.html\u001b[39m","time":"2016-12-06T03:36:48.857Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/The-Economist/index.html\u001b[39m","time":"2016-12-06T03:36:48.890Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Steve-Reich/index.html\u001b[39m","time":"2016-12-06T03:36:48.924Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/美國/index.html\u001b[39m","time":"2016-12-06T03:36:48.961Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/毒品戰爭/index.html\u001b[39m","time":"2016-12-06T03:36:48.997Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/STP/index.html\u001b[39m","time":"2016-12-06T03:36:49.028Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Due-Diligence/index.html\u001b[39m","time":"2016-12-06T03:36:49.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Stan-Getz/index.html\u001b[39m","time":"2016-12-06T03:36:49.092Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/選舉/index.html\u001b[39m","time":"2016-12-06T03:36:49.122Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Case-in-Point/index.html\u001b[39m","time":"2016-12-06T03:36:49.160Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/上海/index.html\u001b[39m","time":"2016-12-06T03:36:49.194Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/你問我答/index.html\u001b[39m","time":"2016-12-06T03:36:49.230Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Curtis-Fuller/index.html\u001b[39m","time":"2016-12-06T03:36:49.266Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/FinTech/index.html\u001b[39m","time":"2016-12-06T03:36:49.303Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Goldman-Sachs/index.html\u001b[39m","time":"2016-12-06T03:36:49.340Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/HBS/index.html\u001b[39m","time":"2016-12-06T03:36:49.381Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/HBR/index.html\u001b[39m","time":"2016-12-06T03:36:49.413Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/物聯網/index.html\u001b[39m","time":"2016-12-06T03:36:49.457Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/安倍經濟學/index.html\u001b[39m","time":"2016-12-06T03:36:49.488Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/日本/index.html\u001b[39m","time":"2016-12-06T03:36:49.522Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Jessie-J/index.html\u001b[39m","time":"2016-12-06T03:36:49.563Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Ariana-Grande/index.html\u001b[39m","time":"2016-12-06T03:36:49.594Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Nicki-Minaj/index.html\u001b[39m","time":"2016-12-06T03:36:49.627Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Kodak/index.html\u001b[39m","time":"2016-12-06T03:36:49.667Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/LEMMiNO/index.html\u001b[39m","time":"2016-12-06T03:36:49.697Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/內田和成/index.html\u001b[39m","time":"2016-12-06T03:36:49.731Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/領導力/index.html\u001b[39m","time":"2016-12-06T03:36:49.773Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/假說思考/index.html\u001b[39m","time":"2016-12-06T03:36:49.807Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Andrea-Bocelli/index.html\u001b[39m","time":"2016-12-06T03:36:49.842Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Riz-Samaritano/index.html\u001b[39m","time":"2016-12-06T03:36:49.883Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Lin-Manuel-Miranda/index.html\u001b[39m","time":"2016-12-06T03:36:49.920Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/LinkedIn/index.html\u001b[39m","time":"2016-12-06T03:36:49.955Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Hamilton/index.html\u001b[39m","time":"2016-12-06T03:36:50.001Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/MBA/index.html\u001b[39m","time":"2016-12-06T03:36:50.034Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/EssayForEurope/index.html\u001b[39m","time":"2016-12-06T03:36:50.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/數位化/index.html\u001b[39m","time":"2016-12-06T03:36:50.113Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/全球化/index.html\u001b[39m","time":"2016-12-06T03:36:50.145Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/大麻/index.html\u001b[39m","time":"2016-12-06T03:36:50.181Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/大前研一/index.html\u001b[39m","time":"2016-12-06T03:36:50.221Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Vox/index.html\u001b[39m","time":"2016-12-06T03:36:50.252Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Xmas/index.html\u001b[39m","time":"2016-12-06T03:36:50.283Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/手嶌葵/index.html\u001b[39m","time":"2016-12-06T03:36:50.323Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/New-Media/index.html\u001b[39m","time":"2016-12-06T03:36:50.358Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/亞洲/index.html\u001b[39m","time":"2016-12-06T03:36:50.388Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/新常態/index.html\u001b[39m","time":"2016-12-06T03:36:50.433Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/任天堂/index.html\u001b[39m","time":"2016-12-06T03:36:50.466Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/rocket-cafe/index.html\u001b[39m","time":"2016-12-06T03:36:50.503Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/槍枝管制/index.html\u001b[39m","time":"2016-12-06T03:36:50.550Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Maurice-Ravel/index.html\u001b[39m","time":"2016-12-06T03:36:50.587Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/石油/index.html\u001b[39m","time":"2016-12-06T03:36:50.628Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/研究/index.html\u001b[39m","time":"2016-12-06T03:36:50.672Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Birdman/index.html\u001b[39m","time":"2016-12-06T03:36:50.719Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/PwC/index.html\u001b[39m","time":"2016-12-06T03:36:50.767Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Deloitte/index.html\u001b[39m","time":"2016-12-06T03:36:50.821Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/EY/index.html\u001b[39m","time":"2016-12-06T03:36:50.862Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/KPMG/index.html\u001b[39m","time":"2016-12-06T03:36:50.908Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/DB/index.html\u001b[39m","time":"2016-12-06T03:36:50.967Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/HSBC/index.html\u001b[39m","time":"2016-12-06T03:36:51.010Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/JPMorgan/index.html\u001b[39m","time":"2016-12-06T03:36:51.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Bain/index.html\u001b[39m","time":"2016-12-06T03:36:51.108Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/ATKearney/index.html\u001b[39m","time":"2016-12-06T03:36:51.148Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/OC-C/index.html\u001b[39m","time":"2016-12-06T03:36:51.192Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Case-in-Points/index.html\u001b[39m","time":"2016-12-06T03:36:51.246Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Podcast/index.html\u001b[39m","time":"2016-12-06T03:36:51.294Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/FT/index.html\u001b[39m","time":"2016-12-06T03:36:51.339Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/NPR/index.html\u001b[39m","time":"2016-12-06T03:36:51.409Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/BBC/index.html\u001b[39m","time":"2016-12-06T03:36:51.464Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/The-Economists/index.html\u001b[39m","time":"2016-12-06T03:36:51.515Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/WSJ/index.html\u001b[39m","time":"2016-12-06T03:36:51.579Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Bloomberg/index.html\u001b[39m","time":"2016-12-06T03:36:51.639Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/NYTimes/index.html\u001b[39m","time":"2016-12-06T03:36:51.701Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Feedly/index.html\u001b[39m","time":"2016-12-06T03:36:51.760Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/沙烏地阿拉伯/index.html\u001b[39m","time":"2016-12-06T03:36:51.817Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/IPO/index.html\u001b[39m","time":"2016-12-06T03:36:51.869Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Passacaille/index.html\u001b[39m","time":"2016-12-06T03:36:51.920Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Hexo/index.html\u001b[39m","time":"2016-12-06T03:36:51.993Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/NexT/index.html\u001b[39m","time":"2016-12-06T03:36:52.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Markdown/index.html\u001b[39m","time":"2016-12-06T03:36:52.078Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/GitHub/index.html\u001b[39m","time":"2016-12-06T03:36:52.122Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Cloudflare/index.html\u001b[39m","time":"2016-12-06T03:36:52.157Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Mailgun/index.html\u001b[39m","time":"2016-12-06T03:36:52.192Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/SSL/index.html\u001b[39m","time":"2016-12-06T03:36:52.228Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Bit-ly/index.html\u001b[39m","time":"2016-12-06T03:36:52.264Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/DNS/index.html\u001b[39m","time":"2016-12-06T03:36:52.290Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/HSTS/index.html\u001b[39m","time":"2016-12-06T03:36:52.326Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/椎名林檎/index.html\u001b[39m","time":"2016-12-06T03:36:52.357Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/斎藤ネコ/index.html\u001b[39m","time":"2016-12-06T03:36:52.386Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/林原めぐみ/index.html\u001b[39m","time":"2016-12-06T03:36:52.420Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/境亜寿香/index.html\u001b[39m","time":"2016-12-06T03:36:52.444Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Ridge-Racer/index.html\u001b[39m","time":"2016-12-06T03:36:52.474Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/KASHIWA-Daisuke/index.html\u001b[39m","time":"2016-12-06T03:36:52.512Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/宮澤賢治/index.html\u001b[39m","time":"2016-12-06T03:36:52.544Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/銀河鐵道之夜/index.html\u001b[39m","time":"2016-12-06T03:36:52.581Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/The-Danish-Girl/index.html\u001b[39m","time":"2016-12-06T03:36:52.617Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Alexandre-Desplat/index.html\u001b[39m","time":"2016-12-06T03:36:52.659Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/eSIM/index.html\u001b[39m","time":"2016-12-06T03:36:52.702Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/Career/index.html\u001b[39m","time":"2016-12-06T03:36:52.740Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/社群/index.html\u001b[39m","time":"2016-12-06T03:36:52.774Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/最低工資/index.html\u001b[39m","time":"2016-12-06T03:36:52.811Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Rendering tag: \u001b[35mtags/anNina/index.html\u001b[39m","time":"2016-12-06T03:36:52.854Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mbaidusitemap.xml\u001b[39m","time":"2016-12-06T03:36:53.021Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35matom.xml\u001b[39m","time":"2016-12-06T03:36:53.021Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mprivacy.html\u001b[39m","time":"2016-12-06T03:36:53.028Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35msitemap.xml\u001b[39m","time":"2016-12-06T03:36:53.028Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m404.html\u001b[39m","time":"2016-12-06T03:36:53.040Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/page/5/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/08/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/06/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/07/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/10/index.html\u001b[39m","time":"2016-12-06T03:36:53.041Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2015/11/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/想/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/讀/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/09/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/＃/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/M/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/29/index.html\u001b[39m","time":"2016-12-06T03:36:53.042Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/ADAS/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Marvin-Gaye/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/汽車/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/11/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Android/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Apple/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Yahoo-Finance/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/AlphaGo/index.html\u001b[39m","time":"2016-12-06T03:36:53.043Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/有物報告/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/連結性/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/自動化/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/硬體/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Davos/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/McKinsey/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/UBS/index.html\u001b[39m","time":"2016-12-06T03:36:53.044Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/台灣/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/BCG/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/BDI/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Connection-Event/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/通貨緊縮/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Off-grid-Solar/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/百度百家/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Lighting-Global/index.html\u001b[39m","time":"2016-12-06T03:36:53.045Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Miles-Davis/index.html\u001b[39m","time":"2016-12-06T03:36:53.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/John-Coltrane/index.html\u001b[39m","time":"2016-12-06T03:36:53.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/BNEF/index.html\u001b[39m","time":"2016-12-06T03:36:53.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Kind-of-Blue/index.html\u001b[39m","time":"2016-12-06T03:36:53.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Bus-Surfing/index.html\u001b[39m","time":"2016-12-06T03:36:53.046Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/華爾街見聞/index.html\u001b[39m","time":"2016-12-06T03:36:53.047Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/CFA/index.html\u001b[39m","time":"2016-12-06T03:36:53.047Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/投資分析/index.html\u001b[39m","time":"2016-12-06T03:36:53.047Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/GMAT/index.html\u001b[39m","time":"2016-12-06T03:36:53.047Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/便當/index.html\u001b[39m","time":"2016-12-06T03:36:53.047Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Critical-Reasoning/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/二次元/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Charles-Mingus/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/平安證券/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Institute-Research-Challenge/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/電商/index.html\u001b[39m","time":"2016-12-06T03:36:53.049Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Joe-Henderson/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/消費/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/bcgperspectives/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/McKinsey-Quarterly/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/跨境電商/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/MECE/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/O2O/index.html\u001b[39m","time":"2016-12-06T03:36:53.050Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Presentation/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/05/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/股市/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/MSBA/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/DataCamp/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/民主/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Statistics/index.html\u001b[39m","time":"2016-12-06T03:36:53.053Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/The-Economist/index.html\u001b[39m","time":"2016-12-06T03:36:53.054Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/R/index.html\u001b[39m","time":"2016-12-06T03:36:53.054Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Storytelling/index.html\u001b[39m","time":"2016-12-06T03:36:53.054Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Steve-Reich/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/美國/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Cal-Poly/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/STP/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Due-Diligence/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Stan-Getz/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Case-in-Point/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/上海/index.html\u001b[39m","time":"2016-12-06T03:36:53.055Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/你問我答/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/FinTech/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Curtis-Fuller/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/HBS/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/HBR/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/選舉/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Goldman-Sachs/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/物聯網/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/安倍經濟學/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Jessie-J/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Nicki-Minaj/index.html\u001b[39m","time":"2016-12-06T03:36:53.056Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/日本/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Kodak/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Ariana-Grande/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/LEMMiNO/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/領導力/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Riz-Samaritano/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Lin-Manuel-Miranda/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Andrea-Bocelli/index.html\u001b[39m","time":"2016-12-06T03:36:53.057Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/假說思考/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/LinkedIn/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Hamilton/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/EssayForEurope/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/數位化/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/MBA/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/大麻/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/大前研一/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/內田和成/index.html\u001b[39m","time":"2016-12-06T03:36:53.058Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Vox/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/手嶌葵/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/亞洲/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Xmas/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/New-Media/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/任天堂/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/槍枝管制/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/全球化/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/新常態/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/rocket-cafe/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Maurice-Ravel/index.html\u001b[39m","time":"2016-12-06T03:36:53.059Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/石油/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/研究/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Birdman/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Deloitte/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/PwC/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/DB/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/EY/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/KPMG/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/HSBC/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/JPMorgan/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/OC-C/index.html\u001b[39m","time":"2016-12-06T03:36:53.060Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/ATKearney/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/FT/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Case-in-Points/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Podcast/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Bain/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/BBC/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/NPR/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/WSJ/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/NYTimes/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/The-Economists/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Bloomberg/index.html\u001b[39m","time":"2016-12-06T03:36:53.061Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/沙烏地阿拉伯/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/IPO/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Feedly/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Passacaille/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Markdown/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Hexo/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Mailgun/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/GitHub/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Cloudflare/index.html\u001b[39m","time":"2016-12-06T03:36:53.062Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/NexT/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/SSL/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/毒品戰爭/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/DNS/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/椎名林檎/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/境亜寿香/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/HSTS/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/斎藤ネコ/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Ridge-Racer/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/宮澤賢治/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/林原めぐみ/index.html\u001b[39m","time":"2016-12-06T03:36:53.063Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/銀河鐵道之夜/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/The-Danish-Girl/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/KASHIWA-Daisuke/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Alexandre-Desplat/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Career/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/eSIM/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mabout/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/社群/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/anNina/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/最低工資/index.html\u001b[39m","time":"2016-12-06T03:36:53.064Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/11/15/how-I-got-an-offer/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/09/08/Standout-HBS-Essay/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/08/24/LinkedIn-The-StartUp-Of-You/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/09/25/Quantitative-Methods-II/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/10/31/DataCamp-12/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/06/23/BCG-Your-Strategy-Needs-A-Strategy/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/08/19/One-Year-Five-Year/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/09/04/Data-Visualization-Storytelling/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/07/09/Resource-Podcast/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/06/16/How-to-Read-The-Economist/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/30/Charles-Mingus-Moanin/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/22/Jessie-J-Bang-Bang/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/20/Resource-News/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/06/Set-up-McK-Note-Advanced/index.html\u001b[39m","time":"2016-12-06T03:36:53.065Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/04/Set-up-McK-Note/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/05/12/HBS-Case-Method/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/06/12/Lin-Manuel-Miranda-Hamilton-My-Shot/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/13/Kasetsu-Shikou-Uchida-Kazunari/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/30/MGI-Digital-Globalization/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/25/CFA-IRC-Preparation-Competition/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/28/Resource-Bain-ATKearney-Accenture-OCC/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/23/Resource-bcgperspectives/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/11/Consulting-Template-Slide-Design/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/02/Passacaille-Tres-large/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/21/Resource-MGI-MQ/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/16/Automation-Connectivity-Davos/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/25/Blue-in-Green/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/19/MGI-Essay-For-Europe/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/18/Sheena-Ishiki/index.html\u001b[39m","time":"2016-12-06T03:36:53.066Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/28/Resource-Bank-Accounting/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/14/BNEF-Off-Grid/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/07/China-2D-Economy/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/04/27/CFA-IRC-Southeast-Asia/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/04/Different-Trains/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/12/Ebony-Samba/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/22/Due-Diligence-Intro/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/03/02/Japan-Fourth-Arrow/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/25/Stella/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/29/Cross-Boarder-China/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/17/Bus-Surfing/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/19/Goldman-Sachs-China-Consumption/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/15/Nintendo-Development/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/19/The Danish Girl/index.html\u001b[39m","time":"2016-12-06T03:36:53.067Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/24/LEMMiNO-Presentation/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/12/Silhouette-Dance/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/01/Saudi-Oil-IPO/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/03/Android-Development/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/12/BDI-Maersk/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/27/Democracy-2015/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/25/Saudi-After-Oil/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/26/BCG-Connection-2016/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/11/Fintech-Development/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/29/A-Funky-Space-Reincarnation/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/22/Oil-Plunge/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/19/ADAS-Future/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/20/New-Normal/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/22/Five-Spot-After-Dark/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/02/05/Love-in-Portofino/index.html\u001b[39m","time":"2016-12-06T03:36:53.068Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/15/TC-Car/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/14/eSIM/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/15/taishou-a/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/07/Election-Aldermanry/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/12/China-Consumption/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/11/China-Digitalization/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/08/IoT-Potential/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/08/Canyon-Lady/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/13/CT-1/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/07/minimum-wage/index.html\u001b[39m","time":"2016-12-06T03:36:53.069Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/07/social-B2B/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/07/Obama-gun/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/13/El-Chapo/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/05/Report-Conclusion/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/06/Circuit-Breaker/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/05/Leadership-OHI/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/02/Pineapple-TW/index.html\u001b[39m","time":"2016-12-06T03:36:53.070Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/01/Baidu-MGI/index.html\u001b[39m","time":"2016-12-06T03:36:53.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/30/China-O2O/index.html\u001b[39m","time":"2016-12-06T03:36:53.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2016/01/01/Body-and-Soul/index.html\u001b[39m","time":"2016-12-06T03:36:53.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/25/FAQ-1/index.html\u001b[39m","time":"2016-12-06T03:36:53.071Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/25/New-Media/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/24/Mommy-Kissing/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/22/Marijuana/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/11/03/Beginning/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/23/Kodak/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35m2015/12/21/Apple-CEO/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:53.072Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2015/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/page/3/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/page/4/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2015/12/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/01/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/page/4/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/01/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/02/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/03/index.html\u001b[39m","time":"2016-12-06T03:36:53.073Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/想/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/想/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/聽/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/讀/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/＃/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/聽/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35marchives/2016/04/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mcategories/＃/page/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mindex.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/3/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/2/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/5/index.html\u001b[39m","time":"2016-12-06T03:36:53.074Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/6/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/4/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/7/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/10/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/9/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/14/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/12/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/11/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/8/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/19/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/15/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/13/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/22/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/18/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/17/index.html\u001b[39m","time":"2016-12-06T03:36:53.075Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/23/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/20/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/21/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/16/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/28/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/24/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/27/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/兩岸/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/26/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/MGI/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mpage/25/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"Generated: \u001b[35mtags/Bit-ly/index.html\u001b[39m","time":"2016-12-06T03:36:53.076Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":30,"msg":"312 files generated in \u001b[36m12 s\u001b[39m","time":"2016-12-06T03:36:53.078Z","v":0}
+{"name":"hexo","hostname":"KIMINIRE.local","pid":1402,"level":20,"msg":"Database saved","time":"2016-12-06T03:36:53.188Z","v":0}

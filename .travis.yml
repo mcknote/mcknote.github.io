@@ -1,0 +1,33 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+
+#before_script:
+  - npm install -g gulp
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "mcknote"
+  - git config user.email "kiminire@gmail.com"
+  - git add .
+  - git commit -m "Blog Update"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  
+# E: Build LifeCycle
+
+branches:
+  only:
+    - host
+env:
+ global:
+   - GH_REF: http://github.com/mcknote/mcknote.github.io/tree/host

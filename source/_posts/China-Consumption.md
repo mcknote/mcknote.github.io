@@ -11,7 +11,7 @@ thumbnail: cover.jpg
 ---
 {% asset_img cover.jpg %}
 　
-我幾週前找到了 BCG 和 Bain 的報告發佈平台，在這之前我一直以為只有 McKinsey 致力於發表深度見解，真是孤陋寡聞。我稍微逛了逛，發現 [bcgperspectives](https://www.bcgperspectives.com/) 和 [Bain Insights](www.bain.com/publications/) 的內容十分有趣，有互動式的圖表與方便消化的文章編排，也有與其他機構共同發表的報告，於是決定有空也來認真研究。[這篇報告](https://www.bcgperspectives.com/content/articles/globalization-growth-new-china-playbook-young-affluent-e-savvy-consumers/)是由 BCG 與阿里研究院共同發表的消費趨勢分析，內容分成四個部分，我們可以分析一下各個部分用了哪些證據來支撐。<!--more-->
+我幾週前找到了 BCG 和 Bain 的報告發佈平台，在這之前我一直以為只有 McKinsey 致力於發表深度見解，真是孤陋寡聞。我稍微逛了逛，發現 [bcgperspectives](https://www.bcgperspectives.com/) 和 [Bain Insights](//www.bain.com/publications/) 的內容十分有趣，有互動式的圖表與方便消化的文章編排，也有與其他機構共同發表的報告，於是決定有空也來認真研究。[這篇報告](https://www.bcgperspectives.com/content/articles/globalization-growth-new-china-playbook-young-affluent-e-savvy-consumers/)是由 BCG 與阿里研究院共同發表的消費趨勢分析，內容分成四個部分，我們可以分析一下各個部分用了哪些證據來支撐。<!--more-->
 
 ### 第一，消費將會持續增長（收入與消費數據）
 BCG 認為消費將會以每年 9% 的速度增長到 2020 年，因為人均收入早從 2010 年開始就以每年 11% 的速度增長，並且絕大部分的家庭依收入調節花費，不受股市震盪與宏觀指標影響。另一方面，人均花費也在持續成長，基於人口變化與電商發展，這股趨勢將會繼續下去。

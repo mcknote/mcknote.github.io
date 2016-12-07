@@ -68,7 +68,7 @@ LEMMiNO 先以一部[知名電影](https://zh.wikipedia.org/zh-tw/%E9%BB%91%E5%A
 當然，這只是事後想像，實際準備的時候能不能想到這些安排，甚至有沒有勇氣在時間、績效等壓力下打破既有架構，都是對報告者的考驗。
 
 ## 應用：第一天，我們創造了別的東西
-範例：遊戲畫面、[摩爾定律](https://zh.wikipedia.org/zh-hant/摩尔定律)、[不確定性原理](https://zh.wikipedia.org/zh-hant/不确定性原理)、[Illustris](www.illustris-project.org/)
+範例：遊戲畫面、[摩爾定律](https://zh.wikipedia.org/zh-hant/摩尔定律)、[不確定性原理](https://zh.wikipedia.org/zh-hant/不确定性原理)、[Illustris](//www.illustris-project.org/)
 
 這裡 LEMMiNO 下了一個很大的標題「創造現實」，將前面營造的不安氣氛化為動力，討論目前科技的進展與應用。不過要創造怎樣的現實呢？他以兩個定理說明完全模擬現實是不可能的，但用在有限度的模擬還 OK，後者包括了遊戲。一樣，LEMMiNO 並沒有花太多時間在說明兩個定理，並用了圖例給出明確結論。
 

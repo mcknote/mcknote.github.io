@@ -5,7 +5,7 @@ tags:
 - GMAT
 - Critical Reasoning
 - 便當
-categories: 想
+categories: ＃
 comments: true
 ---
 {% asset_img cover.jpg %}

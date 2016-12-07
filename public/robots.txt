@@ -2,17 +2,11 @@
 User-agent: *
 Allow: /
 Allow: /about/
+Allow: /tags/
+Allow: /catagories/
 
-Disallow: /vendors/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /vendors/
-Disallow: /fancybox/
-Disallow: /tags/
 Disallow: /archives/
-Disallow: /categories/
 Disallow: /page/
 
-Sitemap: http://mcknote.github.io/sitemap.xml
-Sitemap: http://mcknote.github.io/baidusitemap.xml
+Sitemap: https://www.mcknote.com/sitemap.xml
+Sitemap: https://www.mcknote.com/baidusitemap.xml

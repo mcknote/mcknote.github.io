@@ -8,14 +8,15 @@ subtitle:
 description: In reasoning we believe.
 author: Jimmy Lin
 language: zh-tw
-timezone: Asia/Taipei
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mcknote.com
+url: https://www.mcknote.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+enforce_ssl: www.mcknote.com
 
 # Directory
 source_dir: source
@@ -40,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -68,25 +69,17 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:mcknote/mcknote.github.io.git
-  branch: master
-  #repo: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
+    type: git
+    repo: git@github.com:mcknote/mcknote.github.io.git
+    branch: master
+    #type: git 
+    #repo: ssh://56f3fd930c1e6636730002df@backup-mcknote.rhcloud.com/~/git/backup.git/
 
 # Avatar
 avatar: /images/default_avatar.jpg
 
 # Disqus
 disqus_shortname: mcknote
-
-# hexo-admin
-admin:
-  username: kiminire
-  password_hash: $2a$08$wvUospKCnKVmZWIRS8UGV.cmSTLEzo5RVIORY91StDQ9OBMges5sW
-  secret: In reasoning we believe.
-
-# Search
-swiftype_key: qWd1K1oxNSEz3qhuzqBB
 
 #hexo-renderer-marked
 marked:
@@ -119,11 +112,33 @@ category_generator:
   per_page: 10
 
 #hexo-git-backup
-backup:
-    type: git
-    theme: next
-    repository:
-       github: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
+#backup:
+#type: git
+#theme: next
+#repository:
+#github: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
 
+#hexo-generator
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+  daily: false
 
+index_generator:
+  per_page: 3
 
+#hexo-generator-feed
+feed:
+  type: rss2
+  path: atom.xml
+  limit: 0
+  hub:
+
+#hexo-algolia
+algolia:
+  applicationID: 'K2YQUUH3TO'
+  apiKey: 'abbed1615cd059b39d06a38037971aeb'
+  adminApiKey: 'a1f41ec239f2e6faff54e0cb04d9173c'
+  indexName: 'mcknote'
+  chunkSize: 5000

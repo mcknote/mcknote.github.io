@@ -10,7 +10,7 @@ comments: true
 ---
 {% youtube NHjHQoxq9O0 %}
 　
-[KASHIWA Daisuke](www.kashiwadaisuke.com/
+[KASHIWA Daisuke](//www.kashiwadaisuke.com/
 ) 是電影[《言の葉の庭》](https://zh.wikipedia.org/zh-hant/言葉之庭
 )的配樂師，因為我看完電影通常會找配樂來聽，所以自然而然接觸到他過去的作品。其實《言の葉の庭》中的配樂大都是他過去專輯[《88》](http://www.amazon.co.jp/88-KASHIWA-Daisuke/dp/B0055E73VU)的改編，如 [My Favorite Things](https://www.youtube.com/watch?v=d77PPwMMOGQ) 對應 [A Silent Summer](https://www.youtube.com/watch?v=StsPWMdtcZ4)、[The Afternoon Of Rainy day](https://www.youtube.com/watch?v=U5PBDs5dCuA) 對應 [Travel Around Stars](https://www.youtube.com/watch?v=amyQ5L-5rJQ)，所以他幾乎沒有為了這部電影特別作曲，不過意境倒是很合。<!--more-->這些配樂也是他少數純鋼琴演奏的作品，其它的大多還會穿插電音、碎拍等等，很多評論將他和 [world’s end grilfriend](https://zh.wikipedia.org/zh-hant/World's_end_girlfriend) 歸為一類，我也覺得雖然兩者的創作手法不盡相同，在孤寂、希望等心理風景的描繪上倒很相似，談到這點，應該把[《東京奏鳴曲》](https://zh.wikipedia.org/zh-hant/東京奏鳴曲)的 [Kazumasa Hashimoto](https://en.wikipedia.org/wiki/Kazumasa_Hashimoto) 也算進來。
 　

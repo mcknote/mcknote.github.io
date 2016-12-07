@@ -4,7 +4,7 @@ date: 2016-2-15 14:30:00
 tags: 
 - 任天堂
 - rocket.cafe
-categories: ＃
+categories: 想
 comments: true
 ---
 {% asset_img cover.jpg %}

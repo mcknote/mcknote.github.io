@@ -75,7 +75,7 @@ comments: true
 9. Make impact
 10. Growth：進入 BCG 有很大成長
 
-Alice Chen，Associate
+## Alice Chen，Associate
 
 * 10 for 10
 1. 之前去過泰國（沒聽完整）
