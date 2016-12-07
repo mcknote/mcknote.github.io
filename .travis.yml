@@ -32,4 +32,4 @@ branches:
     - host
 env:
  global:
-   - GH_REF: http://github.com/mcknote/mcknote.github.io/tree/host
+   - GH_REF: github.com/mcknote/mcknote.github.io
