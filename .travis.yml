@@ -21,7 +21,7 @@ after_script:
   - git config user.name "mcknote"
   - git config user.email "kiminire@gmail.com"
   - git add .
-  - git commit -m "Blog Update"
+  - git commit -m "Blog Update From Travis-CI"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 
 # E: Build LifeCycle
