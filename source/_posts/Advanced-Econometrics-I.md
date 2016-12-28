@@ -13,12 +13,6 @@ categories: ＃
 
 <!--more-->
 
-{% raw %}
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-{% endraw %}
-
 ## 秋季學期的安排
 
 和之前上 *{% post_link Data-Visualization-Storytelling Data Visualization%}* 和 *{% post_link Quantitative-Methods-II Statistics %}* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
