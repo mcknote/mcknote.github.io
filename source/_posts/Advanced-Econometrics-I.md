@@ -446,7 +446,7 @@ $$
 
 這時，如果我們想估計「利潤」、「銷量」這兩個 {% raw %}$ Y ${% endraw %} 和 {% raw %}$ X ${% endraw %} 的關係，不能只對這兩個表格分別用 `lm()`，因為兩組殘差 {% raw %}$ e ${% endraw %} 之間的關係是不確定的；如果我們也要為兩組 {% raw %}$ e ${% endraw %} 建立一個類似 {% raw %}$Var\left( b|X\right)${% endraw %} 的 covariance matrix，就得用 MLE 一次估計兩組模型，這時的 {% raw %}$ \theta ${% endraw %} 會包含兩組 {% raw %}$ b ${% endraw %}、兩個 {% raw %}$ s^{2} ${% endraw %}、和一個 {% raw %}$ e ${% endraw %} 間的相關係數 {% raw %}$ \rho ${% endraw %}（註）。
 
-> 註：為了確保估計出來的 {% raw %}$ s^{2} ${% endraw %} 恆正，這邊其實要用到[一些特殊方法](https://en.wikipedia.org/wiki/Cholesky_decomposition)；一般來說也可以用 {% raw %}$ e^{x} ${% endraw %}。
+> 註：為了確保估計出來的 {% raw %}$ s^{2} ${% endraw %} 恆正，這邊其實要用到[一些特殊方法](https://en.wikipedia.org/wiki/Cholesky_decomposition)；一般恆正數則可以用 {% raw %}$ e^{x} ${% endraw %}。
 
 本質上，MLE 估計方法有點像在玩拉霸：不斷投入一組 {% raw %}$ \theta ${% endraw %}，看得出來的 {% raw %}$ logL(\theta) ${% endraw %} 多大，直到找到最大的 {% raw %}$ logL(\hat {\theta }) ${% endraw %}。這也的確就是網格式參數搜尋（grid-search）的原理，不過我們也可以用一階微分、Newton-Raphson 等方法求出最大值；在 `R` 裡面，有 `optim()`、`nlminb()` 等函數可以用來求極值，不過要注意的是大部分的函數**只支援求最小值**，所以可能需要先將 log-likelihood function 加上負號，求 {% raw %}$ -logL(\theta) ${% endraw %} 的最小值。
 
