@@ -403,7 +403,6 @@ $$
 $$
 {% endraw %}
 
-　
 其中 {% raw %}$ \Sigma ${% endraw %} 無法以 {% raw %}$ s^{2}\left( X'X\right) ^{-1} ${% endraw %} 形式表達。
 
 什麼情況下，分析會違反這兩個假設呢？首先是資料本身的性質。比方說在上面的原始資料裡，「銷量」和「價格」之間的關係就有可能違反 Homoskedasticity：便宜商品的銷量分布（很多到很少），和昂貴商品的銷量分布（少到很少）不同，因此分析結果中的 `Std. Error` 就可能出現偏差，後續的分析，如 `t value`、`Pr(>|t|)`、`F-statistic` 等等也就不可靠。（不過倒是不會影響回 `Estimate`，因為 {% raw %}$ b ${% endraw %} 偏差與否和 Mean Independence 有關。）
