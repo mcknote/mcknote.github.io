@@ -142,3 +142,12 @@ algolia:
   adminApiKey: 'a1f41ec239f2e6faff54e0cb04d9173c'
   indexName: 'mcknote'
   chunkSize: 5000
+
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true

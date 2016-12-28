@@ -5,7 +5,7 @@
 var renderer = require('./lib/renderer');
 var assign = require('object-assign');
 
-hexo.config.marked = assign({
+hexo.config.kramed = assign({
   gfm: true,
   pedantic: false,
   sanitize: false,
@@ -13,7 +13,7 @@ hexo.config.marked = assign({
   breaks: true,
   smartLists: true,
   smartypants: true
-}, hexo.config.marked);
+}, hexo.config.kramed);
 
 hexo.extend.renderer.register('md', 'html', renderer, true);
 hexo.extend.renderer.register('markdown', 'html', renderer, true);
