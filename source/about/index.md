@@ -15,7 +15,7 @@ McK & Note 是一個集合諮詢資源、筆記和心得的平台，是 Jimmy Li
 # 誰是 Jimmy Lin？
 
 　
-我現在是上海交大金融系的學生，台灣人，以後有可能會去美國讀書。和一般的商學生一樣，我曾在大大小小的公司實習過，但我也曾去日本[種田換宿](http://www.wwoofjapan.com/)、去台南蓋[公共藝廊](http://togoartmuseum.blogspot.hk/)，最後聽完 Bradley 的演講後，認為諮詢業是自己唯一的去處。平常除了讀研報、想事情以外，也喜歡走路跟聽音樂，常常亂敲朋友哈拉。
+我現在是 Cal Poly（加州州立理工大學）Business Analytics 的碩士生，畢業於上海交通大學金融系，來自台灣台中。和一般的商學生一樣，我曾在大大小小的公司實習過，但我也曾去日本[種田換宿](http://www.wwoofjapan.com/)、去台南蓋[公共藝廊](http://togoartmuseum.blogspot.hk/)，最後聽完 Bradley 的演講後，認為諮詢業是自己唯一的去處。平常除了讀研報、想事情以外，也喜歡走路跟聽音樂，常常亂敲朋友哈拉。
 
 　
 # McK 是什麼意思？
