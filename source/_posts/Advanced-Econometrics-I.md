@@ -299,7 +299,7 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 > 註：這邊提到的五個假設，和 [Wikipedia - Linear regression](https://en.wikipedia.org/wiki/Linear_regression#Assumptions) 與 *Introductory Econometrics* 上所提到的有些微差異，但在原理上應該是相通的，端看講者側重說明 LRM 的哪些面向。
 
-介紹完這五個基本假設後，我們就開始探討「如果實際資料不（完全）符合這些假設，該如何避免潛在的偏差」。於是，基於這五項假設，我們另外學了以下內容，它們的證明和推導，都是來自上面所提到的[計算結果和延伸](/2016/12/16/Advanced-Econometrics-I/#計算結果和延伸)。
+介紹完這五個基本假設後，我們就開始探討「如果實際資料不（完全）符合這些假設，該如何避免潛在的偏差」。於是，基於這五項假設，我們另外學了以下內容，它們的證明和推導，都是來自上面所提到的[計算結果和延伸](#計算結果和延伸)。
 
 |假設|期中考前的延伸|期末考前的延伸|
 |:--|:--|:--|
@@ -461,7 +461,7 @@ MLE 方法裡最核心也最困難的步驟，應該是在前幾步將模型化�
 具體來說，我覺得學完這門課程之後可以精進的方向有三：
 
 1. **熟練前面的內容**
-   從[課前準備](/2016/12/16/Advanced-Econometrics-I/#課前準備)開始提到的矩陣運算、統計和機率，到最後的 MLE 都很重要，但老實說我學了一遍、外加參考不少資料，也不太確定自己到底掌握了幾分。考慮到 Econometrics 還是偏基礎的科目，想接觸其它分支前，還是得先把上面提到的內容學好。
+   從[課前準備](#課前準備)開始提到的矩陣運算、統計和機率，到最後的 MLE 都很重要，但老實說我學了一遍、外加參考不少資料，也不太確定自己到底掌握了幾分。考慮到 Econometrics 還是偏基礎的科目，想接觸其它分支前，還是得先把上面提到的內容學好。
 
 2. **處理更多樣的資料**
    前面舉利用的幾個表格是橫截面數據（[cross-sectional data](https://en.wikipedia.org/wiki/Cross-sectional_data)），即在特定時間點下的數據，但 Econometrics 會面對的資料型態，還包括考慮到時間變化的的時間序列（[time series data](https://en.wikipedia.org/wiki/Time_series)）和縱橫／面板數據（[panel data](https://en.wikipedia.org/wiki/Panel_data)）。*Introductory Econometrics* 的中後部分就是在講解後兩者，相信這也是我們下學期 *Advanced Econometrics II* 的重心。
