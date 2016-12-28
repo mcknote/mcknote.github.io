@@ -285,7 +285,7 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 * 如何正確解讀 `(Adjusted) R-squared`、`F-statistic` 和 `t value`？
 * 分析結果是否有改進空間？如何[取捨 bias 和 variance](https://en.wikipedia.org/wiki/Bias–variance_tradeoff)？
 
-所以，這邊的分水嶺大概是「我知道怎麼操作 `lm()`、`glm()` 甚至 `rpart()` 等函數，但我不清楚這些統計結果是否正確，也不知道應該按什麼步驟處理資料、或微調（tweak）函數來改善預測結果」。*Econometrics* 可以幫助你瞭解背後的原理，但要學好 *Econometrics*，還是得從上面這些內容開始。
+所以，這邊的分水嶺大概是「我知道怎麼操作 `lm()`、`glm()` 甚至 `rpart()` 等函數，但我不清楚這些統計結果是否正確，也不知道應該按什麼步驟處理資料、或微調（tweak）函數來改善預測結果」。Econometrics 可以幫助你瞭解背後的原理，但要學好 Econometrics，還是得從上面這些內容開始。
 
 ## 假設與性質
 
@@ -461,19 +461,19 @@ MLE 方法裡最核心也最困難的步驟，應該是在前幾步將模型化�
 具體來說，我覺得學完這門課程之後可以精進的方向有三：
 
 1. **熟練前面的內容**
-   從[課前準備](/2016/12/16/Advanced-Econometrics-I/#課前準備)開始提到的矩陣運算、統計和機率，到最後的 MLE 都很重要，但老實說我學了一遍、外加參考不少資料，也不太確定自己到底掌握了幾分。考慮到 *Econometrics* 還是偏基礎的科目，想接觸其它分支前，還是得先把上面提到的內容學好。
+   從[課前準備](/2016/12/16/Advanced-Econometrics-I/#課前準備)開始提到的矩陣運算、統計和機率，到最後的 MLE 都很重要，但老實說我學了一遍、外加參考不少資料，也不太確定自己到底掌握了幾分。考慮到 Econometrics 還是偏基礎的科目，想接觸其它分支前，還是得先把上面提到的內容學好。
 
 2. **處理更多樣的資料**
-   前面舉利用的幾個表格是橫截面數據（[cross-sectional data](https://en.wikipedia.org/wiki/Cross-sectional_data)），即在特定時間點下的數據，但 *Econometrics* 會面對的資料型態，還包括考慮到時間變化的的時間序列（[time series data](https://en.wikipedia.org/wiki/Time_series)）和縱橫／面板數據（[panel data](https://en.wikipedia.org/wiki/Panel_data)）。*Introductory Econometrics* 的中後部分就是在講解後兩者，相信這也是我們下學期 *Advanced Econometrics II* 的重心。
+   前面舉利用的幾個表格是橫截面數據（[cross-sectional data](https://en.wikipedia.org/wiki/Cross-sectional_data)），即在特定時間點下的數據，但 Econometrics 會面對的資料型態，還包括考慮到時間變化的的時間序列（[time series data](https://en.wikipedia.org/wiki/Time_series)）和縱橫／面板數據（[panel data](https://en.wikipedia.org/wiki/Panel_data)）。*Introductory Econometrics* 的中後部分就是在講解後兩者，相信這也是我們下學期 *Advanced Econometrics II* 的重心。
 
 3. **使用更多分析方法**
    除了 `lm()` 裡包含的基本統計數據以外，依照不同的數據型態，還有不同的 bias 和 variance 取捨所衍生出的分析方法也不同；前者包括 ANOVA、時間序列分析等等，後者包括 Ridge、Lasso 等等，也和後續的降維（dimension reduction）、非線性方法有關，之前推薦過的 [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/) 裡有詳細說明這些進階方法；姊妹書 [*The Elements of Statistical Learning*](http://statweb.stanford.edu/~tibs/ElemStatLearn/) 更包含背後的數理推導。
 
 ## 結語和勘誤表
 
-落落長的文章到此也差不多該告一個段落。雖然我剛開始寫 McK & Note 的時候，從沒想過自己會寫這樣一篇充滿數學公式的文章，不過在蒐集資料的過程中，我也意識到網路上把這些假設統整起來、寫清楚的文章比較少，所以決定把自己還記得的上課內容都寫一寫，也當作是把 *Econometrics* 複習了一遍。希望這篇文章能為中文讀者填補一些資訊落差，也希望我的講解能讓讀者對 *Econometrics* 產生一些興趣，至少別把它當成艱澀、難懂的知識。
+落落長的文章到此也差不多該告一個段落。雖然我剛開始寫 McK & Note 的時候，從沒想過自己會寫這樣一篇充滿數學公式的文章，不過在蒐集資料的過程中，我也意識到網路上把這些假設統整起來、寫清楚的文章比較少，所以決定把自己還記得的上課內容都寫一寫，也當作是把 Econometrics 複習了一遍。希望這篇文章能為中文讀者填補一些資訊落差，也希望我的講解能讓讀者對 Econometrics 產生一些興趣，至少別把它當成艱澀、難懂的知識。
 
-不過，我也清楚這篇文章是個大工程，充滿了公式和標注，即使寫完了也不敢說完全沒有錯誤，所以我在這篇文章最後預留了勘誤表。我還有一段時間要跟 *Econometrics* 打交道，想必偶爾還是會回來讀一讀這篇文章，如果發現有誤，會將修正記錄在這裡；如果讀者發現有任何不清楚的地方，也請不吝指正。
+不過，我也清楚這篇文章是個大工程，充滿了公式和標注，即使寫完了也不敢說完全沒有錯誤，所以我在這篇文章最後預留了勘誤表。我還有一段時間要跟 Econometrics 打交道，想必偶爾還是會回來讀一讀這篇文章，如果發現有誤，會將修正記錄在這裡；如果讀者發現有任何不清楚的地方，也請不吝指正。
 
 |日期|位置|修改前|修改後|原因|
 |:--|:--|:--|:--|:--|
