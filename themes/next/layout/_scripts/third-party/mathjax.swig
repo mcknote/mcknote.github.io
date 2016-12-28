@@ -18,6 +18,6 @@
         }
       });
     </script>
-    <script type="text/javascript" src="{{ theme.mathjax.cdn }}"></script>
+    <script type="text/javascript" src="{{ theme.mathjax.cdn }}" async></script>
   {% endif %}
 {% endif %}

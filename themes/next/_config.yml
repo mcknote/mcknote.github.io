@@ -239,6 +239,7 @@ auto_excerpt:
 mathjax:
   enable: true
   per_page: false
+  #cdn: https://cdn.staticfile.org/mathjax/2.7.0/config/TeX-AMS-MML_HTMLorMML.js
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
