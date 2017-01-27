@@ -219,7 +219,7 @@ Pseudorandom Numbers 只是稍微介紹一下 `R` 裡面 `runif()`、`rnorm()` �
 
 一切先從預估方法講起。當我們想了解某項統計數值時，能採取的預估方法大略可以分成兩種：從原理推導而得的 analytical，和利用大量重複觀察而得的 numerical。例如，如果想知道擲硬幣正反面的機率，analytical 的方法是從樣本空間出發，推出 1/2；numerical 則是擲一千遍，觀察平均值趨近於 1/2。雖然後者聽起來很傻，但日益強大的運算能力讓 numerical 方法的應用成本越來越低，甚至可以用來得出一些無法從 analytical 推出的結果，例如[四色定理](https://zh.wikipedia.org/wiki/四色定理)或[教會電腦怎麼下圍棋](https://zh.wikipedia.org/wiki/AlphaGo)等等。
 
-所以學會怎麼連結 Computer Science 的運算能力，和 Statistics 想解決的問題，就成了 Data Science 的命題之一。前面提到的「要學會怎麼將抽象的公式、規則和流程化為程式」在這階段就成了很重要的能力。如前所述，我們接觸的方法包括 Monte Carlo、MLE modeling、Grid Search、Newton-Raphson 等，並在最後完成了一個囚徒困境下 Reinforcement Learning 的 Project，還有之前在 {% post_link Advanced-Econometrics-I *Advanced Econometrics I* %} 提到的 MLE 估計方法作業。
+所以學會怎麼連結 Computer Science 的運算能力，和 Statistics 想解決的問題，就成了 Data Science 的命題之一。前面提到的「要學會怎麼將抽象的公式、規則和流程化為程式」在這階段就成了很重要的能力。如前所述，我們接觸的方法包括 Monte Carlo、MLE modeling、Grid Search、Newton-Raphson 等，並在最後完成了一個囚徒困境下 Reinforcement Learning 的 Project，還有之前在 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 提到的 MLE 估計方法作業。
 
 由於這邊直接把 code 貼上來實在對讀者幫助不大，我花了一點時間搜尋有沒有相關的資源，並把它們列在下面，附上我的經驗和見解。這些都是有點難度的主題，是 Econometrics 中比較會應用的方法。
 
@@ -241,7 +241,7 @@ ci = c(If+qnorm(0.025)*serror,If+qnorm(0.975)*serror) # 計算這次估計的信
 
 ### MLE
 
-比起 Monte Carlo，MLE 又更難用一小段說明了⋯⋯可以先參考我在 {% post_link Advanced-Econometrics-I *Advanced Econometrics I* %} 裡提到的內容。除此以外，我又試著搜尋一些補充資料：
+比起 Monte Carlo，MLE 又更難用一小段說明了⋯⋯可以先參考我在 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 裡提到的內容。除此以外，我又試著搜尋一些補充資料：
 
 * [這篇 Quora](http://stats.stackexchange.com/questions/112451/maximum-likelihood-estimation-mle-in-layman-terms) 裡有不少入門解釋，說明為何 MLE 和 data 背後分佈函數的關係，以及為何這樣能得出最佳解。
 
