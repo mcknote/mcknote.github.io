@@ -77,7 +77,7 @@ Debugging 的內容教我們怎麼用 RStudio 裡的 debug tools 了解程式的
 
 需要注意的是 Big O 強調的是「隨著 input size 變化演算法時間花費的相對關係」（註），和初始條件無關，所以在上面的例子中，有可能在檔案夠小的情況下，上傳檔案還是比搭飛機更省時。
 
-> 註：這個結論是強者阿飄幫我重新下的，原本的「隨著檔案大小變化的時間變化」可能會讓人誤解是 Big O 的奧義⋯⋯特此修正和致謝。另外~~海線~~飄哥還推薦了兩份資料，也附在這邊：演算法筆記 [Algorithm](http://www.csie.ntnu.edu.tw/~u91029/Algorithm.html)、[Algorithm Analysis](http://www.csie.ntnu.edu.tw/~u91029/AlgorithmAnalysis.html)。
+> 註：這個結論是強者[阿飄學長](https://twitter.com/xatierlikelee)幫我重新下的，原本的「隨著檔案大小變化的時間變化」可能會讓人誤解是 Big O 的奧義⋯⋯特此修正和致謝。另外~~海線~~飄哥還推薦了兩份資料，也附在這邊：演算法筆記 [Algorithm](http://www.csie.ntnu.edu.tw/~u91029/Algorithm.html)、[Algorithm Analysis](http://www.csie.ntnu.edu.tw/~u91029/AlgorithmAnalysis.html)。
 
 了解了基本概念後，需要掌握的包括：
 
