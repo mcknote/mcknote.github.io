@@ -33,9 +33,9 @@ categories: ＃
 
 ## 老師和教學方法
 
-這門課的老師是 Dr. Jonathan James，他是個熱情洋溢，也很關心學生的好教授，而且平均一門課會講三四個很棒的笑話，活潑的風格常讓我聯想 BoJack Horseman 裡的 Mr. Peanutbutter。教學方法是版書和投影片，作業形式包括手寫證明題，還有用 R 實作數據分析、並解讀結果。順帶一提，Dr. Jonathan 的所有文件都是用 [LaTeX](https://zh.wikipedia.org/wiki/LaTeX) 編排，其精美程度讓我忍不住也跳入學習 LaTeX 的深淵了……。
+這門課的老師是 Dr. Jonathan James，他是個熱情洋溢，也很關心學生的好教授，而且平均一門課會講三四個很棒的笑話，活潑的風格常讓我聯想 BoJack Horseman 裡的 Mr. Peanutbutter。教學方法是版書和投影片，作業形式包括手寫證明題，還有用 R 實作數據分析、並解讀結果。順帶一提，Dr. James 的所有文件都是用 [LaTeX](https://zh.wikipedia.org/wiki/LaTeX) 編排，其精美程度讓我忍不住也跳入學習 LaTeX 的深淵了……。
 
-由於 Dr. Jonathan 已經把上課內容都寫進講義裡了，我們整堂課下來也沒用到教科書，不過在 Syllabus 上他指定的教科書是 William H. Greene 的 [*Econometric Analysis*](https://www.amazon.com/Econometric-Analysis-7th-William-Greene/dp/0131395386)。但因為這本書讀起來實在有點生硬（可能是我個人閱讀能力問題），我在朋友推薦下，找了一本 Jeffrey M. Wooldridge 的 [*Introductory Econometrics: A Modern Approach*](https://www.amazon.com/Introductory-Econometrics-Modern-Approach-Economics/dp/130527010X)。後者的優點包括：
+由於 Dr. James 已經把上課內容都寫進講義裡了，我們整堂課下來也沒用到教科書，不過在 Syllabus 上他指定的教科書是 William H. Greene 的 [*Econometric Analysis*](https://www.amazon.com/Econometric-Analysis-7th-William-Greene/dp/0131395386)。但因為這本書讀起來實在有點生硬（可能是我個人閱讀能力問題），我在朋友推薦下，找了一本 Jeffrey M. Wooldridge 的 [*Introductory Econometrics: A Modern Approach*](https://www.amazon.com/Introductory-Econometrics-Modern-Approach-Economics/dp/130527010X)。後者的優點包括：
 
 * **清晰的架構，深入淺出**：在 Simple Regression Model 中就介紹了許多數值和性質，接下來的 Multiple Regression Model 再談 Asymptotics 等等
 * **貼心的附錄，照顧數學弱勢**：包括 Linear Function、Matrix、Probability、Statistics 等基本概念，記憶模糊時（which is always）可以快速回顧
