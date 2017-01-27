@@ -255,7 +255,7 @@ ci <- c(If+qnorm(0.025)*serror,If+qnorm(0.975)*serror) # 計算這次估計的�
 
 ### Numerical Methods of Optimization
 
-[Grid search](https://en.wikipedia.org/wiki/Hyperparameter_optimization#Grid_search) 和 Newton-Raphson 是在 MLE 方法下提到的兩個找出最大值的方法。前者差不多就是俗稱的暴力破解法：界定範圍與數量以後，將所有組合代入找出最大值。Grid search 在一兩個參數的情況下很好用，但參數一多運算要求會呈指數成長。我曾用 grid search 找 support vector machine 中 {% raw %}$C${% endraw %} 和 {% raw %}$\gamma${% endraw %} 的最佳組合，當時的分法是：
+[Grid search](https://en.wikipedia.org/wiki/Hyperparameter_optimization#Grid_search) 和 [Newton-Raphson](https://en.wikipedia.org/wiki/Newton's_method) 是在 MLE 方法下提到的兩個找出最大值的方法。前者差不多就是俗稱的暴力破解法：界定範圍與數量以後，將所有組合代入找出最大值。Grid search 在一兩個參數的情況下很好用，但參數一多運算要求會呈指數成長。我曾用 grid search 找 support vector machine 中 {% raw %}$C${% endraw %} 和 {% raw %}$\gamma${% endraw %} 的最佳組合，當時的分法是：
 
 {% raw %}
 $$
