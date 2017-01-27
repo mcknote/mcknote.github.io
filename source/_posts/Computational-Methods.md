@@ -87,7 +87,7 @@ Debugging 的內容教我們怎麼用 RStudio 裡的 debug tools 了解程式的
 
 Recursion 和 Sorting 是兩個題目，前者是設計不用 `for` 或 `while` 也能不斷循環的程式，例如：
 
-```{r}
+``` r
 recurfunc <- function(x){
   if(x <= 0){
     return(x)
@@ -106,7 +106,7 @@ Hash table 是一個用來記錄 key 和 value 的結構，主要功用是用來
 
 在 `R` 裡面 hash table 的實作是透過 `environment`，這邊有一小段例子：
 
-```{r}
+``` r
 myenv <- new.env()
 values <- seq(26)
 for(i in 1:26){
@@ -139,7 +139,7 @@ for(i in 1:26){
 
 關於怎麼運用，可以參考以下這個用來提取 LaTeX 表格資訊的工作流程，
 
-```{r}
+``` r
 # Naren, Jordan, Simon, Jimmy
 lttable <- readLines("lttable.tex") # 讀取 .tex
 lttable <- paste(lttable,collapse="") # 把讀取後分散的資訊整合成一個字串
@@ -178,6 +178,7 @@ for(i in 4:(length(g)-2)){
              )
 }
 ```
+
 經過一連串處理，最後 `d` 就是一個整齊的 data frame 了。當然，實際上的工作流程可能不必這麼麻煩，因為 CRAN 上可能都有相應的 package 了，但就是練習一下流程安排，培養對 string 的感~~情~~覺。相關資料包括：
 
 * CRAN 的 [*Regular Expressions as used in R*](https://stat.ethz.ch/R-manual/R-devel/library/base/html/regex.html) 包含了 Regular expression 的用法
@@ -222,7 +223,7 @@ Pseudorandom Numbers 只是稍微介紹一下 `R` 裡面 `runif()`、`rnorm()` �
 
 Monte Carlo 簡單來說是藉由對特定函數代入大量隨機數，並從結果估計期望值的方法。一個簡單的範例如下，假設我們要估計 {% raw %}$\int _{0}^{1}\left( x^{2}+1\right) dx${% endraw %}：
 
-```{r}
+``` r
 x <- runif(10000) # 先取大量 (0,1) 之間的偽隨機數
 fx = x^2+1 # 直接代入運算
 If = mean(fx) # 取平均值
