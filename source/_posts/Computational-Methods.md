@@ -229,10 +229,10 @@ Monte Carlo 簡單來說是藉由對特定函數代入大量隨機數，並從�
 
 ``` r
 x <- runif(10000) # 先取大量 (0,1) 之間的偽隨機數
-fx = x^2+1 # 直接代入運算
-If = mean(fx) # 取平均值
-serror = sd(fx)/sqrt(10000) # 計算 std. err
-ci = c(If+qnorm(0.025)*serror,If+qnorm(0.975)*serror) # 計算這次估計的信心區間
+fx <- x^2+1 # 直接代入運算
+If <- mean(fx) # 取平均值
+serror <- sd(fx)/sqrt(10000) # 計算 std. err
+ci <- c(If+qnorm(0.025)*serror,If+qnorm(0.975)*serror) # 計算這次估計的信心區間
 ```
 
 上面只是一個很基本的例子，隨著問題不同，使用的抽樣函數和處理方法也會不同，像是 `If` 之所以是 `fx` 的平均值，是因為一開始的抽樣函數是 `runif()`，如果換一個方式抽樣（例如採取 [importance sampling](https://en.wikipedia.org/wiki/Importance_sampling)），`If` 的算法也會不同。不過背後的 Monte Carlo 原理基本上不變。
