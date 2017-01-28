@@ -275,7 +275,7 @@ Newton-Raphson 則是利用[泰勒展開式](https://zh.wikipedia.org/wiki/泰�
 
 ## 其他
 
-剩下的內容和 SQL Database 還有讓人聯想到[圖論](https://zh.wikipedia.org/wiki/图论)的 Dynamic Programming。後者只有講一堂課，也只是讓我們熟悉如何用 programming 解決問題，所以應該只能算一個 exercise；前者幾乎是複習我們另一門 [*Data Management*] 其中的一小部分，所以這邊的內容我就留到~~半年後的~~下一篇文章。
+剩下的內容和 SQL Database 還有讓人聯想到[圖論](https://zh.wikipedia.org/wiki/图论)的 Dynamic Programming。後者只有講一堂課，練習很簡單的路徑規劃，也只是讓我們熟悉如何用 programming 解決問題，所以應該只能算一個 exercise；前者幾乎是複習我們另一門 *Data Management* 其中的一小部分，所以這邊的內容我就留到~~半年後的~~下一篇文章。
 
 如果你對 SQL 很感興趣，可以參考這份 [cheat sheet](http://www.cheat-sheets.org/sites/sql.su/)，或是直接去這個[很神奇但請低調的網站](http://ingenieriacognitiva.com/developer/cursos/OracleDeveloper/)，裡面的簡報已經包含了所有初階語法，雖然是 Oracle 的教材，但和一般 SQL 大同小異；打算用 `R` 實作 SQL 的讀者，可以安裝 `RSQLite` 這個 package，然後去 [SQLite Tutorial](http://www.sqlitetutorial.net/sqlite-sample-database/) 下載範例資料庫 `chinook.db` 玩玩看。
 
