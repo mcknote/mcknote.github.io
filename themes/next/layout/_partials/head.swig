@@ -1,6 +1,7 @@
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content= "This is where I started. Get inspired by the guides and stories from McK & Note and take the initiative to figure out solutions for life." />
 <meta property="article:author" content="https://www.facebook.com/mcknote" />
 <meta property="fb:pages" content="526667947506539" />
 
