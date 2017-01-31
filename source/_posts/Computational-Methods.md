@@ -187,7 +187,7 @@ for(i in 4:(length(g)-2)){
 
 * CRAN 的 [*Regular Expressions as used in R*](https://stat.ethz.ch/R-manual/R-devel/library/base/html/regex.html) 包含了 Regular expression 的用法
 * 服務科學的分子廚房的 [R 的字串處理：GREP 套件包](http://molecular-service-science.com/2015/01/18/text-processing-in-r-using-grep/)也有很好的說明和範例
-* Gaston Sanchez 的 [*Handling and Processing Strings in R*](http://molecular-service-science.com/2015/01/18/text-processing-in-r-using-grep/)（PDF，408 KB）包含了所有在 `R` 裡處理 string 要注意的大小事，很完整。
+* Gaston Sanchez 的 [*Handling and Processing Strings in R*](http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf)（PDF，408 KB）包含了所有在 `R` 裡處理 string 要注意的大小事，很完整。
 
 　
 通常在 web scraping 的時候比較會需要親自處理字串，這時處理前只要多一個下載資料的流程就好。詳細的方法跟 packages 可以參考 Robert Norberg 的 [*Getting Data From An Online Source*](https://www.r-bloggers.com/getting-data-from-an-online-source/) 與 Phil Spector 的 [*Reading Web Pages with R*](http://statistics.berkeley.edu/computing/r-reading-webpages)。
