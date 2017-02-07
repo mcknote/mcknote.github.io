@@ -1,6 +1,6 @@
 ---
 title: 讀／LinkedIn《自創思維》
-date: 2016-8-24 7:30:00
+date: 2016-8-23 7:30:00
 tags:
 - LinkedIn
 - MBA

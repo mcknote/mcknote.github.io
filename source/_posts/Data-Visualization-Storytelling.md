@@ -1,6 +1,6 @@
 ---
 title: ＃／Data Visualization and Storytelling
-date: 2016-9-4 7:30:00
+date: 2016-9-3 7:30:00
 tags:
 - Cal Poly
 - MSBA

@@ -1,6 +1,6 @@
 ---
 title: 讀／BCG《你的策略，需要策略》
-date: 2016-6-23 19:30:00
+date: 2016-6-22 19:30:00
 tags:
 - BCG
 categories: 讀

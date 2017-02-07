@@ -1,6 +1,6 @@
 ---
 title: 聽／Lin-Manuel Miranda - My Shot
-date: 2016-6-12 19:30:00
+date: 2016-6-11 19:30:00
 tags: 
 - Lin-Manuel Miranda
 - Hamilton

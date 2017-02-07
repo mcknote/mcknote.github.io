@@ -1,6 +1,6 @@
 ---
 title: ＃／最近的規劃
-date: 2016-8-19 7:30:00
+date: 2016-8-18 7:30:00
 tags:
 - MBA
 - McKinsey
