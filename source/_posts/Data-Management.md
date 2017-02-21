@@ -26,7 +26,7 @@ categories: ＃
 
 但在實務上，一間企業或一個專案所有的資訊，並不只有一個 `.csv` 那麼簡單：資訊通常四散各個部門，而且總量可能有數 TB 甚至 PB 這麼高（例如，[Boeing 787 光單程就能產生 0.5 TB 的資料](http://www.computerworlduk.com/data/boeing-787s-create-half-terabyte-of-data-per-flight-says-virgin-atlantic-3433595/)），這時除了核心的分析能力，研究人員還得具備**有效率地查詢、整合、分析資料**的能力，這就是 `SQL` 和 Database 概念重要的原因。
 
-所以本質上，讀者可以把 SQL 當成一門 `subset()` 的藝術，了解如何最有效率地處理資料，與設計相應的工作流程。等了解了 SQL、Database 概念以及為何它們很重要以後，就能理解 [GFS](https://en.wikipedia.org/wiki/Google_File_System)、 [HDFS](https://wiki.apache.org/hadoop/HDFS)、 [MapReduce](https://zh.wikipedia.org/zh-hant/MapReduce)、 [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)、 [Spark](https://en.wikipedia.org/wiki/Apache_Spark)、 [Neo4j](https://en.wikipedia.org/wiki/Neo4j) 等一連串的應用為何能在這個 [Info Explosion](https://en.wikipedia.org/wiki/Information_explosion) 的年代應運而生了。
+所以某種程度上，讀者可以把 `SQL` 當成一門 `subset()` 的藝術，了解如何最有效率地處理資料，與設計相應的工作流程。等了解了 SQL、Database 概念以及為何它們很重要以後，就能理解 [GFS](https://en.wikipedia.org/wiki/Google_File_System)、 [HDFS](https://wiki.apache.org/hadoop/HDFS)、 [MapReduce](https://zh.wikipedia.org/zh-hant/MapReduce)、 [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)、 [Spark](https://en.wikipedia.org/wiki/Apache_Spark)、 [Neo4j](https://en.wikipedia.org/wiki/Neo4j) 等一連串的應用為何能在這個 [Info Explosion](https://en.wikipedia.org/wiki/Information_explosion) 的年代應運而生了。
 
 這讓我想到六個月前{% post_link Data-Visualization-Storytelling 剛學 Tableau 時 %}，我也還不了解功能表裡那些資料庫選項的用途。現在我比較清楚了，也能把資料查詢和處理當成單獨、重要的步驟看待。另一方面，對剛步入數位化的中小企業來說，資料庫管理是比資料分析還要基本而且重要的需求，所以學學怎麼設計 Relational Database 也很重要。總之，雖然課名是 Data Management，但要管理虛無飄渺的資訊，就需要設計資料庫和管理流程。以下介紹這門課的主要內容。
 
@@ -70,7 +70,7 @@ categories: ＃
 |enterprise resource planning (ERP)|A business management system that integrates all functions of the enterprise and provides the data necessary for the enterprise to examine and manage its activities.|
 |data independence|The separation of data descriptions from the application programs that use the data.|
 
-用一段話總結上面幾個術語之間的關係：一個 DBMS 負責管理一個或多個 Database，它們可以是分散的幾台主機，例如幾個部門分別記帳、不相往來，也可以是像上面那張拙作，形成 relational database。這些 database 可以被看作 entity，用來紀錄商業行為中的各種面向，每個 entity 都可以被表達成一張表格，其中的 column/variable 就是 attribute（上圖省略了 attr.）。這類系統的目的之一，是協助企業執行 ERP，清楚了解現況並做出判斷。
+用一段話總結上面幾個術語之間的關係：一個 DBMS 負責管理一個或多個 Database，它們可以是分散的幾台主機，例如幾個部門分別記帳、不相往來，也可以是像上面那張拙作，形成 relational database。這些 database 可以包含很多 entity，用來紀錄商業行為中的各種面向，每個 entity 都可以被表達成一張表格，其中的 column/variable 就是 attribute（上圖省略了 attr.）。這類系統的目的之一，是協助企業執行 ERP，清楚了解現況並做出判斷。
 
 設計這套系統的重要觀念之一是 data independence。前面提到 database 可以是分散的幾台主機，但這種情況下可能會發生重複更新、資料分歧等問題，所以學會建立 relationships 並合理利用查詢功能是建立 relational database 的主要原因。
 
