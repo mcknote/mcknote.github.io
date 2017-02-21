@@ -139,14 +139,14 @@ WHERE   city = 'Toronto';
 
 ```sql
 /* By Joey and Jimmy */
-SELECT      firstname, lastname /* 第一層 */
+SELECT      firstname, lastname /* 第三層 */
 FROM        Customer
 WHERE       customer_id = 
             (SELECT     customer_id  /* 第二層 */
              FROM       SalesInvoice
              GROUP BY   customer_id
              HAVING     COUNT(customer_id) =
-                        (SELECT     MAX(COUNT(customer_id))  /* 第三層 */
+                        (SELECT     MAX(COUNT(customer_id))  /* 第一層 */
                          FROM       SalesInvoice
                          GROUP BY   customer_id)
                         );
