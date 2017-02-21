@@ -179,7 +179,7 @@ WHERE       customer_id =
 
 ### 實際練習
 
-如果對 `SQL` 跟 *Modern Database Management* 有點概念以後，其實就可以試著找個 Database 或 Business Case 玩玩看了。上一次提到的 [`chinook.db`](http://www.sqlitetutorial.net/sqlite-sample-database/) 就是個很好的例子，它包含了一間樂器行的小型音樂資料庫和銷售資料，讀者可以用 `RSQLite` 這個 `R` package 對它練習 SQL Query。這邊提供幾個範例：
+如果對 `SQL` 跟 *Modern Database Management* 有點概念以後，其實就可以試著找個 Database 或 Business Case 玩玩看了。上一次提到的 [`chinook.db`](http://www.sqlitetutorial.net/sqlite-sample-database/) 就是個很好的例子，它包含了一間唱片行的小型音樂資料庫和銷售資料，讀者可以用 `RSQLite` 這個 `R` package 對它練習 SQL Query。這邊提供幾個範例：
 
 一開始讀取資料庫：
 
