@@ -277,7 +277,7 @@ result <- dbGetQuery(chinook, "SELECT   AlbumId,
 
 #### 3NF：便於更新和查詢的理想狀態
 
-把 Dependency 和 Redundancy 處理好以後，一個分散但彼此支援的資料庫系統就是理想狀態。在這種情況下，資料更新或刪除不會造成其他資訊遺失或分歧等問題。所以如果發票上沒有出現 `MacBook Pro` 的資料，我們還是能從單獨的資料庫中找到它的 `ProductID` 等資料；就算 Donald Trump 的偏好從 Gold 改成 Blue，也不會改變 Gold Cadillac 存在的事實。
+把 Dependency 和 Redundancy 處理好以後，一個分散但彼此支援的資料庫系統就是理想狀態。在這種情況下，資料更新或刪除不會造成其他資訊遺失或分歧等問題。所以如果發票上沒有出現 MacBook Pro 的資料，我們還是能從單獨的資料庫中找到它的 `ProductID` 等資料；就算 Donald Trump 的偏好從 Gold 改成 Blue，也不會改變 Gold Cadillac 存在的事實。
 
 ### 心法：避免 Anomaly
 
