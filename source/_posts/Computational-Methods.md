@@ -17,9 +17,9 @@ categories: ＃
 
 雖然上次講過了，但還是 recap 一下。我們在 2016 年秋季學期上的課有三門，分別是：
 
-* *Advanced Econometrics I*（理論、分析）
+* *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}*（理論、分析）
 * *Computational Methods*（實作）
-* *Data Management*（資料庫操作、管理）
+* *{% post_link Data-Management Data Management %}*（資料庫操作、管理）
 
 　
 {% post_link Advanced-Econometrics-I 上一篇 %}已經談完了公式佐定理滿滿的 *Advanced Econometrics*，這篇接下來談更偏應用的 *Computational Methods*。在這門課裡我們使用的程式語言是 `R`，涵蓋的範圍除了之前在 {% post_link DataCamp-12 DataCamp 上十二門課 %} 提到的內容以外，還多了 *Debugging*、*Optimization*、*MLE*、*Web Scraping* 等，比我一開始預期跟準備的還多不少，所以這篇可以當作是 DataCamp 那些課程在 Programming 方面的延伸，也希望能幫助讀者稍稍從 Computer Science 的角度看待整個資料分析的流程。

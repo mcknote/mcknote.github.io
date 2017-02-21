@@ -18,8 +18,8 @@ categories: ＃
 和之前上 *{% post_link Data-Visualization-Storytelling Data Visualization%}* 和 *{% post_link Quantitative-Methods-II Statistics %}* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
 
 * *Advanced Econometrics I*（理論、分析）
-* *Computational Methods*（實作）
-* *Data Management*（資料庫操作、管理）
+* *{% post_link Computational-Methods Computational Methods %}*（實作）
+* *{% post_link Data-Management Data Management %}*（資料庫操作、管理）
 
 　
 雖然每門課看起來都滿難的（Computational？Advanced？！），但其實~~也真的滿難~~認真修完一遍以後，真的能體會到學好這三門課是在 Business Analytics 或 Data Science 領域必備的基礎；而且如果有心繼續鑽研，會發現業界前沿的技術和應用，都和這三個發展方向脫離不了關係，所以不管是入門或進階、研究或應用，似乎都得從這三門課開始。
