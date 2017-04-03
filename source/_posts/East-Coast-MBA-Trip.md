@@ -367,7 +367,7 @@ Patrick 說他過幾年還是想回上海好好打拼，紐約對他來說是個
 
 #### 銀河鐵道之夜
 
-最後，謝謝此行中我見到的所有朋友，包括我的國中同學、大學同學和素未謀面卻願意幫助我的在校生們。這真的是我人生中很重要的一趟旅途，我不但見識了各個城市和各間學校，也再次體會人間溫暖。溝通、規劃和善意才是這趟旅行的基礎。I'll keep my fingers crossed for you，祝你們今後一切順利。Until next time！
+最後，謝謝此行中我見到的所有朋友，包括我的國中同學、大學同學和素未謀面卻願意幫助我的在校師生們。這真的是我人生中很重要的一趟旅途，我不但見識了各個城市和各間學校，也再次體會人間溫暖。溝通、規劃和善意才是這趟旅行的基礎。I'll keep my fingers crossed for you，祝你們今後一切順利。Until next time！
 
 　
 *走走拍拍：HBS、World Trade Center Station、NYU Stern、Greenwich Village、Yale SOM、Yale University Library、HBS、Charles River、MIT Sloan、MIT Sloan、CBS、Columbia University、Central California*
