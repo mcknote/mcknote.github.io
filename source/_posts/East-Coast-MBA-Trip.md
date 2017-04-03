@@ -365,5 +365,9 @@ Patrick 說他過幾年還是想回上海好好打拼，紐約對他來說是個
 
 每個人都有自己的抱負和包袱，我也只能分享自己在類似情境中的考量為何，並鼓勵 Andy 耐心平衡，想想自己的優先偏好。這也是我在完成 MBA 之旅後需要思考的課題。有時候我還真不確定 Andy 只是愛說話，還是真的有很多話想跟我說，畢竟 Andy 是一位很有活力和想法、又重實踐的人，我真心感覺有這樣一位朋友很榮幸。祝我們這幾年都能順利生存下去，Keep Amazing！
 
+#### 銀河鐵道之夜
+
+最後，謝謝此行中我見到的所有朋友，包括我的國中同學、大學同學和素未謀面卻願意幫助我的在校生們。這真的是我人生中很重要的一趟旅途，我不但見識了各個城市和各間學校，也再次體會人間溫暖。溝通、規劃和善意才是這趟旅行的基礎。I'll keep my fingers crossed for you，祝你們今後一切順利。Until next time！
+
 　
 *走走拍拍：HBS、World Trade Center Station、NYU Stern、Greenwich Village、Yale SOM、Yale University Library、HBS、Charles River、MIT Sloan、MIT Sloan、CBS、Columbia University、Central California*
