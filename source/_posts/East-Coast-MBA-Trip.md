@@ -196,7 +196,7 @@ Harvard 又離市區有段距離，自成一個小生活圈，佔據了 Charles 
 
 在 Charles River 南端的 HBS 自成一個校區，裡面有分散的教學樓、行政樓、宿舍、活動空間等等，這也是跟其他四所學校差別最大的一點。由於校地不算小，功能也很齊全，我相信學生可以做到足不出校區，雖然聽起來很宅，但也是個應付 Boston 寒冬的好策略。如果想多了解這個校區，除了上網查 HBS 地圖，也可以到 HBS 的圖書館看 [*A Concrete Symbol*](https://www.library.hbs.edu/hc/buildinghbs/) 特展，了解競圖、興建過程，和最初的幾棟建築。
 
-有趣的是，現在的 HBS 校區裡有一棟 [Chao Center](http://www.hbs.edu/about/campus-and-culture/campus-built-on-philanthropy/Pages/chao-center.aspx)，全名為 Ruth Mulan Chu Chao Center，是由福茂集團董事長趙錫成及其家人捐款興建，也是 HBS 校區內目前唯一一棟以華人姓氏與女性命名的大樓。至於隔壁一過橋就能看到的 [Tata Hall](http://www.hbs.edu/about/campus-and-culture/campus-built-on-philanthropy/Pages/tata-hall.aspx)，就是讀者可能聽過的那位 Tata 集團董事長 Ratan N. Tata 了。沒錯，他也是 HBS 校友。其實光看建築也能感受到 HBS 強大的校友網路。
+有趣的是，現在的 HBS 校區裡有一棟 [Chao Center](http://www.hbs.edu/about/campus-and-culture/campus-built-on-philanthropy/Pages/chao-center.aspx)，全名為 Ruth Mulan Chu Chao Center，是由福茂集團董事長趙錫成博士及其家人捐款興建，也是 HBS 校區內目前唯一一棟以華人姓氏與女性命名的大樓。至於隔壁一過橋就能看到的 [Tata Hall](http://www.hbs.edu/about/campus-and-culture/campus-built-on-philanthropy/Pages/tata-hall.aspx)，就是讀者可能聽過的那位 Tata 集團董事長 Ratan N. Tata 了。沒錯，他也是 HBS 校友。其實光看建築也能感受到 HBS 強大的校友網路。
 
 #### 教學和職涯
 
