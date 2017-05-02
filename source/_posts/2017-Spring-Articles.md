@@ -52,7 +52,7 @@ categories: ＃
 
 ## 有的沒的 Side Projects
 
-最後，除了上述內容，我還想寫幾篇關於 Cal Poly、英文口說練習、讀過的書等文章。
+最後，除了上述內容，我還想寫幾篇關於 Cal Poly、英文口說練習、讀過的書等文章。這幾個月其實 McK & Note 的網站也有了一些變化，所以我也想整理第三篇架站筆記。
 
 {% asset_img next_train.jpg %}
 
