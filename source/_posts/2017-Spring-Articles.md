@@ -23,7 +23,7 @@ categories: ＃
 
 ### Data Analytics and Mining
 
-另一門課是學習如何利用 SAS 統計軟體做 Data Mining。由於使用 SAS 並不需要特別擔心 Optimization 或 Manipulation 等問題，比起我之前接觸過的課程和資源，這門課更強調各種分析方法的應用、比較與檢驗，像是如何 oversample 或 cross validate，但對運作原理著墨不多。簡而言之，這真的是一門頗重應用的課，算是大幅降低了資料分析的門檻，進而訓練資料分析的直覺。學這門課的時候，我不時會想到坂本龍馬[有關小太刀、手槍和萬國公法的軼事](https://zh.wikipedia.org/zh-tw/%E5%9D%82%E6%9C%AC%E9%BE%99%E9%A9%AC#.E8.B5.B0.E5.9C.A8.E6.99.82.E4.BB.A3.E5.89.8D.E7.AB.AF)，因為對當時的我來說，掌握新的技術並展望應用，又比學習理論來得重要一點。有興趣的讀者可以花點時間了解一下何謂 Data Mining，倒不用特別找 SAS 相關的資源。
+另一門課是學習如何利用 SAS 統計軟體做 Data Mining。由於使用 SAS 並不需要特別擔心 Optimization 或 Manipulation 等問題，比起我之前接觸過的課程和資源，這門課更強調各種分析方法的應用、比較與檢驗，像是如何 oversample 或 cross validate，但對運作原理著墨不多。簡而言之，這真的是一門頗重應用的課，算是大幅降低了資料分析的門檻，進而訓練資料分析的方法和直覺。學這門課的時候，我不時會想到坂本龍馬[有關小太刀、手槍和萬國公法的軼事](https://zh.wikipedia.org/zh-tw/%E5%9D%82%E6%9C%AC%E9%BE%99%E9%A9%AC#.E8.B5.B0.E5.9C.A8.E6.99.82.E4.BB.A3.E5.89.8D.E7.AB.AF)，因為對當時的我來說，掌握新的技術並展望應用，又比學習理論來得重要一點。有興趣的讀者可以花點時間了解一下何謂 Data Mining，倒不用特別找 SAS 相關的資源。
 
 ## 以及兩個 Projects
 
