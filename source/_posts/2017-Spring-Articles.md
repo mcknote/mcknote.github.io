@@ -21,7 +21,7 @@ categories: ＃
 
 這門課談的是針對時間序列資料（Time Series Data）的分析方法，更具體一點說，就是 [ARIMA 模型](https://zh.wikipedia.org/wiki/ARIMA模型)。好奇如何處理時間序列資料的讀者，其實可以直接去上 Datacamp 上 Professor David Stoffer 開的 [*ARIMA Modeling with R*](https://www.datacamp.com/courses/arima-modeling-with-r) 了。我們上的內容跟這門課有九成像，用的教科書也是 Professor Stoffer 所寫的 [*Time Series Analysis and Its Applications: With R Examples*](https://www.amazon.com/Time-Analysis-Its-Applications-Statistics/dp/3319524518/)。想充份掌握時間資料型態的讀者，還可以再上一門 [*Manipulating Time Series Data in R with xts & zoo*](https://www.datacamp.com/courses/manipulating-time-series-data-in-r-with-xts-zoo)。整體來說這是一門偏簡單和應用的課程，與其說學會什麼強大的新方法，不如說學會如何避免處理時間序列資料的謬誤，這我會在文章裡詳細講。
 
-### Data Mining
+### Data Analytics and Mining
 
 另一門課是學習如何利用 SAS 統計軟體做 Data Mining。由於使用 SAS 並不需要特別擔心 Optimization 或 Manipulation 等問題，比起我之前接觸過的課程和資源，這門課更強調各種分析方法的應用、比較與檢驗，像是如何 oversample 或 cross validate，但對運作原理著墨不多。簡而言之，這真的是一門頗重應用的課，算是大幅降低了資料分析的門檻，進而訓練資料分析的直覺。學這門課的時候，我不時會想到坂本龍馬[有關小太刀、手槍和萬國公法的軼事](https://zh.wikipedia.org/zh-tw/%E5%9D%82%E6%9C%AC%E9%BE%99%E9%A9%AC#.E8.B5.B0.E5.9C.A8.E6.99.82.E4.BB.A3.E5.89.8D.E7.AB.AF)，因為對當時的我來說，掌握新的技術並展望應用，又比學習理論來得重要一點。有興趣的讀者可以花點時間了解一下何謂 Data Mining，倒不用特別找 SAS 相關的資源。
 
