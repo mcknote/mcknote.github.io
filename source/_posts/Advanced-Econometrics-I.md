@@ -56,14 +56,14 @@ categories: ＃
 
 如果上面的運算都沒什麼問題（或是感覺沒什麼問題想先繼續往下讀），就可以來認識 *Advanced Economics* 中主角中的主角——線性迴歸模型（linear regression model，LRM）了：
 
-{% raw %}
+
 $$
 y_{i}=\beta _{0}+\beta _{1} x_{1}+\beta _{2} x_{2}+\ldots+\beta _{k} x_{k}+\varepsilon _{i} \tag{1}
 $$
-{% endraw %}
+
 
 　
-公式中的 {% raw %}$i${% endraw %} 表示第 {% raw %}$i${% endraw %} 個樣本（sample observation）；{% raw %}$y${% endraw %} 為因變量（dependent variable），即模型打算解釋的反應變量（response）；{% raw %}$x${% endraw %} 為自變量（independent variable），即模型中用來解釋 {% raw %}$y${% endraw %} 的控制變量（control）。{% raw %}$y${% endraw %} 和 {% raw %}$x${% endraw %} 的其它名稱可以參考以下 *Introductory Econometrics* 的整理：
+公式中的 `$i$` 表示第 `$i$` 個樣本（sample observation）；`$y$` 為因變量（dependent variable），即模型打算解釋的反應變量（response）；`$x$` 為自變量（independent variable），即模型中用來解釋 `$y$` 的控制變量（control）。`$y$` 和 `$x$` 的其它名稱可以參考以下 *Introductory Econometrics* 的整理：
 
 |Y 的名稱|X 的名稱|
 |:-|:-|
@@ -73,30 +73,30 @@ $$
 |Predicted variable|Predictor variable|
 |Regressand|Regressor|
 
-另外，公式中的 {% raw %}$\beta${% endraw %} 為參數（parameter or estimate），表示不同 {% raw %}$x${% endraw %} 對 {% raw %}$y${% endraw %} 的影響，其中 {% raw %}$\beta_{0}${% endraw %} 為用來調整大小的截距項（intercept）；最後，{% raw %}$\varepsilon${% endraw %} 是 {% raw %}$y${% endraw %} 中無法以 {% raw %}$x${% endraw %} 解釋的殘差項（residual）。如果用一句話簡單說明 {% raw %}$y${% endraw %}、{% raw %}$x${% endraw %}、{% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %}，即**試著用 {% raw %}$\beta${% endraw %} 組合 {% raw %}$x${% endraw %} ，得出最接近 {% raw %}$y${% endraw %}、即 {% raw %}$\varepsilon${% endraw %} 最小的預估值**。在這裡，**線性**（linear）的意義在於組合的方式為**線性組合**（linear combination），即 {% raw %}$\beta${% endraw %} 是線性的，不會出現 {% raw %}$\beta _{1} x_{1}+\beta _{1}^{2} x_{2}${% endraw %} 之類的情況。
+另外，公式中的 `$\beta$` 為參數（parameter or estimate），表示不同 `$x$` 對 `$y$` 的影響，其中 `$\beta_{0}$` 為用來調整大小的截距項（intercept）；最後，`$\varepsilon$` 是 `$y$` 中無法以 `$x$` 解釋的殘差項（residual）。如果用一句話簡單說明 `$y$`、`$x$`、`$\beta$` 和 `$\varepsilon$`，即**試著用 `$\beta$` 組合 `$x$` ，得出最接近 `$y$`、即 `$\varepsilon$` 最小的預估值**。在這裡，**線性**（linear）的意義在於組合的方式為**線性組合**（linear combination），即 `$\beta$` 是線性的，不會出現 `$\beta _{1} x_{1}+\beta _{1}^{2} x_{2}$` 之類的情況。
 
-由此可見，LRM 是試著用 {% raw %}$x${% endraw %} 基於 {% raw %}$\beta${% endraw %} 的線性組合來預測（或說描述）{% raw %}$y${% endraw %}。為了和實際的反應變量 {% raw %}$y${% endraw %} 區別，{% raw %}$(\beta _{0}+\beta _{1} x_{1}+\beta _{2} x_{2}+\ldots+\beta _{k} x_{k})${% endraw %} 這部分又被稱為 {% raw %}$\hat{y}${% endraw %}（讀作 *Y-hat*，可稱作 fitted value），所以上述 {% raw %}$(1)${% endraw %} 式可以表示為：
+由此可見，LRM 是試著用 `$x$` 基於 `$\beta$` 的線性組合來預測（或說描述）`$y$`。為了和實際的反應變量 `$y$` 區別，`$(\beta _{0}+\beta _{1} x_{1}+\beta _{2} x_{2}+\ldots+\beta _{k} x_{k})$` 這部分又被稱為 `$\hat{y}$`（讀作 *Y-hat*，可稱作 fitted value），所以上述 `$(1)$` 式可以表示為：
 
-{% raw %}
+
 $$
 y_{i}=\hat{y}_{i}+\varepsilon _{i} \tag{2}
 $$
-{% endraw %}
+
 
 　
-可以理解為「觀測值＝預估值＋雜訊」。到這裡，我已經用第 {% raw %}$i${% endraw %} 個樣本（一列）解釋完 LRM 的結構，如果用矩陣記錄 {% raw %}$n${% endraw %} 個樣本（多列）的運算，就可以推廣成下式：
+可以理解為「觀測值＝預估值＋雜訊」。到這裡，我已經用第 `$i$` 個樣本（一列）解釋完 LRM 的結構，如果用矩陣記錄 `$n$` 個樣本（多列）的運算，就可以推廣成下式：
 
-{% raw %}
+
 $$
 Y = X\beta+\varepsilon \tag{3}
 $$
-{% endraw %}
 
-* {% raw %}$Y${% endraw %} 是一個 {% raw %}$\left( n\times 1\right)${% endraw %} 的矩陣，因為有 {% raw %}$n${% endraw %} 個樣本
-* {% raw %}$X${% endraw %} 是一個 {% raw %}$\left( n\times k\right)${% endraw %} 的矩陣，因為根據 {% raw %}$(1)${% endraw %} 式，在這 {% raw %}$n${% endraw %} 個樣本中，我們試著用 {% raw %}$k${% endraw %} 組自變量來解釋 {% raw %}$Y${% endraw %}
-* 最後，{% raw %}$\varepsilon${% endraw %} 是一個 {% raw %}$\left( n\times 1\right)${% endraw %} 的矩陣
 
-如果將 {% raw %}$Y${% endraw %}、{% raw %}$X${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 化為日常中常見的 Excel 表格，可以這樣表示：
+* `$Y$` 是一個 `$\left( n\times 1\right)$` 的矩陣，因為有 `$n$` 個樣本
+* `$X$` 是一個 `$\left( n\times k\right)$` 的矩陣，因為根據 `$(1)$` 式，在這 `$n$` 個樣本中我們用了 `$k$` 組自變量
+* 最後，`$\varepsilon$` 是一個 `$\left( n\times 1\right)$` 的矩陣
+
+如果將 `$Y$`、`$X$` 和 `$\varepsilon$` 化為日常中常見的 Excel 表格，可以這樣表示：
 
 |樣本編號|Y（銷量）|X1（價格）|X2（廣告）|...|Xk（人流）|e（殘差）|
 |:-|:-|:-|:-|
@@ -105,148 +105,148 @@ $$
 |...|...|...|...|...|...|...|
 |n|21|15|4|...|200|1.3|
 
-可以看到樣本有 {% raw %}$n${% endraw %} 個，自變量有 {% raw %}$k${% endraw %} 組。另外，請回想一下 {% raw %}$(1)${% endraw %} 式中 {% raw %}$\beta${% endraw %} 的表達形式，由於這個模型中有 {% raw %}$k${% endraw %} 組自變量，相應地應該要有 {% raw %}$k${% endraw %} 個 {% raw %}$\beta${% endraw %} 作為線性組合的比例，所以 {% raw %}$(3)${% endraw %} 式中的 {% raw %}$\beta${% endraw %} 是一個 {% raw %}$\left( k\times 1\right)${% endraw %} 的矩陣。
+可以看到樣本有 `$n$` 個，自變量有 `$k$` 組。另外，請回想一下 `$(1)$` 式中 `$\beta$` 的表達形式，由於這個模型中有 `$k$` 組自變量，相應地應該要有 `$k$` 個 `$\beta$` 作為線性組合的比例，所以 `$(3)$` 式中的 `$\beta$` 是一個 `$\left( k\times 1\right)$` 的矩陣。
 
-利用 {% raw %}$(3)${% endraw %} 式中的矩陣表達，可以很精簡地將上面表格中的數值，以 {% raw %}$Y${% endraw %}、{% raw %}$X${% endraw %}、{% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 來表示，它們之間的關係仍和單一樣本中的 {% raw %}$y${% endraw %}、{% raw %}$x${% endraw %}、{% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 一致：**試著用 {% raw %}$\beta${% endraw %} 組合 {% raw %}$X${% endraw %} ，得出最接近 {% raw %}$Y${% endraw %}、即 {% raw %}$\varepsilon${% endraw %} 最小的預估值**。
+利用 `$(3)$` 式中的矩陣表達，可以很精簡地將上面表格中的數值，以 `$Y$`、`$X$`、`$\beta$` 和 `$\varepsilon$` 來表示，它們之間的關係仍和單一樣本中的 `$y$`、`$x$`、`$\beta$` 和 `$\varepsilon$` 一致：**試著用 `$\beta$` 組合 `$X$` ，得出最接近 `$Y$`、即 `$\varepsilon$` 最小的預估值**。
 
 {% asset_img takayama.jpg %}
 
 ## 最小平方法
 
-介紹完 LRM 基本架構後的第一個問題，就是「如何算出 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} ？」關鍵在於前面提到的一句話：**得出最接近 {% raw %}$Y${% endraw %}、即 {% raw %}$\varepsilon${% endraw %} 最小的預估值**。從上面的公式可以得知 {% raw %}$\varepsilon${% endraw %} 的計算方法為：
+介紹完 LRM 基本架構後的第一個問題，就是「如何算出 `$\beta$` 和 `$\varepsilon$` ？」關鍵在於前面提到的一句話：**得出最接近 `$Y$`、即 `$\varepsilon$` 最小的預估值**。從上面的公式可以得知 `$\varepsilon$` 的計算方法為：
 
-{% raw %}
+
 $$
 \varepsilon = Y-\hat{Y} = Y - X\beta \tag{4}
 $$
-{% endraw %} 
+ 
 
 　
-考慮到 {% raw %}$\varepsilon${% endraw %} 是一個 {% raw %}$\left( n\times 1\right)${% endraw %} 的矩陣，最小值的目標自然是 {% raw %}$\sum _{i=1}^{n}\varepsilon _{i}${% endraw %}；不過，為了避免 {% raw %}$\varepsilon _{i}${% endraw %} 正負抵銷，我們實際要計算的是 {% raw %}$\sum _{i=1}^{n}\varepsilon _{i}^{2}${% endraw %}。用矩陣來表示，就是 {% raw %}$\varepsilon '\varepsilon ${% endraw %}，解釋如下：
+考慮到 `$\varepsilon$` 是一個 `$\left( n\times 1\right)$` 的矩陣，最小值的目標自然是 `$\sum _{i=1}^{n}\varepsilon _{i}$`；不過，為了避免 `$\varepsilon _{i}$` 正負抵銷，我們實際要計算的是 `$\sum _{i=1}^{n}\varepsilon _{i}^{2}$`。用矩陣來表示，就是 `$\varepsilon '\varepsilon $`，解釋如下：
 
-{% raw %}
+
 $$
 \varepsilon' =\left[ \varepsilon _{1},\varepsilon _{2}\ldots ,\varepsilon _{n}\right],\quad
 \varepsilon =\left[ \begin{matrix} \varepsilon _{1}\\ \varepsilon _{2}\\ \vdots \\ \varepsilon _{n}\end{matrix} \right],\quad
 \varepsilon'\varepsilon = (\varepsilon _{1}^{2}+\varepsilon _{2}^{2}+\ldots +\varepsilon _{n}^{2}) = \sum _{i=1}^{n}\varepsilon _{i}^{2}
 $$
-{% endraw %}
+
 
 　
-所以找到**使 {% raw %}$\sum _{i=1}^{n}\varepsilon _{i}^{2}${% endraw %} 達到最小值的 {% raw %}$\beta${% endraw %} 的方法**就是[最小平方法](https://en.wikipedia.org/wiki/Ordinary_least_squares)（ordinary least squares，OLS）。
+所以找到**使 `$\sum _{i=1}^{n}\varepsilon _{i}^{2}$` 達到最小值的 `$\beta$` 的方法**就是[最小平方法](https://en.wikipedia.org/wiki/Ordinary_least_squares)（ordinary least squares，OLS）。
 
 ### 母體和樣本
 
-在談如何計算 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 前，我想先來小小澄清一下（？）母體和樣本的關係。雖然說我們想預測的是 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %}，但隨著資料的不同，所得到的 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 也會不同。比方說，在前面的表格中：
+在談如何計算 `$\beta$` 和 `$\varepsilon$` 前，我想先來小小澄清一下（？）母體和樣本的關係。雖然說我們想預測的是 `$\beta$` 和 `$\varepsilon$`，但隨著資料的不同，所得到的 `$\beta$` 和 `$\varepsilon$` 也會不同。比方說，在前面的表格中：
 
-* 用從第一個到第 {% raw %}$n${% endraw %} 個樣本所得到的 {% raw %}$\beta_{n}${% endraw %} 和 {% raw %}$\varepsilon_{n}${% endraw %}
-* 用從第一個到第 {% raw %}$(n/2)${% endraw %} 個樣本所得到的 {% raw %}$\beta_{n/2}${% endraw %} 和 {% raw %}$\varepsilon_{n/2}${% endraw %}
+* 用從第一個到第 `$n$` 個樣本所得到的 `$\beta_{n}$` 和 `$\varepsilon_{n}$`
+* 用從第一個到第 `$(n/2)$` 個樣本所得到的 `$\beta_{n/2}$` 和 `$\varepsilon_{n/2}$`
 
-兩組數據可能會不一樣，而就算我們選擇採用 {% raw %}$\beta_{n}${% endraw %} 和 {% raw %}$\varepsilon_{n}${% endraw %}，在我們沒觀測到的地方可能還有：
+兩組數據可能會不一樣，而就算我們選擇採用 `$\beta_{n}$` 和 `$\varepsilon_{n}$`，在我們沒觀測到的地方可能還有：
 
-* 由從第一個到第 {% raw %}$2n${% endraw %} 個樣本所得到的 {% raw %}$\beta_{2n}${% endraw %} 和 {% raw %}$\varepsilon_{2n}${% endraw %}
+* 由從第一個到第 `$2n$` 個樣本所得到的 `$\beta_{2n}$` 和 `$\varepsilon_{2n}$`
 
-這是因為我們觀察到的數值，幾乎永遠都是**樣本**（sample）而非象徵全貌的**母體**（population），所以統計值（{% raw %}$\beta_{n}${% endraw %}、{% raw %}$\varepsilon_{n}${% endraw %}、平均、方差等等）會不斷隨著資料改變而浮動。為了將這些**浮動的數值**和母體中**固定的數值**區分開來，我們會說母體中不變的參數和殘差是 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %}，而我們試著用樣本估計的參數和殘差是 {% raw %}$b${% endraw %} 和 {% raw %}$e${% endraw %}。** {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 是不變的，而 {% raw %}$b${% endraw %} 和 {% raw %}$e${% endraw %} 會隨著樣本的變化而改變**。類似的作法也涵蓋了平均和方差：
+這是因為我們觀察到的數值，幾乎永遠都是**樣本**（sample）而非象徵全貌的**母體**（population），所以統計值（`$\beta_{n}$`、`$\varepsilon_{n}$`、平均、方差等等）會不斷隨著資料改變而浮動。為了將這些**浮動的數值**和母體中**固定的數值**區分開來，我們會說母體中不變的參數和殘差是 `$\beta$` 和 `$\varepsilon$`，而我們試著用樣本估計的參數和殘差是 `$b$` 和 `$e$`。** `$\beta$` 和 `$\varepsilon$` 是不變的，而 `$b$` 和 `$e$` 會隨著樣本的變化而改變**。類似的作法也涵蓋了平均和方差：
 
 |統計值|母體（不變）|樣本（浮動）|
 |:--|:---|:---|
-|平均|{% raw %}$\mu${% endraw %}|{% raw %}$\overline {x}${% endraw %}|
-|方差|{% raw %}$\sigma^{2}${% endraw %}|{% raw %}$s^{2}${% endraw %}|
-|參數|{% raw %}$\beta${% endraw %}|{% raw %}$b${% endraw %}|
-|殘差|{% raw %}$\varepsilon${% endraw %}|{% raw %}$e${% endraw %}|
+|平均|`$\mu$`|`$\overline {x}$`|
+|方差|`$\sigma^{2}$`|`$s^{2}$`|
+|參數|`$\beta$`|`$b$`|
+|殘差|`$\varepsilon$`|`$e$`|
 
-所以前面提到的 {% raw %}$(3)${% endraw %} 式可以再進一步如下表示：
+所以前面提到的 `$(3)$` 式可以再進一步如下表示：
 
-{% raw %}
+
 $$
 Y = X\beta+\varepsilon = Xb + e \tag{5}
 $$
-{% endraw %}
+
 
 　
-這邊 {% raw %}$b${% endraw %} 和 {% raw %}$e${% endraw %} 的矩陣維度，和 {% raw %}$\beta${% endraw %} 和 {% raw %}$\varepsilon${% endraw %} 是相同的。需要注意的是，雖然 {% raw %}$\varepsilon${% endraw %} 和 {% raw %}$e${% endraw %} 都是殘差（實際上兩者的稱呼會有所區別），但兩者的性質有著微妙的差異：
+這邊 `$b$` 和 `$e$` 的矩陣維度，和 `$\beta$` 和 `$\varepsilon$` 是相同的。需要注意的是，雖然 `$\varepsilon$` 和 `$e$` 都是殘差（實際上兩者的稱呼會有所區別），但兩者的性質有著微妙的差異：
 
-* {% raw %}$\varepsilon${% endraw %} 是母體中的實際誤差
-* {% raw %}$e${% endraw %} 除了實際誤差外，還包含了受限於樣本數的解釋誤差
+* `$\varepsilon$` 是母體中的實際誤差
+* `$e$` 除了實際誤差外，還包含了受限於樣本數的解釋誤差
 
-比方說，小明是個消費完全理性的人，他平常有記帳的習慣，但有時候記得太快，會按錯個位數，這個誤差就是 {% raw %}$\varepsilon${% endraw %}；小華根據小明的行為，分析他一半的帳目，發現其中有些無法解釋的零頭，這個誤差就是 {% raw %}$e${% endraw %}。由於樣本只佔母體的一半，{% raw %}$e${% endraw %} 除了包含小明確實按錯的誤差以外，也包含了樣本資訊不及母體資訊的誤差。這時，根據 {% raw %}$e${% endraw %} 所計算出的 {% raw %}$b${% endraw %} 就會和 {% raw %}$\beta${% endraw %} 不太一樣，就算拿這個模型去預測小明另一半的帳目，也不會完全準確。
+比方說，小明是個消費完全理性的人，他平常有記帳的習慣，但有時候記得太快，會按錯個位數，這個誤差就是 `$\varepsilon$`；小華根據小明的行為，分析他一半的帳目，發現其中有些無法解釋的零頭，這個誤差就是 `$e$`。由於樣本只佔母體的一半，`$e$` 除了包含小明確實按錯的誤差以外，也包含了樣本資訊不及母體資訊的誤差。這時，根據 `$e$` 所計算出的 `$b$` 就會和 `$\beta$` 不太一樣，就算拿這個模型去預測小明另一半的帳目，也不會完全準確。
 
-因此從 {% raw %}$(5)${% endraw %} 式還有上面這個例子可以看出，真正準確的 {% raw %}$b${% endraw %}，來自一個**非常接近 {% raw %}$\varepsilon${% endraw %} 的 {% raw %}$e${% endraw %}**。除了增加樣本數以外，避免分析過程中可能出現的誤差（bias）也是一個方法，這在後面的假設會提到。
+因此從 `$(5)$` 式還有上面這個例子可以看出，真正準確的 `$b$`，來自一個**非常接近 `$\varepsilon$` 的 `$e$`**。除了增加樣本數以外，避免分析過程中可能出現的誤差（bias）也是一個方法，這在後面的假設會提到。
 
 ### 計算結果和延伸
 
-言歸正傳，為了根據樣本求出達成最小 {% raw %}$\sum _{i=1}^{n}e _{i}^{2}${% endraw %} 的 {% raw %}$b${% endraw %}，可以採取的方法有兩個：
+言歸正傳，為了根據樣本求出達成最小 `$\sum _{i=1}^{n}e _{i}^{2}$` 的 `$b$`，可以採取的方法有兩個：
 
 1. [Method of Moments](http://stats.stackexchange.com/questions/25331/deriving-ols-estimates-using-method-of-moments)：根據 MOM 推導等式
 2. [Derivative](https://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf)：利用微分後的一階條件得出 b 的最大值
 
 因為計算過程有點複雜，如果都寫在這邊，可能就得轉型成 Math & Note 了，所以上面兩個連結是簡略的證明過程，前面提到的兩本教科書裡也有完整說明。簡而言之，最後可以得出下式：
 
-{% raw %}
+
 $$
 b=\left( X'X\right) ^{-1}X'Y \tag{6}
 $$
-{% endraw %}
+
 
 　
-記得 {% raw %}$b${% endraw %} 是一個 {% raw %}$\left( k\times 1\right)${% endraw %} 的矩陣。另外 {% raw %}$(4)${% endraw %} 式中的 {% raw %}$\hat{Y}${% endraw %} 也可以寫成：
+記得 `$b$` 是一個 `$\left( k\times 1\right)$` 的矩陣。另外 `$(4)$` 式中的 `$\hat{Y}$` 也可以寫成：
 
-{% raw %}
+
 $$
 \hat{Y} = Xb =  X\left( X'X\right) ^{-1}X'Y \tag{7}
 $$
-{% endraw %}
+
 
 　
-雖然這個公式看起來很複雜，但實際推導過一次以後會比較習慣；而有了標準的表達方式以後，也就能推導出 {% raw %}$b${% endraw %} 的各項性質，也就是在解讀參數時應該注意的細節。例如：
+雖然這個公式看起來很複雜，但實際推導過一次以後會比較習慣；而有了標準的表達方式以後，也就能推導出 `$b$` 的各項性質，也就是在解讀參數時應該注意的細節。例如：
 
-1. **和母體的關係**：{% raw %}
-$
-b=\left( X'X\right) ^{-1}X'Y=\left( X'X\right) ^{-1}X'(X\beta+\varepsilon)=\beta+\left( X'X\right) ^{-1}X'\varepsilon 
-$
-{% endraw %}
+1. **和母體的關係**：
+$$
+b=\left( X'X\right) ^{-1}X'Y=\left( X'X\right) ^{-1}X'(X\beta+\varepsilon)=\beta+\left( X'X\right) ^{-1}X'\varepsilon
+$$
 
-   由此可看出 {% raw %}$b${% endraw %} 中包含 {% raw %}$\varepsilon${% endraw %}，以及樣本 {% raw %}$X${% endraw %} 如何左右 {% raw %}$\varepsilon${% endraw %} 的影響程度。
 
-2. **方差分析**：{% raw %}
-$
+   由此可看出 `$b$` 中包含 `$\varepsilon$`，以及樣本 `$X$` 如何左右 `$\varepsilon$` 的影響程度。
+
+2. **方差分析**：
+$$
 SST = \sum _{i=1}^{n}(y _{i} - \overline {y})^{2} = SSR_{egression} + SSE_{rror} = \sum _{i=1}^{n}(\hat{y} _{i} - \overline {y})^{2} + \sum _{i=1}^{n}e _{i}^{2}
-$
-{% endraw %}
+$$
 
-   當 LRM 的擬合度越好， {% raw %}$ SSE = \sum _{i=1}^{n}e_{i}^{2} ${% endraw %} 越小，解釋程度 {% raw %}$ R^{2} = \dfrac {SSR} {SST} ${% endraw %} 越高。
 
-3. **期望值**：{% raw %}
-$
+   當 LRM 的擬合度越好， `$ SSE = \sum _{i=1}^{n}e_{i}^{2} $` 越小，解釋程度 `$ R^{2} = \dfrac {SSR} {SST} $` 越高。
+
+3. **期望值**：
+$$
 E\left( b|X\right)  
 = \beta+\left( X'X\right) ^{-1}X'E\left(\varepsilon|X\right)
 = \beta 
-$
-{% endraw %}
+$$
 
-   隨著樣本數增加，{% raw %}$b${% endraw %} 將逼近 {% raw %}$\beta${% endraw %} 的漸進（asymptotic）和一致（consistency）性質。
 
-4. **方差（和協方差矩陣）**：{% raw %}
-$
+   隨著樣本數增加，`$b$` 將逼近 `$\beta$` 的漸進（asymptotic）和一致（consistency）性質。
+
+4. **方差（和協方差矩陣）**：
+$$
 \widehat{Var\left( b|X\right)}
 = s^{2}\left( X'X\right) ^{-1}, \quad 
-s^{2} = \dfrac {e'e} {n-k} 
-$
-{% endraw %}
+s^{2} = \dfrac {e'e} {n-k}
+$$
 
-   利用總體方差計算 {% raw %}$b${% endraw %} 的標準差，確認預估的精準度和有效性（efficiency）。
 
-5. **分布函數**：{% raw %}
-$
+   利用總體方差計算 `$b$` 的標準差，確認預估的精準度和有效性（efficiency）。
+
+5. **分布函數**：
+$$
 b|X\sim N\left( \beta ,s^{2}\left( X'X\right) ^{-1}\right), \quad
 b_{k}|X\sim N\left( \beta ,s^{2}\left( X'X\right) ^{-1}\right) _{\left( k\times k\right) }
-$
-{% endraw %}
-
-   對 {% raw %}$b_{k}${% endraw %} 進行假設檢驗（hypothesis test）、構建信賴區間（confidence interval）等。
+$$
 
 
-對於讀到這邊感到一頭霧水的讀者，我想說（一）不用擔心，到目前為止提到的內容，都是 `R` 等統計軟體中內建好的功能，所以就算不懂怎麼用矩陣算 {% raw %}$b${% endraw %} 也沒關係，分析結果中已經包含所有計算；但（二）這些內容有點類似**判斷模型好壞**的基礎，後面會提到這些計算、證明所衍生的性質，它們會直接影響分析過程中選擇什麼工具、如何處理資料和解讀結果。
+   對 `$b_{k}$` 進行假設檢驗（hypothesis test）、構建信賴區間（confidence interval）等。
+
+
+對於讀到這邊感到一頭霧水的讀者，我想說（一）不用擔心，到目前為止提到的內容，都是 `R` 等統計軟體中內建好的功能，所以就算不懂怎麼用矩陣算 `$b$` 也沒關係，分析結果中已經包含所有計算；但（二）這些內容有點類似**判斷模型好壞**的基礎，後面會提到這些計算、證明所衍生的性質，它們會直接影響分析過程中選擇什麼工具、如何處理資料和解讀結果。
 
 以 `R` 來比喻的話，（一）的情況如下：
 
@@ -291,11 +291,11 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 學好上面這些基礎的重要理由之一，在於弄清楚 LRM 內部是怎麼一回事，還有這些分析是建立在哪些假設上。說到這裡，我不得不說 Dr. ~~Peanutbutter~~ Jonathan 把課程規劃得滿好。他先介紹了 LRM 的五個很重要的假設，它們分別是：
 
-1. **Linearity**：{% raw %}$b${% endraw %} 的關係一定要是線性（{% raw %}$X${% endraw %} 則不在此限）
-2. **Full Rank**：{% raw %}$X${% endraw %} 矩陣必須為[滿秩](https://ccjou.wordpress.com/2012/11/12/%E7%B7%9A%E6%80%A7%E8%AE%8A%E6%8F%9B%E8%88%87%E7%9F%A9%E9%99%A3%E7%9A%84%E7%94%A8%E8%AA%9E%E6%AF%94%E8%BC%83/)，可以理解為不能有兩組以上完全相關的 {% raw %}$X${% endraw %}
-3. **Mean Independence**：{% raw %}$E(\varepsilon|X) = 0${% endraw %}，瞭解 {% raw %}$X${% endraw %} 無助於瞭解 {% raw %}$\varepsilon${% endraw %}
-4. **Homoskedasticity & Non-autocorrelation**：{% raw %}$ Var(\varepsilon|X) = \sigma^{2}${% endraw %} 和 {% raw %}$ Cov(\varepsilon_{i}, \varepsilon_{j}|X) = 0, \forall i \neq j${% endraw %}，即 {% raw %}$ \varepsilon ${% endraw %} 的分布獨立於 {% raw %}$ X ${% endraw %}，且 {% raw %}$ \varepsilon ${% endraw %} 之間不相關
-5. **Normality**：{% raw %}$\varepsilon \sim N\left(0, \sigma^{2}\right)${% endraw %}，{% raw %}$\varepsilon${% endraw %} 的分布符合正態分布 {% raw %}$N${% endraw %}
+1. **Linearity**：`$b$` 的關係一定要是線性（`$X$` 則不在此限）
+2. **Full Rank**：`$X$` 矩陣必須為[滿秩](https://ccjou.wordpress.com/2012/11/12/%E7%B7%9A%E6%80%A7%E8%AE%8A%E6%8F%9B%E8%88%87%E7%9F%A9%E9%99%A3%E7%9A%84%E7%94%A8%E8%AA%9E%E6%AF%94%E8%BC%83/)，可以理解為不能有兩組以上完全相關的 `$X$`
+3. **Mean Independence**：`$E(\varepsilon|X) = 0$`，瞭解 `$X$` 無助於瞭解 `$\varepsilon$`
+4. **Homoskedasticity & Non-autocorrelation**：`$ Var(\varepsilon|X) = \sigma^{2}$` 和 `$ Cov(\varepsilon_{i}, \varepsilon_{j}|X) = 0, \forall i \neq j$`，即 `$ \varepsilon $` 的分布獨立於 `$ X $`，且 `$ \varepsilon $` 之間不相關
+5. **Normality**：`$\varepsilon \sim N\left(0, \sigma^{2}\right)$`，`$\varepsilon$` 的分布符合正態分布 `$N$`
 
 > 註：這邊提到的五個假設，和 [Wikipedia - Linear regression](https://en.wikipedia.org/wiki/Linear_regression#Assumptions) 與 *Introductory Econometrics* 上所提到的有些微差異，但在原理上應該是相通的，端看講者側重說明 LRM 的哪些面向。
 
@@ -303,11 +303,11 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 |假設|期中考前的延伸|期末考前的延伸|
 |:--|:--|:--|
-|Linearity|利用多項式（polynomial）改善 {% raw %}$R^{2}${% endraw %}|增設交互項（interaction term）以解讀 {% raw %}$X${% endraw %} 之間的交互關係|
-|Full Rank|留意虛擬變量（dummy variable）的設定|當 {% raw %}$k > n${% endraw %}時，可採取 Ridge 或 Lasso 等 Penalized Regression|
-|Mean Independence|檢討 {% raw %}$b${% endraw %} 在不同樣本情況下可能出現的偏差（bias），並判斷偏差方向|利用工具變量（instrumental variable，IV）消弭 {% raw %}$b${% endraw %} 偏差|
-|Homoske & Non-Auto|瞭解 OLS 估計的 [*MVLUE*](https://www.allacronyms.com/MVLUE) 性質，以及影響 {% raw %}$Var(b_{k})${% endraw %} 的三個因素|利用多種方法（註）修正 {% raw %}$\widehat{SE\left( b_{k}\right)}${% endraw %} 偏差，和用 Bootstrapping 取樣|
-|Normality|對 {% raw %}$b_{k}${% endraw %} 或 {% raw %}$\hat{y}_{0}${% endraw %} 進行假設檢驗、計算信賴區間、{% raw %}$t${% endraw %} 值、{% raw %}$F${% endraw %} 值和 {% raw %}$p${% endraw %} 值|基於 MLE 構建 {% raw %}$L\left(\theta\right)${% endraw %}，並用 [Newton-Raphson](https://en.wikipedia.org/wiki/Newton's_method) 等方法估計 {% raw %}$b${% endraw %}|
+|Linearity|利用多項式（polynomial）改善 `$R^{2}$`|增設交互項（interaction term）以解讀 `$X$` 之間的交互關係|
+|Full Rank|留意虛擬變量（dummy variable）的設定|當 `$k > n$`時，可採取 Ridge 或 Lasso 等 Penalized Regression|
+|Mean Independence|檢討 `$b$` 在不同樣本情況下可能出現的偏差（bias），並判斷偏差方向|利用工具變量（instrumental variable，IV）消弭 `$b$` 偏差|
+|Homoske & Non-Auto|瞭解 OLS 估計的 [*MVLUE*](https://www.allacronyms.com/MVLUE) 性質，以及影響 `$Var(b_{k})$` 的三個因素|利用多種方法（註）修正 `$\widehat{SE\left( b_{k}\right)}$` 偏差，和用 Bootstrapping 取樣|
+|Normality|對 `$b_{k}$` 或 `$\hat{y}_{0}$` 進行假設檢驗、計算信賴區間、`$t$` 值、`$F$` 值和 `$p$` 值|基於 MLE 構建 `$L\left(\theta\right)$`，並用 [Newton-Raphson](https://en.wikipedia.org/wiki/Newton's_method) 等方法估計 `$b$`|
 
 > 註：針對 Heteroskedasticity 的解決方案，包括 Weighted Least Squares（WLS）、Huber-White Standard Errors、Breusch-Pagan Test、 ~~DoubleJ Test~~ 和 Clustered Standard Error 等。
 
@@ -317,7 +317,7 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 讀者如果沒學過這些性質，可能會覺得一頭霧水，所以我想沿用前面的例子，說明瞭解這些性質有多重要，如果讀者有一些數據分析經驗，應該能比較好理解。
 
-首先，前面我用來說明 {% raw %}$(3)${% endraw %} 式表達法 {% raw %}$Y = X\beta+\varepsilon${% endraw %} 的例子如下：
+首先，前面我用來說明 `$(3)$` 式表達法 `$Y = X\beta+\varepsilon$` 的例子如下：
 
 |樣本編號|Y（銷量）|X1（價格）|X2（廣告）|...|Xk（人流）|e（殘差）|
 |:-|:-|:-|:-|
@@ -328,7 +328,7 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 ### Mean Independence
 
-乍看之下這份資料很正常，但如果我們試著質疑它，就會引出一些潛在的問題。例如，如果我將第 {% raw %}$k${% endraw %} 項資料（人流）刪除：
+乍看之下這份資料很正常，但如果我們試著質疑它，就會引出一些潛在的問題。例如，如果我將第 `$k$` 項資料（人流）刪除：
 
 |樣本編號|Y（銷量）|X1（價格）|X2（廣告）|...|Xk-1（車流）|e（殘差）|
 |:-|:-|:-|:-|
@@ -336,10 +336,10 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 |2|23|14|3|...|50|2.5|
 |...|...|...|...|...|...|...|
 |n|21|15|4|...|45|0.3|
-**表格一**：少了第 {% raw %}$k${% endraw %} 項資料（人流）
+**表格一**：少了第 `$k$` 項資料（人流）
 
 請問：
-* 跟原始資料相比，除了少了最後一項以外，{% raw %}$b${% endraw %}（即分析結果中的 `Estimate`）會出現怎樣的變化？
+* 跟原始資料相比，除了少了最後一項以外，`$b$`（即分析結果中的 `Estimate`）會出現怎樣的變化？
 * 如果「人流」確實和「銷量」有關，這樣的變化是偏差還是修正？
 
 如果將和「銷量」幾乎毫不相關的「極光強度」加入模型中：
@@ -350,10 +350,10 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 |2|23|14|3|...|70%|1.7|
 |...|...|...|...|...|...|...|
 |n|21|15|4|...|15%|3.2|
-**表格二**：將第 {% raw %}$k${% endraw %} 項資料換成「極光強度」
+**表格二**：將第 `$k$` 項資料換成「極光強度」
 
 請問：
-* 跟表格一相比，除了多最後一項以外，{% raw %}$b${% endraw %} 會出現怎樣的變化？
+* 跟表格一相比，除了多最後一項以外，`$b$` 會出現怎樣的變化？
 
 如果我們知道「體驗」，即顧客對消費過程中的感受，會對銷量會造成影響，但實際上「體驗」卻難以量化：
 
@@ -364,19 +364,19 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 |...|...|...|...|...|...|...|
 |n|21|15|4|...|?|0.3|
 
-**表格三**：將第 {% raw %}$k${% endraw %} 項資料換成「體驗」
+**表格三**：將第 `$k$` 項資料換成「體驗」
 > 註：因「體驗」無法量化，此處殘差沿用自表格一。
 
 請問：
-* 少了「體驗」這項參數的 {% raw %}$b${% endraw %}，可能存在的偏差為何？
+* 少了「體驗」這項參數的 `$b$`，可能存在的偏差為何？
 
-以上三個狀況，都是在 Mean Independence 這項假設背後可能存在的問題，而且延續母體和樣本的思考，就連**最初的表格**也值得我們思考「{% raw %}$b${% endraw %} 是否存在偏差」以及「這樣的資料選取是否正確」。由於算出正確的 `Estimate` 幾乎是 LRM 基本中的基本，從性質和假設出發，培養對偏差的判斷能力非常重要。
+以上三個狀況，都是在 Mean Independence 這項假設背後可能存在的問題，而且延續母體和樣本的思考，就連**最初的表格**也值得我們思考「`$b$` 是否存在偏差」以及「這樣的資料選取是否正確」。由於算出正確的 `Estimate` 幾乎是 LRM 基本中的基本，從性質和假設出發，培養對偏差的判斷能力非常重要。
 
 ### Homoskedasticity & Non-autocorrelation
 
-除了 Mean Independence 以外，假設四是否成立會影響分析結果中的 `Std. Error`，即 `Estimate` 的分布。由於 Homoskedasticity（*homo* 單一，*skedasticity* 方差性）假設殘差 {% raw %}$\varepsilon${% endraw %} 的方差（variance）不隨 {% raw %}$X${% endraw %} 變化，且 Non-autocorrelation 假設各 {% raw %}$X${% endraw %} 間的 {% raw %}$\varepsilon${% endraw %} 不相關，因此，理論上的方差矩陣 {% raw %}$Var\left( b|X\right)${% endraw %} 長得像這樣：
+除了 Mean Independence 以外，假設四是否成立會影響分析結果中的 `Std. Error`，即 `Estimate` 的分布。由於 Homoskedasticity（*homo* 單一，*skedasticity* 方差性）假設殘差 `$\varepsilon$` 的方差（variance）不隨 `$X$` 變化，且 Non-autocorrelation 假設各 `$X$` 間的 `$\varepsilon$` 不相關，因此，理論上的方差矩陣 `$Var\left( b|X\right)$` 長得像這樣：
 
-{% raw %}
+
 $$
 Var\left( b|X\right) = \sigma^{2}\left( X'X\right) ^{-1} =
 \left[ 
@@ -386,12 +386,12 @@ Var\left( b|X\right) = \sigma^{2}\left( X'X\right) ^{-1} =
 \begin{matrix} 0 \\ 0 \\ \vdots \\ Var(\beta_{k}) \end{matrix} 
 \right]
 $$
-{% endraw %}
+
 
 　
-將矩陣對角線上所有 {% raw %}$Var(\beta_{k})${% endraw %} 開根號，就會得到分析結果中的 `Std. Error`。然而，實際上我們預估的 {% raw %}$ \widehat{Var\left( b|X\right)} ${% endraw %} 卻可能面臨（一）方差隨 {% raw %}$X${% endraw %} 變化，且（二）{% raw %}$\varepsilon${% endraw %} 彼此相關的狀況：
+將矩陣對角線上所有 `$Var(\beta_{k})$` 開根號，就會得到分析結果中的 `Std. Error`。然而，實際上我們預估的 `$ \widehat{Var\left( b|X\right)} $` 卻可能面臨（一）方差隨 `$X$` 變化，且（二）`$\varepsilon$` 彼此相關的狀況：
 
-{% raw %}
+
 $$
 \widehat{Var\left( b|X\right)} = \Sigma =
 \left[ 
@@ -401,11 +401,11 @@ $$
 \begin{matrix} Cov(\varepsilon_{k}, \varepsilon_{1}) \\ Cov(\varepsilon_{k}, \varepsilon_{2}) \\ \vdots \\ Var(b_{k}) \end{matrix} 
 \right]
 $$
-{% endraw %}
 
-其中 {% raw %}$ \Sigma ${% endraw %} 無法以 {% raw %}$ s^{2}\left( X'X\right) ^{-1} ${% endraw %} 形式表達。
 
-什麼情況下，分析會違反這兩個假設呢？首先是資料本身的性質。比方說在上面的原始資料裡，「銷量」和「價格」之間的關係就有可能違反 Homoskedasticity：便宜商品的銷量分布（很多到很少），和昂貴商品的銷量分布（少到很少）不同，因此分析結果中的 `Std. Error` 就可能出現偏差，後續的分析，如 `t value`、`Pr(>|t|)`、`F-statistic` 等等也就不可靠。（不過倒是不會影響回 `Estimate`，因為 {% raw %}$ b ${% endraw %} 偏差與否和 Mean Independence 有關。）
+其中 `$ \Sigma $` 無法以 `$ s^{2}\left( X'X\right) ^{-1} $` 形式表達。
+
+什麼情況下，分析會違反這兩個假設呢？首先是資料本身的性質。比方說在上面的原始資料裡，「銷量」和「價格」之間的關係就有可能違反 Homoskedasticity：便宜商品的銷量分布（很多到很少），和昂貴商品的銷量分布（少到很少）不同，因此分析結果中的 `Std. Error` 就可能出現偏差，後續的分析，如 `t value`、`Pr(>|t|)`、`F-statistic` 等等也就不可靠。（不過倒是不會影響回 `Estimate`，因為 `$ b $` 偏差與否和 Mean Independence 有關。）
 
 另一種情況，則和資料的分群（cluster）有關。例如，如果原始資料和「地區」有關：
 
@@ -422,16 +422,16 @@ $$
 
 ### Normality
 
-最後的 Normality 雖然看起來很簡單：就算是在漸進（asymptotic，即樣本數足夠多）的情況下，只要接受這項假設，就能利用不同的分布計算信心區間等；但另一方面，一旦接受了這個假設，我們也能用之前提過的[最大似然估計法](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1)（MLE）估計 {% raw %}$ b ${% endraw %}。簡略的步驟如下：
+最後的 Normality 雖然看起來很簡單：就算是在漸進（asymptotic，即樣本數足夠多）的情況下，只要接受這項假設，就能利用不同的分布計算信心區間等；但另一方面，一旦接受了這個假設，我們也能用之前提過的[最大似然估計法](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1)（MLE）估計 `$ b $`。簡略的步驟如下：
 
-1. 利用假設的分布密度函數（pdf）得出特定參數 {% raw %}$ \theta ${% endraw %}（包含 {% raw %}$ b ${% endraw %} 和 {% raw %}$ s^{2} ${% endraw %}）的機率函數： {% raw %}$p\left( y|X=x; \theta \right)${% endraw %}
-2. 連乘機率函數，得 likelihood function：{% raw %}$ L(\theta) = \prod _{i=1}^{n}p\left( y_{i}|x_{i};\theta \right)${% endraw %}
-3. 對似然函數取自然對數（註），得 log-likelihood function：{% raw %}$ logL(\theta) = \sum _{i=1}^{n} logp\left( y_{i}|x_{i};\theta \right)${% endraw %}
-4. 在 {% raw %}$ logL(\hat {\theta }) ${% endraw %} 最大的情況下，{% raw %}$ \hat {\theta } ${% endraw %} 即估計結果。
+1. 利用假設的分布密度函數（pdf）得出特定參數 `$ \theta $`（包含 `$ b $` 和 `$ s^{2} $`）的機率函數： `$p\left( y|X=x; \theta \right)$`
+2. 連乘機率函數，得 likelihood function：`$ L(\theta) = \prod _{i=1}^{n}p\left( y_{i}|x_{i};\theta \right)$`
+3. 對似然函數取自然對數（註），得 log-likelihood function：`$ logL(\theta) = \sum _{i=1}^{n} logp\left( y_{i}|x_{i};\theta \right)$`
+4. 在 `$ logL(\hat {\theta }) $` 最大的情況下，`$ \hat {\theta } $` 即估計結果。
 
-> 註：這個步驟的理由通常是連加 {% raw %}$\sum${% endraw %} 比連乘 {% raw %}$\prod${% endraw %} 更便於計算，詳細的說明可以參考這份 CMU 的 [*The Method of Maximum Likelihood for Simple Linear Regression (PDF)*](https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/06/lecture-06.pdf)。
+> 註：這個步驟的理由通常是連加 `$\sum$` 比連乘 `$\prod$` 更便於計算，詳細的說明可以參考這份 CMU 的 [*The Method of Maximum Likelihood for Simple Linear Regression (PDF)*](https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/06/lecture-06.pdf)。
 
-最後的 {% raw %}$ \hat {\theta } ${% endraw %} 會包含 {% raw %}$ b ${% endraw %} 和 {% raw %}$ s^{2} ${% endraw %}，理論上和 OLS 所得出的結果會一樣。雖然在單一模型的情況下，用以上四個步驟代替 `lm()` 有點多此一舉，但在聯立模型（simultaneous equations models）的情況下，需要用 MLE 方法才能考慮到殘差之間的相關性。
+最後的 `$ \hat {\theta } $` 會包含 `$ b $` 和 `$ s^{2} $`，理論上和 OLS 所得出的結果會一樣。雖然在單一模型的情況下，用以上四個步驟代替 `lm()` 有點多此一舉，但在聯立模型（simultaneous equations models）的情況下，需要用 MLE 方法才能考慮到殘差之間的相關性。
 
 一樣用前面的資料說明，不過這次除了「銷量」以外，我們還得考慮另一個「利潤」的表格：
 
@@ -444,11 +444,11 @@ $$
 
 **表格五**：將「銷量」換成「利潤」
 
-這時，如果我們想估計「利潤」、「銷量」這兩個 {% raw %}$ Y ${% endraw %} 和 {% raw %}$ X ${% endraw %} 的關係，不能只對這兩個表格分別用 `lm()`，因為兩組殘差 {% raw %}$ e ${% endraw %} 之間的關係是不確定的；如果我們也要為兩組 {% raw %}$ e ${% endraw %} 建立一個類似 {% raw %}$Var\left( b|X\right)${% endraw %} 的 covariance matrix，就得用 MLE 一次估計兩組模型，這時的 {% raw %}$ \theta ${% endraw %} 會包含兩組 {% raw %}$ b ${% endraw %}、兩個 {% raw %}$ s^{2} ${% endraw %}、和一個 {% raw %}$ e ${% endraw %} 間的相關係數 {% raw %}$ \rho ${% endraw %}（註）。
+這時，如果我們想估計「利潤」、「銷量」這兩個 `$ Y $` 和 `$ X $` 的關係，不能只對這兩個表格分別用 `lm()`，因為兩組殘差 `$ e $` 之間的關係是不確定的；如果我們也要為兩組 `$ e $` 建立一個類似 `$Var\left( b|X\right)$` 的 covariance matrix，就得用 MLE 一次估計兩組模型，這時的 `$ \theta $` 會包含兩組 `$ b $`、兩個 `$ s^{2} $`、和一個 `$ e $` 間的相關係數 `$ \rho $`（註）。
 
-> 註：為了確保估計出來的 {% raw %}$ s^{2} ${% endraw %} 恆正，這邊其實要用到[一些特殊方法](https://en.wikipedia.org/wiki/Cholesky_decomposition)；一般恆正數則可以用 {% raw %}$ e^{x} ${% endraw %}。
+> 註：為了確保估計出來的 `$ s^{2} $` 恆正，這邊其實要用到[一些特殊方法](https://en.wikipedia.org/wiki/Cholesky_decomposition)；一般恆正數則可以用 `$ e^{x} $`。
 
-本質上，MLE 估計方法有點像在玩拉霸：不斷投入一組 {% raw %}$ \theta ${% endraw %}，看得出來的 {% raw %}$ logL(\theta) ${% endraw %} 多大，直到找到最大的 {% raw %}$ logL(\hat {\theta }) ${% endraw %}。這也的確就是網格式參數搜尋（grid-search）的原理，不過我們也可以用一階微分、Newton-Raphson 等方法求出最大值；在 `R` 裡面，有 `optim()`、`nlminb()` 等函數可以用來求極值，不過要注意的是大部分的函數**只支援求最小值**，所以可能需要先將 log-likelihood function 加上負號，求 {% raw %}$ -logL(\theta) ${% endraw %} 的最小值。
+本質上，MLE 估計方法有點像在玩拉霸：不斷投入一組 `$ \theta $`，看得出來的 `$ logL(\theta) $` 多大，直到找到最大的 `$ logL(\hat {\theta }) $`。這也的確就是網格式參數搜尋（grid-search）的原理，不過我們也可以用一階微分、Newton-Raphson 等方法求出最大值；在 `R` 裡面，有 `optim()`、`nlminb()` 等函數可以用來求極值，不過要注意的是大部分的函數**只支援求最小值**，所以可能需要先將 log-likelihood function 加上負號，求 `$ -logL(\theta) $` 的最小值。
 
 MLE 方法裡最核心也最困難的步驟，應該是在前幾步將模型化為 likelihood function，不過，也可以說只要能寫出 likelihood function，MLE 方法可以用來預估各式各樣的模型。所以不只是一般的 LRM，[效用函數](http://wiki.mbalib.com/zh-tw/%E6%95%88%E7%94%A8%E5%87%BD%E6%95%B0)（utility function）、[強化學習](https://zh.wikipedia.org/zh-tw/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0)（reinforcement learning）等問題也能用 MLE 方法解決。比較可惜的是我們這學期幾乎沒什麼機會自己建構 likelihood function……或許得涉獵一些期刊才能見識 MLE 方法應用之廣。~~然而為了寫這篇文章我最近是沒什麼空。~~
 
@@ -456,7 +456,7 @@ MLE 方法裡最核心也最困難的步驟，應該是在前幾步將模型化�
 
 ## 延伸學習
 
-學完這麼多東西以後，我的直接感受是用 `lm()`、`glm()` 等函數要注意的事情真多，不能像以前一樣，一看到資料，以為排個 {% raw %}$ Y\sim X_{1}+X_{2}+\ldots+X_{k} ${% endraw %}下去分析就好；解讀結果的時候，除了瞭解 causal effect，也要注意是否有偏差。當然，如果要精進分析結果，也不能只是盲目嘗試，唯有清楚原理中影響結果的因素，才有改善的空間。~~總之就是[面倒くさいなあ](https://www.ptt.cc/bbs/C_Chat/M.1479139001.A.DD4.html)。~~
+學完這麼多東西以後，我的直接感受是用 `lm()`、`glm()` 等函數要注意的事情真多，不能像以前一樣，一看到資料，以為排個 `$ Y\sim X_{1}+X_{2}+\ldots+X_{k} $`下去分析就好；解讀結果的時候，除了瞭解 causal effect，也要注意是否有偏差。當然，如果要精進分析結果，也不能只是盲目嘗試，唯有清楚原理中影響結果的因素，才有改善的空間。~~總之就是[面倒くさいなあ](https://www.ptt.cc/bbs/C_Chat/M.1479139001.A.DD4.html)。~~
 
 具體來說，我覺得學完這門課程之後可以精進的方向有三：
 
