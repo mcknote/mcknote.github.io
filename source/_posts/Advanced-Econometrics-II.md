@@ -50,7 +50,7 @@ categories: ＃
 * 關聯：每一筆資料可能包含前一筆資料中**不同比例和深度的訊號和雜訊**，例如 {% raw %}$x_{t} = \alpha_{1} \cdot x_{t-1} + \alpha_{2} \cdot x_{t-3}${% endraw %} 或 {% raw %}$x_{t} = \beta_{1} \cdot w_{t-2} + \beta_{2} \cdot w_{t-4}${% endraw %} 或兩者混合。
 * 平穩：每種數列都需要考慮其週期或[平穩性](https://zh.wikipedia.org/wiki/%E5%B9%B3%E7%A8%B3%E8%BF%87%E7%A8%8B)，另外 {% raw %}$w${% endraw %} 可以被簡單當作[白噪音](https://zh.wikipedia.org/wiki/白雜訊)。
 
-這些只是一些簡單的規則，更嚴謹的定義和術語可以參考 Wikipedia 上的[時間序列](https://zh.wikipedia.org/wiki/時間序列)。如果讀者還記得 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 中提到的五個假設，用 Mean Independence 和 Homoskedasticity 其實很好理解時間序列的假設，也能從而推敲何謂 de-trending 和 [(G)ARCH 模型](https://zh.wikipedia.org/wiki/ARCH模型)所解決的問題。
+這些只是一些簡單的規則，更嚴謹的定義和術語可以參考 Wikipedia 上的[時間序列](https://zh.wikipedia.org/wiki/時間序列)。如果讀者還記得 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 中提到的五個假設，用 Mean Independence 和 Homoskedasticity 其實很好理解時間序列的假設，也能從而推敲何謂 de-trending 和 [GARCH 模型](https://zh.wikipedia.org/wiki/ARCH模型)所解決的問題。
 
 {% asset_img sanjose.jpg %}
 
