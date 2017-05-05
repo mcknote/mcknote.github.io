@@ -1,19 +1,27 @@
 language: node_js
 
 node_js:
-  - "0.10"
+  - "7.10"
 
 # S: Build Lifecycle
 install:
   - npm install hexo-cli -g
+  - npm install hexo-deployer-git
+  - npm install hexo --no-optional
   - npm install
 
 #before_script:
-  - npm install -g gulp
+  - npm install gulp --save
+  - npm install minimatch --save
+  - npm install hexo-renderer-stylus --save
+  - npm install hexo-renderer-marked -g --save
+  - npm install hexo-algolia --save
 
 script:
+  - hexo v
   - hexo clean
   - hexo g
+  - hexo algolia
   - gulp
 
 after_script:
