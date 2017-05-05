@@ -1,6 +1,6 @@
 ---
 title: ＃／Advanced Econometrics II
-date: 2017-5-15 7:30:00
+date: 2017-5-5 7:30:00
 tags:
 - Cal Poly
 - MSBA
