@@ -139,7 +139,7 @@ feed:
 algolia:
   applicationID: 'K2YQUUH3TO'
   apiKey: 'abbed1615cd059b39d06a38037971aeb'
-  adminApiKey: ${AG_APIKEY}
+  adminApiKey: '0a5d416388ed771201c560b4f7737686'
   indexName: 'mcknote'
   chunkSize: 5000
 
