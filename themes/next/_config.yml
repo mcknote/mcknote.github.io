@@ -370,7 +370,7 @@ algolia_search:
   hits:
     per_page: 10
   labels:
-    input_placeholder: Search for Posts
+    input_placeholder: "搜尋標題、內容、連結⋯⋯"
     hits_empty: "找不到符合關鍵字「${query}」的文章。"
     hits_stats: "找到 ${hits} 篇文章（用時 ${time} 毫秒）。"
 
