@@ -77,9 +77,9 @@ enforce_ssl: www.mcknote.com
 
 將 **Page Rules** 變更為以下三筆記錄：
 
-> {% raw %}http://mcknote.com{% endraw %} **Always uses https**
-> {% raw %}http://www.mcknote.com{% endraw %} **Always uses https**
-> {% raw %}https://mcknote.com/*{% endraw %} **Forwarding to** {% raw %}https://www.mcknote.com/$1{% endraw %}
+> `http://mcknote.com` **Always uses https**
+> `http://www.mcknote.com` **Always uses https**
+> `https://mcknote.com/` **Forwarding to** `https://www.mcknote.com/$1`
 
 　
 設定結束後，可以重新載入，確認證書是否生效了，並打開**錯誤主控台**之類的開發者工具，查詢首頁或文章是否有 http 載入資源（JS、圖片等等）的錯誤，如果有就將對應檔案和指令的 ```http://``` 改為  ```//```。
@@ -103,7 +103,7 @@ enforce_ssl: www.mcknote.com
 # 其它：信箱和短網址
 
 　
-最後，既然域名都買了，就得物盡其用，我用 {% raw %}mcknote.com{% endraw %} 設定了常見的信箱和短網址服務，如果你也想個人化 Email 地址請參考以下內容。
+最後，既然域名都買了，就得物盡其用，我用 `mcknote.com` 設定了常見的信箱和短網址服務，如果你也想個人化 Email 地址請參考以下內容。
 
 ## 信箱
 
@@ -132,9 +132,9 @@ Use full email address like "brad@yourdomain.com" as login username
 
 ## 短網址
 
-如果你想用自己的網域轉址，可以考慮用 [Bit.ly](https://bitly.com/) 的服務，它雖然免費，但有簡單的點擊數分析，也[完整支援自訂域名](http://support.bitly.com/knowledgebase/articles/76741-how-do-i-set-up-a-custom-short-domain-)。首先，你可以註冊帳號，也可以直接用 Facebook 帳號登入，登入以後進到 **Settings** 裡的 Advanced，點 Branded Short Domain 區塊的 ```Activate a Branded Short Domain for personal use.```，並在裡面填上一個二級域名，如 ```{% raw %}s.mcknote.com{% endraw %}``` （畢竟一級已經被[網站](#域名：購買和設定)用掉了）。
+如果你想用自己的網域轉址，可以考慮用 [Bit.ly](https://bitly.com/) 的服務，它雖然免費，但有簡單的點擊數分析，也[完整支援自訂域名](http://support.bitly.com/knowledgebase/articles/76741-how-do-i-set-up-a-custom-short-domain-)。首先，你可以註冊帳號，也可以直接用 Facebook 帳號登入，登入以後進到 **Settings** 裡的 Advanced，點 Branded Short Domain 區塊的 ```Activate a Branded Short Domain for personal use.```，並在裡面填上一個二級域名，如 `s.mcknote.com` （畢竟一級已經被[網站](#域名：購買和設定)用掉了）。
 
-完成 ```CNAME``` 相關的 DNS 設定以後，等十幾分鐘轉址服務就生效了，如此一來就可以用自己的域名轉址了，比方說設定 ```{% raw %}http://s.mcknote.com/ilovemgi{% endraw %}``` 轉到 [McKinsey Global Institute](http://www.mckinsey.com/mgi/overview)。
+完成 ```CNAME``` 相關的 DNS 設定以後，等十幾分鐘轉址服務就生效了，如此一來就可以用自己的域名轉址了，比方說設定 `http://s.mcknote.com/ilovemgi` 轉到 [McKinsey Global Institute](http://www.mckinsey.com/mgi/overview)。
 
 > 備註：如果網址太複雜，像是包含 ```()``` 符號，放到 ```.md``` 文件裡就會出錯，這時用短網址就可以解決。
 

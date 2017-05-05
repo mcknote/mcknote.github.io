@@ -225,7 +225,7 @@ Pseudorandom Numbers 只是稍微介紹一下 `R` 裡面 `runif()`、`rnorm()` �
 
 ### Monte Carlo
 
-Monte Carlo 簡單來說是藉由對特定函數代入大量隨機數，並從結果估計期望值的方法。一個簡單的範例如下，假設我們要估計 {% raw %}$\int _{0}^{1}\left( x^{2}+1\right) dx${% endraw %}：
+Monte Carlo 簡單來說是藉由對特定函數代入大量隨機數，並從結果估計期望值的方法。一個簡單的範例如下，假設我們要估計 `$\int _{0}^{1}\left( x^{2}+1\right) dx$`：
 
 ``` r
 x <- runif(10000) # 先取大量 (0,1) 之間的偽隨機數
