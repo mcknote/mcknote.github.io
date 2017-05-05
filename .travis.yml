@@ -14,7 +14,8 @@ install:
   - npm install gulp --save
   - npm install minimatch --save
   - npm install hexo-renderer-stylus --save
-  - npm install hexo-renderer-marked -g --save
+  - npm uninstall hexo-renderer-marked --save
+  - npm install hexo-renderer-kramed --save
   - npm install hexo-algolia --save
 
 script:
