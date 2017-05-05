@@ -123,7 +123,7 @@ $$
 2. 利用 `filter()` 函數
 3. 利用 `arima.sim()` 函數
 
-第一個方法很簡單，利用 `rnorm()` 等函數產生必要的雜訊，並定義 {% raw %}$x_{0}${% endraw %} 等基本項後，就能用 `for` 迴圈生成向量了。第二種老實說我也不太會用⋯⋯我試著讀過說明文件，但當時沒有很認真想弄懂。這邊想談的主要是第三種，`arima.sim()` 的使用方法。
+第一個方法很簡單，利用 `rnorm()` 等函數產生必要的雜訊，並定義 $x_{0}$ 等基本項後，就能用 `for` 迴圈生成向量了。第二種老實說我也不太會用⋯⋯我試著讀過說明文件，但當時沒有很認真想弄懂。這邊想談的主要是第三種，`arima.sim()` 的使用方法。
 
 在 `arima.sim()` 模型裡可以定義的變數如下：
 
@@ -131,7 +131,7 @@ $$
 * `model`：由 `list(order = (p,d,q))` 組成，後三項分別是 AR、差分、MA 的滯後項係數
 * 其他的變數包括雜訊產生方法（例如 `rnorm`）等等
 
-其中由 `(p,d,q)` 所產生的模型，就稱為 ARIMA(p,d,q)。前面沒提到的差分項 {% raw %}$d${% endraw %}，讀者可以參考 Wikipedia 上的 [ARIMA 模型](https://zh.wikipedia.org/wiki/ARIMA模型)。ARIMA 的（數階）差分即為 ARMA 模型。由 `arima.sim()` 產生的數列為 `ts` 資料型態，想多了解如何處理 `ts` 的讀者可以參考前面推薦的 [*Manipulating Time Series Data in R with xts & zoo*](https://www.datacamp.com/courses/manipulating-time-series-data-in-r-with-xts-zoo)。
+其中由 `(p,d,q)` 所產生的模型，就稱為 ARIMA(p,d,q)。前面沒提到的差分項 $d$，讀者可以參考 Wikipedia 上的 [ARIMA 模型](https://zh.wikipedia.org/wiki/ARIMA模型)。ARIMA 的（數階）差分即為 ARMA 模型。由 `arima.sim()` 產生的數列為 `ts` 資料型態，想多了解如何處理 `ts` 的讀者可以參考前面推薦的 [*Manipulating Time Series Data in R with xts & zoo*](https://www.datacamp.com/courses/manipulating-time-series-data-in-r-with-xts-zoo)。
 
 以下是一些 `arima.sim()` 的範例：
 
@@ -197,19 +197,17 @@ arima_1_1_0 <- arima.sim(model = list(order = (1,1,0),
 
 其中 `seasonal` 是前面沒提到的季節性。延續前面提到的 ARMA 模型，Seasonal ARIMA（SARIMA）模型的型態如下：
 
-{% raw %}
 $$
 \Phi (B^{s}) \cdot \varphi (B) \cdot x_{t} = \Theta (B^{s}) \cdot \theta (B) \cdot w_{t}
 $$
-{% endraw %}
 
-加入了 {% raw %}$\Phi${% endraw %} 和 {% raw %}$\Theta${% endraw %} 之後，SARIMA 可以包涵長期（{% raw %}$ B^{s} ${% endraw %}）的週期性，例如每隔十二個月的變化可以表示為：
+加入了 $\Phi$ 和 $\Theta$ 之後，SARIMA 可以包涵長期（$ B^{s} $）的週期性，例如每隔十二個月的變化可以表示為：
 
-{% raw %}$$
+$$
 SARIMA(0,0,1) \times (1,0,0)_{12}: x_{t} = \Phi x_{t-12} + w_{t} + \theta w_{t-1}
-$${% endraw %} 
+$$
 
-可以看出 {% raw %}$\theta${% endraw %} 決定了前項和後項間 {% raw %}$w${% endraw %} 的關係，但 {% raw %}$\Phi${% endraw %} 決定了前後間隔十二項 {% raw %}$x${% endraw %} 的關係。雖然這個表達式看起來有點複雜，剛入門的讀者可以把這想成是包含季節性的設計。總而言之，在 `arima()` 函數裡，我們需要指定最多七項（`p`、`d`、`q`、`P`、`D`、`Q`、`period`）變量，以供 `arima()` 測定係數。但問題來了，在測試這些數值時，怎樣才算好的模型呢？
+可以看出 $\theta$ 決定了前項和後項間 $w$ 的關係，但 $\Phi$ 決定了前後間隔十二項 $x$ 的關係。雖然這個表達式看起來有點複雜，剛入門的讀者可以把這想成是包含季節性的設計。總而言之，在 `arima()` 函數裡，我們需要指定最多七項（`p`、`d`、`q`、`P`、`D`、`Q`、`period`）變量，以供 `arima()` 測定係數。但問題來了，在測試這些數值時，怎樣才算好的模型呢？
 
 ### 模型選擇
 
@@ -220,13 +218,15 @@ $${% endraw %}
 3. 利用 `acf()`、`pacf()` 和 `acf2()` 等模型判定資料產生過程
 4. 帶入不同的變量，觀察 AIC、BIC 等數值，直到找出最佳模型
 
-可以看出前三項是我前面沒提到，但也滿重要的步驟。我前面有稍微提到「時間序列的擬合過程是一段不斷拆解，直到成果接近 {% raw %}$w${% endraw %} 的過程」，所以這就是那段讓我感覺像 data manipulation 的步驟，也是需要掌握理論的原因。老實說，第四個步驟就只是 grid-search 和 performance comparison，所以除了一組一組係數慢慢試，也能寫個 `for` 迴圈批次測試。所以更進階的用法涉及兩個函數：`sarima()` 跟 `auto.arima()`。
+可以看出前三項是我前面沒提到，但也滿重要的步驟。我前面有稍微提到「時間序列的擬合過程是一段不斷拆解，直到成果接近 $w$ 的過程」，所以這就是那段讓我感覺像 data manipulation 的步驟，也是需要掌握理論的原因。老實說，第四個步驟就只是 grid-search 和 performance comparison，所以除了一組一組係數慢慢試，也能寫個 `for` 迴圈批次測試。所以更進階的用法涉及兩個函數：`sarima()` 跟 `auto.arima()`。
 
 `sarima()` 是 `astsa` 套件中的函數，和 `arima()` 的功能基本上差不多，不過 `sarima()` 能提供更詳盡的報告，像是殘差的 ACF、Q-Q plot、[Ljung–Box test](https://en.wikipedia.org/wiki/Ljung%E2%80%93Box_test) 等等，也就多了不少可比較的面向。當然，要理解這些報告的意義為何，就和理解 `lm()` 的報告一樣，最好先熟悉理論。
 
 另一個更強大的函數是 `forecast` 套件裡的 `auto.arima()`，顧名思義，這個函數直接包辦了第四步驟的自動化，省下不少一組一組係數測試的時間。不過有時 `auto.arima()` 返回的結果，不一定是最理想的，所以在更嚴謹的建模中，通常會用 `auto.arima()` 判斷 AR、MA 係數等建模方向後，再用 `sarima()` 確認最佳模型。這當然一部分是因為模型間能比較的面向不只一個，所以有時也不存在絕對正確的模型。這也是建模的樂趣（？）之一。
 
+
 {% asset_img sandiego.jpg %}
+
 
 ## 重視時間序列的特性，否則⋯⋯
 
