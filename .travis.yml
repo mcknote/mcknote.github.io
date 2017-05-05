@@ -20,8 +20,8 @@ install:
 script:
   - hexo v
   - hexo clean
-  - hexo g
   - hexo algolia
+  - hexo g
   - gulp
 
 after_script:
