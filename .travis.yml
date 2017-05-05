@@ -17,12 +17,13 @@ install:
   - npm uninstall hexo-renderer-marked --save
   - npm install hexo-renderer-kramed --save
   - npm install hexo-algolia --save
+  - npm install https://github.com/CodeFalling/hexo-asset-image --save
 
 script:
   - hexo v
   - hexo clean
   - hexo algolia
-  - hexo g
+  - hexo g -f
   - gulp
 
 after_script:

@@ -7,7 +7,7 @@ tags:
 - Econometrics
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![Cover](cover.jpg)
 　
 既上一篇 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 介紹了線性迴歸模型後，冬季學期的下半堂課則是針對時間序列資料的分析方法。技術上和上半堂課老實說沒有太多區別，但針對週期性的分析和處理是這門課最有趣的特點。
 
@@ -52,7 +52,7 @@ categories: ＃
 
 這些只是一些簡單的規則，更嚴謹的定義和術語可以參考 Wikipedia 上的[時間序列](https://zh.wikipedia.org/wiki/時間序列)。如果讀者還記得 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 中提到的五個假設，用 Mean Independence 和 Homoskedasticity 其實很好理解時間序列的假設，也能從而推敲何謂 de-trending 和 [GARCH 模型](https://zh.wikipedia.org/wiki/ARCH模型)所解決的問題。
 
-{% asset_img sanjose.jpg %}
+![San Jose](sanjose.jpg)
 
 
 ## 幾種不同的數列
@@ -224,6 +224,7 @@ $$
 
 另一個更強大的函數是 `forecast` 套件裡的 `auto.arima()`，顧名思義，這個函數直接包辦了第四步驟的自動化，省下不少一組一組係數測試的時間。不過有時 `auto.arima()` 返回的結果，不一定是最理想的，所以在更嚴謹的建模中，通常會用 `auto.arima()` 判斷 AR、MA 係數等建模方向後，再用 `sarima()` 確認最佳模型。這當然一部分是因為模型間能比較的面向不只一個，所以有時也不存在絕對正確的模型。這也是建模的樂趣（？）之一。
 
+![San Diego Zoo](sandiego.jpg)
 
 ## 重視時間序列的特性，否則⋯⋯
 

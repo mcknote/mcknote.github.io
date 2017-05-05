@@ -7,7 +7,7 @@ tags:
 - R
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![Cover](cover.jpg)
 　
 雖然冬季學期已經開始了，但我連秋季學期的課都還沒講完⋯⋯除了上次介紹的 Econometrics，這篇談 BA 裡比較偏實作的發展方向：*Computational Methods*，也就是 R Programming。
 
@@ -53,7 +53,7 @@ categories: ＃
 
 最後，雖然這門課的推薦書目是 Richard Cotton 的 [*Learning R*](http://shop.oreilly.com/product/0636920028352.do)，但 Programming 的相關內容，課程投影片上都有了，DataCamp 上也有很完整的教學跟練習。以下內容會著重在剛才提到的**設計**、**應用**、**運算**和**其他**。
 
-{% asset_img tainan.jpg %}
+![Tainan](tainan.jpg)
 
 ## 設計
 
@@ -127,7 +127,7 @@ for(i in 1:26){
 　
 所以像 `myenv[[1]]` 這種指令是沒意義的，設計時也別忘了使用 hash table 的目的是用來改善 string subsetting 的速度，所以在上面的例子裡，可以說是把原本的 `table["secondrow","thirdcolumn"]` 化為 `table[shelf[["secondrow"]], number[["thirdcolumn"]]]`，讓它的速度和 `table[2,3]` 幾乎一樣快。除了自己用 `new.env()` 和 `for` 建立 hash table 以外，CRAN 上的 package [hash](https://cran.r-project.org/web/packages/hash/hash.pdf) 也可以用來建立 hash table。
 
-{% asset_img vedai.jpg %}
+![Vedai](vedai.jpg)
 
 ## 應用
 
@@ -211,7 +211,7 @@ Pseudorandom Numbers 只是稍微介紹一下 `R` 裡面 `runif()`、`rnorm()` �
 不過除此之外我已經把 `runif()` 等函數背後的原理忘光了⋯⋯幸好 Google 一下發現 `R` 的官方文件中有說明，有興趣的讀者可以參考：[*Random Number Generation*](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Random.html)。
 
 
-{% asset_img linbian.jpg %}
+![LinBian](linbian.jpg)
 
 ## 運算
 
@@ -279,7 +279,7 @@ Newton-Raphson 則是利用[泰勒展開式](https://zh.wikipedia.org/wiki/泰�
 
 如果你對 SQL 很感興趣，可以參考這份 [cheat sheet](http://www.cheat-sheets.org/sites/sql.su/)，或是直接去這個[很神奇但請低調的網站](http://ingenieriacognitiva.com/developer/cursos/OracleDeveloper/)，裡面的簡報已經包含了所有初階語法，雖然是 Oracle 的教材，但和一般 SQL 大同小異；打算用 `R` 實作 SQL 的讀者，可以安裝 `RSQLite` 這個 package，然後去 [SQLite Tutorial](http://www.sqlitetutorial.net/sqlite-sample-database/) 下載範例資料庫 `chinook.db` 玩玩看。
 
-{% asset_img ntfsh.jpg %}
+![NTFSH](ntfsh.jpg)
 
 
 ## 練習和學習

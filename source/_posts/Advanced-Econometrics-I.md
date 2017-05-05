@@ -7,7 +7,7 @@ tags:
 - Econometrics
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![Cover](cover.jpg)
 　
 找完工作以後，日子依舊忙碌。這個學期 MSBA 有三門課，分別代表 Business Analytics 中三個滿重要的發展方向：分析理論、程式設計、和資料庫。這篇先從偏理論的計量經濟學談起。
 
@@ -15,11 +15,11 @@ categories: ＃
 
 ## 秋季學期的安排
 
-和之前上 *{% post_link Data-Visualization-Storytelling Data Visualization%}* 和 *{% post_link Quantitative-Methods-II Statistics %}* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
+和之前上 *{% post_link Data-Visualization-Storytelling Data Visualization%}* 和 *{% post_link Quantitative-Methods-II Statistics)* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
 
 * *Advanced Econometrics I*（理論、分析）
-* *{% post_link Computational-Methods Computational Methods %}*（實作）
-* *{% post_link Data-Management Data Management %}*（資料庫操作、管理）
+* *{% post_link Computational-Methods Computational Methods)*（實作）
+* *{% post_link Data-Management Data Management)*（資料庫操作、管理）
 
 　
 雖然每門課看起來都滿難的（Computational？Advanced？！），但其實~~也真的滿難~~認真修完一遍以後，真的能體會到學好這三門課是在 Business Analytics 或 Data Science 領域必備的基礎；而且如果有心繼續鑽研，會發現業界前沿的技術和應用，都和這三個發展方向脫離不了關係，所以不管是入門或進階、研究或應用，似乎都得從這三門課開始。
@@ -28,7 +28,7 @@ categories: ＃
 
 > 請注意：本文公式較多，建議用電腦閱讀；如果無法正常顯示，請試用其它瀏覽器，或[下載全文](Advanced-Econometrics-I.pdf)（3.6 MB）。
 
-{% asset_link slug [title] %}
+{% asset_link slug [title])
 
 
 ## 老師和教學方法
@@ -50,7 +50,7 @@ categories: ＃
 * **統計**：熟練平均、方差（變異數）、標準差等運算，以及母體和樣本的關係
 * **機率**：瞭解條件機率、CDF、PMF／PDF 的意義
 
-以上這些算是最低要求，實際開始學以後，還會碰到許多衍生的觀念、證明和公式，入門先具備清晰的基本觀念就好。有任何不清楚的觀念，可以參考 *{% post_link Quantitative-Methods-II Statistics %}* 中提到的相關資源。既然都學到 Econometrics 了，一定要捨得花時間把所有觀念弄懂，畢竟這會直接影響日後的分析能力。例如，如果不熟矩陣運算，就沒辦法很有效率地思考線性迴歸（[Linear Regression](https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8)）中參數的性質，也就很難理解什麼情況下參數會出現偏誤（bias），以及怎樣避免偏誤。如前所述，要能正確使用各類統計工具，必須先瞭解這些工具背後的理論。
+以上這些算是最低要求，實際開始學以後，還會碰到許多衍生的觀念、證明和公式，入門先具備清晰的基本觀念就好。有任何不清楚的觀念，可以參考 *{% post_link Quantitative-Methods-II Statistics)* 中提到的相關資源。既然都學到 Econometrics 了，一定要捨得花時間把所有觀念弄懂，畢竟這會直接影響日後的分析能力。例如，如果不熟矩陣運算，就沒辦法很有效率地思考線性迴歸（[Linear Regression](https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8)）中參數的性質，也就很難理解什麼情況下參數會出現偏誤（bias），以及怎樣避免偏誤。如前所述，要能正確使用各類統計工具，必須先瞭解這些工具背後的理論。
 
 ## 線性迴歸
 
@@ -109,7 +109,7 @@ $$
 
 利用 `$(3)$` 式中的矩陣表達，可以很精簡地將上面表格中的數值，以 `$Y$`、`$X$`、`$\beta$` 和 `$\varepsilon$` 來表示，它們之間的關係仍和單一樣本中的 `$y$`、`$x$`、`$\beta$` 和 `$\varepsilon$` 一致：**試著用 `$\beta$` 組合 `$X$` ，得出最接近 `$Y$`、即 `$\varepsilon$` 最小的預估值**。
 
-{% asset_img takayama.jpg %}
+![高山](takayama.jpg)
 
 ## 最小平方法
 
@@ -311,7 +311,7 @@ F-statistic: 29.77 on 5 and 26 DF,  p-value: 5.618e-10 #5
 
 > 註：針對 Heteroskedasticity 的解決方案，包括 Weighted Least Squares（WLS）、Huber-White Standard Errors、Breusch-Pagan Test、 ~~DoubleJ Test~~ 和 Clustered Standard Error 等。
 
-{% asset_img seisaku.jpg %}
+![穴水](seisaku.jpg)
 
 ### 解決潛在問題
 
@@ -452,7 +452,7 @@ $$
 
 MLE 方法裡最核心也最困難的步驟，應該是在前幾步將模型化為 likelihood function，不過，也可以說只要能寫出 likelihood function，MLE 方法可以用來預估各式各樣的模型。所以不只是一般的 LRM，[效用函數](http://wiki.mbalib.com/zh-tw/%E6%95%88%E7%94%A8%E5%87%BD%E6%95%B0)（utility function）、[強化學習](https://zh.wikipedia.org/zh-tw/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0)（reinforcement learning）等問題也能用 MLE 方法解決。比較可惜的是我們這學期幾乎沒什麼機會自己建構 likelihood function……或許得涉獵一些期刊才能見識 MLE 方法應用之廣。~~然而為了寫這篇文章我最近是沒什麼空。~~
 
-{% asset_img shinjuku.jpg %}
+![新宿](shinjuku.jpg)
 
 ## 延伸學習
 
