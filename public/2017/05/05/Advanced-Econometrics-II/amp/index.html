@@ -1,0 +1,1841 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="https://www.mcknote.com/2017/05/05/Advanced-Econometrics-II/index.html" >
+    <title>＃／Advanced Econometrics II - </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  	<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "BlogPosting",
+			"headline": "＃／Advanced Econometrics II",
+			
+			"description": "&lt;img src=&#34;/2017/05/05/Advanced-Econometrics-II/cover.jpg&#34; alt=&#34;cover.jpg&#34; title=&#34;&#34;&gt;
+&lt;p&gt;　&lt;br&gt;既上一篇 &lt;em&gt;&lt;a href=&#34;/2016/12/26/Advanced-Econometrics-I/&#34; title=&#34;Advanced Econometrics I&#34;&gt;Advanced Econometrics I&lt;/a&gt;&lt;/em&gt; 介紹了線性迴歸模型後，冬季學期的下半堂課則是針對時間序列資料的分析方法。技術上和上半堂課老實說沒有太多區別，但針對週期性的分析和處理是這門課最有趣的特點。&lt;/p&gt;",
+			
+			"mainEntityOfPage":{
+			    "@type":"WebPage",
+			    "@id":"https://www.mcknote.com/2017/05/05/Advanced-Econometrics-II/"
+			},
+			"datePublished": "2017-05-05T14:30:00.000Z",
+			"dateModified": "2017-05-05T16:18:32.000Z",
+			
+			"image": {
+				"@type": "ImageObject",
+				"url": "https://www.mcknote.com/2017/05/05/Advanced-Econometrics-II/cover.jpg",
+				"width" : "1200",
+				"height" : "628"
+			},
+			
+			"author": {
+			    "@type": "Person",
+			    "name": "Jimmy Lin"
+			},
+			"publisher": {
+			    "@type": "Organization",
+			    "name": "McK &amp; Note"
+			    
+			    ,
+			    "logo": {
+			      "@type": "ImageObject",
+			      "url": "https://www.mcknote.com/amp-dist/sample/sample-logo.png",
+			      "width": 600,
+			      "height": 60
+			    }
+			    
+			}
+		}
+	</script>
+	
+	<style amp-custom>
+		
+:root sub,
+:root sup {
+  vertical-align: baseline;
+}
+a {
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  color: #0379c4;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  -ms-transition: 0.7s;
+  transition: 0.7s;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a img {
+  border: none;
+}
+a:hover {
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #31adfc;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+abbr {
+  cursor: help;
+  border-bottom: 1px dotted;
+  font-variant: normal;
+}
+acronym {
+  border-bottom: 1px dotted;
+  font-variant: normal;
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  color: #34393a;
+  font-family: 'メイリオ', 'MS PGothic', sans-serif;
+  font-size: 102%;
+  font-wight: 500;
+  line-height: 2em;
+  text-rendering: optimizelegibility;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+figure.highlight td,
+.post .entry-content figure.highlight th {
+  border: 0;
+  padding: 0;
+}
+caption,
+table,
+td,
+th {
+  vertical-align: middle;
+}
+caption,
+td,
+th,
+.table-align-left {
+  text-align: left;
+}
+code,
+figure.highlight .code,
+pre {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Consolas, Monaco, Consolas, monospace;
+}
+code,
+pre {
+  background-color: #f5f2f0;
+  margin: 0 3px;
+  padding: 1px 8px;
+}
+code,
+pre,
+samp {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+}
+del {
+  text-decoration: line-through;
+}
+#article-nav {
+  clear: both;
+  margin: 1em 20px;
+  position: relative;
+  
+}
+#article-nav:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#article-nav:before {
+  content: "";
+  display: table;
+  -webkit-border-radius: 50%;
+  -webkit-box-shadow: 0 1px 2px #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 2px #fff;
+  box-shadow: 0 1px 2px #fff;
+  content: "";
+  height: 8px;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  width: 8px;
+}
+#article-nav-newer {
+  float: left;
+  padding-right: 20px;
+  text-align: right;
+}
+#article-nav-newer .article-nav-caption {
+  margin-right: -2px;
+}
+#article-nav-older {
+  float: right;
+  padding-left: 20px;
+  text-align: left;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  background-color: #0379c4;
+  display: block;
+  font-size: 70%;
+  line-height: 1.6;
+  padding: 20px 0;
+}
+#footer:after {
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.moreRead:before,
+.useFlame,
+kbd,
+.copyright,
+.table-align-center {
+  text-align: center;
+}
+.blog-title a,
+.nav,
+.nav-icon,
+.loadingPutAbsolute,
+.moreRead:before,
+.titleWrapper {
+  position: relative;
+}
+#header {
+  display: block;
+  margin: 0.5em 0 1em;
+  position: static;
+  text-align: center;
+  position: relative;
+}
+#header:after {
+  display: block;
+  font-size: 0;
+  height: 0;
+}
+#header:after,
+.clearfix:after,
+.nav ul:after {
+  clear: both;
+  visibility: hidden;
+}
+#main {
+  margin-bottom: 3em;
+  padding-left: 0;
+}
+.useFlame,
+kbd {
+  display: inline-block;
+}
+#page-nav a,
+.photoby,
+kbd {
+  color: #4c5355;
+}
+* html .clearfix {
+  height: 1%;
+}
+.alignleft,
+.left {
+  float: left;
+}
+.alignright,
+.right {
+  float: right;
+}
+.article-devider {
+  border: 0;
+  border-top: 5px solid #ddd;
+  margin: 5em auto;
+  width: 8%;
+}
+.article-nav-caption,
+.nav {
+  text-transform: uppercase;
+}
+.article-nav-caption {
+  color: #ddd;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1em;
+}
+.article-nav-link-wrap,
+a {
+  text-decoration: none;
+}
+.article-nav-link-wrap {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #999;
+  display: block;
+  margin-top: 0;
+  text-align: center;
+  width: 50%;
+}
+.article-nav-link-wrap:hover {
+  color: #bfbfbf;
+}
+.article-nav-title {
+  font-size: 0.85em;
+  line-height: 1.6em;
+  margin-top: 0.5em;
+}
+.nav ul {
+  display: block;
+}
+.nav ul li {
+  display: block;
+}
+.nav ul li a {
+  display: block;
+}
+.authorCap {
+  font-size: 1.5em;
+}
+.authorReading {
+  font-size: 0.7em;
+}
+.site-author-info-wrapper {
+  padding: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.gravatar-wrapper {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.gravatar-area {
+  margin: 0 20px 0 0;
+}
+.authorCap-wrapper {
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  -o-box-flex: 3;
+  box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+.blog-title {
+  border-bottom: none;
+  float: none;
+  font-size: 120%;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: 10px 0;
+  padding-bottom: 0.2em;
+}
+.blog-title a {
+  left: 0.1em;
+  padding: 0.4em 0;
+}
+.circle {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+}
+.copyright-title {
+  font-size: 1.2em;
+}
+.copyright-tool {
+  text-align: center;
+  font-family: 'メイリオ', 'MS PGothic', sans-serif;
+  margin: 1em 0 0 0;
+}
+h6.tag,
+h6.categories {
+  color: #0379c4;
+  font-size: 110%;
+}
+.entry-content {
+  width: 93.75%;
+  margin: 0 auto;
+  font-size: 100%;
+}
+.entry-content h2,
+.entry-content h3 {
+  text-align: center;
+}
+.entry-content h1 {
+  font-size: 170%;
+  line-height: 1.5;
+  margin: 1em 0 0.8em;
+}
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  line-height: 1.5;
+  margin: 1em 0 0.8em;
+}
+.entry-content h2 {
+  border-bottom: 2px solid #0379c4;
+  color: #0379c4;
+  font-size: 160%;
+  margin: 1.8em 0 0.5em;
+  padding: 0.8em 0;
+}
+.entry-content h3 {
+  color: #0379c4;
+  font-size: 150%;
+  margin: 1.8em 0 0.5em;
+  padding: 0.8em 0.5em;
+}
+.entry-content h4 {
+  border-left: 2px solid #0379c4;
+  color: #0379c4;
+  font-size: 120%;
+  margin: 1.8em 0 0.5em;
+  padding-left: 1.2em;
+  text-align: left;
+}
+.entry-content h5,
+.entry-content h6 {
+  color: #0379c4;
+  margin: 1.8em 0 0.5em;
+  text-align: left;
+}
+.entry-content h5 {
+  font-size: 110%;
+  padding-left: 1.2em;
+}
+.entry-content h6 {
+  font-size: 100%;
+}
+.entry-content p {
+  font-size: 1em;
+  letter-spacing: 0;
+  line-height: 2.2em;
+  margin: 1.8em 0;
+}
+.entry-content p em {
+  background-color: #faf7dc;
+  color: #736e4f;
+  font-style: normal;
+  margin: 0 2px;
+  padding: 3px;
+}
+.entry-content p strong {
+  color: #734f4f;
+  font-style: normal;
+  margin: 0 2px;
+  padding: 3px;
+  background-color: #fadcdc;
+}
+.entry-content dl,
+.entry-content ol,
+.entry-content ul {
+  margin: 1.8em 0 1.8em 1em;
+  padding: 0;
+}
+.entry-content ol p,
+.entry-content ul p,
+.entry-content dl p {
+  margin: 0;
+}
+.entry-content dl li,
+.entry-content ol li {
+  line-height: 1.8em;
+  margin: 0.5em;
+}
+.entry-content ol {
+  list-style: decimal ;
+}
+.entry-content ol li {
+  font-size: 1em;
+  margin: 0.2em 0 0.2em 2.6em;
+  padding: 0 0 0 0.1em;
+  position: relative;
+}
+.entry-content ol p:not(:first-child),
+.entry-content ul p:not(:first-child) {
+  color: #4c5355;
+}
+.entry-content ol {
+  padding: 0 /* paddingキャンセル */;
+  margin: 0 /* marginキャンセル */;
+  list-style: none /* olがはき出す数字を消す */;
+}
+.entry-content ol {
+  counter-reset: number /* 名前を付けたカウンターをリセット */;
+  list-style: none /* olが数字を付けることをキャンセル */;
+  margin: 0;
+  padding: 0;
+}
+.entry-content ol li:before {
+  counter-increment: number /* 任意の名前を付けて！ */;
+  content: counter(number) /* 名前を付けたカウンターを呼び出し */;
+  position: absolute;
+  left: -2.2em;
+  top: 0.05em;
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+  padding: 0;
+  float: left;
+  background: #6abcf0;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 1.6em;
+}
+.entry-content ol li p:first-child {
+  display: inline-block;
+  line-height: 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+}
+.entry-content ul {
+  list-style: none;
+}
+.entry-content ul li {
+  font-size: 1em;
+  margin: 0.2em 0 0.2em 0.5em;
+  padding: 0 0 0 0.2em;
+  position: relative;
+}
+.entry-content ul li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0.4em;
+  left: -1em;
+  width: 8px;
+  height: 8px;
+  border-bottom: 3px solid #ddd;
+}
+.entry-content dl li ol,
+.entry-content dl li ul {
+  margin-bottom: 2em;
+}
+.entry-content ol li ol,
+.entry-content ol li ul {
+  margin-bottom: 2em;
+}
+.entry-content ul li ol,
+.entry-content ul li ul {
+  margin-bottom: 2em;
+}
+.entry-content blockquote p:last-child,
+.entry-content .archive .post {
+  margin-bottom: 0;
+}
+.entry-content blockquote {
+  margin: 1.8em 0;
+  padding: 0.5em 20px;
+  position: relative;
+  background-color: #f6f6f4;
+}
+.entry-content blockquote p {
+  margin: 1em 0;
+}
+.entry-content blockquote:before {
+  color: #dfdfd8;
+  content: "”";
+  font-family: sans-serif;
+  font-size: 600%;
+  line-height: 1em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.entry-content blockquote blockquote:before {
+  content: "";
+}
+.entry-content hr {
+  border: 0;
+  border-top: 3px solid #ddd;
+  margin: 3em auto;
+  width: 20%;
+}
+.entry-content img,
+.entry-content video {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+.entry-content pre {
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background: #f5f2f0;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.3;
+  overflow-x: auto;
+  padding: 15px;
+}
+.entry-content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.85em;
+  margin: 1.8em auto;
+  width: auto;
+}
+.entry-content td {
+  border: 1px solid #c4c4c4;
+  line-height: 1.5em;
+  padding: 0.6em 0.4em;
+}
+.entry-content th {
+  background-color: #fdf7f4;
+  border: 1px solid #c4c4c4;
+  padding: 0.6em 0.4em;
+}
+.entry-content iframe {
+  width: 100% ;
+}
+.entry-content figure.highlight {
+  margin: 1.8em 0;
+}
+.entry-content figure.highlight td {
+  border: 0;
+  font-size: 1.1em;
+  padding: 0;
+}
+.entry-content figure.highlight td.code {
+  border-left: 1px solid #eceae8;
+}
+.entry-meta-header {
+  font-size: 87%;
+  left: -200px;
+  margin-bottom: 1em;
+  position: static;
+  top: 0.5em;
+  width: auto;
+  text-align: center;
+}
+.entry-meta-header .date {
+  font-family: 'メイリオ', 'MS PGothic', sans-serif;
+}
+.entry-meta-header .meta-elements {
+  display: inline;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+.gist {
+  background: #fff;
+  border: 1px solid color-gutter;
+  color: #918577;
+  line-height: 1.6;
+  margin-top: 15px;
+  overflow: auto;
+  padding: 7px 15px;
+}
+.gist .gist-file {
+  border: none;
+  font-family: inherit;
+  font-size: 1em;
+  letter-spacing: 0;
+  margin: 0;
+}
+.gist .gist-file .gist-data {
+  background: 0 0;
+  border-bottom: none;
+}
+.gist .gist-file .gist-data pre {
+  font-family: Menlo, Consolas, Monaco, Consolas, monospace;
+  padding: 0 ;
+}
+.gist .gist-file .gist-meta {
+  background: 0 0;
+  color: #918577;
+  font-size: 100%;
+  margin-top: 5px;
+  padding: 0;
+}
+.gist .gist-file .gist-meta a {
+  color: #918577;
+}
+.gist .gist-file .gist-meta a:visited {
+  color: #918577;
+}
+.line {
+  font-size: 95%;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+}
+.post {
+  font-size: 90%;
+  margin-bottom: 5em;
+  position: relative;
+}
+.post .entry-header {
+  margin-bottom: 2em;
+}
+.post .entry-title {
+  font-size: 130%;
+  margin: 0;
+}
+.post h1 {
+  font-size: 1.2em;
+}
+.table-align-right {
+  text-align: right;
+}
+figure.highlight {
+  background: #fff;
+  border: 1px solid color-gutter;
+  font-size: 0.9em;
+  line-height: 2;
+  margin: 2.2em 0;
+  overflow: auto;
+  padding: 7px 10px;
+  position: relative;
+}
+figure.highlight .code {
+  border-left: 1px solid #fff;
+  color: #918577;
+}
+figure.highlight .gutter {
+  color: #d4d0cd;
+  padding-right: 10px;
+  text-align: left;
+}
+figure.highlight figcaption {
+  color: #d4d0cd;
+  margin-bottom: 5px;
+}
+figure.highlight figcaption a {
+  position: absolute;
+  right: 15px;
+}
+figure.highlight pre {
+  background: 0 0;
+  border: none;
+  margin: 0;
+  padding: 8px;
+}
+figure.highlight table {
+  border-spacing: 0;
+  margin: 0;
+}
+.post .entry-content figure.highlight table {
+  border-spacing: 0;
+  margin: 0;
+}
+figure.highlight th {
+  border: 0;
+  font-weight: 400;
+  padding: 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #000;
+  text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #0379c4;
+}
+img.responsive-img {
+  height: auto;
+  max-width: 100%;
+}
+video.responsive-video {
+  height: auto;
+  max-width: 100%;
+}
+kbd {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px #e2e2e2 inset, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 3px 3px #333;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  border-left: 1px solid #fff;
+  border-radius: 3px;
+  border-right: 1px solid #e6e6e6;
+  border-top: 1px solid #fff;
+  -webkit-box-shadow: 0 0 10px #e8e8e8 inset, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 3px 3px #333;
+  box-shadow: 0 0 10px #e8e8e8 inset, 0 1px 0 #c3c3c3, 0 2px 0 #c9c9c9, 0 3px 3px #333;
+  font-size: 0.85em;
+  line-height: 1;
+  margin: 5px;
+  padding: 6px 8px 3px;
+  text-shadow: 0 1px 0 #fff;
+  vertical-align: baseline;
+  
+}
+pre .addition,
+pre .css .tag,
+pre .keyword,
+pre .method,
+pre .nginx .title,
+pre .request,
+pre .status,
+pre .winutils {
+  color: #1a9ca1;
+}
+pre .attr_selector,
+pre .cdata,
+pre .clojure .title,
+pre .diff .change,
+pre .important {
+  color: #816ec5;
+}
+pre .preprocessor {
+  color: #816ec5;
+}
+pre .preprocessor .keyword {
+  color: #816ec5;
+}
+pre .shebang,
+pre .special,
+pre .subst {
+  color: #816ec5;
+}
+pre .symbol {
+  color: #816ec5;
+}
+pre .symbol .string {
+  color: #816ec5;
+}
+pre .attribute,
+pre .class .title,
+pre .constant,
+pre .haskell .type,
+pre .lisp .body,
+pre .parent,
+pre .smalltalk .number,
+pre .variable {
+  color: #c38700;
+}
+pre .built_in,
+pre .chunk,
+pre .decorator,
+pre .id,
+pre .identifier,
+pre .literal,
+pre .localvars,
+pre .title,
+pre .vhdl,
+pre .deletion {
+  color: #b42147;
+}
+pre .command,
+pre .hexcolor,
+pre .number,
+pre .phpdoc,
+pre .regexp,
+pre .string,
+pre .tag .value,
+pre .tex .formula {
+  color: #6c9a1c;
+}
+pre .comment,
+pre .diff .header,
+pre .doctype,
+pre .javadoc,
+pre .lisp .string,
+pre .pi,
+pre .template_comment {
+  color: #d4d0cd;
+  font-wight: normal;
+}
+sub {
+  bottom: -0.2em;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+td.code,
+.article-tag-list {
+  padding: 0;
+}
+.entry-content .toc {
+  background: #fff;
+  padding: 1em 1em 1em 0;
+  margin: 2.8em 0em;
+  border: 1px solid #98d1f5;
+}
+.entry-content .toc ul:first-child {
+  border-top: none;
+}
+.entry-content .toc ul {
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
+  border-top: 1px dotted #98d1f5;
+}
+.entry-content .toc ul ul,
+.entry-content .toc ul ol {
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0 0 0 0.8em;
+}
+.entry-content .toc ul li {
+  padding: 0;
+  margin: 0 0 0 1em;
+  border-top: 1px dotted #98d1f5;
+}
+.entry-content .toc ul li a {
+  display: block;
+  padding: 10px 8px;
+  color: #34393a;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.entry-content .toc ul li a:hover {
+  color: #0379c4;
+  background-color: #98d1f5;
+}
+.entry-content .toc ul li a:before {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.8em;
+}
+.entry-content .toc ul li ul,
+.entry-content .toc ul li ol {
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0 0 0 0.8em;
+}
+.entry-content .toc ul li ul li a,
+.entry-content .toc ul li ol li a {
+  padding: 7px 10px;
+  font-size: 0.9em;
+}
+.entry-content .toc ul li ul li a:before,
+.entry-content .toc ul li ol li a:before {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.6em;
+}
+.entry-content .toc ul li:first-child {
+  border-top: none;
+}
+.entry-content .toc ul li::after,
+.entry-content .toc ul li::before {
+  content: normal;
+}
+header {
+  height: 60px;
+}
+header .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+header .left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -o-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-left: 0;
+  font-weight: 300;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -o-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: left;
+  width: auto;
+  font-size: 15px;
+}
+header .right {
+  font-size: 15px;
+}
+header .alt {
+  padding: 0;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  -o-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header-title a {
+  padding: 0 0 0 20px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 0.2em;
+}
+button {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  color: buttontext;
+  background-color: buttonface;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  -webkit-border-image: initial;
+  -moz-border-image: initial;
+  -o-border-image: initial;
+  border-image: initial;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 11px system-ui;
+  -webkit-writing-mode: horizontal-tb;
+  -webkit-appearance: button;
+}
+.__web-inspector-hide-shortcut__ {
+  visibility: hidden ;
+}
+.hamburger {
+  display: inline-block;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-3 -6 24 24\"><path fill=\"#4A4A4A\" d=\"M0 12h18v-2H0v2M0 7h18V5H0v2M0 0v2h18V0H0\"/></svg>");
+  background-repeat: no-repeat;
+  -webkit-background-size: 30px 24px;
+  -moz-background-size: 30px 24px;
+  background-size: 30px 24px;
+  background-position: center center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  -ms-flex-item-align: center;
+}
+.tab {
+  position: relative;
+  color: #424242;
+  padding: 6px;
+  margin: 0 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition: 0.1s ease color;
+  -webkit-transition: 0.1s ease color;
+  -moz-transition: 0.1s ease color;
+  -o-transition: 0.1s ease color;
+  -ms-transition: 0.1s ease color;
+  transition: 0.1s ease color;
+}
+amp-sidebar {
+  width: 200px;
+}
+amp-sidebar ul {
+  padding: 10px 0;
+}
+amp-sidebar li a {
+  display: block;
+  padding: 10px 20px;
+}
+.title-cover {
+  background-color: #0379c4;
+  color: #fff;
+  padding: 30px 15px 20px 15px;
+  text-align: center;
+}
+.title-cover a {
+  color: #fff;
+}
+.title-cover a:hover {
+  color: #fff;
+}
+.meta-content {
+  background-color: #e9e9e9;
+  padding: 20px 0;
+}
+.meta-wrapper {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: #fff;
+}
+#footer .homeLink,
+#footer .copyright-tool {
+  margin: 20px;
+}
+.copyright-tool {
+  color: #fff;
+  font-size: 0.5em;
+}
+.social-share {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.social-share amp-social-share {
+  margin: 5px;
+}
+#totop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.2em;
+  z-index: 995;
+  line-height: 1.8em;
+}
+#totop a {
+  background: rgba(152,209,245,0.6);
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  display: block;
+  width: 1.2em;
+  height: 2.2em;
+  line-height: 2em;
+  letter-spacing: 0;
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 15px;
+}
+#totop a:before,
+#totop a:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+#totop a:before {
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#totop a:hover {
+  text-decoration: none;
+  background: #0379c4;
+  color: #fff;
+  line-height: 2.3em;
+}
+.site-author-desc {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-top: 1em;
+}
+.site-author-info {
+  background-color: #fff;
+  margin: 20px;
+}
+.gravatar-area {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.article-tag,
+.article-tag-list,
+.article-categories,
+.article-categories-list {
+  padding: 0;
+  margin: 0;
+}
+.article-categories {
+  margin-bottom: 1.6em;
+}
+.article-tag-list li,
+.article-categories-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0.2em 0;
+}
+.article-tag-list li a,
+.article-categories-list li a {
+  padding: 0.5em 0.6em;
+  margin: 0.4em 0em;
+  background-color: #f5f2f0;
+  color: #34393a;
+}
+.article-tag-list li a:before,
+.article-categories-list li a:before {
+  content: "#";
+}
+.article-tag-list li a:hover,
+.article-categories-list li a:hover {
+  color: #fff;
+  background-color: #0498f6;
+}
+.homeLink,
+.htmlPageLink {
+  font-weight: 700;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  -ms-transition: 0.7s;
+  transition: 0.7s;
+  padding: 0.4em 0;
+}
+.homeLink a,
+.htmlPageLink a {
+  color: #fff;
+  display: block;
+  padding: 1em;
+  text-align: center;
+}
+.homeLink:hover,
+.htmlPageLink:hover {
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.homeLink {
+  font-size: 120%;
+  background: #18a3fb;
+}
+.homeLink:hover {
+  background: #4ab7fc;
+}
+.htmlPageLink {
+  font-size: 110%;
+  background: #18a3fb;
+}
+.htmlPageLink:hover {
+  background: #4ab7fc;
+}
+.googleAdPost,
+.ad-footer,
+amp-instagram,
+amp-vimeo,
+amp-video,
+amp-youtube,
+amp-twitter {
+  margin: 2.8em auto;
+}
+@media (min-width: 800px) {
+  .entry-header,
+  .entry-title,
+  .entry-content,
+  .article-nav {
+    width: 780px;
+    margin: 0 auto;
+  }
+  .nav-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .meta-wrapper {
+    width: 760px;
+    margin: 20px auto;
+  }
+  .site-author-info {
+    width: 760px;
+    margin: 20px auto;
+  }
+  #footer .homeLink,
+  #footer .copyright-tool {
+    width: 760px;
+    margin: 20px auto;
+  }
+}
+
+	</style>
+	
+  </head>
+  <body>
+  	
+  	
+  	<!-- google analytics -->
+  	
+  	
+  	
+  	<!-- menu -->
+  	<header>
+  		<div class="nav-container">
+	  		<div class="left-nav">
+	  			<div class="header-title">
+	  				<a href="/">McK &amp; Note</a>
+	  			</div>
+	  		</div>
+	  		<div class="right alt">
+	  			<button on='tap:sidebar.toggle' class="tab hamburger"></button>
+	  		</div>
+	  	</div>
+    </header>
+  	
+  	
+  	<!-- sidebar -->
+  	<amp-sidebar id='sidebar' layout="nodisplay" side="left">
+      <ul>
+      	<!--
+      		To use the menu, add the menu option of _config.yml.
+      		
+      		generator_amp:
+      		  theme:
+			    menu:
+			      diary: /categories/diary/
+			      gallery: /categories/archive-gallery
+			      archives: /archives
+      	-->
+        <li><a href="/">Home</a></li>
+        
+      </ul>
+    </amp-sidebar>
+  	
+  	
+  	<!-- container -->
+  	<div id="container">
+	  	<div id="main">
+		    <article id="post-Advanced-Econometrics-II" class="post">
+		    
+		    	<!-- entry title -->
+				<div class="title-cover">
+					<div class="entry-header">
+						
+						  <h1 class="article-title entry-title" itemprop="name">
+						    <a href="https://www.mcknote.com/2017/05/05/Advanced-Econometrics-II/" target="_blank" itemprop="url">＃／Advanced Econometrics II</a>
+						  </h1>
+						
+					</div>
+					
+					<!-- datePublished -->
+					<div class="entry-meta-header">
+						<span class="meta-elements date">
+							<time datetime="2017-05-05" itemprop="datePublished">2017-05-05</time>
+						</span>
+					</div>
+				</div>
+				
+				<!-- entry content -->
+			    <div class="entry-content ecp">
+			    
+			    
+			    	<!-- social share button -->
+			    	<!--
+			      		To use the facebook button, add the facebook_app_id option of _config.yml.
+			      		
+			      		generator_amp:
+			      		  theme:
+    						facebook_app_id: 123456789
+			      	-->
+			    	<div class="social-share">
+			    		<amp-social-share type="twitter" width="40" height="40"></amp-social-share>
+			    		
+			    		<!--
+			    		<amp-social-share type="pinterest" width="40" height="40"></amp-social-share>
+			    		-->
+			    		<amp-social-share type="gplus" width="40" height="40"></amp-social-share>
+			    		<!--
+			    		<amp-social-share type="tumblr" width="40" height="40"></amp-social-share>
+			    		<amp-social-share type="whatsapp" width="40" height="40"></amp-social-share>
+			    		<amp-social-share type="linkedin" width="40" height="40"></amp-social-share>
+			    		<amp-social-share type="email" width="40" height="40"></amp-social-share>
+			    		-->
+			    	</div>
+			    	
+			    	
+			    	<!-- content -->
+			  		<p><amp-img src="/2017/05/05/Advanced-Econometrics-II/cover.jpg" width="1200" height="628" layout="responsive"></amp-img></p>
+<p>　<br>既上一篇 <em><a href="/2016/12/26/Advanced-Econometrics-I/" title="Advanced Econometrics I">Advanced Econometrics I</a></em> 介紹了線性迴歸模型後，冬季學期的下半堂課則是針對時間序列資料的分析方法。技術上和上半堂課老實說沒有太多區別，但針對週期性的分析和處理是這門課最有趣的特點。</p>
+<a id="more"></a>
+<h2 id="冬季學期的安排"><a href="#冬季學期的安排" class="headerlink" title="冬季學期的安排"></a>冬季學期的安排</h2><p>我們在冬季學期上了三堂課，其中一門 <em>Collaborative Industry Project</em> 其實是做兩個 projects，所以實際上學習只有這兩門課程：</p>
+<ul>
+<li><em>Advanced Econometrics II</em>（時間序列）</li>
+<li><em>Data Analytics and Mining</em>（SAS 建模）</li>
+</ul>
+<p>誠如之前在〈<a href="/2017/05/01/2017-Spring-Articles/" title="這半年發生的事">這半年發生的事</a>〉所提到的，這兩門課都不是太偏理論的課程。這一部分是因為當時我們全班都在忙 project，所以教授們的教學方向也更偏操作和應用，或許還很佛心地避免考太過艱深的理論。不過時間序列是個滿有趣的資料型態，我也能就我所學到的皮毛談一談學習心得。如果對時間序列或 ARIMA 模型有點認識的讀者，恐怕會覺得我的分享太淺了，不過如果不介意童言童語的話，還請不吝指正。</p>
+<h2 id="老師和教學方法"><a href="#老師和教學方法" class="headerlink" title="老師和教學方法"></a>老師和教學方法</h2><p>這門課的老師是 Professor Garland Durham，教學方法是板書、教材和 <code>R</code> 並用，教材主要是之前提過的 <a href="https://www.amazon.com/Time-Analysis-Its-Applications-Statistics/dp/3319524518/" target="_blank" rel="external"><em>Time Series Analysis and Its Applications: With R Examples</em></a>，由於時間關係，我們只上了前三章多一點。<code>R</code> programming 方面，我們用的套件是作者 Professor Stoffer 寫的 <a href="https://cran.r-project.org/web/packages/astsa/index.html" target="_blank" rel="external"><code>astsa</code></a>。為了上這門課，我也上了一輪 Datacamp 上的相關課程，其中以 <a href="https://www.datacamp.com/courses/arima-modeling-with-r" target="_blank" rel="external"><em>ARIMA Modeling with R</em></a> 和 <a href="https://www.datacamp.com/courses/manipulating-time-series-data-in-r-with-xts-zoo" target="_blank" rel="external"><em>Manipulating Time Series Data in R with xts &amp; zoo</em></a> 最為實用。其他課程其實也不錯，只適合這門課教的內容重疊較少。換句話說，學了以上兩門課程，就和我們所學有八成左右的重疊，剩下的兩成大多是理論的證明和推導，有興趣的讀者也能去讀教材。</p>
+<p>事後想想，其實這門課的最終目標，就是讓我們了解如何利用 ARIMA 模型建模，並理解背後原理。前者雖然不難，實務上也大多是靠<a href="https://www.rdocumentation.org/packages/forecast/versions/7.3/topics/auto.arima" target="_blank" rel="external">自動函數</a>解決，但要理解後者還是得花不少時間，這和使用 <code>lm</code> 函數是一樣的道理。我覺得學到後來，印象最深的是時間序列資料的特性，以及處理上要留意的謬誤。</p>
+<h2 id="資料產生過程和週期性"><a href="#資料產生過程和週期性" class="headerlink" title="資料產生過程和週期性"></a>資料產生過程和週期性</h2><p>時間序列，顧名思義就是和時間有關的資料，更精確一點說，是根據時間排列的資料，所以諸如每日氣溫、銷量，每季度的 CPI、M1，或每年的 GDP 都是時間序列資料。雖然呈現上，時間序列資料和一般資料一樣，也是由行和列構成，只是其中一行是時間，但兩者之間在資料產生過程（data generating process，DGP）上有根本差異。</p>
+<p>由於時間序列是根據資料產生順序所排列的一組資料，每一筆資料間有分先後，而且在先後之間或許還有週期性（periodicity，或季節性 seasonality）。如果不考慮先後這點，回想一下線性迴歸中資料的處理，就會發現不論資料產生的時間，觀測值都是根據大小來排列，比方說排成一條斜線；但如果考慮到先後，七月的資料，就得排在二月之後。而且不同時間內，資料可能有週期性，例如七月的氣溫持續比二月高。考慮到這兩個基本特性，資料處理和建模的方法就需要改變。</p>
+<p>反過來說，如果我們用一般的方法處理時間序列資料，可能會遺漏一些重要的特性。比方說，如果用一般的線性迴歸法解決季節性的問題，將年和月分別當作連續和不連續的變因建模的話，這樣雖然能區分每個月份的特性，也能得出不同年份的整體趨勢，但這麼做又忽略了順序這項特質，特別是「前者是否對後者有影響」的相關性。畢竟今年八月的氣溫，比起去年八月，可能和今年七月的氣溫更有關聯，上述方法無法從月份之間平均值的區別掌握這層關聯性，也無法從每年的平均值捕捉到兩個月之間的關係。</p>
+<p>所以透過另一套方法分析時間序列資料就顯得很重要。某種程度上，我喜歡把時間序列分析想成是一套 data manupulation 的方法。就建模技術上，時間序列資料和一般資料的區別並不大，就設計和假設上所需考慮的面向也很相近，但考慮到上面提到的特性，我們需要一套能正確分析關係的流程，時間序列分析也就應運而生。</p>
+<h2 id="訊號和雜訊"><a href="#訊號和雜訊" class="headerlink" title="訊號和雜訊"></a>訊號和雜訊</h2><p>如果將上面的敘述用更精準的數學式表達的話，可以先將時間序列資料的組成分為兩者：訊號和雜訊（signal and noise），兩者的區別和線性迴歸提過的一樣，前者是分析的目標，屬於真正的資料產生過程，後者是可忽略、也就是長期平均值為零的雜訊。不過和一般迴歸不同的是，在一般迴歸裡看待兩者的觀點，給我的感覺比較接近「在模型下區分訊號和噪音」，但在時間序列裡考慮到週期性和相關性，觀點比較接近「歸納幾種特定的 DGP 後，用這些關係設計建模方法」。這算是一個滿微妙的區別。</p>
+<p>我記得上學期在一般迴歸裡，一開始我認識訊號和雜音的差異很簡單：教授在黑板上點幾個點，在中間畫一條線，說這條線就是模型，點和線之間的距離是雜訊，並接著談最小平方法（OLS）等等；但在這門課裡，我們是先從訊號和雜訊如何構成 AR、MA、RW 等數列講起，才接著說明各種數列的特性，最後沿用之前學過的建模方法。雖然兩種說法對訊號和雜訊的看法完全相同，但後者接近 bottom-up 的做法，或許也說明了為什麼我覺得時間序列的處理，某部分很像融合不同考量的 data manipulation。</p>
+<p>在以下的模型表達式中，$x_{t}$ 代表訊號，$w_{t}$ 代表雜訊，兩者共有的 $t$ 則表示時間順序。這邊先提幾個我自己歸納的資料生成規則：</p>
+<ul>
+<li>順序：$t$ 決定資料順序，例如一個序列 $X$ 包含從 $x_{1}$ 到 $x_{t}$ 等資料。</li>
+<li>關聯：每一筆資料可能包含前一筆資料中<strong>不同比例和深度的訊號和雜訊</strong>，例如 $x_{t} = \alpha_{1} \cdot x_{t-1} + \alpha_{2} \cdot x_{t-3}$ 或 $x_{t} = \beta_{1} \cdot w_{t-2} + \beta_{2} \cdot w_{t-4}$ 或兩者混合。</li>
+<li>平穩：每種數列都需要考慮其週期或<a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E7%A8%B3%E8%BF%87%E7%A8%8B" target="_blank" rel="external">平穩性</a>，另外 $w$ 可以被簡單當作<a href="https://zh.wikipedia.org/wiki/白雜訊" target="_blank" rel="external">白噪音</a>。</li>
+</ul>
+<p>這些只是一些簡單的規則，更嚴謹的定義和術語可以參考 Wikipedia 上的<a href="https://zh.wikipedia.org/wiki/時間序列" target="_blank" rel="external">時間序列</a>。如果讀者還記得 <em><a href="/2016/12/26/Advanced-Econometrics-I/" title="Advanced Econometrics I">Advanced Econometrics I</a></em> 中提到的五個假設，用 Mean Independence 和 Homoskedasticity 其實很好理解時間序列的假設，也能從而推敲何謂 de-trending 和 <a href="https://zh.wikipedia.org/wiki/ARCH模型" target="_blank" rel="external">GARCH 模型</a>所解決的問題。</p>
+<p><amp-img src="/2017/05/05/Advanced-Econometrics-II/sanjose.jpg" width="1200" height="628" layout="responsive"></amp-img></p>
+<h2 id="幾種不同的數列"><a href="#幾種不同的數列" class="headerlink" title="幾種不同的數列"></a>幾種不同的數列</h2><p>理解了 $x_{t}$ 和 $w_{t}$ 的簡單規則後，以下談由兩者組成的各種數列。理解這些數列的目的，是了解不同資料產生過程所帶來的各種特性，這些會直接影響之後的建模和預測。</p>
+<h3 id="White-Noise-白噪音"><a href="#White-Noise-白噪音" class="headerlink" title="White Noise 白噪音"></a>White Noise 白噪音</h3><p>資料產生過程：$w \sim N\left( 0,\sigma_{w}^{2}\right)$</p>
+<p>這裡假設 $w$ 符合平均值為零和狹義的<a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E7%A8%B3%E8%BF%87%E7%A8%8B" target="_blank" rel="external">平穩性</a>（stationarity），所以我們上課時直接將 $w$ 當作符合 $N(0,\sigma^{2}_{w})$ 分佈的數列。根據 Wikipedia 上的<a href="https://zh.wikipedia.org/wiki/%E7%99%BD%E9%9B%9C%E8%A8%8A" target="_blank" rel="external">介紹</a>，白噪聲在功率、頻寬等方面有一些有趣的假設，相信這和統計上的理論和方法設計很有關係，但我所上過的幾門課程並沒有詳細說明這點。不過現實生活中有很多時間序列資料，如金融數據，並不呈正態分佈，有著<a href="https://zh.wikipedia.org/wiki/%E8%82%A5%E5%B0%BE%E5%88%86%E5%B8%83" target="_blank" rel="external">肥尾</a>（fat-tailed）或變異數隨時間變化等特徵，所以白噪音也不全面適用。</p>
+<h3 id="Random-Walk-隨機漫步"><a href="#Random-Walk-隨機漫步" class="headerlink" title="Random Walk 隨機漫步"></a>Random Walk 隨機漫步</h3><p>資料產生過程：$x_{t} = c + x_{t-1} + w_{t}$</p>
+<p>隨機漫步模型（RW）的特點是累加 $w$，數列本身的期望值不為零，需要透過各項相減還原回 $w$。當 $c$ 不為零時，模型也被稱為 Random Walk with Drift。我上過的課程裡並沒有特別強調 RW，不過透過相減追求平穩性這項特質，在實務上是消除 Drift 滿常見的處理方法。另外 RW 這個詞，相信讓不少讀者聯想到《<a href="https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%AD%A5%E8%8F%AF%E7%88%BE%E8%A1%97" target="_blank" rel="external">漫步華爾街</a>》這本書，以及背後的<a href="https://zh.wikipedia.org/wiki/%E6%95%88%E7%8E%87%E5%B8%82%E5%A0%B4%E5%81%87%E8%AA%AA" target="_blank" rel="external">有效市場假說</a>（EMH）。理所當然地，在<a href="https://zh.wikipedia.org/wiki/%E9%9A%A8%E6%A9%9F%E6%BC%AB%E6%AD%A5%E5%81%87%E8%AA%AA" target="_blank" rel="external">隨機漫步假說</a>的簡易模型中也能發現 $w$ 的存在，不過這就超出我<del>這個偽金融學生</del>的守備範圍了。</p>
+<h3 id="Autoregressive-自迴歸"><a href="#Autoregressive-自迴歸" class="headerlink" title="Autoregressive 自迴歸"></a>Autoregressive 自迴歸</h3><p>資料產生過程：$x_{t} = c + \sum _{i=1}^{p}\varphi _{i}x_{t-i} + w_{t} \\= c+ (\varphi _{1} x_{t-1}+\varphi _{2}x_{t-2}\ldots + \varphi _{p}x_{t-p}) + w_{t} $</p>
+<p>自迴歸模型（AR）的特點是每一項都帶有過去項的影響，這項設計讓它可以包涵「第 $t$ 項數受過去訊號影響」這項假設。特別的是，由於 AR 模型中每一項都能往以前追溯，針對 AR 模型的平均數和變異數分析，可以先利用<a href="https://zh.wikipedia.org/wiki/%E8%BF%AD%E4%BB%A3" target="_blank" rel="external">迭代法</a>還原回最低項，再計算平均數、確認平穩性等等。</p>
+<h3 id="Moving-Average-移動平均"><a href="#Moving-Average-移動平均" class="headerlink" title="Moving Average 移動平均"></a>Moving Average 移動平均</h3><p>資料產生過程：$x_{t} = c + \sum _{i=0}^{p}\theta _{i}w_{t-i} \\= c+ (\theta _{1}w_{t-1}+\theta _{2}w_{t-2}\ldots + \theta _{p}w_{t-p}) + w_{t} $</p>
+<p>移動平均模型（MA）和 AR 相似的地方在於包含過去項的關聯，不過 MA 包含的是雜訊而非訊號，有點像 RW 的變形。由於過去項都是雜訊，MA 模型的平均數和變異數分析比較簡單，圖形上比起 AR 看起來也相對穩定。從這邊也能看出 AR 和 MA 的組成不同，兩者可以互補成 ARMA 模型，用於包含過去訊號和雜訊對往後的影響。</p>
+<h3 id="ARMA-和省略的內容"><a href="#ARMA-和省略的內容" class="headerlink" title="ARMA 和省略的內容"></a>ARMA 和省略的內容</h3><p>資料產生過程：$x_{t} = c + \sum _{i=1}^{p}\varphi _{i}x_{t-i} + \sum _{j=0}^{q}\theta _{j}w_{t-j}$</p>
+<p>這就是時間序列分析中使用的 ARMA 模型了，為了區分兩者的範圍，這邊的 $w$ 項數有所更動，不需要和 $x$ 一樣。為了簡化表達，針對這個只包含 $w$、$x$ 和 $c$ 的數學式，我們可以用 $B$ 表達數項中的滯後關係，把它寫成：</p>
+
+$$
+(1-\varphi _{1}B-\varphi _{2}B^2- \ldots -\varphi _{p}B^{p}) \cdot x_{t} = c + (1+\theta _{1}B+\theta _{2}B^2+ \ldots +\theta _{q}B^{q}) \cdot w_{t}
+$$
+
+<p>其中 $ B^{q} \cdot w_{t} = w_{t-q}$，左邊的連加變連減是因為移項。$B$ 可以讀作 Backward，有時也會用 $L$ 代替，稱為 Lag Operator。這只是一種用來簡化 $\sum$ 的寫法，也能讓滯後關係更直觀。我們還可以進一步簡化成下式：</p>
+
+$$
+\varphi (B) \cdot x_{t} = c + \theta (B) \cdot w_{t}
+$$
+
+<p>利用這個模型，時間序列分析能包涵上述特性所帶來的影響。簡化到這一步，相信不難看出我們如何從界定訊號 $x$ 和雜訊 $w$，到考慮到前後影響，加入滯後等設計。不過，雖然這很接近 ARIMA 建模中所使用的模型了，和上一門課一樣，我省略了很多重要的概念和證明。雖然理解這些模型，已經足以使用等一下會提到的函數，以及初步解讀結果，但如果想更精準分析和預測時間序列資料，這些是值得學習的概念：</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Wold%27s_theorem" target="_blank" rel="external">Wold’s Theorem</a>：ARMA 模型適用於時間序列分析的基礎，大意是任何平穩的時間序列資料都能表達為 AR 和 MA 的合體。</li>
+<li><a href="https://en.wikipedia.org/wiki/Autocorrelation" target="_blank" rel="external">ACF</a>／<a href="https://en.wikipedia.org/wiki/Partial_autocorrelation_function" target="_blank" rel="external">PACF</a>：分析數列中前後關聯的方法，用於分辨數列的平穩性。由於時間序列的擬合過程是一段不斷拆解，直到成果接近 $w$ 的過程，利用 ACF 或 PACF <a href="http://mropengate.blogspot.com/2015/11/time-series-analysis-box-jenkins.html" target="_blank" rel="external">分辨 AR、MA</a>、ARMA 或 WN 很重要。</li>
+<li><a href="https://people.ucsc.edu/~ealdrich/Teaching/Econ211C/LectureNotes/Unit1-ARMA/causality.html" target="_blank" rel="external">Causality／Invertibility</a>：利用滯後因子分析 AR 或 MA 數列的方法，判斷平穩性和是否收斂。某些情況下 AR 和 MA 可透過 matching coefficient 方法互換。</li>
+</ul>
+<p>以上是三個我覺得比較重要的概念，想學得更完整的讀者，可以參考 Wharton 的 <a href="http://www-stat.wharton.upenn.edu/~stine/stat910/" target="_blank" rel="external"><em>Stat910: Time Series Analysis</em></a>，上面有很詳盡的講義和 <code>R</code> code。</p>
+<h2 id="ARIMA-建模"><a href="#ARIMA-建模" class="headerlink" title="ARIMA 建模"></a>ARIMA 建模</h2><p>時間序列資料的建模並不難，只要掌握不同模型的特徵就能入門。如前所述，ARIMA 建模本質上就是迴歸分析，只是需要考慮到和一般資料不同的架構。以下先從如何利用 <code>arima.sim()</code> 產生數列，再從另一端談如何建模。</p>
+<h3 id="產生資料"><a href="#產生資料" class="headerlink" title="產生資料"></a>產生資料</h3><p>了解了不同模型之後，這裡談一下如何產生不同數列。產生時間序列資料的方法有三種：</p>
+<ol>
+<li>利用迴圈產生數列</li>
+<li>利用 <code>filter()</code> 函數</li>
+<li>利用 <code>arima.sim()</code> 函數</li>
+</ol>
+<p>第一個方法很簡單，利用 <code>rnorm()</code> 等函數產生必要的雜訊，並定義 {% raw %}$x_{0}${% endraw %} 等基本項後，就能用 <code>for</code> 迴圈生成向量了。第二種老實說我也不太會用⋯⋯我試著讀過說明文件，但當時沒有很認真想弄懂。這邊想談的主要是第三種，<code>arima.sim()</code> 的使用方法。</p>
+<p>在 <code>arima.sim()</code> 模型裡可以定義的變數如下：</p>
+<ul>
+<li><code>n</code>：項數</li>
+<li><code>model</code>：由 <code>list(order = (p,d,q))</code> 組成，後三項分別是 AR、差分、MA 的滯後項係數</li>
+<li>其他的變數包括雜訊產生方法（例如 <code>rnorm</code>）等等</li>
+</ul>
+<p>其中由 <code>(p,d,q)</code> 所產生的模型，就稱為 ARIMA(p,d,q)。前面沒提到的差分項 {% raw %}$d${% endraw %}，讀者可以參考 Wikipedia 上的 <a href="https://zh.wikipedia.org/wiki/ARIMA模型" target="_blank" rel="external">ARIMA 模型</a>。ARIMA 的（數階）差分即為 ARMA 模型。由 <code>arima.sim()</code> 產生的數列為 <code>ts</code> 資料型態，想多了解如何處理 <code>ts</code> 的讀者可以參考前面推薦的 <a href="https://www.datacamp.com/courses/manipulating-time-series-data-in-r-with-xts-zoo" target="_blank" rel="external"><em>Manipulating Time Series Data in R with xts &amp; zoo</em></a>。</p>
+<p>以下是一些 <code>arima.sim()</code> 的範例：</p>
+
+$$
+AR(2): x_{t} = 1.5 x_{t−1} − 0.75 x_{t−2} + w_{t}
+$$
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ar_2 &lt;- arima.sim(model = list(order = (<span class="number">2</span>,<span class="number">0</span>,<span class="number">0</span>),</div><div class="line">                               ar = c(<span class="number">1.5</span>, -<span class="number">0.75</span>)),</div><div class="line">                  n = <span class="number">1000</span>)</div></pre></td></tr></table></figure>
+
+$$
+MA(1): x_{t} = w_{t} - 0.8 w_{t-1}
+$$
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ma_1 &lt;- arima.sim(model = list(order = (<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>),</div><div class="line">                               ma = -<span class="number">0.8</span>),</div><div class="line">                  n = <span class="number">1000</span>)</div></pre></td></tr></table></figure>
+
+$$
+ARMA(1,1): x_{t} = 0.9 x_{t-1} + w_{t} - 0.4 w_{t-1}
+$$
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">arma_1_1 &lt;- arima.sim(model = list(order = (<span class="number">1</span>,<span class="number">0</span>,<span class="number">1</span>),</div><div class="line">                                   ar = <span class="number">0.9</span>,</div><div class="line">                                   ma = -<span class="number">0.4</span>),</div><div class="line">                      n = <span class="number">1000</span>)</div></pre></td></tr></table></figure>
+
+$$
+ARIMA(1,1,0): x_{t} - x_{t-1} = y_{t} = 0.9 y_{t-1} + w_{t}
+$$
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">arima_1_1_0 &lt;- arima.sim(model = list(order = (<span class="number">1</span>,<span class="number">1</span>,<span class="number">0</span>),</div><div class="line">                                      ar = <span class="number">0.9</span>,</div><div class="line">                         n = <span class="number">1000</span>)</div></pre></td></tr></table></figure>
+<h3 id="arima-函數和-SARIMA"><a href="#arima-函數和-SARIMA" class="headerlink" title="arima 函數和 SARIMA"></a><code>arima</code> 函數和 SARIMA</h3><p>了解了如何利用 <code>arima.sim()</code> 產生時間序列資料後，就能利用 <code>arima()</code> 分析。<code>arima()</code> 的使用方法和 <code>arima.sim()</code> 大同小異，唯一區別是 <code>arima()</code> 是用來分析資料，後者是用來產生資料。所以在 <code>arima()</code> 裡需要指定的變量包括：</p>
+<ul>
+<li><code>y</code>：<code>ts</code> 類別的時間序列資料</li>
+<li><code>order</code>：由 <code>list(p,q,r)</code> 組成，即三者的滯後深度</li>
+<li><code>seasonal</code>：由 <code>list(P,Q,R)</code> 組成，即整個 ARMA 模型的季節性</li>
+<li><code>xreg</code>：外在變量</li>
+<li>其他選項包括是否包括 mean、drift 等等</li>
+</ul>
+<p>其中 <code>seasonal</code> 是前面沒提到的季節性。延續前面提到的 ARMA 模型，Seasonal ARIMA（SARIMA）模型的型態如下：</p>
+{% raw %}
+$$
+\Phi (B^{s}) \cdot \varphi (B) \cdot x_{t} = \Theta (B^{s}) \cdot \theta (B) \cdot w_{t}
+$$
+{% endraw %}
+<p>加入了 {% raw %}$\Phi${% endraw %} 和 {% raw %}$\Theta${% endraw %} 之後，SARIMA 可以包涵長期（{% raw %}$ B^{s} ${% endraw %}）的週期性，例如每隔十二個月的變化可以表示為：</p>
+{% raw %}$$
+SARIMA(0,0,1) \times (1,0,0)_{12}: x_{t} = \Phi x_{t-12} + w_{t} + \theta w_{t-1}
+$${% endraw %} 
+<p>可以看出 {% raw %}$\theta${% endraw %} 決定了前項和後項間 {% raw %}$w${% endraw %} 的關係，但 {% raw %}$\Phi${% endraw %} 決定了前後間隔十二項 {% raw %}$x${% endraw %} 的關係。雖然這個表達式看起來有點複雜，剛入門的讀者可以把這想成是包含季節性的設計。總而言之，在 <code>arima()</code> 函數裡，我們需要指定最多七項（<code>p</code>、<code>d</code>、<code>q</code>、<code>P</code>、<code>D</code>、<code>Q</code>、<code>period</code>）變量，以供 <code>arima()</code> 測定係數。但問題來了，在測試這些數值時，怎樣才算好的模型呢？</p>
+<h3 id="模型選擇"><a href="#模型選擇" class="headerlink" title="模型選擇"></a>模型選擇</h3><p>我們所學的簡易工作流程如下：</p>
+<ol>
+<li>先用 <code>plot()</code> 或 <code>ts.plot()</code> 觀察散點或線條圖</li>
+<li>如果圖形看起來不太像白噪音，例如斜率不為零或平均不為零，就利用 <code>log()</code>、差分函數 <code>diff()</code>、線性迴歸 <code>lm()</code> 等方式 de-trend 數據</li>
+<li>利用 <code>acf()</code>、<code>pacf()</code> 和 <code>acf2()</code> 等模型判定資料產生過程</li>
+<li>帶入不同的變量，觀察 AIC、BIC 等數值，直到找出最佳模型</li>
+</ol>
+<p>可以看出前三項是我前面沒提到，但也滿重要的步驟。我前面有稍微提到「時間序列的擬合過程是一段不斷拆解，直到成果接近 {% raw %}$w${% endraw %} 的過程」，所以這就是那段讓我感覺像 data manipulation 的步驟，也是需要掌握理論的原因。老實說，第四個步驟就只是 grid-search 和 performance comparison，所以除了一組一組係數慢慢試，也能寫個 <code>for</code> 迴圈批次測試。所以更進階的用法涉及兩個函數：<code>sarima()</code> 跟 <code>auto.arima()</code>。</p>
+<p><code>sarima()</code> 是 <code>astsa</code> 套件中的函數，和 <code>arima()</code> 的功能基本上差不多，不過 <code>sarima()</code> 能提供更詳盡的報告，像是殘差的 ACF、Q-Q plot、<a href="https://en.wikipedia.org/wiki/Ljung%E2%80%93Box_test" target="_blank" rel="external">Ljung–Box test</a> 等等，也就多了不少可比較的面向。當然，要理解這些報告的意義為何，就和理解 <code>lm()</code> 的報告一樣，最好先熟悉理論。</p>
+<p>另一個更強大的函數是 <code>forecast</code> 套件裡的 <code>auto.arima()</code>，顧名思義，這個函數直接包辦了第四步驟的自動化，省下不少一組一組係數測試的時間。不過有時 <code>auto.arima()</code> 返回的結果，不一定是最理想的，所以在更嚴謹的建模中，通常會用 <code>auto.arima()</code> 判斷 AR、MA 係數等建模方向後，再用 <code>sarima()</code> 確認最佳模型。這當然一部分是因為模型間能比較的面向不只一個，所以有時也不存在絕對正確的模型。這也是建模的樂趣（？）之一。</p>
+{% asset_img sandiego.jpg %}
+<h2 id="重視時間序列的特性，否則⋯⋯"><a href="#重視時間序列的特性，否則⋯⋯" class="headerlink" title="重視時間序列的特性，否則⋯⋯"></a>重視時間序列的特性，否則⋯⋯</h2><p>以上就是我們所學的內容，差不多就是了解 <code>auto.arima()</code> 的運作原理，以及學會一些處理不同狀況、改進模型的知識。除此之外，我真心覺得整堂課學下來最重要的一件事，是<strong>如果資料和時間相關，請謹慎處理，不要直接當作一般（截面）資料</strong>。讓我<a href="https://www.facebook.com/thedailyshow/videos/10153265702071800/?type=1&amp;theater" target="_blank" rel="external">講得更清楚一點</a>：</p>
+<p>我：如果資料產生的過程和時間相關，別忽略時間序列分析，也別直接當一般資料處理。<br>某：所以我不能把時間當一個 variable 丟進 <code>lm()</code> 裡就好嗎？<br>我：不行，因為這樣會忽略許多重要的性質。<br>某：就算我先用 <code>as.Date()</code> 改變資料型態？<br>我：還是不行，這跟改不改 <code>Date</code> 沒什麼關聯。平面的 <code>lm()</code> 無法捕捉上述幾種模型的特質。<br>某：那如果直接用 <code>lm()</code> 發現結果正合我意⋯⋯<br>我：不！你不能用錯誤的分析方法得出偏頗的結論！<br>某：可是我完全不會用 <code>arima()</code> 也不了解時間序列分析，怎麼辦？<br>我：⋯⋯人生很長，你可以慢慢學。<br>某：我同意。我現在就來去嗑一點 <code>lm()</code> 模型。</p>
+<p>會想特別強調這件很基本的事，是因為在之前提到的 Iowa Case Competition 裡，確實有參賽隊伍將時間序列資料當一般資料建模。他們將時間作為一項 variable，和其他的外在因素丟進 <code>lm()</code> 分析以後，得出了「氣溫和銷量呈正相關，而且很顯著」的結論。雖然氣溫的確可能和某些商品的銷量相關，但我們分析的是 3M 的銷售資料⋯⋯於事主管當場就問那支隊伍「氣候暖化那年，我們的銷售額怎麼不增反減？」</p>
+<p>聰明的讀者應該一看就知道問題所在。氣溫之所以會和銷量相關，是因為兩者在年復一年的狀況下，都存在季節性等循環，所以他們共同符合「某個時段會上升或下降」的特徵，但這不代表撇除季節性之後，兩者還是有所關聯。也就是說，氣溫和銷量的相似，在於它們有類似的結構，這就像公寓鄰居間雖然房型差不多，但不能因此就說每家的生活很相似一樣。所以，容我再說一次，時間序列分析某種程度上很像 data manipulation，透過假設分離出不同的比較面向後，得出合理的擬合。如果想包含外在因素，請善用 <code>arima()</code> 模型中的 <code>xreg</code> 變量。</p>
+<h2 id="眺望遠方的應用"><a href="#眺望遠方的應用" class="headerlink" title="眺望遠方的應用"></a>眺望遠方的應用</h2><p>最後，我想說這些內容只算入門。上述幾種數列，和現實中的資料還是有些差異，像是雜訊的分佈不一定常態，這使得擬合的精度不是很高，預測上更是困難重重，誤差大到不實用。所以現今金融市場的應用，又比這篇文章的介紹深入許多，有些是在時間序列的架構下，改善對不同假設的支援，像是前面提到的 GARCH 模型；有些則是結合 Machine Learning 技術，強化模型的 robustness，或是用 RNN 等模型處理時間序列資料的特性。觀察和理解不同技術如何改進時間序列分析，真的是滿有趣的學習經驗，也讓我對仍在和金融工程奮鬥的朋友們充滿敬意。</p>
+<p>　<br><em>走走拍拍：朋友家好動的 Zoey、San Jose、San Diego Zoo</em></p>
+
+			  		
+			  		
+			  		<!-- google Adsense -->
+			  		
+					
+			  	</div>
+				
+		  	</article>
+		  	
+		  	
+		  	<!-- meta (categories , tags) -->
+		  	
+		  	<div class="meta-content">
+		  	
+		  		
+		  		<div class="meta-wrapper">
+				  	<h6 class="categories">Category</h6>
+				  	<div class="article-categories">
+						<ul class="article-categories-list">
+							
+					    		<li class="article-categories-list-item">
+					    			<a class="article-categories-list-link" href="/categories/＃/" class="link-gaTrack" data-linkType="link-categories">
+					    				＃
+					    			</a>
+					    		</li>
+							
+						</ul>
+					</div>
+				</div>
+				
+				
+				
+				<div class="meta-wrapper">
+				  	<h6 class="tag">Tag</h6>
+				  	<div class="article-tag">
+						<ul class="article-tag-list">
+							
+					    		<li class="article-tag-list-item">
+					    			<a class="article-tag-list-link" href="/tags/Cal-Poly/" class="link-gaTrack" data-linkType="link-tag">
+					    				Cal Poly
+					    			</a>
+					    		</li>
+							
+					    		<li class="article-tag-list-item">
+					    			<a class="article-tag-list-link" href="/tags/MSBA/" class="link-gaTrack" data-linkType="link-tag">
+					    				MSBA
+					    			</a>
+					    		</li>
+							
+					    		<li class="article-tag-list-item">
+					    			<a class="article-tag-list-link" href="/tags/Econometrics/" class="link-gaTrack" data-linkType="link-tag">
+					    				Econometrics
+					    			</a>
+					    		</li>
+							
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		  	
+		  	
+		  	<!-- article nav -->
+		  	
+			<nav id="article-nav">
+			  
+			  
+			  <a href="/2017/05/01/2017-Spring-Articles/" id="article-nav-older" class="article-nav-link-wrap">
+			    <strong class="article-nav-caption">Older</strong>
+			    <div class="article-nav-title">
+			      
+			        ＃／這半年發生的事
+			      
+			    </div>
+			  </a>
+			  
+			</nav>
+			
+			
+		</div>
+		
+		
+		<footer id="footer">
+		
+			
+			
+			
+			
+			<div class="homeLink">
+		  		<a href="/">Home</a>
+		  	</div>
+			
+			
+			<div class="copyright-tool">
+				<div class="copyright-title">
+					<span>
+					&copy; 2017&nbsp;Jimmy Lin
+					</span>
+				</div>
+				
+			</div>
+			
+		</footer>
+		
+		
+	</div>
+	
+	
+  	<div id="totop"><a href="#"></a></div>
+  	
+  	
+  </body>
+</html>

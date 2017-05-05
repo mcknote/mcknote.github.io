@@ -1,0 +1,906 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-tw">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content= "This is where I started. Get inspired by the guides and stories from McK & Note and take the initiative to figure out solutions for life." />
+<meta property="article:author" content="https://www.facebook.com/mcknote" />
+<meta property="fb:pages" content="526667947506539" />
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+  <link rel="amphtml" href="./amp/index.html">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo,DNS,Cloudflare,Mailgun,SSL,HSTS,Bit.ly," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="McK & Note" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+  <meta property="fb:admins" content="kiminire" />
+  <meta property="fb:app_id" content="537807449725839" />
+
+
+
+<meta name="description" content="延續基礎篇的內容，如果你架完網站以後意猶未盡，想繼續嘗試域名與其它服務，可以參考本篇的教學。域名是網路上的門面，註冊一個域名可以讓你專注在某個名字上，一次把自己的網站、信箱等服務都理清楚。">
+<meta name="keywords" content="Hexo,DNS,Cloudflare,Mailgun,SSL,HSTS,Bit.ly">
+<meta property="og:type" content="article">
+<meta property="og:title" content="＃／McK &amp; Note 架站筆記：進階篇">
+<meta property="og:url" content="https://www.mcknote.com/2016/04/06/Set-up-McK-Note-Advanced/index.html">
+<meta property="og:site_name" content="McK &amp; Note">
+<meta property="og:description" content="延續基礎篇的內容，如果你架完網站以後意猶未盡，想繼續嘗試域名與其它服務，可以參考本篇的教學。域名是網路上的門面，註冊一個域名可以讓你專注在某個名字上，一次把自己的網站、信箱等服務都理清楚。">
+<meta property="og:image" content="https://i.imgur.com/RUSiLEB.jpg">
+<meta property="og:updated_time" content="2016-04-21T19:42:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="＃／McK &amp; Note 架站筆記：進階篇">
+<meta name="twitter:description" content="延續基礎篇的內容，如果你架完網站以後意猶未盡，想繼續嘗試域名與其它服務，可以參考本篇的教學。域名是網路上的門面，註冊一個域名可以讓你專注在某個名字上，一次把自己的網站、信箱等服務都理清楚。">
+<meta name="twitter:image" content="https://i.imgur.com/RUSiLEB.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"hide"},
+    fancybox: false,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '作者'
+    },
+    algolia: {
+      applicationID: 'K2YQUUH3TO',
+      apiKey: 'abbed1615cd059b39d06a38037971aeb',
+      indexName: 'mcknote',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.mcknote.com/2016/04/06/Set-up-McK-Note-Advanced/"/>
+
+
+
+
+
+  <title> ＃／McK & Note 架站筆記：進階篇 | McK & Note </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=176081199193364";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '537807449725839',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_tw/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-75181285-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=55480462";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+    <div class="site-meta-headline">
+      <a>
+        <img class="custom-logo-image" src="/images/logo.png"
+             alt="McK & Note"/>
+      </a>
+    </div>
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">McK & Note</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+            文庫
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+            標籤
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.mcknote.com/2016/04/06/Set-up-McK-Note-Advanced/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jimmy Lin">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/default_avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="McK & Note">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="McK & Note" src="/images/logo.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ＃／McK & Note 架站筆記：進階篇
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-06T14:30:00-07:00">
+              2016-04-06
+            </time>
+
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/＃/" itemprop="url" rel="index">
+                    <span itemprop="name">＃</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/06/Set-up-McK-Note-Advanced/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/06/Set-up-McK-Note-Advanced/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+            &nbsp; | &nbsp;
+            <div class="fb-like" data-layout="button_count" data-share="true"></div>
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://i.imgur.com/RUSiLEB.jpg" alt="McK &amp; Dope"></p>
+<p>延續<a href="/2016/04/04/Set-up-McK-Note/" title="基礎篇">基礎篇</a>的內容，如果你架完網站以後意猶未盡，想繼續嘗試域名與其它服務，可以參考本篇的教學。域名是網路上的門面，註冊一個域名可以讓你專注在某個名字上，一次把自己的網站、信箱等服務都理清楚。<a id="more"></a></p>
+<p>　</p>
+<blockquote>
+<p><strong>「架站筆記」</strong>系列文章：</p>
+<ul>
+<li><a href="/2016/04/04/Set-up-McK-Note/" title="基礎篇：空間、系統、文章、主題和外掛">基礎篇：空間、系統、文章、主題和外掛</a></li>
+<li><strong>進階篇：域名設定、SSL 和 HSTS、信箱和短網址</strong></li>
+</ul>
+</blockquote>
+<p>　</p>
+<h1 id="域名：購買和設定"><a href="#域名：購買和設定" class="headerlink" title="域名：購買和設定"></a>域名：購買和設定</h1><p>　<br>在朋友 Andy 的推薦下，我在 <a href="https://www.name.com/" target="_blank" rel="external">Name.com</a> 買了域名和 <a href="https://www.name.com/whois-privacy" target="_blank" rel="external">Whois 保護</a>，域名本身的價格跟 Godaddy 差不多，但 Whois 保護便宜快一半。而且 Name.com 的介面和解析速度非常令我滿意。</p>
+<h2 id="使用-Name-com-解析域名"><a href="#使用-Name-com-解析域名" class="headerlink" title="使用 Name.com 解析域名"></a>使用 Name.com 解析域名</h2><p>如果不考慮後面 CloudFlare 的 SSL 設定，其實直接用 Name.com 的解析功能就夠了，設定方法如下：</p>
+<h3 id="本機設定"><a href="#本機設定" class="headerlink" title="本機設定"></a>本機設定</h3><p>在 <code>~/source/</code> 資料夾裡面新增 <code>CNAME</code> 檔案（無副檔名） ，內容如下：<br>{% codeblock ~/source/CNAME %}
+www.mcknote.com
+{% endcodeblock %}</p>
+<blockquote>
+<p>備註：如果後面還想設定信箱，請使用 www. 域名。</p>
+</blockquote>
+<p>接著更改「站點配置文件」中一開始填寫的 <code>url</code>，最後執行 <code>$hexo clean</code> 和 <code>$ hexo g</code>（即 <code>$ hexo clean &amp;&amp; hexo g</code>）。</p>
+<h3 id="Name-com-設定"><a href="#Name-com-設定" class="headerlink" title="Name.com 設定"></a>Name.com 設定</h3><p>在 <strong>DNS Records</strong> 中新增 <code>CNAME</code> 記錄，Host 填上 <code>www</code>，Answer 輸入 <code>Github 地址</code>，然後 Add Record。接著在 <strong>URL Fowarding</strong> 中新增 Domain 為<code>（空）</code>、Fowards to <code>www. 域名</code>的記錄。設定完等個十幾分鐘網址應該就生效了。</p>
+<blockquote>
+<p>備註：因為 <code>CNAME</code> 會和之後信箱設定的 <code>MX</code> 記錄衝突，如果想設定信箱，上述設定請務必統一使用 www. 域名。根目錄網址將以 <strong>URL Forwarding</strong>（即 <code>A</code> 記錄）形式轉到 www 網址上，所以訪問 mcknote.com 還是會導到 www.mcknote.com，跟 Google、Yahoo 等站的設定一樣。</p>
+</blockquote>
+<h2 id="使用-CloudFlare-解析域名"><a href="#使用-CloudFlare-解析域名" class="headerlink" title="使用 CloudFlare 解析域名"></a>使用 CloudFlare 解析域名</h2><p>如果想玩玩看簡單的流量分析與 SSL、HSTS、DNSSEC 等<del>不知道是什麼但聽起來很厲害</del>的功能，可以改用 <a href="https://www.cloudflare.com/" target="_blank" rel="external">CloudFlare</a> 的域名解析服務。<a href="https://www.cloudflare.com/a/sign-up" target="_blank" rel="external">註冊</a>時 CloudFlare 會自動掃描原有的 DNS 記錄，結束以後，你會看到兩個 <code>NS</code> Nameserver，請按照以下步驟設定：</p>
+<h3 id="Name-com-設定-1"><a href="#Name-com-設定-1" class="headerlink" title="Name.com 設定"></a>Name.com 設定</h3><p>進到 <strong>Nameservers</strong> 直接按 Delete All（日後若想恢復，按 Use Default Nameservers 就好，不用擔心），並在 <code>Add Nameserver</code> 新增剛才看到的兩筆記錄。CloudFlare 設定完後可以考慮把 <strong>DNS Records</strong> 和 <strong>URL Forwarding</strong> 的設定清空。</p>
+<h3 id="CloudFlare-設定"><a href="#CloudFlare-設定" class="headerlink" title="CloudFlare 設定"></a>CloudFlare 設定</h3><p>和<a href="#Name-com-設定">上面 Name.com 設定</a>類似，如果 CloudFlare 沒有掃描到任何 DNS 記錄，一樣在上方選單中的 <strong>DNS</strong> 中新增指向 www 的 <code>CNAME</code> 記錄，並在 <strong>Page Rules</strong> 新增一筆指向（forwarding to）記錄，將 http://mcknote.com/* 指向 http://www.mcknote.com/$1。設定完也是等個十幾分鐘就會生效，接著可以試試看 CloudFlare 的各種功能。</p>
+<blockquote>
+<p>備註：別忘了<a href="#本機設定">本機的設定</a>也要改。我之前是在 Name.com 設定完成以後才搬來 CloudFlare，Name.com 的 URL Fowarding 介面比較簡單，所以設定上省事不少。在     CloudFlare 的 <strong>Page Rules</strong> 中，<code>*</code> 指的是「任意」，<code>$1</code> 指的是「第一個星號」。</p>
+</blockquote>
+<p>　</p>
+<h1 id="安全：-SSL-和-HSTS"><a href="#安全：-SSL-和-HSTS" class="headerlink" title="安全： SSL 和 HSTS"></a>安全： SSL 和 HSTS</h1><p>　<br>CloudFlare 對所有用戶提供了免費的 <a href="https://blog.cloudflare.com/introducing-universal-ssl/" target="_blank" rel="external">Universal SSL</a> 服務，<a href="https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/" target="_blank" rel="external">設定方法</a>是進入選單中的 <strong>Crypto</strong>，將 <code>SSL</code> 設定為 <strong>Flexible</strong>，並<strong>等上 24 到 48 小時</strong>。期間你可能會遇到證書錯誤的問題，不用擔心，設定沒有錯，只是 SSL 生效需要時間。等瀏覽器出現正常的 HTTPS 標誌以後，就可以進行以下設定：</p>
+<h2 id="本機設定-1"><a href="#本機設定-1" class="headerlink" title="本機設定"></a>本機設定</h2><p>將「站點配置文件」中的 <code>url</code> 改為 https 開頭，加上 <code>enforce_ssl</code> 設定，設定如下：<br>{% codeblock ~/_config.yml %}
+url: https://www.mcknote.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+enforce_ssl: www.mcknote.com
+{% endcodeblock %}<br>最後執行 <code>$hexo clean</code> 和 <code>$ hexo g</code>（即 <code>$ hexo clean &amp;&amp; hexo g</code>）。 </p>
+<h2 id="CloudFlare-設定-1"><a href="#CloudFlare-設定-1" class="headerlink" title="CloudFlare 設定"></a>CloudFlare 設定</h2><p>將 <strong>Page Rules</strong> 變更為以下三筆記錄：</p>
+<blockquote>
+{% raw %}http://mcknote.com{% endraw %} **Always uses https**
+{% raw %}http://www.mcknote.com{% endraw %} **Always uses https**
+{% raw %}https://mcknote.com/*{% endraw %} **Forwarding to** {% raw %}https://www.mcknote.com/$1{% endraw %}
+</blockquote>
+<p>　<br>設定結束後，可以重新載入，確認證書是否生效了，並打開<strong>錯誤主控台</strong>之類的開發者工具，查詢首頁或文章是否有 http 載入資源（JS、圖片等等）的錯誤，如果有就將對應檔案和指令的 <code>http://</code> 改為  <code>//</code>。</p>
+<h2 id="補充"><a href="#補充" class="headerlink" title="補充"></a>補充</h2><ul>
+<li>SSL 部署最好在網站上線前做，等<strong>證書確認生效以後</strong>再設定 Page Rules。</li>
+<li><code>CNAME</code> 不受 http 或 https 影響，不過如果你在這一步想從根網域換到 www 網域，記得一起改，否則網站會一直鬼打牆。</li>
+<li>為了避免 CloudFlare 太常出現驗證機器人的 CAPTCHA，我把 <strong>Firewall</strong> 裡的 Security Level 調成 <code>Low</code>。</li>
+<li>如果想試試看 <a href="https://zh.wikipedia.org/zh-hk/HTTP%E4%B8%A5%E6%A0%BC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8" target="_blank" rel="external">HSTS</a>，可以在 <strong>Crypto</strong> 選單裡打開，我承認我不完全理解這是什麼，不過我還是開了……</li>
+<li>HSTS 打開時 CloudFlare 會顯示<a href="https://blog.cloudflare.com/enforce-web-policy-with-hypertext-strict-transport-security-hsts/" target="_blank" rel="external">一串說明文</a>，務必細讀，並切記<strong>如果想關閉 SSL，務必先關 HSTS</strong>，否則可能會造成網站無法訪問。如果要開啟，也是先開 SSL，再開 HSTS。</li>
+<li>如果你前面的 SSL 設定 Full 以上，或是開啟 DNSSEC，網址一旦出現錯誤都會指向 CloudFlare 自己的 521 Error Page 而不是 404 Page，如果你有自訂 404 Page 可以考慮要不要開這些設定。</li>
+<li>我也不確定 <a href="http://www.lijyyh.com/2012/07/dnssec-introduction-to-dnssec.html" target="_blank" rel="external">DNSSEC</a> 的用途……我有開過，但遇到上面的問題以後就關掉了。</li>
+<li><strong>Speed</strong> 裡面可以設定壓縮 JS、CSS 和 HTML 的 <code>Auto Minify</code>，以及加速 JS 讀取速度的 <code>Rocket Loader</code>，不過後者聽說會影響 Google AdSense，<a href="https://sofree.cc/cloudflare-google-adsense/" target="_blank" rel="external">嚴重可能造成停權</a>。</li>
+<li><strong>Speed</strong> 設定結束後，可以到 <strong>Caching</strong> 點 <code>Purge Individual Files</code> 或 <code>Purge Everything</code> 使變更生效。下面有個 Development Mode，開啟時 CloudFlare 不會顯示 Cache，所以網站會直接呈現任何變更。</li>
+<li><strong>Analytics</strong> 裡面有些簡單的流量統計，可以看到一天內的流量分佈以及 Cache 狀況。</li>
+</ul>
+<p>　<br>總之 CloudFlare 真的是功能很強大的 DNS 解析服務，不只有基本 DNS 記錄，還有一堆有的沒的免費功能。</p>
+<p>　</p>
+<h1 id="其它：信箱和短網址"><a href="#其它：信箱和短網址" class="headerlink" title="其它：信箱和短網址"></a>其它：信箱和短網址</h1><p>　<br>最後，既然域名都買了，就得物盡其用，我用 {% raw %}mcknote.com{% endraw %} 設定了常見的信箱和短網址服務，如果你也想個人化 Email 地址請參考以下內容。</p>
+<h2 id="信箱"><a href="#信箱" class="headerlink" title="信箱"></a>信箱</h2><p>雖然 Google 從 2012 年就<a href="https://support.google.com/a/answer/2855120?hl=zh-Hant" target="_blank" rel="external">收掉了 Google Apps 免費版</a>，但我照著<a href="https://simplyian.com/2015/01/07/Hacking-GMail-to-use-custom-domains-for-free/" target="_blank" rel="external">這篇教學</a>設定了 <a href="https://mailgun.com/" target="_blank" rel="external">Mailgun</a> 和 Gmail，如此一來也能用 Gmail 收個人域名的信。如果你已經有了 Gmail 帳號，設定方法如下：</p>
+<h3 id="Mailgun-設定"><a href="#Mailgun-設定" class="headerlink" title="Mailgun 設定"></a>Mailgun 設定</h3><p>首先，<strong>用你的 Gmail 信箱<a href="https://mailgun.com/signup" target="_blank" rel="external">註冊 Mailgun</a></strong>，註冊完以後照著指示設定 Name.com 或 Cloud Flare 的 DNS 記錄，應該包括 <code>TXT</code>、<code>CNAME</code> 和 <code>MX</code>，如果你前面設定沒錯的話，複製貼上就好。結束以後進到 <strong><a href="https://mailgun.com/cp/routes" target="_blank" rel="external">Routes</a></strong>，點 Create New Route，建立以下轉發規則：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">欄位</th>
+<th style="text-align:left">設定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Priority</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:left">Filter Expression</td>
+<td style="text-align:left">match_recipient(“你的帳號@你的域名”)</td>
+</tr>
+<tr>
+<td style="text-align:left">Actions</td>
+<td style="text-align:left">forward(“Gmail 帳號@gmail.com”)</td>
+</tr>
+<tr>
+<td style="text-align:left">Description</td>
+<td style="text-align:left">隨意，認得哪個帳號是誰就好</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>完成以後點 Save 儲存。這樣一來 Gmail 就可以收到寄給<code>你的帳號@你的域名</code>的信了，接下來設定從 Gmail 寄信。進入 <strong>Domains</strong> 中選你的域名，並點 <strong>Domain Information</strong> 中的一行小字 <code>Manage SMTP credentials</code>。進去以後點 New SMTP Credential，輸入帳號和密碼，完成以後請注意右邊的 SMTP Settings：</p>
+{% codeblock SMTP SETTINGS %}
+Server: smtp.mailgun.org
+Our servers listen on ports 25, 587 and 465 (SSL/TLS)
+Use full email address like "brad@yourdomain.com" as login username
+{% endcodeblock %}
+<h3 id="Gmail-設定"><a href="#Gmail-設定" class="headerlink" title="Gmail 設定"></a>Gmail 設定</h3><p>完成 Mailgun 設定以後，進到 Gmail 設定裡的<a href="https://mail.google.com/mail/u/0/#settings/accounts" target="_blank" rel="external"><strong>帳戶與匯入</strong></a>，並點選<strong>以這個地址寄送郵件</strong>裡的<code>新增您的另一個電子郵件地址</code>，依序填入姓名、Email、伺服器、端口（587）、完整登入帳號、密碼並選 TLS。完成以後，試著寄信看看，應該馬上能在收信匣中看到，這樣設定就完成了。</p>
+<h2 id="短網址"><a href="#短網址" class="headerlink" title="短網址"></a>短網址</h2><p>如果你想用自己的網域轉址，可以考慮用 <a href="https://bitly.com/" target="_blank" rel="external">Bit.ly</a> 的服務，它雖然免費，但有簡單的點擊數分析，也<a href="http://support.bitly.com/knowledgebase/articles/76741-how-do-i-set-up-a-custom-short-domain-" target="_blank" rel="external">完整支援自訂域名</a>。首先，你可以註冊帳號，也可以直接用 Facebook 帳號登入，登入以後進到 <strong>Settings</strong> 裡的 Advanced，點 Branded Short Domain 區塊的 <code>Activate a Branded Short Domain for personal use.</code>，並在裡面填上一個二級域名，如 <code>{% raw %}s.mcknote.com{% endraw %}</code> （畢竟一級已經被<a href="#域名：購買和設定">網站</a>用掉了）。</p>
+<p>完成 <code>CNAME</code> 相關的 DNS 設定以後，等十幾分鐘轉址服務就生效了，如此一來就可以用自己的域名轉址了，比方說設定 <code>{% raw %}http://s.mcknote.com/ilovemgi{% endraw %}</code> 轉到 <a href="http://www.mckinsey.com/mgi/overview" target="_blank" rel="external">McKinsey Global Institute</a>。</p>
+<blockquote>
+<p>備註：如果網址太複雜，像是包含 <code>()</code> 符號，放到 <code>.md</code> 文件裡就會出錯，這時用短網址就可以解決。</p>
+</blockquote>
+<p>　</p>
+<h1 id="結語：網站才是解答"><a href="#結語：網站才是解答" class="headerlink" title="結語：網站才是解答"></a>結語：網站才是解答</h1><p>　<br>從成立 <a href="https://www.facebook.com/mcknote/" target="_blank" rel="external">Facebook Page</a> 到架設網站，我的想法一直是想找尋一個單純寫作的環境，但 Facebook 的單純已經有點偏向簡陋，缺乏超連結和段落，再加上社交平台的性質，使我感覺越來越不能專注在寫作的初衷上。當我意識到 Facebook Post 的介面讓我開始擔心會不會寫得太長、如何用符號表示段落、如何用 tag 有組織地整理文章等瑣事時，我決定早晚都得自己架個網站。</p>
+<p>過程中，我也曾經考慮 Medium、Ghost、Blogspot 和 Wordpress，最後還是選擇落腳在單純的 Hexo 上。我至今仍對這個決定相當滿意，因為我相信唯有單純且強大的環境才能支撐創作的熱情，不論是 Markdown 的寫作方式還是 Hexo 的維護都很符合這個想法，更不用說上面的步驟除了域名購買以外通通免費，不受付費方案的干擾。老實說 Hexo 乃至架站還有很多有趣的細節（Openshift、gulp、Algolia 等等），邊做邊學是 DIY 最大的收穫，等你成立網站以後會隨著不同需求慢慢發掘，等你習慣以後就回不去了。</p>
+<p>網路上有關 GitHub + Hexo 的文章已經很多了，我寫這篇只是希望讓那些平常很少碰 Coding，但對寫作環境仍抱有希望的人說「你看，其實也不難吧？我還是個商學生呢。」最後，我想再次引用劉恭甫先生在<a href="http://www.managertoday.com.tw/columns/view/52205" target="_blank" rel="external">〈訓練「獨立思考」最好的方法是寫作，而不只是閱讀〉</a>一文中所寫的：</p>
+<blockquote class="blockquote-center"><p>「形成自己觀點」的關鍵是持續寫作，寫作會強迫你吸收閱讀的精華、<br>丟掉多餘的資訊，再加上你自己獨特的觀點。</p>
+</blockquote>
+<p>在意思考的人，應該寫作；在意寫作的人，應該掌握寫作環境。而自己架設、維護網站與管理文章，就是掌握寫作環境最好的方法。</p>
+<p>　<br><em>圖片來源：<a href="http://sbll.org/breakingbad/" target="_blank" rel="external">Breaking Bad Generator</a></em></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/DNS/" rel="tag"># DNS</a>
+          
+            <a href="/tags/Cloudflare/" rel="tag"># Cloudflare</a>
+          
+            <a href="/tags/Mailgun/" rel="tag"># Mailgun</a>
+          
+            <a href="/tags/SSL/" rel="tag"># SSL</a>
+          
+            <a href="/tags/HSTS/" rel="tag"># HSTS</a>
+          
+            <a href="/tags/Bit-ly/" rel="tag"># Bit.ly</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/04/Set-up-McK-Note/" rel="next" title="＃／McK & Note 架站筆記：基礎篇">
+                <i class="fa fa-chevron-left"></i> ＃／McK & Note 架站筆記：基礎篇
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/04/11/Consulting-Template-Slide-Design/" rel="prev" title="＃／諮詢業的簡報設計">
+                ＃／諮詢業的簡報設計 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="Jimmy Lin" />
+          <p class="site-author-name" itemprop="name">Jimmy Lin</p>
+          <p class="site-description motion-element" itemprop="description">In reasoning we believe.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">91</span>
+              <span class="site-state-item-name">文章</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分類</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">157</span>
+                <span class="site-state-item-name">標籤</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        <div class="fb-page motion-element" data-href="https://www.facebook.com/mcknote" data-tabs="timeline" data-width="240" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/mcknote">
+              <a href="https://www.facebook.com/mcknote">McK &amp; Note</a></blockquote>
+          </div>
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#域名：購買和設定"><span class="nav-number">1.</span> <span class="nav-text">域名：購買和設定</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-Name-com-解析域名"><span class="nav-number">1.1.</span> <span class="nav-text">使用 Name.com 解析域名</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#本機設定"><span class="nav-number">1.1.1.</span> <span class="nav-text">本機設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Name-com-設定"><span class="nav-number">1.1.2.</span> <span class="nav-text">Name.com 設定</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-CloudFlare-解析域名"><span class="nav-number">1.2.</span> <span class="nav-text">使用 CloudFlare 解析域名</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Name-com-設定-1"><span class="nav-number">1.2.1.</span> <span class="nav-text">Name.com 設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CloudFlare-設定"><span class="nav-number">1.2.2.</span> <span class="nav-text">CloudFlare 設定</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安全：-SSL-和-HSTS"><span class="nav-number">2.</span> <span class="nav-text">安全： SSL 和 HSTS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#本機設定-1"><span class="nav-number">2.1.</span> <span class="nav-text">本機設定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CloudFlare-設定-1"><span class="nav-number">2.2.</span> <span class="nav-text">CloudFlare 設定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#補充"><span class="nav-number">2.3.</span> <span class="nav-text">補充</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其它：信箱和短網址"><span class="nav-number">3.</span> <span class="nav-text">其它：信箱和短網址</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#信箱"><span class="nav-number">3.1.</span> <span class="nav-text">信箱</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Mailgun-設定"><span class="nav-number">3.1.1.</span> <span class="nav-text">Mailgun 設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gmail-設定"><span class="nav-number">3.1.2.</span> <span class="nav-text">Gmail 設定</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#短網址"><span class="nav-number">3.2.</span> <span class="nav-text">短網址</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#結語：網站才是解答"><span class="nav-number">4.</span> <span class="nav-text">結語：網站才是解答</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimmy Lin</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'mcknote';
+      var disqus_identifier = '2016/04/06/Set-up-McK-Note-Advanced/';
+
+      var disqus_title = "＃／McK & Note 架站筆記：進階篇";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+  
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>

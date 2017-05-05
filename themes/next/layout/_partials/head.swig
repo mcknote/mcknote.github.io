@@ -9,6 +9,9 @@
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
+{% if is_post() && config.generator_amp %}
+  <link rel="amphtml" href="./amp/index.html">
+{% endif %}
 
 {% if theme.google_site_verification %}
   <meta name="google-site-verification" content="{{ theme.google_site_verification }}" />
