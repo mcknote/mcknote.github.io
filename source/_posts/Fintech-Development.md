@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇 McKinsey Insight](http://www.mckinsey.com/insights/financial_services/cutting_through_the_noise_around_financial_technology) 分析近來 FinTech 的發展趨勢，並分別針對 FinTech Startup 和銀行列出六點發展建議。廣義來說，FinTech 包含了任何以軟體形式提供的金融服務，所以 PayPal、支付寶、歐付寶以及各大銀行自行發行的 App，甚至各購物網站的付款介面都算 FinTech 發展的範疇。使用軟體的目的，自然是提升服務效率、利用廣泛終端（如手機）接觸更多消費者、以及活用服務過程中產生的大數據等等。<!--more-->
 

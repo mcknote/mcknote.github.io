@@ -8,7 +8,7 @@ tags:
 - Cal Poly
 categories: ＃
 ---
-{% asset_img cover.png %}
+![](cover.png)
 　
 我知道進管顧業不容易。應該說，在各行各業紮根、建立自信都不容易，解決自己大大小小的問題更不容易，所以我希望自己能靜下心來花個一年五年好好努力。<!--more-->
 
@@ -52,7 +52,7 @@ categories: ＃
 
 值得一提的是，最初我會設下「一年」這個時間點，是因為 Harvard Business School 有個 [2+2 Program](http://www.hbs.edu/mba/admissions/application-process/Pages/student-applicants.aspx)：只要申請人剛畢業，就可以直接申請 HBS MBA。申請上的前兩年可以出去工作，兩年後再回 HBS 讀書。不過，和申請上的學長聊過以後，我覺得現階段自己申請上的機率不大，所以就把 MBA 的時間點放回到五年後，等能用 Master 成績、工作等其它經歷證明自己的能力以後再申請。
 
-{% asset_img slo.png %}
+![](slo.png)
 <center>（Highland Dr, San Luis Obispo, CA）</center>
 
 ## 五年行嗎
@@ -63,7 +63,7 @@ categories: ＃
 
 不過，雖然我已經讀了不少跟 Top MBA 有關的資料，我承認，我也還在摸索、調適到底該不該讀 MBA，畢竟計畫趕不上變化，五年後的事情我也說不準。不過，我很確定的是我愛 Case Study，我也愛管顧業。不管是遇到更好的人，還是更好的自己，我需要一個讓我願意投入全部的目標，讓自己不再虛度光陰。
 
-{% asset_img OnedayIwill.jpg %}
+![](OnedayIwill.jpg)
 
 ## 未來方向
 

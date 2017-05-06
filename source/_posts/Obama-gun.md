@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇文章](http://www.vox.com/2016/1/4/10708324/obama-gun-control-executive-order)解釋了為什麼歐巴馬（Barack Obama） 要簽署槍枝管制的行政命令，以及這個命令的內容與後續影響。由於美國國會深受[美國全國步槍協會（NRA）](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E5%85%A8%E5%9B%BD%E6%AD%A5%E6%9E%AA%E5%8D%8F%E4%BC%9A)的遊說與贊助影響，儘管過去歐巴馬曾多次表達對槍枝改革的期望，美國國會仍不為所動，因此簽署行政命令是他所能採取的手段之一，雖然一旦共和黨人當選總統即可撤銷這項命令。<!--more-->
 　

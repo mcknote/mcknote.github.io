@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpeg %}
+![](cover.jpeg)
 　
 [這篇文章](https://www.twreporter.org/a/pineapple-taiwan)寫得很好，以農民的期望跟鳳梨出口數據作支撐，解釋了今年的政治關係將會如何影響鳳梨外銷市場。但關於這篇我想寫的不是邏輯分析，而是其中農民說的一句話：「中國市場一定會一直大啦……我是感覺就算全台灣種滿鳳梨，嘛乎大陸人吃不夠。」這句話是真的嗎？我們該如何預估中國的鳳梨市場有多大？<!--more-->
 　

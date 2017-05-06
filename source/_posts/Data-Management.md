@@ -8,7 +8,7 @@ tags:
 - SQL
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 秋季學期的第三門課是 Data Management，談的是 `SQL` 語言和 Relational Database。這是我比較沒準備也沒概念的一門課，但學了以後才漸漸發覺 Database 是落實 BA Solution 不可或缺的觀念。
 
@@ -18,8 +18,8 @@ categories: ＃
 
 終於能在冬季學期結束前，把秋季學期的三門課都介紹完了⋯⋯
 
-* *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}*（理論、分析）
-* *{% post_link Computational-Methods Computational Methods %}*（實作）
+* *{% post_link Advanced-Econometrics-I Advanced Econometrics I)*（理論、分析）
+* *{% post_link Computational-Methods Computational Methods)*（實作）
 * *Data Management*（資料庫操作、管理）
 
 這次談的 Data Management 和 Computational Methods 類似，都是讀者如果自學的話比較可能漏掉的領域，因為一般學習過程中不太會碰到需要用 SQL Query 讀取資料的場合，更很少注意到 Relational Database 這個概念。如果是自我練習的話，通常只是讀取 `.csv`、用個 `subset()` 或 `dplyr` 一類的 package 就能處理好資料。
@@ -28,7 +28,7 @@ categories: ＃
 
 所以某種程度上，讀者可以把 `SQL` 當成一門 `subset()` 的藝術，了解如何最有效率地處理資料，與設計相應的工作流程。等了解了 SQL、Database 概念以及為何它們很重要以後，就能理解 [GFS](https://en.wikipedia.org/wiki/Google_File_System)、 [HDFS](https://wiki.apache.org/hadoop/HDFS)、 [MapReduce](https://zh.wikipedia.org/zh-hant/MapReduce)、 [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)、 [Spark](https://en.wikipedia.org/wiki/Apache_Spark)、 [Neo4j](https://en.wikipedia.org/wiki/Neo4j) 等一連串的應用為何能在這個 [Info Explosion](https://en.wikipedia.org/wiki/Information_explosion) 的年代應運而生了。
 
-這讓我想到六個月前{% post_link Data-Visualization-Storytelling 剛學 Tableau 時 %}，我也還不了解功能表裡那些資料庫選項的用途。現在我比較清楚了，也能把資料查詢和處理當成單獨、重要的步驟看待。另一方面，對剛步入數位化的中小企業來說，資料庫管理是比資料分析還要基本而且重要的需求，所以學學怎麼設計 Relational Database 也很重要。總之，雖然課名是 Data Management，但要管理虛無飄渺的資訊，就需要設計資料庫和管理流程。以下介紹這門課的主要內容。
+這讓我想到六個月前{% post_link Data-Visualization-Storytelling 剛學 Tableau 時)，我也還不了解功能表裡那些資料庫選項的用途。現在我比較清楚了，也能把資料查詢和處理當成單獨、重要的步驟看待。另一方面，對剛步入數位化的中小企業來說，資料庫管理是比資料分析還要基本而且重要的需求，所以學學怎麼設計 Relational Database 也很重要。總之，雖然課名是 Data Management，但要管理虛無飄渺的資訊，就需要設計資料庫和管理流程。以下介紹這門課的主要內容。
 
 
 ## 老師和教學方法
@@ -43,7 +43,7 @@ categories: ＃
 
 整堂課的學習目標很單純：學會怎麼用 SQL Query 查詢和建立資料庫，並了解 Relational Database 概念，以及能用 ER Diagram 等工具表達、設計 Relational Database。最後有個 Class Project，是為一間租車公司設計資料庫系統，架構如圖。
 
-{% asset_img erd_simple.jpg %}
+![](erd_simple.jpg)
 
 　
 因為我到最後還是不太習慣用 Microsoft Visio 或其他線上 ERD Tools，所以這張是用 Pages 畫的，右下角是紀念用的標誌，分別代表 Mandatory Multiple、Optional Multiple、Mandatory Single 跟 Optional Single，用來表達資料庫中各項紀錄的對應情況。以下整理一下我在這門課學到的東西。
@@ -75,7 +75,7 @@ categories: ＃
 設計這套系統的重要觀念之一是 data independence。前面提到 database 可以是分散的幾台主機，但這種情況下可能會發生重複更新、資料分歧等問題，所以學會建立 relationships 並合理利用查詢功能是建立 relational database 的主要原因。
 
 
-{% asset_img cerro.jpg %}
+![](cerro.jpg)
 
 ## SQL 語言
 
@@ -222,7 +222,7 @@ result <- dbGetQuery(chinook, "SELECT   AlbumId,
 
 大概就是這樣，當然，要複雜也可以變得很複雜，只是這就留給有心的讀者自己挖掘有趣的寫法了。
 
-{% asset_img calpoly.jpg %}
+![](calpoly.jpg)
 
 ## 從資料庫到解決方案
 
@@ -230,7 +230,7 @@ result <- dbGetQuery(chinook, "SELECT   AlbumId,
 
 ### Entity and Relationship
 
-{% asset_img erd_simple.jpg %}
+![](erd_simple.jpg)
 
 上面這張圖裡，方框是 Entity，線條是 Relationship，加上右下角四種 Symbol，讀者應該能看出這個系統如何記錄 Vintage Auto 的兩大業務：維修和銷售。
 
@@ -291,7 +291,7 @@ result <- dbGetQuery(chinook, "SELECT   AlbumId,
 有些設計或許應付得了一時的需求，但隨著商業發展可能會不敷使用。不過這時固執選擇最好的解決方案，有時礙於限制也不切實際，所以比較中性的作法應該是將設計時的假設說清楚，像是「姓名不會超過 25 位」、「金額應該都是正數」等等。為資料庫建立明確的 Guideline，才是完整的解決方案。
 
 
-{% asset_img santarosa.jpg %}
+![](santarosa.jpg)
 
 ## 路是無限寬廣
 

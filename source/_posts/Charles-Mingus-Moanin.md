@@ -21,7 +21,7 @@ categories: 聽
 
 其中最高音（Sopranino）和低音（Bass）薩克斯風已經很少使用。Moanin' 開場的樂器正是上低音薩克斯風（Bari），演奏者是 [Ronnie Cuber](https://en.wikipedia.org/wiki/Ronnie_Cuber)，除了 Bari 以外，他也會演奏 Tenor 和 Sopranino。我過去常聽 John Coltrane，他所演奏的薩克斯風是 Tenor、Soprano 和 Alto，也難怪我一聽到 Moanin' 就被 Bari 的聲音所吸引。
 
-{% asset_img tenor_saxophone.jpg %}
+![](tenor_saxophone.jpg)
 
 ## Charles Mingus 和 Mingus Big Band
 

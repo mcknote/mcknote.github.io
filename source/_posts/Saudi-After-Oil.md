@@ -8,7 +8,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 過去我對[沙烏地阿拉伯（Saudi Arabia）](https://zh.wikipedia.org/zh-hant/%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AF)的想像停留在沙漠、白衣人與石油，就算看到[阿聯（UAE）](https://zh.wikipedia.org/zh-hant/%E9%98%BF%E6%8B%89%E4%BC%AF%E8%81%94%E5%90%88%E9%85%8B%E9%95%BF%E5%9B%BD)的兩個酋長國：杜拜、阿布達比日益蓬勃，逐漸發展為中東曼哈頓與文化中心，我很少思考這個過去以產油聞名的國家，現在過得如何。[這篇 MGI 報告](http://www.mckinsey.com/global-themes/employment-and-growth/moving-saudi-arabias-economy-beyond-oil)倒是給了我全新的想法，它指出在 2030 年以前，沙烏地阿拉伯的 GDP 會翻倍（增加八千億美金），家庭收入會提升 60%，而且更重要的是，這些增長是來自於八個非原油（non-oil）產業：觀光、採礦、金融、石化、製造、營建、健保與零售，它們將貢獻 60% 的經濟增長。為了達成這個目標，當地政府必須提升勞動生產力，推動經濟改革，並確保財政可持續發展。簡單來說，我未來對沙烏地阿拉伯的想像，除了沙漠與白衣人以外，應該多點有聲有色的東西。為了瞭解 MGI 是如何得出這些結論的，我們可以看看它的研究方法。<!--more-->
 

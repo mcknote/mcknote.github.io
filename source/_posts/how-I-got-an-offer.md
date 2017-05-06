@@ -8,7 +8,7 @@ tags:
 - Career
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 整個十月真的是忙上加忙，除了課業，還得準備出乎意料的面試。當時我就想，如果能順利撐過這個月，一定要活著將中間經歷的學習、挫折跟反省都記錄下來。這篇文章就是這麼一回事。
 
@@ -43,7 +43,7 @@ categories: ＃
 > **要事之二**
 > 參加活動前要對公司、職位跟申請門檻做好功課，談話才能切入重點。記得要在場職員的聯絡方式。
 
-{% asset_img cf.jpg %}
+![](cf.jpg)
 　
 
 所以過了幾天，我開始好好整理職位等資訊，並改善履歷，讓 HR 一眼就能看出重點。雖然現在許多職位都在網路上投遞，但有個統一的表格總更方便查詢，所以我建了[這個表單](http://go.mcknote.com/mustangjobs)，其中包括以下欄位：
@@ -165,7 +165,7 @@ categories: ＃
 
 其中除了 Career Fair 因為人很多，接觸的時間可能會被壓縮以外，其它四項都會有滿充分的交流時間，而且某種程度上也算是環環相扣，例如如果不在說明會上留下聯絡方式，就不太可能受邀共進早餐，當然也會影響後續的準備，所以關鍵就是主動出擊，利用上面準備好的內容，讓別人記得你是誰。
 
-{% asset_img reception.jpg %}
+![](reception.jpg)
 <center>（其中一次聚會的場地。我剛有提到 SLO 超讚嗎？）</center>
 
 ## 面試階段
@@ -236,7 +236,7 @@ Fit 是一個很奇妙的觀念，影響它的因素，包含硬的技能和經�
 
 最後他說，他前一天聽到我對 Machine Learning 研究得很有心得，就想「那你為什麼不乾脆來我們部門」，我當時也只是笑笑，以為這是客套話。沒想到兩天後，我接到了 KPMG HR 的電話，問我有沒有興趣到第二位主管的部門工作；兩個小時後，在走去學校的路上，我收到了正式的 offer。
 
-{% asset_img sfo.jpg %}
+![](sfo.jpg)
 <center>（處處充滿科技廣告的 SFO）</center>
 
 ## 一年後的生活
@@ -269,7 +269,7 @@ I believe you'll do a good job.
 
 這篇文章從十月底打到現在，也差不多快到了感恩節。想想 McK & Note 也正好寫了一年多，這篇文章，剛好算是一個里程碑。我想先感謝 Bradley Chen 和 IOH，要不是當初上台北參加[這場求學講座](http://ioh.tw/talks/%E5%93%88%E4%BD%9B%E5%A4%A7%E5%AD%B8-harvard-university-%E9%99%B3%E5%BD%A5%E5%BB%B7-bradley-chen-ov-study-phd-us/)，我可能也不會重拾想成為顧問的夢想，決定開始寫 McK & Note。某種程度上，可以說是 Bradley 催生了這個網站。
 
-{% asset_img mcknote.jpg %}
+![](mcknote.jpg)
 <center>（*"I really love consulting. I even wrote a blog about it!"*）</center>
 
 　

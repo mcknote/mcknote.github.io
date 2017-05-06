@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇文章](http://rocket.cafe/talks/44942)提到遊戲角色是[任天堂（Nintendo）](https://zh.wikipedia.org/zh-hant/任天堂)的核心資產，包括 Mario、神奇寶貝等等，思考如何將角色推廣出去、發揮任天堂的品牌影響力並「擴大任天堂遊戲的觸及人口」將是未來發展關鍵。因為任天堂目前在家用主機市場上失利，[Wii U 無法擔當推廣遊戲角色的關鍵](http://wii.tgbus.com.tw/gongluemiji/20150703/722218.html)，因此任天堂未來的策略將會更加露骨地行銷遊戲角色，包括推出獨立的公仔、卡片、廣告甚至 App，而非單純的遊戲片。<!--more-->
 　

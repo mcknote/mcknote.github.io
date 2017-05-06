@@ -7,7 +7,7 @@ tags:
 - Storytelling
 categories: ＃
 ---
-{% asset_img cover.png %}
+![](cover.png)
 　
 為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK & Note 上。有興趣的人可以留意網站裡的 [#Cal Poly](https://www.mcknote.com/tags/Cal-Poly/) 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。<!--more-->
 
@@ -25,7 +25,7 @@ categories: ＃
 
 這門課的老師是 Dr. Samuel Frame，如果你看過 *Breaking Bad* 的話，他給人的感覺（還有一些特徵）滿像 [Hank Schrader](http://breakingbad.wikia.com/wiki/Hank_Schrader)。不過他不在 DEA 工作，他是 Cal Poly 統計系的副教授，曾在 Wells Fargo 當 [Advanced Analytics Consultant](http://statistics.calpoly.edu/faculty-updates)，以及在 UC Berkeley School of Information 任教。
 
-{% asset_img hankbeer.jpg %}
+![](hankbeer.jpg)
 <center>（Let's have some more beer charts!）</center>
 
 　
@@ -60,7 +60,7 @@ Dr. Frame 從一開始就說他會讓我們在這門課好好學 Tableau，因�
 
 以下來詳細談談 **Tableau** 跟 ***Storytelling with Data*** 兩條上課主軸。
 
-{% asset_img calpoly.png %}
+![](calpoly.png)
 <center>（用來分隔過長文章的 Cal Poly 中庭大草坪。）</center>
 
 ## Tableau、Tableau、Tableau
@@ -75,7 +75,7 @@ Dr. Frame 從一開始就說他會讓我們在這門課好好學 Tableau，因�
 
 **便利**則是指在 Tableau 裡可以靠簡單的拖曳資料（Dimension 或 Measure）來做出各式各樣的圖表，從最基本的 Bar Chart 到比較炫的 [Slopegraph](http://dataremixed.com/2013/12/slopegraphs-in-tableau/) 都有，對一般人來說應該滿好上手。不過，當資料有問題、需要調整的時候，以我們目前的程度也只能摸摸鼻子開 Excel 調整。
 
-{% asset_img tableau.png %}
+![](tableau.png)
 
 ### 未來我還想怎麼學 Tableau
 

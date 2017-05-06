@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpeg %}
+![](cover.jpeg)
 　
 [e-SIM](http://technews.tw/2015/07/20/subscriber-identity-module/) 是個由 GSM 協會制訂，將 SIM 卡嵌在手機裡的技術標準，意思是我們有天將不能、不需要更換手機裡的 SIM 卡。這麼做的好處，除了方便手機製造商設計出更輕薄的手機，以及消費者自由在手機上比較、選擇合約以外，還能推進物聯網（IoT）的發展，有效管理機器間的溝通能力（M2M）——畢竟沒有人想一台一台機器換 SIM 卡吧？Apple、Samsung 和全球幾大電信商[正在研擬相關標準](http://www.ft.com/intl/cms/s/0/fc78a3ea-294b-11e5-acfb-cbd2e1c81cca.htm)，事實上 Apple 也早在 iPad Air 2 中折衷加入類似 e-SIM 的技術。[這篇 MGI](http://www.mckinsey.com/industries/telecommunications/our-insights/e-sim-for-consumers-a-game-changer-in-mobile-telecommunications) 對 e-SIM 改革中的各個角色進行分析，一方面說明 e-SIM 為何會成真，一方面衡量 e-SIM 可能造成的影響。<!--more-->
 　

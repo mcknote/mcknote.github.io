@@ -10,7 +10,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpeg %}
+![](cover.jpeg)
 　
 [這篇文章](https://hbr.org/2016/01/social-media-works-for-b2b-sales-too)介紹了社群媒體的操作如何幫助 B2B 企業提升知名度與銷量。隨著越來越多潛在客戶習慣在實際接洽企業前先上網蒐集資訊，比起死板的產品介紹，具有深度的原創內容可以幫助他們更快瞭解一間企業的專業能力，並建立熟悉與信任感。文中除了引用 Bain & Company 對 370 間企業的調查，還舉了 Adobe、IBM 和 Maersk Line 三個例子，說明他們如何透過各種管道提供深度內容並吸引顧客。因此社群網站的經營，不但可以幫助大眾瞭解一間企業，也給了潛在客戶一個接洽的切入點。<!--more-->
 　

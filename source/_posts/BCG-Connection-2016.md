@@ -8,7 +8,7 @@ tags:
 categories: ＃
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 ** TL;DR **
 波士頓諮詢公司（BCG）正在招募全職跟兼職助理（PTA）：

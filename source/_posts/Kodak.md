@@ -5,7 +5,7 @@ tags: Kodak
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這則新聞](http://www.thenewslens.com/post/259607/)說有越來越多導演選擇用底片（港譯菲林，Film）拍片，而這個行業趨勢可能會幫助 Kodak 轉虧為盈。<!-- more -->
 　

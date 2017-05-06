@@ -7,7 +7,7 @@ tags:
 - Cal Poly
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 自從完成冬季學期的三門課之後，我就馬不停蹄地踏上了年初規劃好的 MBA 參訪之旅，並在過程中從一個申請者的角度，把規劃和心得等還沒忘掉的細節記下來。
 
@@ -68,7 +68,7 @@ categories: ＃
 
 註：Day (Trip) 一欄中，粗體字為實際旅行的時間，括號內的數字是第幾次旅行，希望能讓讀者更清楚哪幾次交通屬於一次規劃，表格有點難讀不好意思。
 
-{% asset_img wtc.jpg %}
+![](wtc.jpg)
 
 ## 教授的提醒
 
@@ -96,7 +96,7 @@ categories: ＃
 
 ### NYC - NYU Stern
 
-{% asset_img nyu.jpg %}
+![](nyu.jpg)
 
 * 環境：SoHo 鬧區內，近 Greenwich Village（有很多酒吧）
 * 交通：非常方便，附近有多個地鐵站和多線地鐵（24 hr），離北邊的中城或南邊的 WTC 都不遠
@@ -122,7 +122,7 @@ NYU Stern 在課程的安排上算滿有彈性，除了能根據學生背景免�
 
 畢業生的去向並沒有想像中的都去商行或投行，這可能跟這幾年的景氣也有關。去年 Stern 最大的雇主是 Amazon Seattle。學生不一定都來自紐約，畢業後也不一定就待在紐約，只能說因為 NYC 是個很活躍的 Hub，所以總能吸引各式各樣的人和機會，至於將來如何規劃，就要看個人如何運用 NYU 這塊招牌和 MBA 所學內容了。
 
-{% asset_img nyu2.jpg %}
+![](nyu2.jpg)
 
 #### 心得和補充
 
@@ -134,7 +134,7 @@ NYU Stern 在課程的安排上算滿有彈性，除了能根據學生背景免�
 
 ### NHV - Yale SOM
 
-{% asset_img yale.jpg %}
+![](yale.jpg)
 
 * 環境：New Haven 的中心，算是一個大學城，比起 NYC 算清幽不少
 * 交通：校區周圍有很多公車路線，從 Union Station 到 BOS 或 NYC 大約兩三個小時
@@ -164,7 +164,7 @@ Yale SOM 的職涯服務也很多元和專業，每個行業都有一兩個 Indu
 
 最後，Yale SOM 在課程上的設置和 HBS 很相近，分為第一年的 Required Curriculum（RC）和第二年的 Elective Curriculum（EC）。不過今年的課表改得更彈性，變成第一年末就能選修課程，詳情請參考[官方介紹](http://som.yale.edu/programs/mba/curriculum/integrated-curriculum)。Yale SOM 的學生能和全校學生公平選修 Yale 所有不具先修學分要求的課程。
 
-{% asset_img yale2.jpg %}
+![](yale2.jpg)
 
 #### 心得和補充
 
@@ -178,7 +178,7 @@ Yale SOM 的職涯服務也很多元和專業，每個行業都有一兩個 Indu
 
 ### BOS - Harvard Business School
 
-{% asset_img hbs.jpg %}
+![](hbs.jpg)
 
 * 環境：Harvard 主校區是發展成熟的大學城，有 Harvard Square 等商業區
 * 交通：很方便，從商學院走到紅線上的 Harvard 站大約十五分鐘，一小時內能抵達機場或車站
@@ -214,7 +214,7 @@ HBS 的教學風格不用多說，就是大名鼎鼎的 [Case Method](http://www
 
 除此之外的職涯、社團和國際經驗，大致上也跟其他學校差不多，我就不重複了，有興趣的讀者，也可以花時間讀一讀 HBS 的官網。值得一提的是，Kevin 和 Steve 都跟我說 HBS 的生活非常忙碌，除了前面提到的高強度學習以外，還有大大小小的社交、娛樂活動。畢竟 HBS 一年有將近一千位學生，大家都想在兩年內盡可能地認識很多人。當我跟 Kevin 在 HBS Dining Hall 吃午餐時，我們環顧了一下四周，「這群人裡面有未來的 CEO、政治明星或慈善家等等。」這的確是非常誘人的動力，難怪 Kevin 說他來 HBS 以後有事沒事都會和同學約 Coffee Chat。
 
-{% asset_img hbs2.jpg %}
+![](hbs2.jpg)
 
 #### 心得和補充
 
@@ -228,7 +228,7 @@ HBS 的教學風格不用多說，就是大名鼎鼎的 [Case Method](http://www
 
 ### BOS - MIT Sloan
 
-{% asset_img mit.jpg %}
+![](mit.jpg)
 
 * 環境：校區位於 Charles River 北側，感覺和 Harvard 很相近
 * 交通：和 Harvard 一樣都在紅線上，距離市區與主要交通設施又更近一點
@@ -256,7 +256,7 @@ MIT 其實和 Harvard 距離不算很近，畢竟中間也隔了三個地鐵站�
 
 根據以上的內容，我的感覺是 MIT Sloan 讀起來會是比較講求目的性的學校。相較於 HBS 是從基礎的 reasoning 貫串每門課程的內容，MIT 在課程設計上提供很多明顯的功能，也就需要學生做出一些關鍵的決定，像是要不要寫論文、想參加哪個 Lab、想跟著哪條 [MBA Track](http://mitsloan.mit.edu/mba/program-components/mba-tracks/) 等等。MIT 在理工方面的強項與重視實作的文化，也會塑造出和其他學校不太一樣的發展方向。像是在 [Dual and Joint Degree](http://mitsloan.mit.edu/mba/program-components/dual-and-joint-degrees/) 方面，MIT Sloan 除了有和 HKS 合作外，還有一個 MIT Leaders for Global Operations，提供 MBA 和 MS 學位並包含了六個月的實作機會。
 
-{% asset_img mit2.jpg %}
+![](mit2.jpg)
 
 #### 心得和補充
 
@@ -268,7 +268,7 @@ MIT Sloan 在地理上和 HBS 最接近，也應該是唯一一間有機會在 M
 
 ### NYC - Columbia Business School
 
-{% asset_img cbs.jpg %}
+![](cbs.jpg)
 
 * 環境：校區位於 Hudson River 和 Central Park 之間，除此之外附近有兩個公園和數棟歷史建築
 * 交通：東西邊各有南北向的 1 和 A、B、C 線通過，但在東西向方面比較弱，需要從南邊換車
@@ -296,7 +296,7 @@ CBS 就位於主校區內密集建築群裡的其中一棟，從門口走進去�
 
 另外前面關於 Yale SOM 有一點我說錯了，CBS 才是此行中擁有最多 Joint Degree 的學校。相較於 Yale SOM 的九種，CBS 提供了[十一種學位](http://www8.gsb.columbia.edu/programs/mba/academics/dual-degrees)，包含 MS in Urban Planning、MS in Social Work 等等，對在其他領域努力、有意攻讀 MBA 的讀者來說應該也是一大優勢。
 
-{% asset_img cbs2.jpg %}
+![](cbs2.jpg)
 
 #### 心得和補充
 
@@ -325,7 +325,7 @@ CBS 就位於主校區內密集建築群裡的其中一棟，從門口走進去�
 
 有機會的話，也想去歐洲的學校看看。
 
-{% asset_img cencal.jpg %}
+![](cencal.jpg)
 
 ## 特別感謝
 

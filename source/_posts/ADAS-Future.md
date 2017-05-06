@@ -8,7 +8,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇文章](http://www.mckinsey.com/industries/automotive-and-assembly/our-insights/capturing-the-advanced-driver-assistance-systems-opportunity)從消費者偏好的角度，分析未來各大車廠若要推廣[先進駕駛輔助系統（ADAS）](http://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=5cd9a0f7-e44e-44a3-af4f-a301acdc6103)應該注意什麼。雖然無人車的新聞很熱門，但如果你現在想買車，你會發現選購清單上最接近「智慧」這個概念的配件都屬於 ADAS，包括盲點警告、自動緊急煞車、切換車道輔助等等。雖然它們都是很好的功能，但 MGI 調查了五個市場中 5,500 名購車人，指出現在大部分的消費者還不瞭解為何該用 ADAS，所以 ADAS 的滲透率還不高，這將是未來車廠該推廣的重點。一旦消費者用過 ADAS，超過 85% 的人都願意繼續購買。<!--more-->
 

@@ -6,7 +6,7 @@ tags:
 - HBR
 categories: 讀
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 我在幾個月前讀到台大 Biz Pro 的訓練內容，對其中的案例分析很感興趣，所以循著相關資源找到 HBS Case，並花了幾週瞭解傳說中的 Case Method 到底是什麼。<!--more-->
 
@@ -48,7 +48,7 @@ Case Method 是哈佛商學院（Harvard Business School，HBS）所採取的一
 
 討論或自問自答的過程將不斷引導讀者完整利用案例中的資訊，並建立更強的論證。當然，這只是很粗略的說法，*Handbook* 一書不但包含了五個 HBS Case 和完整的分析思路，也詳細說明了分析案例時所該有的論證和說服技巧，如果你對這些內容有興趣，我強烈推薦你去[找這本書來讀](http://www.amazon.com/Case-Study-Handbook-Discuss-Persuasively/dp/1422101584)！
 
-{% asset_img OnedayIwill.jpg %}
+![](OnedayIwill.jpg)
 <center>（Harvard Business School）</center>
 
 ## 閱讀的三個階段

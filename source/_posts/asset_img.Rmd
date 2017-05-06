@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+---
+
+```{r}
+articles <- list.files(path = ".", pattern = "\\.md$")
+for (i in articles){
+  temp <- readLines(i, warn = F)
+  imgPos <- regexpr("\\{\\% asset_img .*? %}",temp) # {% asset_img %}
+  
+  if (all(imgPos < 0)){
+    next
+  }
+  
+  temp[imgPos > 0] <- gsub("\\{\\% asset_img ", "![](",temp[imgPos > 0])
+  temp[imgPos > 0] <- gsub(" \\%\\}", ")",temp[imgPos > 0])
+  
+  writeLines(temp, i)
+}
+```
+

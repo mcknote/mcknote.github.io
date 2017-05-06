@@ -8,7 +8,7 @@ tags:
 categories: ＃
 comments: true
 ---
-{% asset_img cover.jpeg %}
+![](cover.jpeg)
 　
 我今天從家裡走去看[病態美學展](https://www.facebook.com/pathologyexpo/)的時候，一如往常地又在路上看到不少高級車。台中市出現很多新車，好像是自從我上高中以後就開始出現的現象，尤其車牌從六碼改成七碼以後感覺更明顯。走著走著，我突然想到一個有趣的問題：「台中市有多少台高級新車？」於是我開始試著用[《Case in Point》](http://www.amazon.com/Case-In-Point-Interview-Preparation/dp/0971015880)的方法思考這個問題。<!--more-->
 

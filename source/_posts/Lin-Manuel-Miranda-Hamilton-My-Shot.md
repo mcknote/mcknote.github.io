@@ -29,7 +29,7 @@ And I'm not throwing away my shot
 
 就算你不熟悉美國歷史，大概也能聽出 Hamilton 的滿腔熱血。他一方面很清楚自己出身卑微，另一方面卻又懷著許多偉大的夢想－－他想拿 King's College（現 Columbia University）的獎學金，在爭鬥之外潛心學習治國之道；他想發起一場革命，解放殖民地，鼓勵這片土地上的兄弟姊妹站起來；他甚至還說「如果歷史課本提到我，別太驚訝」。畢竟，有什麼東西阻擋得了 Hamilton 的野心呢？當時的他年輕力壯、充滿想法，又遇到百年難得一見的機會，也難怪他會在和這群人都還不熟的情況下就大談革命了。
 
-{% asset_img hamilton.jpg %}
+![](hamilton.jpg)
 <center>（Who's on the ten dollar bill?）</center>
 
 　

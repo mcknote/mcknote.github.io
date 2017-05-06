@@ -5,7 +5,7 @@ tags:
 - The Economist
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 這幾週因為寫論文沒空滑 Facebook，我選擇《經濟學人》作為主要的新聞來源。如果你和我一樣平時很忙又想練習英文，可以參考以下學習計畫。<!--more-->
 
@@ -17,7 +17,7 @@ categories: ＃
 
 發展至今，《經濟學人》除了基本的雜誌，也有 Espresso、Podcast 等產品，它們的發佈形式不同，焦點也不同。如果你有很多時間，當然可以每週直接研讀一整本雜誌；但如果你時間不夠多，想快速找到自己感興趣的話題，維持閱讀樂趣和學習動力，那你可以先看看《經濟學人》有哪些產品。
 
-{% asset_img suscription.jpg %}
+![](suscription.jpg)
 
 
 |產品|形式|發表頻率|訂閱|簡介|
@@ -67,6 +67,6 @@ categories: ＃
 
 最後，如果你跟我一樣喜歡《經濟學人》，我在寫本文的時候又發現了其生活雙月刊《[1843](https://www.1843magazine.com)》，只談藝術、時尚、美食等等。如果你希望聽聽這位幽默、睿智的老人談談市場狀況以外的有趣事物，可以參考看看。
 
-{% asset_img 1843.png %}
+![](1843.png)
 　
 *圖片來源：[Pexels](https://www.pexels.com/photo/black-and-white-businessman-man-suit-222/)、[官網](http://www.economist.com/digital)、[1843](https://www.1843magazine.com/content/about)*

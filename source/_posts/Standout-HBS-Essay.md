@@ -6,7 +6,7 @@ tags:
 - MBA
 categories: 讀
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 今年八月中，我參加了一場 mbaMission 舉辦的免費 Webinar，內容如題，聽完以後覺得收穫很多，不只瞭解 Adcom 在意的是什麼，也重新想了自己應該往哪些方向努力。<!--more-->
 
@@ -127,7 +127,7 @@ We have no pre-conceived idea of what "good" looks like. We look forward to lots
 註一：關於 Blind 和 Non-blind Interview 的差別，可以參考[這篇文章](http://gmatclub.com/forum/blind-vs-non-blind-interviews-89719.html)。
 註二：這是 mbaMission 的廣告，出於尊重在此保留。
 
-{% asset_img OnedayIwill.jpg %}
+![](OnedayIwill.jpg)
 <center>（在我實地去 HBS 拍照前，這張照片應該還會出現不少次。）</center>
 
 ## OK then, what's next?

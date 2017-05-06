@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpeg %}
+![](cover.jpeg)
 　
 [這篇文章](http://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/behind-chinas-runaway-online-to-offline-commerce)從削價競爭的角度探討中國 O2O 的發展。中國 O2O 是個非常蓬勃的市場，不過競爭也很激烈，因此出現了跟上世紀末美國網路泡沫類似的狀況：許多公司採取了大幅度的削價競爭，比看看誰能「笑到最後」，並在未來掌握市場，實現收入。<!-- more -->
 　

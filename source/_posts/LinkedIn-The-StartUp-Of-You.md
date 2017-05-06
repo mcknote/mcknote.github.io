@@ -6,7 +6,7 @@ tags:
 - MBA
 categories: 讀
 ---
-{% asset_img cover.png %}
+![](cover.png)
 　
 你可以不創業，但你不能不認真面對自己的人生；你可以不喜歡 LinkedIn，但你不得不承認 Reid Hoffman 在職業發展上的見解很有一套。這一切得先從他的《自創思維》談起。<!--more-->
 
@@ -20,7 +20,7 @@ categories: 讀
 
 所以，這本書雖然沒教怎麼寫履歷或面試，當然也不是一本 LinkedIn 使用指南，但它所提到的「創業精神」，能幫助現今的求職者如企業家一般思考如何打造自己。畢竟只要心態對了，缺什麼都能找；心態不對，找什麼都缺。
 
-{% asset_img hoffman.png %}
+![](hoffman.png)
 <center>（所以覺得自己以前太蠢是很正常的，別再糾結啦。）</center>
 
 ## 當今的職場挑戰

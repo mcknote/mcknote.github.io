@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇 MGI 報告](http://www.mckinsey.com/business-functions/business-technology/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world)調查了世界上 150 種[物聯網（Internet of Things）](http://wiki.mbalib.com/zh-tw/%E7%89%A9%E8%81%94%E7%BD%91)案例，並說明它的產值最多可以在 2025 年前達到 11.1 兆美金（下同），佔了該年世界總預估 GDP 的 11%。其中大約 40% 需要不同系統間的[互操作性（interoperability）](https://zh.wikipedia.org/zh-hant/%E4%BA%92%E6%93%8D%E4%BD%9C%E6%80%A7)，也就是說不同物品的互聯網要能彼此溝通；<!--more-->大約 70% 與 B2B 業務有關。物聯網所提供的商機主要分為兩種：改善流程與提供新的商業模式，因此總產值中有大約 90% 是由物聯網中的消費者（個人或法人）直接得益。物聯網的發展聽起來很不錯，不過要進一步瞭解這些數據背後的意義，我們得先問「2025 年前 11.1 兆美金是怎麼預估的？」
 　

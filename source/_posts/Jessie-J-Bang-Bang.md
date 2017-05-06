@@ -28,12 +28,12 @@ comments: true
 
 之後我所經歷的一切，如前所述，就像夢一樣，有些比較實用的事情，例如其他隊伍的簡報技巧、或 [ENGAGE Symposium](https://engage.cfainstitute.org) 的講座內容，我會再慢慢寫文章總結。不過，如果只是當流水帳回憶、寫出來是很容易（甚至還能用 {% post_link BCG-Connection-2016 10 for 10 %} 的形式），但要當一件事實接受、思考其中意義就需要時間了，畢竟自己可是逃離了平凡的一週，飛過大半個地球，參加一個超高規格的比賽。回來的第二天，我還會不時回想旅行中的每個細節，包括在機上廁所 Rehearsal 的感覺，或是[好聽的 cta 的播報聲](https://www.youtube.com/watch?v=R5P_ZLliiv4)。旅行確實是美妙的事情，也難怪有許多學生會為了旅行嚮往諮詢，但每當我回憶旅行，感受到的往往不只是「我飛去哪做了什麼」的興奮感，更多的是在接受「不論平凡的生活或奇妙的旅行都是我的經歷」以後，慢慢聯想自己過著平凡生活的當下，世界各地正在發生哪些有趣的事情，並鼓勵自己多多走出舒適圈，朝著更厲害的未來邁進。借用路怡珍主播的書名，就是一種「[世界太精采](http://www.books.com.tw/products/0010686522)」的感慨。
 
-{% asset_img chicago.jpg %}
+![](chicago.jpg)
 <center>（從 [Shedd Aquarium](http://www.sheddaquarium.org/) 看過去的芝加哥市區，其中最高樓為美國第二高樓 [Willis Tower](https://en.wikipedia.org/wiki/Willis_Tower)）</center>
 
 ## 另一種情況
 
 當然，也有可能這些回憶都是假的：當我們出發前往浦東機場的時候，就被[光明會](https://www.youtube.com/watch?v=rt8qoOzta5U)的人抓住並灌輸這段虛構的回憶，這樣 CFA 可以省下好大一筆預算。這說明了為什麼 CFA 會放 Bang Bang 這種[意味不明](http://bless7895127.pixnet.net/blog/post/382986761-jessie-j-%E2%80%93-bang-bang-%E7%A0%B0%E7%A0%B0-%E4%B8%AD%E6%96%87%E6%AD%8C%E8%A9%9E--ft-ariana-grande)的歌曲，為什麼我上台 Presentation 沒有緊張忘詞，還有為什麼我第一次用 Airbnb 就如此幸運，在 Wabash Ave. 上住到[整層 Condo](https://www.airbnb.com/rooms/7414181)，還附一隻名叫 George 的超友善大肥貓。寫到這裡，我突然想到當我跟朋友去吃 Five Guys 時，我們居然能[邊吃邊講話](http://forgetfulbc.blogspot.com/2013/03/dayum.html)，代表這段回憶真的很有可能是假的。氣管中殘存的空氣正如《[全面啟動](https://zh.wikipedia.org/zh-hant/%E5%85%A8%E9%9D%A2%E5%95%9F%E5%8B%95)》中的不停旋轉的陀螺，提醒我光明會百密總有一疏。
 
-{% asset_img fiveguys.jpg %}
+![](fiveguys.jpg)
 <center>（Five Guys 讚啦！）</center>

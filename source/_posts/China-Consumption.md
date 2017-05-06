@@ -9,7 +9,7 @@ categories: 想
 comments: true
 thumbnail: cover.jpg
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 我幾週前找到了 BCG 和 Bain 的報告發佈平台，在這之前我一直以為只有 McKinsey 致力於發表深度見解，真是孤陋寡聞。我稍微逛了逛，發現 [bcgperspectives](https://www.bcgperspectives.com/) 和 [Bain Insights](//www.bain.com/publications/) 的內容十分有趣，有互動式的圖表與方便消化的文章編排，也有與其他機構共同發表的報告，於是決定有空也來認真研究。[這篇報告](https://www.bcgperspectives.com/content/articles/globalization-growth-new-china-playbook-young-affluent-e-savvy-consumers/)是由 BCG 與阿里研究院共同發表的消費趨勢分析，內容分成四個部分，我們可以分析一下各個部分用了哪些證據來支撐。<!--more-->
 

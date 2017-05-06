@@ -9,7 +9,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 我在寫{% post_link Saudi-After-Oil 〈想／產油以後的沙烏地阿拉伯〉 %}時讀到了國營石油公司 [Aramco 正準備公開上市、可能成為全球最有價值公司的新聞](http://www.vox.com/2016/1/8/10737638/saudi-aramco-ipo)。如果根據 MGI 報告的結論來解讀，沙國此舉不算太令人驚訝，因為它將會降低對石油的依賴，轉而投資其它產業，並力圖提升國民生產力與制度改革；這也是官方聲名的主張。不過我也讀到現今掌權的沙烏德（Saud）家族，其正統性幾乎完全建立在對石油的控制之上，一旦鬆手，可能會導致敵對家族趁虛而入；何況 Saud 家庭如果真的缺錢發展，靠發債就好了。該怎麼看待 Aramco IPO呢？<!--more-->
 

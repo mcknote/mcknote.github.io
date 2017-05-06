@@ -7,7 +7,7 @@ tags:
 categories: ＃
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 回顧 CFA IRC [往屆冠軍](https://www.cfainstitute.org/community/challenge/about/Pages/past_champions.aspx)，會發現過去十屆裡面有四屆總冠軍來自東南亞（菲律賓、泰國和新加坡）， 如果算亞太區冠軍更是高達七屆。到底為什麼東南亞隊伍這麼威？我們又該從他們身上學些什麼？<!--more-->
 
@@ -35,7 +35,7 @@ comments: true
 
 雖然 CFA IRC 的賽制安排有先天斷層，分會必須等到地區賽（Local）結束以後，才比較好對地區冠軍傾注資源，但（一）地區賽以後一般還有三四個月的準備時間；（二）地區賽以後的準備，其實已經跟書面報告無關，簡報還有 100% 的修改空間，所以亡羊補牢，猶未晚矣，東南亞隊伍從一開始就贏在態度和資源。
 
-{% asset_img local_room.jpg %}
+![](local_room.jpg)
 <center>（我們比完 Regional 第一輪的情況，後來晉級了）</center>
 
 ## Presentation 創新
@@ -110,5 +110,5 @@ even in the worst revolution time（註） they still buy a lot of things.
 
 或許有人會問「CFA IRC 不過就是大學生涯裡的其中一場比賽嗎？幹嘛這麼努力？」我也不敢說參加 CFA IRC 就能鹹魚翻身，但從第一年到第十年，CFA IRC 的參賽隊伍已經從四隊成長到一千多隊，未來或許還有許多更強、更新的學校會加進來，未來的影響力無可限量，如果這不是一個值得把握的人生機會，那什麼是呢？東南亞隊伍讓我們看到學生也能有精彩表現，而朝著總冠軍努力、努力、再努力，也才不枉此行。
 
-{% asset_img grand_ballroom.jpg %}
+![](grand_ballroom.jpg)
 <center>（Global Final 後的 Closing Reception。為了這個總可以努力吧？）</center>

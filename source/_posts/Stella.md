@@ -24,5 +24,5 @@ comments: true
 　
 1927 年，宮澤賢治完成《銀河鐵道之夜》的初稿，我們現在讀到的其實還是未完成的作品。他將沿著南樺太鐵軌行走所見的部分風景寫進了這本小說，二次大戰結束以後，[樺太全島被蘇聯控制，改稱庫頁島](http://blog.ulifestyle.com.hk/travel_blogger/samuelwwl/2013/12/%E6%A8%BA%E5%A4%AA-%E9%82%A3%E9%A0%81%E8%A2%AB%E6%92%95%E5%8E%BB%E7%9A%84%E6%97%A5%E6%9C%AC%E6%AD%B7%E5%8F%B2/)，形狀還是像條上鉤的魚。八十年後，KASHIWA Daisuke 發佈《Program Music I》專輯，如今我們還能從 Google 街景上看到島上風光，那份孤寂與哀傷卻僅存於小說和歌曲當中。
 
-{% asset_img content.jpg %}
+![](content.jpg)
 

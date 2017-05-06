@@ -8,7 +8,7 @@ tags:
 - R
 categories: ＃
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 一整個月都沒發文實在不妙，所以我決定趁十月最後一天（美西時間），~~吃老本~~為入門者介紹上次提到的 DataCamp 課程，有空再來自白為何 McK & Note 停擺了一個多月。
 <!--more-->
@@ -39,7 +39,7 @@ DataCamp 上有免費（open）和訂閱（premium）兩種課程，幾個月前
 ## 基礎操作（黃色）
 這裡學的是 R 的基本操作，從最基本的運算和迴圈（loop），到設計和運用各種函數，適合完全沒有 R Programming 基礎的人。**一切就是從這裡開始的！**因為底下課程連結裡都有學時和詳細課程表，在此就不贅述。
 
-{% asset_img yellow.jpg %}
+![](yellow.jpg)
 
 ### [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 
@@ -98,7 +98,7 @@ DataCamp 上有免費（open）和訂閱（premium）兩種課程，幾個月前
 
 　
 
-{% asset_img highway.jpg %}
+![](highway.jpg)
 <center>（這裡有兩條路唷）</center>
 
 ## 資料讀取與處理（綠色）
@@ -111,7 +111,7 @@ DataCamp 上有免費（open）和訂閱（premium）兩種課程，幾個月前
 
 Data Importing & Cleaning 可能是正常工作流程中最枯燥的工作，但也是資料分析的基本功。可以趁一開始學習蜜月期的時候把這門課解決，以後印象中知道有這些工具，再查怎麼使用就好。當然，如果志在成為 The Best Data Importer & Cleaner On Earth（？），多多練習也很好。
 
-{% asset_img green.jpg %}
+![](green.jpg)
 
 ### Importing Data in R ([Part 1](https://www.datacamp.com/courses/importing-data-in-r-part-1)、[Part 2](https://www.datacamp.com/courses/importing-data-in-r-part-2))
 
@@ -164,7 +164,7 @@ Data Cleaning 真的是一門怎麼練習都不嫌多的專業，因為實務上
 
 就算跟我一樣忍不住跑去把紅色課程都學完了還是要回來讀書喔！
 
-{% asset_img cars.jpg %}
+![](cars.jpg)
 <center>（雖然路考只錯四題但還是不太會開車只好 [call shotgun](http://www.urbandictionary.com/define.php?term=call%20shotgun)）</center>
 
 ### Udacity：[Intro to Descriptive Statistics](https://www.udacity.com/course/intro-to-descriptive-statistics--ud827)
@@ -204,7 +204,7 @@ Data Cleaning 真的是一門怎麼練習都不嫌多的專業，因為實務上
 
 最後就是資料分析中的重頭戲——機率和統計學了。這裡可以學到如何在 R 中執行基本的迴歸分析，並解讀分析結果中 t-statistics、F-statistics、p-value、degrees of freedom 等統計量。再提醒一下，如果你對這些概念不太熟，麻煩還是先去弄懂再繼續學。
 
-{% asset_img red.jpg %}
+![](red.jpg)
 
 ### [Intro to Statistics with R: Introduction](https://www.datacamp.com/courses/intro-to-statistics-with-r-introduction)
 

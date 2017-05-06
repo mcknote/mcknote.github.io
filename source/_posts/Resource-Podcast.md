@@ -14,7 +14,7 @@ tags:
 categories: Ｍ
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 終於，我可以來聊聊 Podcast 了。雖然之前我列了不少公司和媒體的 Podcast，但當時其實還沒認真利用這些資源。經過幾週的摸索和適應以後，我想分享怎麼聽、還有聽哪些 Podcast。<!--more-->
 
@@ -44,7 +44,7 @@ comments: true
 
 所以這樣的妄念就無疾而終了。事實上，我覺得就算在找得到外國人坐在我面前，考前的短時間內我也不一定能練出什麼，因為外語口說，就和母語口說一樣，應該是生活中的一部份，需要長時間的積累和練習。所以除了去外國生活一陣子、或交個外國朋友，最簡單的方法應該是把「自己的一部份生活換成外語環境」，然後持之以恒。外語新聞或 Podcast 都能勝任此事。至於如何讓聽力影響口說，[影子法](https://fairyseyes.blogspot.com/2013/10/blog-post_4639.html)、[回音法](http://www.businessweekly.com.tw/KBlogArticle.aspx?id=14389)都是值得參考的好方法。對我來說，多聽、多想、多說，沉浸在英文環境中就有效。
 
-{% asset_img foreigner.jpg %}
+![](foreigner.jpg)
 <center>（《即刻救援英文口說》劇照。）</center>
 
 　
@@ -58,7 +58,7 @@ comments: true
 
 後來，我才再根據自己的偏好和習慣改善了 Podcast 清單。例如，我覺得 [BBC Radio 4](http://www.bbc.co.uk/radio4) 的節目都有很好的水平，所以就多訂閱了幾個節目；喜歡經濟、市場相關的內容，於是又訂了 [*FT News*](http://podcast.ft.com/s/ft-news/)、[*Monocle 24*](https://monocle.com/radio/) 等等；以及為了提早準備 MBA，開始聽 [*Kellogg INSIGHT*](http://insight.kellogg.northwestern.edu/)、[*Entrepreneurial Thought Leaders*](http://ecorner.stanford.edu/podcasts) 等學校的節目。從我最後推薦的 Podcast 清單可以看出，這些節目都各有主題，也是我喜歡的。
 
-{% asset_img mosaic.jpg %}
+![](mosaic.jpg)
 
 　
 至於平常什麼時候聽這些 Podcast 呢？如果讀者有隔音不錯的耳機（或分辨率很高的雙耳），走路、搭地鐵等空檔都可以用來聽 Podcast，不過得注意安全。發呆或睡前也可以聽，不過唯一行不通的是洗澡，因為水聲太大了，倒也不用為此去買防水耳機。Podcast 比起單字卡或短文的好處在於不用手持，也不用專注盯著，所以能聽的場合很多。不論是人群擠得像沙丁魚的地鐵裡，還是需要注意周遭的馬路上，只要能聽音樂，就能聽 Podcast。不過還是要注意安全喔！

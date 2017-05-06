@@ -105,7 +105,7 @@ WSJ 和 FT、Bloomberg 一樣，都是聚焦在財經動態的新聞平台。因
 有時遇到比較艱深的商業名詞，如[比率分析法](http://wiki.mbalib.com/zh-tw/比率分析法)或[盡職調查](http://wiki.mbalib.com/zh-tw/Due_diligence)，中文版 Wikipedia 上並沒有很詳盡的解釋，就需要從 MBAlib 上找答案。除了標準的說明以外，每個條目還有很多教材或業界檔案可供參考，方便讀者更快掌握每個概念。國外類似的網站有 [Investopedia](http://www.investopedia.com)，如果找不到某些文件，也可以在[百度文庫](http://wenku.baidu.com/)或[經管之家](http://bbs.pinggu.org/)上搜尋。
 
 <br>
-{% asset_img person-woman-hand-relaxing.jpg %}
+![](person-woman-hand-relaxing.jpg)
 <center>（Reading Comprehension 101：弄懂自己到底在讀什麼）</center>
 
 <br>

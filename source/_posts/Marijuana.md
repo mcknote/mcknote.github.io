@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇文章](http://www.vox.com/2015/2/24/8094759/alcohol-marijuana_)解釋了為什麼我們不該把合法與非法毒品合在一起比、為什麼大麻比酒精還安全，以及討論毒品合法化的時候，該注意的社會面向。<!-- more -->
 

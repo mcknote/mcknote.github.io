@@ -5,7 +5,7 @@ tags:
 - BCG
 categories: 讀
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 我已經很久不玩手機遊戲了，但，說真的，BCG，這到底是什麼東西啊？（本站即日起轉型為遊戲情報站。）<!--more-->
 
@@ -25,7 +25,7 @@ categories: 讀
 
 一方面，企業面臨著越來越多變的市場，不同企業間的差距也逐漸拉大；另一方面，當企業試著解決問題時，卻發現現有的策略實在太多，根本不知道要選哪個。這讓我想到 [MBAlib](http://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5) 上玲瑯滿目的管理條目，如藍海策略、BCG Matrix、波特五力模型等等，雖然沒事讀讀很有趣，但如果要我選一個模型來分析企業的狀況，甚至解決問題是不太容易的。
 
-{% asset_img strategy.png %}
+![](strategy.png)
 <center>（來了！來了！我的策略從山坡上輕輕地爬下來了。）</center>
 
 　
@@ -35,7 +35,7 @@ categories: 讀
 
 對此，三位作者提出了「策略調色盤」（Strategy Palette）這個概念。他們根據商業環境的不可預測性（Unpredictability）、可塑性（Malleability）和嚴苛性（Harshness）三個方面區分出五種策略原型：
 
-{% asset_img archetypes.png %}
+![](archetypes.png)
 
 |策略原型|特質|案例|
 |:--|:--|:--|
@@ -61,7 +61,7 @@ categories: 讀
 
 說了這麼多，這跟一開始看到的遊戲畫面有什麼關係呢？[*Your Strategy Needs a Strategy*](https://itunes.apple.com/hk/app/your-strategy-needs-strategy/id951248714?mt=8) 這款遊戲的內容很簡單，玩家扮演了紐約的一位店主，目的是將店鋪搬到人群最密集的地方，以賺取最高的收入，並打敗 BCG 創始人 [Bruce Henderson](https://en.wikipedia.org/wiki/Bruce_Henderson)。遊戲包含了五個地圖，分別對應書中不同的策略原型。
 
-{% asset_img game.png %}
+![](game.png)
 <center>遊戲下載：[iOS](https://itunes.apple.com/hk/app/your-strategy-needs-strategy/id951248714?mt=8)、[Android](https://play.google.com/store/apps/details?id=com.bcg.strategystyles.game)。</center>
 
 　

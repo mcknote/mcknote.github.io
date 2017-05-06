@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 現在大部分的企業家都強調領導力的重要，但到底什麼是領導力？哪些特質又是特別重要的？為了更明確地定義領導力，[這篇 MGI 文章](http://www.mckinsey.com/global-themes/leadership/decoding-leadership-what-really-matters)先根據經驗與論文歸納了 20 項最常見的領導特質，再調查世界上 81 個機構裡近 19 萬名員工所接受的領導方式，並透過機構的績效回推哪些領導特質格外關鍵，最後得出「有效率地解決問題」、「結果導向運營」、「尋求不同意見」跟「樂於支援」等四項特質可以解釋 89% 的優質領導能力。<!--more-->
 　

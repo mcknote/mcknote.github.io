@@ -7,7 +7,7 @@ tags:
 categories: 想
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 [這篇文章](http://finance.yahoo.com/news/this-man-could-be-the-next-ceo-of-apple-190151754.html)說蘋果（Apple）新任的 COO Jeff Williams 有可能成為 Tim Cook 的接班人。Tim Cook 過去在 Steve Jobs 的帶領下也是擔任 COO，負責全球供應鍊的整合。要瞭解這個說法是否為真，得先釐清 Apple 裡 CEO 如何帶領團隊、Jeff 的能力與他獲得晉升的意義、以及蘋果未來發展的側重點。如果蘋果 CEO 影響團隊的權力很強，Jeff 的能力與公司未來發展方向契合，而此次升遷正是擔任 CEO 前的敲門磚（與考驗）的話，那我們可以說，Jeff 確實可能成為 Apple 的下一任 CEO。<!-- more -->
 

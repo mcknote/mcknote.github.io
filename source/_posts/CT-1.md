@@ -8,7 +8,7 @@ tags:
 categories: ＃
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 我這兩天開始翻 ChaseDream 的[《GMAT 批判性推理：邏輯分類精講》](http://www.books.com.tw/products/CN11239079)，因為不是抱著備考的心態在讀，所以得以從容思考其中的道理，覺得非常有趣。老實說，GMAT 是我準備過最有趣的考試，其中的句型改錯（Sentence Correction）跟批判性推理（Critical Reasoning）讓我受益良多，也是我想在 McK & Note 寫東寫西的原因之一。為了簡單介紹何謂批判性推理，我把該書緒論中提到的例子稍微改寫如下。<!--more-->
 

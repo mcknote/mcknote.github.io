@@ -7,7 +7,7 @@ tags:
 categories: 讀
 comments: true
 ---
-{% asset_img cover.jpg %}
+![](cover.jpg)
 　
 EIU 上週發了[一篇 59 頁的長篇報告](http://www.eiu.com/public/topical_report.aspx?campaignid=DemocracyIndex2015)，裡面發表了 2015 年各地區的民主指數，其中包括台灣與香港，倒是沒有澳門。所謂的焦慮，自然是指民主在社會、經濟、政治等方面發展下所遭受到的壓力，這或許在[充滿事件的 2015 年](https://zh.wikipedia.org/zh-hant/2015%E5%B9%B4%E9%A6%99%E6%B8%AF)尤為明顯。經濟學人過去發表過 [What’s gone wrong with democracy](http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do)，總體討論民主的價值為何，這篇報告則是從國家與區域的角度一一談起民主的消長與趨勢。<!--more-->
 
