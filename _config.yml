@@ -171,3 +171,9 @@ generator_amp:
     width:  1024
     height: 800
 warningLog: false   # To display warning, please set true. 
+
+
+# config hexo-generator-i18n option (optional, this is default option)
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]

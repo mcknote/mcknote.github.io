@@ -240,7 +240,8 @@ mathjax:
   enable: true
   per_page: false
   #cdn: https://cdn.staticfile.org/mathjax/2.7.0/config/TeX-AMS-MML_HTMLorMML.js
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
