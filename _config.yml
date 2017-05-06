@@ -142,6 +142,11 @@ algolia:
   adminApiKey: '0a5d416388ed771201c560b4f7737686'
   indexName: 'mcknote'
   chunkSize: 5000
+  fields:
+    - title
+    - slug
+    - path
+    - content:strip
 
 kramed:
   gfm: true
