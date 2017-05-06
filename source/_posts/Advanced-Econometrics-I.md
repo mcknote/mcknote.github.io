@@ -15,11 +15,11 @@ categories: ＃
 
 ## 秋季學期的安排
 
-和之前上 *{% post_link Data-Visualization-Storytelling Data Visualization%}* 和 *{% post_link Quantitative-Methods-II Statistics)* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
+與之前上 *{% post_link Data-Visualization-Storytelling Data Visualization %}* 和 *{% post_link Quantitative-Methods-II Statistics %}* 的夏季學期不同，秋季學期有整整十週（加期末考一週），所以排課就變得滿正常，不過當然也滿考驗時間安排，畢竟不能像夏季學期，可以把全部時間花在單一科目上。這學期 MSBA 學生要修的課有三門：
 
 * *Advanced Econometrics I*（理論、分析）
-* *{% post_link Computational-Methods Computational Methods)*（實作）
-* *{% post_link Data-Management Data Management)*（資料庫操作、管理）
+* *{% post_link Computational-Methods Computational Methods %}*（實作）
+* *{% post_link Data-Management Data Management %}*（資料庫操作、管理）
 
 　
 雖然每門課看起來都滿難的（Computational？Advanced？！），但其實~~也真的滿難~~認真修完一遍以後，真的能體會到學好這三門課是在 Business Analytics 或 Data Science 領域必備的基礎；而且如果有心繼續鑽研，會發現業界前沿的技術和應用，都和這三個發展方向脫離不了關係，所以不管是入門或進階、研究或應用，似乎都得從這三門課開始。
@@ -27,8 +27,6 @@ categories: ＃
 以 *Advanced Econometrics* 這門課為例，雖然一開始會被各式各樣的公式、證明佐矩陣運算，外加數十頁的作業搞得有點暈頭轉向，但只要跨過計算的門檻後，回頭一看，就比較能理解線性迴歸模型（LRM）中各項假設和定理的關係，也才清楚如何正確計算、解讀各項統計數據。所以儘管讀者可能跟我一樣，曾經感覺自己踏入 Data Science，就是比較想走應用，對理論則敬而遠之；但要能正確使用工具與解讀結果，仍需要紮實的理論知識，這就是 *Advanced Economics* 的教學目的。以下我想盡量簡單介紹我們學了些什麼。
 
 > 請注意：本文公式較多，建議用電腦閱讀；如果無法正常顯示，請試用其它瀏覽器，或[下載全文](Advanced-Econometrics-I.pdf)（3.6 MB）。
-
-{% asset_link slug [title])
 
 
 ## 老師和教學方法
@@ -50,7 +48,8 @@ categories: ＃
 * **統計**：熟練平均、方差（變異數）、標準差等運算，以及母體和樣本的關係
 * **機率**：瞭解條件機率、CDF、PMF／PDF 的意義
 
-以上這些算是最低要求，實際開始學以後，還會碰到許多衍生的觀念、證明和公式，入門先具備清晰的基本觀念就好。有任何不清楚的觀念，可以參考 *{% post_link Quantitative-Methods-II Statistics)* 中提到的相關資源。既然都學到 Econometrics 了，一定要捨得花時間把所有觀念弄懂，畢竟這會直接影響日後的分析能力。例如，如果不熟矩陣運算，就沒辦法很有效率地思考線性迴歸（[Linear Regression](https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8)）中參數的性質，也就很難理解什麼情況下參數會出現偏誤（bias），以及怎樣避免偏誤。如前所述，要能正確使用各類統計工具，必須先瞭解這些工具背後的理論。
+
+以上這些算是最低要求，實際開始學以後，還會碰到許多衍生的觀念、證明和公式，入門先具備清晰的基本觀念就好。有任何不清楚的觀念，可以參考 *{% post_link Quantitative-Methods-II Statistics %}* 中提到的相關資源。既然都學到 Econometrics 了，一定要捨得花時間把所有觀念弄懂，畢竟這會直接影響日後的分析能力。例如，如果不熟矩陣運算，就沒辦法很有效率地思考線性迴歸（[Linear Regression](https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8)）中參數的性質，也就很難理解什麼情況下參數會出現偏誤（bias），以及怎樣避免偏誤。如前所述，要能正確使用各類統計工具，必須先瞭解這些工具背後的理論。
 
 ## 線性迴歸
 
@@ -62,7 +61,6 @@ y_{i}=\beta _{0}+\beta _{1} x_{1}+\beta _{2} x_{2}+\ldots+\beta _{k} x_{k}+\vare
 $$
 
 
-　
 公式中的 `$i$` 表示第 `$i$` 個樣本（sample observation）；`$y$` 為因變量（dependent variable），即模型打算解釋的反應變量（response）；`$x$` 為自變量（independent variable），即模型中用來解釋 `$y$` 的控制變量（control）。`$y$` 和 `$x$` 的其它名稱可以參考以下 *Introductory Econometrics* 的整理：
 
 |Y 的名稱|X 的名稱|

@@ -16,7 +16,7 @@ install:
   - npm install hexo-renderer-stylus --save
   - npm uninstall hexo-renderer-marked --save
   - npm install hexo-renderer-kramed --save
-  - npm install hexo-algolia --save
+  - npm install hexo-algolia@0.2.0 --save
   - npm install https://github.com/CodeFalling/hexo-asset-image --save
 
 script:
