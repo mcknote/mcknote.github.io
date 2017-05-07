@@ -76,7 +76,7 @@ comments: true
 每小時新聞快報，主要是美國新聞，如果嫌 BBC 半小時太長，可以聽 NPR 五分鐘的節目。
 
 [***The Economist Radio***](https://radio.economist.com/)　`長度：15 分鐘`
-之前介紹過的{% post_link How-to-Read-The-Economist 《經濟學人》資源 %}，有些節目是針對單一時事深度討論，有些則是當週雜誌的內容精選或摘錄簡介。
+之前介紹過的《經濟學人》資源，有些節目是針對單一時事深度討論，有些則是當週雜誌的內容精選或摘錄簡介。
 
 [***FT News***](http://podcast.ft.com/s/ft-news/)　`長度：5-15 分鐘`
 和 *The Economist Radio* 類似，不過更新速度稍快，觀點也多從金融市場狀況出發。
@@ -110,7 +110,7 @@ LSE 的公開演講 Podcast，長度都在一小時以上，深度談論社會�
 ### MBA
 
 [***HBS Cold Call***](http://www.hbs.edu/news/articles/Pages/cold-call-intro.aspx)　`長度：15 分鐘`
-之前介紹過的 {% post_link HBS-Case-Method HBS 資源 %}。Cold Call 是 HBS 討論課一開始老師對學生的點名摘要，所以 Podcast 的內容也多為單一議題的訪談和思考。
+之前介紹過的 HBS 資源。Cold Call 是 HBS 討論課一開始老師對學生的點名摘要，所以 Podcast 的內容也多為單一議題的訪談和思考。
 
 [***HBR IdeaCast***](https://hbr.org/ideacast/2016/06/brexit-and-the-leadership-equivalent-of-empty-calories)　`長度：15 分鐘`
 和 *Cold Call* 的內容大致上差不多，真的要說有什麼區別，大概是談比較多時事，也比較不給人一種討論教案的感覺。不過乍聽之下真的差不多。
@@ -130,7 +130,7 @@ FT Lucy 專欄的電台~~碎碎念~~版本，談的話題非常廣。Lucy 會教
 ### 生活
 
 [***BBC Desert Island Discs***](http://www.bbc.co.uk/programmes/b006qnmr)　`長度：30-60 分鐘`
-超讚的生平訪談 Podcast，想得到的名人幾乎都上過這個節目。詳情可參見之前介紹的 *{% post_link Lin-Manuel-Miranda-Hamilton-My-Shot My Shot %}*。
+超讚的生平訪談 Podcast，想得到的名人幾乎都上過這個節目。詳情可參見之前介紹的 *My Shot*。
 
 [***BBC The English We Speak***](http://www.bbc.co.uk/learningenglish/english/features/the-english-we-speak) 和 [***6 Minute English***](http://www.bbc.co.uk/learningenglish/english/features/6-minute-english)　`長度：5 分鐘`
 日常英語大補帖，沒事可以用來增進好奇心跟自信心。

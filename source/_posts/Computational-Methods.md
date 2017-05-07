@@ -22,7 +22,7 @@ categories: ＃
 * *{% post_link Data-Management Data Management %}*（資料庫操作、管理）
 
 　
-{% post_link Advanced-Econometrics-I 上一篇 %}已經談完了公式佐定理滿滿的 *Advanced Econometrics*，這篇接下來談更偏應用的 *Computational Methods*。在這門課裡我們使用的程式語言是 `R`，涵蓋的範圍除了之前在 {% post_link DataCamp-12 DataCamp 上十二門課 %} 提到的內容以外，還多了 *Debugging*、*Optimization*、*MLE*、*Web Scraping* 等，比我一開始預期跟準備的還多不少，所以這篇可以當作是 DataCamp 那些課程在 Programming 方面的延伸，也希望能幫助讀者稍稍從 Computer Science 的角度看待整個資料分析的流程。
+{% post_link Advanced-Econometrics-I 上一篇 %}已經談完了公式佐定理滿滿的 *Advanced Econometrics*，這篇接下來談更偏應用的 *Computational Methods*。在這門課裡我們使用的程式語言是 `R`，涵蓋的範圍除了之前在 DataCamp 上十二門課提到的內容以外，還多了 *Debugging*、*Optimization*、*MLE*、*Web Scraping* 等，比我一開始預期跟準備的還多不少，所以這篇可以當作是 DataCamp 那些課程在 Programming 方面的延伸，也希望能幫助讀者稍稍從 Computer Science 的角度看待整個資料分析的流程。
 
 ## 老師和教學方法
 
@@ -131,7 +131,7 @@ for(i in 1:26){
 
 ## 應用
 
-前面提到的 Strings and Regular Expressions、Web Scraping、Data Organization & Cleanup、Pseudorandom Numbers 四堂課，在之前的 {% post_link DataCamp-12 DataCamp 上十二門課 %}裡也有提到一點，因為寫那篇文章的時候我剛好上到這裡。前兩個 **Strings and Regular Expression** 和 **Web Scraping** 可以歸類到和字串（string）有關的應用；**Data Organization & Cleanup** 一部份還是和字串有關，一部分和如何處理 data frame 有關；**Pseudorandom Numbers** 則只是簡單說明 `runif()`、`rnorm()` 等函數怎麼來的，所以以下稍微介紹一下前三章。
+前面提到的 Strings and Regular Expressions、Web Scraping、Data Organization & Cleanup、Pseudorandom Numbers 四堂課，在之前的 DataCamp 上十二門課裡也有提到一點，因為寫那篇文章的時候我剛好上到這裡。前兩個 **Strings and Regular Expression** 和 **Web Scraping** 可以歸類到和字串（string）有關的應用；**Data Organization & Cleanup** 一部份還是和字串有關，一部分和如何處理 data frame 有關；**Pseudorandom Numbers** 則只是簡單說明 `runif()`、`rnorm()` 等函數怎麼來的，所以以下稍微介紹一下前三章。
 
 ### Strings and Regular Expressions 和 Web Scraping
 
@@ -219,7 +219,7 @@ Pseudorandom Numbers 只是稍微介紹一下 `R` 裡面 `runif()`、`rnorm()` �
 
 一切先從預估方法講起。當我們想了解某項統計數值時，能採取的預估方法大略可以分成兩種：從原理推導而得的 analytical，和利用大量重複觀察而得的 numerical。例如，如果想知道擲硬幣正反面的機率，analytical 的方法是從樣本空間出發，推出 1/2；numerical 則是擲一千遍，觀察平均值趨近於 1/2。雖然後者聽起來很傻，但日益強大的運算能力讓 numerical 方法的應用成本越來越低，甚至可以用來得出一些無法從 analytical 推出的結果，例如[四色定理](https://zh.wikipedia.org/wiki/四色定理)或[教會電腦怎麼下圍棋](https://zh.wikipedia.org/wiki/AlphaGo)等等。
 
-所以學會怎麼連結 Computer Science 的運算能力，和 Statistics 想解決的問題，就成了 Data Science 的命題之一。前面提到的「要學會怎麼將抽象的公式、規則和流程化為程式」在這階段就成了很重要的能力。如前所述，我們接觸的方法包括 Monte Carlo、MLE modeling、Grid Search、Newton-Raphson 等，並在最後完成了一個囚徒困境下 Reinforcement Learning 的 Project，還有之前在 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 提到的 MLE 估計方法作業。
+所以學會怎麼連結 Computer Science 的運算能力，和 Statistics 想解決的問題，就成了 Data Science 的命題之一。前面提到的「要學會怎麼將抽象的公式、規則和流程化為程式」在這階段就成了很重要的能力。如前所述，我們接觸的方法包括 Monte Carlo、MLE modeling、Grid Search、Newton-Raphson 等，並在最後完成了一個囚徒困境下 Reinforcement Learning 的 Project，還有之前在 *Advanced Econometrics I* 提到的 MLE 估計方法作業。
 
 由於這邊直接把 code 貼上來實在對讀者幫助不大，我花了一點時間搜尋有沒有相關的資源，並把它們列在下面，附上我的經驗和見解。這些都是有點難度的主題，是 Econometrics 中比較會應用的方法。
 

@@ -110,13 +110,6 @@ path: sitemap.xml
 category_generator:
   per_page: 10
 
-#hexo-git-backup
-#backup:
-#type: git
-#theme: next
-#repository:
-#github: ssh://56ecaef289f5cf17b30000cc@php-mcknote.rhcloud.com/~/git/php.git/
-
 #hexo-generator
 archive_generator:
   per_page: 20
@@ -146,3 +139,4 @@ algolia:
     - slug
     - path
     - content:strip
+

@@ -18,8 +18,8 @@ categories: ＃
 
 終於能在冬季學期結束前，把秋季學期的三門課都介紹完了⋯⋯
 
-* *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}*（理論、分析）
-* *{% post_link Computational-Methods Computational Methods %}*（實作）
+* *Advanced Econometrics I*（理論、分析）
+* *Computational Methods*（實作）
 * *Data Management*（資料庫操作、管理）
 
 這次談的 Data Management 和 Computational Methods 類似，都是讀者如果自學的話比較可能漏掉的領域，因為一般學習過程中不太會碰到需要用 SQL Query 讀取資料的場合，更很少注意到 Relational Database 這個概念。如果是自我練習的話，通常只是讀取 `.csv`、用個 `subset()` 或 `dplyr` 一類的 package 就能處理好資料。
@@ -28,7 +28,7 @@ categories: ＃
 
 所以某種程度上，讀者可以把 `SQL` 當成一門 `subset()` 的藝術，了解如何最有效率地處理資料，與設計相應的工作流程。等了解了 SQL、Database 概念以及為何它們很重要以後，就能理解 [GFS](https://en.wikipedia.org/wiki/Google_File_System)、 [HDFS](https://wiki.apache.org/hadoop/HDFS)、 [MapReduce](https://zh.wikipedia.org/zh-hant/MapReduce)、 [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)、 [Spark](https://en.wikipedia.org/wiki/Apache_Spark)、 [Neo4j](https://en.wikipedia.org/wiki/Neo4j) 等一連串的應用為何能在這個 [Info Explosion](https://en.wikipedia.org/wiki/Information_explosion) 的年代應運而生了。
 
-這讓我想到六個月前{% post_link Data-Visualization-Storytelling 剛學 Tableau 時 %}，我也還不了解功能表裡那些資料庫選項的用途。現在我比較清楚了，也能把資料查詢和處理當成單獨、重要的步驟看待。另一方面，對剛步入數位化的中小企業來說，資料庫管理是比資料分析還要基本而且重要的需求，所以學學怎麼設計 Relational Database 也很重要。總之，雖然課名是 Data Management，但要管理虛無飄渺的資訊，就需要設計資料庫和管理流程。以下介紹這門課的主要內容。
+這讓我想到六個月前剛學 Tableau 時，我也還不了解功能表裡那些資料庫選項的用途。現在我比較清楚了，也能把資料查詢和處理當成單獨、重要的步驟看待。另一方面，對剛步入數位化的中小企業來說，資料庫管理是比資料分析還要基本而且重要的需求，所以學學怎麼設計 Relational Database 也很重要。總之，雖然課名是 Data Management，但要管理虛無飄渺的資訊，就需要設計資料庫和管理流程。以下介紹這門課的主要內容。
 
 
 ## 老師和教學方法

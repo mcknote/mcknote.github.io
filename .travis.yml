@@ -12,7 +12,6 @@ install:
 
 #before_script:
   - npm install gulp --save
-  - npm install minimatch --save
   - npm install hexo-renderer-stylus --save
   - npm uninstall hexo-renderer-marked --save
   - npm install hexo-renderer-kramed --save
