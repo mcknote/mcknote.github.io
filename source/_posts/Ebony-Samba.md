@@ -6,7 +6,7 @@ categories: 聽
 comments: true
 ---
 {% youtube GKc4ZuYYhfw %}
-　
+
 有一陣子我一直以為 Stan Getz 是拉丁美洲人，因為他的作品有別於低沈的爵士樂，總是充滿了熱情與裝飾。不過他其實是一名來自美國費城的薩克斯風手，年輕的時候去過巴西尋找靈感，認識了João Gilberto 和 Antonio Carlos Jobim 以後，回到美國發展 Bossa Nova，為爵士樂增添了一些特別的元素。<!-- more -->
 
 [Bossa Nova](https://en.wikipedia.org/wiki/Bossa_nova) 結合了巴西的森巴舞曲（Samba）與美國的酷派爵士（Cool Jazz），前者發源於帶有宗教儀式性的舞蹈，生動活潑，和一般人對「巴西、嘉年華」的想像很吻合；後者衍生自咆勃爵士樂（Bepop Jazz），有別於咆勃的複雜、迅速與轉折，酷派更為柔和而壓抑。森巴與酷派的結合，可以視為一種反差，也可以是互補，前者為後者注入了感情，後者賦予了前者便於欣賞的形式，Bossa Nova 也因此成為一個相當特別的類別。我感覺 Bossa Nova 的主題大多與冒險或冒險後的倦怠有關，適合出門在外的豔陽下午聽。

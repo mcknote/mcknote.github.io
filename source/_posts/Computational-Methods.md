@@ -8,7 +8,7 @@ tags:
 categories: ＃
 ---
 ![Cover](cover.jpg)
-　
+
 雖然冬季學期已經開始了，但我連秋季學期的課都還沒講完⋯⋯除了上次介紹的 Econometrics，這篇談 BA 裡比較偏實作的發展方向：*Computational Methods*，也就是 R Programming。
 
 <!--more-->

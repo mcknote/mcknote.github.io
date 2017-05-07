@@ -11,7 +11,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 最近 [AlphaGo 比賽](http://seekingalpha.com/news/3167364-alphago-finishes-five-game-series-4minus-1-record)激起了一些關於「人工智慧將如何改變人類生活」的討論，不過別以為這是太遙遠的事情，早在今年一月下旬 [AlphaGo 擊敗歐洲圍棋冠軍樊麾](https://www.zhihu.com/question/39905662?rf=39905612)時，[世界經濟論壇（WEF）的 Davos 年會](http://big5.ftchinese.com/tag/2016達沃斯)就已經如火如荼地討論以自動化和連結性（Automation & Connectivity）為名的第四次工業革命正如何改變全球經濟面貌。[這份由 WEF 和 UBS 共同發佈的報告](https://www.ubs.com/global/en/about_ubs/follow_ubs/highlights/davos-2016.html)針對下列三個問題進行研究：<!--more-->
 
 * 這對全球經濟的影響為何？

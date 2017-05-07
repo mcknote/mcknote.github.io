@@ -9,7 +9,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 平安證券出了一份很有意思的報告[《泛二次元的奇襲》](http://data.eastmoney.com/report/20160223/cl,APPH2cknV3JHReport.html)，討論中國二次元市場的規模與商機，想讀完整版的人可以點連結內的[「查看PDF原文」](http://pdf.dfcfw.com/pdf/H3_AP201602230013577782_1.pdf)。該報告的結論架構如下：<!--more-->
 
 * 新興消費領域值得看好

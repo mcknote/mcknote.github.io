@@ -10,7 +10,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [這篇 2015 年三月的 MGI 報告](http://www.mckinsey.com/global-themes/employment-and-growth/how-a-private-sector-transformation-could-revive-japan)討論了日本的未來，提出安倍三支箭以外的第四支箭——**「重啟生產力與經濟成長」**。在瞭解第四支箭的詳細內容前，我們先來釐清前三支箭究竟為何，畢竟這個詞很常在媒體上看到，象徵日本整頓經濟的重要指標，很多人卻不一定清楚具體政策。<!--more-->根據 Wikipedia 的[「安倍經濟學（Abeconomics）」](https://zh.wikipedia.org/wiki/%E5%AE%89%E5%80%8D%E7%B6%93%E6%BF%9F%E5%AD%B8)條目，這三支箭分別為：
 
 > 1. 大膽的金融政策[（monetary policies）](https://en.wikipedia.org/wiki/Monetary_policy)

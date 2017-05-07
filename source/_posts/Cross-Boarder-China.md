@@ -10,7 +10,7 @@ categories: 想
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [這篇 McKinsey Quarterly](http://www.mckinsey.com/industries/high-tech/our-insights/Crossborder-ecommerce-is-luring-Chinese-shoppers) 說明了中國跨境電商的崛起，它的敘事架構如下：
 　
 * 民眾收入增加，漸漸直接購買國外產品

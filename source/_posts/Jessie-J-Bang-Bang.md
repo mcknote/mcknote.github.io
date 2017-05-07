@@ -11,7 +11,7 @@ categories: 聽
 comments: true
 ---
 {% youtube 0HDdjwpPM3Y %}
-　
+
 要不是重聽這首歌，我還是很難相信上週自己真的去了趟芝加哥——參加 [CFA Institute Research Challenge 2016](https://www.cfainstitute.org/community/challenge/Pages/index.aspx)、認識各路頂尖人才、並在當地四處亂晃。整趟旅程有很多東西可以寫，不過一開始我得先聽這首歌，說服自己真的去過芝加哥，並慢慢回想我所經歷的一切。<!--more-->
 
 {% raw %}

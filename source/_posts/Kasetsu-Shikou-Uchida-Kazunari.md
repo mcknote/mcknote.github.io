@@ -18,7 +18,7 @@ comments: true
 </center>
 {% endraw %}
 
-　
+
 和兩人的介紹類似，內田和成用了非常多實務經驗來說明「假說思考為何重要」、「如何運用假說思考」以及「如何訓練假說思考」。如果你讀了 Johnny 和 Ray 的介紹，對假說很感興趣，卻又不知從何開始，或是跟我一樣根本沒上到課，《假說思考》很值得一讀。
 
 順帶一提，《假説思考》的英文書名是 [*The BCG Way: The Art of the Hypothesis Driven Management*](http://www.bcg.com.cn/en/newsandpublications/publications/books/book20090309008.html)，*The BCG Way* 系列還有另外兩本書，分別為[《論點思考》](http://www.books.com.tw/products/0010631188?loc=P_asb_001)和[《策略思考》](http://www.books.com.tw/products/0010631197?loc=P_asb_002)，讓我想到同樣有名的 [*The McKinsey Way*](http://www.amazon.com/The-McKinsey-Way-Ethan-Rasiel/dp/0070534489)、[*The McKinsey Mind*](http://www.amazon.com/The-McKinsey-Mind-Understanding-Problem-Solving/dp/0071374299) 和 [*The McKinsey Engagement*](http://www.amazon.com/The-McKinsey-Engagement-Efficient-Effective/dp/0071497412)。

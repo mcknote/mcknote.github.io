@@ -13,7 +13,7 @@ comments: true
 
 前陣子我和朋友介紹 [McK & Note](https://www.facebook.com/mcknote/) 時突然發現，其實很多人都對報告還有 Insights 感興趣，但是平常可能沒想到要從諮詢機構找資料，而我雖然在[置頂資料](https://www.facebook.com/notes/mck-note/ｍ能力提升資料匯總/536922319814435)中列了洋洋灑灑的網站，卻很少人有耐心點開慢慢逛，所以到頭來大家還是不清楚該讀什麼，該怎麼讀。由於寫 McK & Note 很重要的一個目的是讓大家更瞭解諮詢機構在做什麼，進而培養思考的習慣，我決定寫一系列的文章一一介紹這些網站的內容，希望能盡到推廣責任，也希望大家能對這些寶貴的資源產生興趣。<!--more-->
 
-　
+
 > **「研究」**系列文章（待續）：
 > * **MGI 和 McKinsey Quarterly**
 > * {% post_link Resource-bcgperspectives bcg.perspectives %}

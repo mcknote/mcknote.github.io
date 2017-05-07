@@ -10,7 +10,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [這篇 Goldman Sachs 的報告](http://www.goldmansachs.com/our-thinking/macroeconomic-insights/growth-of-china/chinese-consumer/index.html#)介紹了中國新興消費者的組成、消費偏好與影響領域，以網頁方式呈現，滿有趣。報告提到幾個有趣的事實：<!--more-->
 　
 * 中國的就業人口大概是美國的五倍；

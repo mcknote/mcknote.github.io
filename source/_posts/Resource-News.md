@@ -18,7 +18,7 @@ comments: true
 如果平常沒空分析報告，讀新聞也是不錯的選擇。不過商業新聞網站實在太多了，這篇只列出幾個我常讀的，以及分享幾個追蹤新聞的方法，培養接受和閱讀商業資訊的習慣。
 <!--more-->
 
-　
+
 > **「研究」**系列文章（待續）：
 > * {% post_link Resource-MGI-MQ MGI 和 McKinsey Quarterly %}
 > * {% post_link Resource-bcgperspectives bcg.perspectives %}

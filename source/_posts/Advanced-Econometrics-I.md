@@ -8,7 +8,7 @@ tags:
 categories: ＃
 ---
 ![Cover](cover.jpg)
-　
+
 找完工作以後，日子依舊忙碌。這個學期 MSBA 有三門課，分別代表 Business Analytics 中三個滿重要的發展方向：分析理論、程式設計、和資料庫。這篇先從偏理論的計量經濟學談起。
 
 <!--more-->

@@ -8,7 +8,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpeg)
-　
+
 我常搭台中市公車。以前是因為我不會開車，但即使我現在已經有駕照，如果不趕時間的話，我還是比較喜歡搭公車，畢竟開車還是讓專業的來比較放心，而且每次搭車我都會試試看 [Bus Surfing](//www.urbandictionary.com/define.php?term=Bus+Surfing)。什麼是 Bus Surfing 呢？就是搭公車的時候什麼也不扶，像衝浪一樣，盡可能站好站穩的自我修煉（？）。聽起來很中二嗎？可惜我到現在還是很熱衷這麼無聊的事情。<!--more-->
 
 ## 用比喻說明事情

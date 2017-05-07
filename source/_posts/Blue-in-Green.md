@@ -9,7 +9,7 @@ categories: 聽
 comments: true
 ---
 {% youtube PoPL7BExSQU %}
-　
+
 大學四年雖然感覺聽了很多 Jazz，回想起來，其實真正一直聽的大概只有 John Coltrane 和 Miles Davis，其它的音樂不論是用 Spotify 還是 Shazam 找的似乎都聽不久，唯有兩者能幫我消化漫長時間。<!--more-->
 
 最初會認識 [Miles Davis](https://en.wikipedia.org/wiki/Miles_Davis)，八成是因為讀了村上春樹的書，不過時間久了，我也忘了是讀了哪本書才跑去查 Miles Davis，這幾天一查才發現應該是讀[《挪威的森林》](http://s.mcknote.com/1UMKJAx)時讀到的，「渡邊星期日總會邊聽著Miles Davis的老唱片邊提筆寫信給直子。」可惜現在的我只依稀記得渡邊和直子的關係，詳細情節都忘得一乾二淨了。發生類似情況的還有[《村上春樹的〈1Q84〉古典邊境》](http://www.books.com.tw/exep/cdfile.php?item=0020134564)中大部分的曲子、百萬三重奏的[《大公》](https://www.youtube.com/watch?v=olOOsM8mioM)以及 John Coltrane 的 [My Favorite Things](https://www.youtube.com/watch?v=qWG2dsXV5HI)，我只能說書有讀完的時候，遊戲也有玩完的時候，音樂卻沒有聽完的時候。我聽了一首四年的曲子，也難怪最後我只記得這些音樂。

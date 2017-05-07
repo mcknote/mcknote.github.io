@@ -8,7 +8,7 @@ categories: 想
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [這篇 MGI 報告](http://www.mckinsey.com/business-functions/business-technology/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world)調查了世界上 150 種[物聯網（Internet of Things）](http://wiki.mbalib.com/zh-tw/%E7%89%A9%E8%81%94%E7%BD%91)案例，並說明它的產值最多可以在 2025 年前達到 11.1 兆美金（下同），佔了該年世界總預估 GDP 的 11%。其中大約 40% 需要不同系統間的[互操作性（interoperability）](https://zh.wikipedia.org/zh-hant/%E4%BA%92%E6%93%8D%E4%BD%9C%E6%80%A7)，也就是說不同物品的互聯網要能彼此溝通；<!--more-->大約 70% 與 B2B 業務有關。物聯網所提供的商機主要分為兩種：改善流程與提供新的商業模式，因此總產值中有大約 90% 是由物聯網中的消費者（個人或法人）直接得益。物聯網的發展聽起來很不錯，不過要進一步瞭解這些數據背後的意義，我們得先問「2025 年前 11.1 兆美金是怎麼預估的？」
 　
 首先從 Executive Summary 中可以看到，MGI 是用 Bottom-up 的方式建立模型，調查九種情況（settings）下可能產生的潛在利益，包括生產過程中節省的時間、提升的生產力與資源利用最佳化，以及過程外的社會利益，並得出了以上幾個結論。比方說在人（human）的情況裡面，MGI 的調查方向分為「健康」與「生產力」，前者衡量了在改善患者抗藥性、過敏等症狀以後，健康風險降低可能帶來的助益，後者則衡量了在運用虛擬實境（Augmented Reality，AR）等技術的情況下，員工可能提升的生產力。其它領域採用的方法也大同小異，先是決定調查的方向，再個別評估可能產生的產值，不過每個領域對不同發展程度的社會衝擊不一，預估值波動也很大，以「健康」來說，經濟衝擊最小有 1,700 億，最高則有 1.6 萬億。

@@ -1,0 +1,885 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-tw">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content= "This is where I started. Get inspired by the guides and stories from McK & Note and take the initiative to figure out solutions for life." />
+<meta property="article:author" content="https://www.facebook.com/mcknote" />
+<meta property="fb:pages" content="526667947506539" />
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="MSBA,Cal Poly,Storytelling," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="McK & Note" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+  <meta property="fb:admins" content="kiminire" />
+  <meta property="fb:app_id" content="537807449725839" />
+
+
+
+<meta name="description" content="為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK &amp;amp; Note 上。有興趣的人可以留意網站裡的 #Cal Poly 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。">
+<meta name="keywords" content="MSBA,Cal Poly,Storytelling">
+<meta property="og:type" content="article">
+<meta property="og:title" content="＃／Data Visualization and Storytelling">
+<meta property="og:url" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/index.html">
+<meta property="og:site_name" content="McK &amp; Note">
+<meta property="og:description" content="為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK &amp;amp; Note 上。有興趣的人可以留意網站裡的 #Cal Poly 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。">
+<meta property="og:image" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/cover.png">
+<meta property="og:image" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/hankbeer.jpg">
+<meta property="og:image" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/calpoly.png">
+<meta property="og:image" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/tableau.png">
+<meta property="og:updated_time" content="2017-05-06T00:15:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="＃／Data Visualization and Storytelling">
+<meta name="twitter:description" content="為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK &amp;amp; Note 上。有興趣的人可以留意網站裡的 #Cal Poly 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。">
+<meta name="twitter:image" content="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/cover.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"hide"},
+    fancybox: false,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '作者'
+    },
+    algolia: {
+      applicationID: 'K2YQUUH3TO',
+      apiKey: 'abbed1615cd059b39d06a38037971aeb',
+      indexName: 'mcknote',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜尋主題、內容、資源⋯⋯","hits_empty":"找不到包含關鍵字「${query}」的文章","hits_stats":"找到了 ${hits} 篇相關文章（搜尋時間：${time} 毫秒）"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/"/>
+
+
+
+
+
+  <title> ＃／Data Visualization and Storytelling | McK & Note </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=176081199193364";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '537807449725839',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_tw/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-75181285-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=55480462";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+    <div class="site-meta-headline">
+      <a>
+        <img class="custom-logo-image" src="/images/logo.png"
+             alt="McK & Note"/>
+      </a>
+    </div>
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">McK & Note</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+            文庫
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+            標籤
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+            搜尋
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.mcknote.com/2016/09/03/Data-Visualization-Storytelling/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jimmy Lin">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/default_avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="McK & Note">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="McK & Note" src="/images/logo.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ＃／Data Visualization and Storytelling
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-09-03T07:30:00-07:00">
+              2016-09-03
+            </time>
+
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/＃/" itemprop="url" rel="index">
+                    <span itemprop="name">＃</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/03/Data-Visualization-Storytelling/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/09/03/Data-Visualization-Storytelling/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+            &nbsp; | &nbsp;
+            <div class="fb-like" data-layout="button_count" data-share="true"></div>
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="/2016/09/03/Data-Visualization-Storytelling/cover.png" alt=""><br>　<br>為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK &amp; Note 上。有興趣的人可以留意網站裡的 <a href="https://www.mcknote.com/tags/Cal-Poly/">#Cal Poly</a> 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。<a id="more"></a></p>
+<h2 id="這一年要學的東西"><a href="#這一年要學的東西" class="headerlink" title="這一年要學的東西"></a>這一年要學的東西</h2><p>先簡介一下接下來會上的幾門課。根據我到目前為止的理解，Business Analytics（BA）是一門跟數據分析有關的專業，定位大約介於 Data Science 跟傳統商科之間，常見的應用情境可能是<strong>運用數據分析工具解決商業問題</strong>。我的完整課表在<a href="http://www.cob.calpoly.edu/gradbusiness/degree-programs/ms-business-analytics/curriculum/" target="_blank" rel="external">這裡</a>，我們在這一年裡會學的東西包括：</p>
+<ul>
+<li>統計軟體：R、STATA、Excel、Tableau……</li>
+<li>數據分析概念：Econometric、Data Management、Analytics &amp; Mining……</li>
+<li>累積初步實務經驗：最後跟著 Advisory Board 做 Project，也可以自己另外做研究</li>
+</ul>
+<p>其中第一門課就是這篇要講的 <em>Data Visualization and Storytelling</em>。</p>
+<h2 id="老師和教學方法"><a href="#老師和教學方法" class="headerlink" title="老師和教學方法"></a>老師和教學方法</h2><p>這門課的老師是 Dr. Samuel Frame，如果你看過 <em>Breaking Bad</em> 的話，他給人的感覺（還有一些特徵）滿像 <a href="http://breakingbad.wikia.com/wiki/Hank_Schrader" target="_blank" rel="external">Hank Schrader</a>。不過他不在 DEA 工作，他是 Cal Poly 統計系的副教授，曾在 Wells Fargo 當 <a href="http://statistics.calpoly.edu/faculty-updates" target="_blank" rel="external">Advanced Analytics Consultant</a>，以及在 UC Berkeley School of Information 任教。</p>
+<p><img src="/2016/09/03/Data-Visualization-Storytelling/hankbeer.jpg" alt=""></p>
+<center>（Let's have some more beer charts!）</center>
+
+<p>　<br>我們從八月十一日開始上課，到上週五結束。在這兩週多裡面，我們主要學三件事：</p>
+<h3 id="使用-Tableau-分析數據"><a href="#使用-Tableau-分析數據" class="headerlink" title="使用 Tableau 分析數據"></a>使用 <a href="http://www.tableau.com/" target="_blank" rel="external">Tableau</a> 分析數據</h3><p>Dr. Frame 從一開始就說他會讓我們在這門課好好學 Tableau，因為 Tableau 很貴也很強，美國業界都在用 Tableau。有幾段原話是這樣的：</p>
+<ul>
+<li>「如果我在面試 Data Analyst，對方跟我說他在做 Analytics，結果用的是 Excel，那就謝謝再聯絡啦！」</li>
+<li>「R 也很好用，但網路上到處都可以學 R；Tableau 很貴，所以你們可以在這門課上好好學。」</li>
+<li>「我原本只是稍微知道 Tableau，直到上次有個 Tableau 的人來我們這裡講課，看他操作我都驚呆了！」</li>
+</ul>
+<p>所以我們學了怎麼用 Tableau 做各式各樣的圖，參考書是 <em><a href="https://www.amazon.com/Jumpstart-Tableau-Step-Step-Visualization/dp/1484219333" target="_blank" rel="external">Jumpstart Tableau</a></em>。關於 Tableau 是用來幹嘛的，還有我們學些什麼，後面再詳細講。</p>
+<h3 id="閱讀跟討論-Storytelling-with-Data"><a href="#閱讀跟討論-Storytelling-with-Data" class="headerlink" title="閱讀跟討論 Storytelling with Data"></a>閱讀跟討論 <a href="https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257" target="_blank" rel="external"><em>Storytelling with Data</em></a></h3><p>這也是另一本讓 Dr. Frame 驚呆了的書，他的原話是：</p>
+<ul>
+<li>「我以前覺得自己還算擅長 Data Science，讀完這本書以後我覺得自己什麼都不懂。」</li>
+<li>「我讀完以後覺得自己過去做的模型都有問題，所以回去跟以前同事說把一切砍掉重練。」</li>
+</ul>
+<p>總之，Dr. Frame 受這本書啟發很大，所以他在課程名稱裡加了 <em>Storytelling</em>，而且把這當成上課的主軸之一。</p>
+<p>至於這本書講什麼，我等一下也會稍微提，但老實說整本書不厚也不難，如果對 Data Visualization 的心法感興趣的人可以找來好好讀一讀。讀過以後我真心覺得這本書很適合用來入門，也可以幫助初學者建立正確的概念（而不是直接一頭栽進圖表設計或 Coding）。</p>
+<h3 id="基礎資料分析實作"><a href="#基礎資料分析實作" class="headerlink" title="基礎資料分析實作"></a>基礎資料分析實作</h3><p>既然學了軟體也讀了書，每堂課剩餘的時間就是用來（一）分析一些簡單數據（二）練習分工合作跟講故事啦。Dr. Frame 每堂課都會提供 Homework 或 Group Project，內容不外乎就是要我們用 Tableau 跑一些圖表，並按照 <em>Storytelling with Data</em> 的理念說說自己的 Insights（而非 Observation）。</p>
+<p>整門課雖然只有兩週多，但因為我們每天都在分析、說故事，最後也累積了一些經驗，包括怎麼跟組員溝通故事上或設計上的細節，還有練習英文 Presentation 等等。</p>
+<p>以下來詳細談談 <strong>Tableau</strong> 跟 <strong><em>Storytelling with Data</em></strong> 兩條上課主軸。</p>
+<p><img src="/2016/09/03/Data-Visualization-Storytelling/calpoly.png" alt=""></p>
+<center>（用來分隔過長文章的 Cal Poly 中庭大草坪。）</center>
+
+<h2 id="Tableau、Tableau、Tableau"><a href="#Tableau、Tableau、Tableau" class="headerlink" title="Tableau、Tableau、Tableau"></a>Tableau、Tableau、Tableau</h2><p>如前所述，Tableau 是目前美國 Data Analytics 界滿熱門的軟體，不只 Dr. Frame 這麼說，連 Duke University 的 <a href="https://zh-tw.coursera.org/learn/analytics-tableau" target="_blank" rel="external">Coursera 課程</a>也這麼提到：「業界做資料分析都在用 Tableau。」</p>
+<p>不過，以我們在這門課碰到的功能來說，我體驗到 Tableau 最大的優點應該是<strong>聰明</strong>跟<strong>便利</strong>吧。</p>
+<h3 id="我所體會到的-Tableau-優點"><a href="#我所體會到的-Tableau-優點" class="headerlink" title="我所體會到的 Tableau 優點"></a>我所體會到的 Tableau 優點</h3><p><strong>聰明</strong>是說 Tableau 對資料的處理非常純熟，從 Import Data 到製圖都很有一套規範，可以感覺得出對 Advanced Analytics User 來說，Tableau 的操作邏輯應該是友善的。很可惜我們學 Tableau 都只是跟著 <em>Jumpstart Tableau</em> 依樣畫葫蘆，沒有從資料型態等原理開始學，所以我還不是很能掌握這套流程背後的奧妙。</p>
+<p><strong>便利</strong>則是指在 Tableau 裡可以靠簡單的拖曳資料（Dimension 或 Measure）來做出各式各樣的圖表，從最基本的 Bar Chart 到比較炫的 <a href="http://dataremixed.com/2013/12/slopegraphs-in-tableau/" target="_blank" rel="external">Slopegraph</a> 都有，對一般人來說應該滿好上手。不過，當資料有問題、需要調整的時候，以我們目前的程度也只能摸摸鼻子開 Excel 調整。</p>
+<p><img src="/2016/09/03/Data-Visualization-Storytelling/tableau.png" alt=""></p>
+<h3 id="未來我還想怎麼學-Tableau"><a href="#未來我還想怎麼學-Tableau" class="headerlink" title="未來我還想怎麼學 Tableau"></a>未來我還想怎麼學 Tableau</h3><p>所以，沿著這兩個優點，我也想講講如果繼續學 Tableau，我覺得有什麼好學的。首先是<strong>資料庫</strong>。從 Tableau 的 Import 選單上可以看到 Tableau 其實支援很多資料庫，包括 MySQL、Oracle、Amazon Redshift 等等，這些功能我們過去都沒碰過，我也滿好奇實際對接以後的操作。</p>
+<p>再來是<strong>原始碼</strong>。其實在 Tableau 的圖形界面裡，使用者已經能用一些初階的計算式，就像在 Excel 裡面用 SUM、AVG 等函數一樣。不過其實整個 Tableau Workbook（*.twb）格式的文件都能用純文字開啟、編輯。如果能省去拖曳的工夫，並使用更進階的函數（有碰 R 的人應該懂這種感覺），相信 Tableau 用起來會強大許多。</p>
+<p>最後談談 Tableau 的小缺點。我覺得 Tableau 在格式設定（Formatting）上沒有 Keynote 用得順手，改個字體或顏色的流暢度大概跟用 Powerpoint 差不多，有點可惜，所以後期有些圖我還是回去用 Keynote 做。不過這或許也是直接編輯原始碼就能避掉的麻煩事（想想 <a href="https://zh.wikipedia.org/zh-tw/%E5%B1%82%E5%8F%A0%E6%A0%B7%E5%BC%8F%E8%A1%A8" target="_blank" rel="external">CSS</a>）。</p>
+<h3 id="Tableau-學習資源"><a href="#Tableau-學習資源" class="headerlink" title="Tableau 學習資源"></a>Tableau 學習資源</h3><p>總之，前面的「所以我們學了怎麼用 Tableau 做各式各樣的圖」，其實是帶有感嘆意味的一個結論，畢竟我們只有兩週時間，如果還要專注在 Storytelling 上，能學的大概也就那麼多。</p>
+<p>不過，Tableau 真的是很強大的軟體，操作一段時間後就不難想像為什麼它能稱霸業界，如果之後還有時間，我會想再繼續學。如果你也有興趣，前面提到的 Duke University <a href="https://zh-tw.coursera.org/learn/analytics-tableau" target="_blank" rel="external">Coursera 課程</a>是個很好的免費資源，Udemy 上有<a href="https://www.udemy.com/tableau/" target="_blank" rel="external">不錯的付費課程</a>（不過我沒上過，無法評論），Tableau 官方也給學生<a href="http://www.tableau.com/academic/students" target="_blank" rel="external">一年的免費授權</a>。如果再加上 <a href="https://www.amazon.com/Jumpstart-Tableau-Step-Step-Visualization/dp/1484219333" target="_blank" rel="external"><em>Jumpstart Tableau</em></a>，學 Tableau 真的沒有很難（下定決心好好學一件事可能還比較難）。</p>
+<h2 id="Exploratory-vs-Explanatory"><a href="#Exploratory-vs-Explanatory" class="headerlink" title="Exploratory vs. Explanatory"></a>Exploratory vs. Explanatory</h2><p>除了使用 Tableau 以外，Dr. Frame 最初希望在兩週內教我們的東西，包括讓我們瞭解何謂 Storytelling，以及 Storytelling 的重要性。</p>
+<p>從一開始 <a href="https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257" target="_blank" rel="external"><em>Storytelling with Data</em></a> 就把資料分析的方式分成兩種：Exploratory（勘察）跟 Explanatory（解釋）。引用書中一個很傳神的例子，前者是<strong>打開蚌殼尋找珍珠</strong>的過程，後者是<strong>呈現這些珍珠</strong>的藝術。不管中間花了多少時間和精力尋找珍珠，最後觀眾面對的是結果。因此，這本書講的是如何呈現結果，幫助講者<strong>準確傳達訊息</strong>。</p>
+<h3 id="用心思考和用心表達"><a href="#用心思考和用心表達" class="headerlink" title="用心思考和用心表達"></a>用心思考和用心表達</h3><p>讓我驚訝的是 <em>Storytelling with Data</em> 真的把整個改善過程講得專業又具體。對比我之前寫〈<a href="/2016/04/11/Consulting-Template-Slide-Design/" title="＃／諮詢業的簡報設計">＃／諮詢業的簡報設計</a>〉的狀態，我覺得自己只算個懂一點設計就急著概括整件事的人（aka noob），但本書作者 Cole Nussbaumer Knaflic 才是瞭解一切並願意好好說明的人。從<a href="https://www.youtube.com/watch?v=8EMW7io4rSI" target="_blank" rel="external">這篇訪談</a>可以知道她多年前曾在 Google 的 <a href="https://www.google.com/about/careers/fields-of-work/people/" target="_blank" rel="external">People Analytics and People Operations Team</a> 工作，累積了豐富的 Data Viz 和簡報經驗。</p>
+<p>從這本書的<a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119002257.html" target="_blank" rel="external">目錄</a>（Table of Contents）可以看出作者花了很多篇幅，從各個設計細節說明<strong>什麼才是好的 Explanatory Analysis</strong>，包括哪些資料需要用哪種圖表來呈現，怎麼讓整體視覺乾淨又不雜亂（declutter）等等。這些方針不只來自作者自己的經驗，也基於一些經典的心理學概念，像 <a href="https://en.wikipedia.org/wiki/Gestalt_psychology" target="_blank" rel="external">Gestalt Laws of Grouping</a>、<a href="https://en.wikipedia.org/wiki/Pre-attentive_processing" target="_blank" rel="external">Pre-attentive Processing</a> 跟<a href="https://zh.wikipedia.org/zh-tw/%E8%A8%98%E6%86%B6#.E6.A0.B9.E6.8D.AE.E6.8C.81.E7.BB.AD.E6.97.B6.E9.97.B4.E5.88.86.E7.B1.BB" target="_blank" rel="external">記憶理論</a>。</p>
+<p>說真的，當初我在這本書的 Study Guide 上看到這些內容時，真的很佩服作者。我從高中以來設計了無數簡報，卻從來沒有試著後退一步歸納這些基本規則，或許過程中也繞了一點路，做過一些困擾人的設計吧。當然，作者提供的方針不用照單全收，其中一些建議，像是不要用 Pie Chart，或用橫長條圖（Horizontal）比用直長條圖（Vertical）好，也有討論空間。但我覺得厲害的是<strong>至少這些建議背後都有很好的理由</strong>。</p>
+<h3 id="Keep-it-professional"><a href="#Keep-it-professional" class="headerlink" title="Keep it professional"></a>Keep it professional</h3><p>這門課的小組討論也給我類似的感覺。每個人針對一張圖表的意見都不一樣，當我們問 Dr. Frame「這張圖表該怎樣設定比較好」的時候，也常會收到 You can argue that 或 Either way maybe 等回覆。但至少大家在交流的時候都有試著往<strong>有理有據</strong>的方向聚焦。從 Homework 到 Group Project 跟 Final Presentation，我至少經歷十幾次討論，小從一張長條圖應該怎麼做，大到整場 Presentation 的重心為何，其中有些意見真的很棒。</p>
+<p>如果最初我選擇閉門造車，按自己的意思把整份 PPT 做完，或許結果會看起來不錯，但實際上我可能什麼新東西都學不到，也就不會有任何成長。既然來這邊讀書，遇到新的人，討論的還是我喜歡的主題，我很慶幸當初有選擇敞開心胸和別人溝通。畢竟 Explanatory 不像 Exploratory，它沒有單一的標準，也沒有絕對的好或壞，所以過程中的討論和取捨，也算重要的經驗和磨練 Storytelling 的一部份。</p>
+<h2 id="課堂成果"><a href="#課堂成果" class="headerlink" title="課堂成果"></a>課堂成果</h2><p>最後，我把這門課的 Group Project 跟 Final Presentation 都傳到 McK &amp; Note 的 <a href="http://www.slideshare.net/mcknote" target="_blank" rel="external">SlideShare</a> 上了：</p>
+<ul>
+<li>Group Project: <a href="http://www.slideshare.net/McKNote/color-considerations-on-a-dark-background-65651637" target="_blank" rel="external">Color Considerations on a Dark Background</a></li>
+<li>Final Presentation: <a href="http://www.slideshare.net/McKNote/the-opposite-effect-giving-the-batter-the-edge-65651645" target="_blank" rel="external">The Opposite Effect: Giving the Batter the Edge</a></li>
+</ul>
+<p>這些作品也遵循 McK &amp; Note 的 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="external">CC-BY-NC-SA</a> 的分享原則。如果你也想做出不錯看的簡報，與其按我們小組的半成品（？）依樣畫葫蘆，不如好好讀一讀 <a href="https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257" target="_blank" rel="external"><em>Storytelling with Data</em></a>，然後找幾個 Topic 練習一下吧。</p>
+<p>　<br><em>圖片來源：<a href="http://www.denofgeek.com/tv/breaking-bad/26489/why-breaking-bads-hank-is-the-real-john-mcclane" target="_blank" rel="external">Den of Geek</a>、<a href="https://www.linkedin.com/pulse/tableau-software-data-visualization-analytics-user-marina-handschin" target="_blank" rel="external">Best Practices for Designing Efficient Tableau Workbook</a></em></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/MSBA/" rel="tag"># MSBA</a>
+          
+            <a href="/tags/Cal-Poly/" rel="tag"># Cal Poly</a>
+          
+            <a href="/tags/Storytelling/" rel="tag"># Storytelling</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/23/LinkedIn-The-StartUp-Of-You/" rel="next" title="讀／LinkedIn《自創思維》">
+                <i class="fa fa-chevron-left"></i> 讀／LinkedIn《自創思維》
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/09/08/Standout-HBS-Essay/" rel="prev" title="讀／如何寫一份出色的 HBS Essay">
+                讀／如何寫一份出色的 HBS Essay <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_inline_share_toolbox">
+  <script type = "text/javascript" src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590ce40d557ec312" async = "async" ></script>
+</div>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="Jimmy Lin" />
+          <p class="site-author-name" itemprop="name">Jimmy Lin</p>
+          <p class="site-description motion-element" itemprop="description">In reasoning we believe.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">91</span>
+              <span class="site-state-item-name">文章</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分類</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">157</span>
+                <span class="site-state-item-name">標籤</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        <div class="fb-page motion-element" data-href="https://www.facebook.com/mcknote" data-tabs="timeline" data-width="240" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/mcknote">
+              <a href="https://www.facebook.com/mcknote">McK &amp; Note</a></blockquote>
+          </div>
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#這一年要學的東西"><span class="nav-number">1.</span> <span class="nav-text">這一年要學的東西</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#老師和教學方法"><span class="nav-number">2.</span> <span class="nav-text">老師和教學方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用-Tableau-分析數據"><span class="nav-number">2.1.</span> <span class="nav-text">使用 Tableau 分析數據</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#閱讀跟討論-Storytelling-with-Data"><span class="nav-number">2.2.</span> <span class="nav-text">閱讀跟討論 Storytelling with Data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基礎資料分析實作"><span class="nav-number">2.3.</span> <span class="nav-text">基礎資料分析實作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tableau、Tableau、Tableau"><span class="nav-number">3.</span> <span class="nav-text">Tableau、Tableau、Tableau</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#我所體會到的-Tableau-優點"><span class="nav-number">3.1.</span> <span class="nav-text">我所體會到的 Tableau 優點</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未來我還想怎麼學-Tableau"><span class="nav-number">3.2.</span> <span class="nav-text">未來我還想怎麼學 Tableau</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tableau-學習資源"><span class="nav-number">3.3.</span> <span class="nav-text">Tableau 學習資源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Exploratory-vs-Explanatory"><span class="nav-number">4.</span> <span class="nav-text">Exploratory vs. Explanatory</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#用心思考和用心表達"><span class="nav-number">4.1.</span> <span class="nav-text">用心思考和用心表達</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Keep-it-professional"><span class="nav-number">4.2.</span> <span class="nav-text">Keep it professional</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#課堂成果"><span class="nav-number">5.</span> <span class="nav-text">課堂成果</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimmy Lin</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'mcknote';
+      var disqus_identifier = '2016/09/03/Data-Visualization-Storytelling/';
+
+      var disqus_title = "＃／Data Visualization and Storytelling";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+</body>
+</html>

@@ -5,7 +5,7 @@ tags: Charles Mingus
 categories: 聽
 ---
 {% youtube __OSyznVDOY %}
-　
+
 我在芝加哥意外聽到的曲子。Moanin' 給我的第一印象是華麗緊湊，很有大都市夜未眠的感覺。不過，如果把曲名 Moanin' 的意思考慮進來，或許能聽出一個有趣的故事。<!--more-->
 
 ## 薩克斯風家族

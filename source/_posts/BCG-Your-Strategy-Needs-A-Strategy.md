@@ -6,7 +6,7 @@ tags:
 categories: 讀
 ---
 ![](cover.jpg)
-　
+
 我已經很久不玩手機遊戲了，但，說真的，BCG，這到底是什麼東西啊？（本站即日起轉型為遊戲情報站。）<!--more-->
 
 原來這款遊戲是 BCG 為了推廣 [*Your Strategy Needs a Strategy*](https://www.bcgperspectives.com/yourstrategyneedsastrategy) 這本書所做的遊戲，使玩家在不同條件下摸索調配策略的重要性。說到這本書，有在 follow BCG in Taiwan 的人應該都不陌生，因為這就是 JT Hsu 徐瑞廷先生這一年來多次提到的一本書：

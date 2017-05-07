@@ -8,7 +8,7 @@ categories: 聽
 comments: true
 ---
 {% youtube uWP9Nv6DUsg %}
-　
+
 一首緩慢哀傷的情歌。IWC 為了宣傳自家的 [Portofino 系列手錶](http://www.iwc.com/zh-tw/collection/portofino/)，在針對會員的文宣品上附了一張雙 CD 的 Portofino Soundtrack，其中最後一首就是 Love in Portofino。專輯收錄的版本是由 [Riz Samaritano](https://it.wikipedia.org/wiki/Riz_Samaritano) 演唱，因為 YouTube 上找不到，所以用 Andrea Bocelli 演唱的版本代替，也滿好。<!--more-->
 　
 Love in Portofino 最早由義大利男歌手 [Fred Buscaglione](https://en.wikipedia.org/wiki/Fred_Buscaglione) 演唱，1958 年，時年 37 歲。1955 年才一炮而紅的他，1960 年就遇上車禍。[他唱的感覺](https://www.youtube.com/watch?v=0fagiA1auUE)滿符合他的年紀，中間用英文碎念 Portofino 多漂亮、回憶多美，情緒不到悲傷，比較接近惋惜。Wikipedia 上關於他的介紹不多，提到「他的公眾形象是熱愛女人與威士忌的暴徒」，配著一張舉著手槍的老照片。

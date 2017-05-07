@@ -8,7 +8,7 @@ tags:
 categories: ＃
 ---
 ![Cover](cover.jpg)
-　
+
 既上一篇 *{% post_link Advanced-Econometrics-I Advanced Econometrics I %}* 介紹了線性迴歸模型後，冬季學期的下半堂課則是針對時間序列資料的分析方法。技術上和上半堂課老實說沒有太多區別，但針對週期性的分析和處理是這門課最有趣的特點。
 
 <!--more-->

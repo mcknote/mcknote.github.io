@@ -9,7 +9,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpg)
-　
+
 我這兩天開始翻 ChaseDream 的[《GMAT 批判性推理：邏輯分類精講》](http://www.books.com.tw/products/CN11239079)，因為不是抱著備考的心態在讀，所以得以從容思考其中的道理，覺得非常有趣。老實說，GMAT 是我準備過最有趣的考試，其中的句型改錯（Sentence Correction）跟批判性推理（Critical Reasoning）讓我受益良多，也是我想在 McK & Note 寫東寫西的原因之一。為了簡單介紹何謂批判性推理，我把該書緒論中提到的例子稍微改寫如下。<!--more-->
 
 > 顧客：我對今天的伙食感到失望，你們提供的便當是不及格的，蝦子炸得軟爛，炒魚板用的是化學魚板，連雞腿的口感都是柴而死鹹。

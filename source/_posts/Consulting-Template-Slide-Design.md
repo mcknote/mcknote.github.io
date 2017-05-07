@@ -22,7 +22,7 @@ comments: true
 * [BCG: Shareholder value creation in a hesitant economy](http://www.cfasociety.org/perth/Lists/EventsCalendar/Attachments/7/BCG%20CFA%20Perth%20Presentation.pdf)
 * [BCG: Reshaping NYCHA support functions](http://www1.nyc.gov/html/nycha/downloads/pdf/BCG-report-NYCHA-Key-Findings-and-Recommendations-8-15-12vFinal.pdf)
 
-　
+
 考慮到版權等問題，內文將不包含截圖，需要對照的讀者請自行下載。
 
 　

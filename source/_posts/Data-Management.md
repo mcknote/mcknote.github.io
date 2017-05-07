@@ -9,7 +9,7 @@ tags:
 categories: ＃
 ---
 ![](cover.jpg)
-　
+
 秋季學期的第三門課是 Data Management，談的是 `SQL` 語言和 Relational Database。這是我比較沒準備也沒概念的一門課，但學了以後才漸漸發覺 Database 是落實 BA Solution 不可或缺的觀念。
 
 <!--more-->

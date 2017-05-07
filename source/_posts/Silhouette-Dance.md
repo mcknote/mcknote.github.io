@@ -8,7 +8,7 @@ categories: 聽
 comments: true
 ---
 {% youtube J8iYmZ2Dgss %}
-　
+
 遊戲[實感賽車（Ridge Racer、RR）](http://tinyurl.com/puoz4um)的配樂，最初應該是收錄於 [Ridge Racer Type 4（R4）](https://en.wikipedia.org/wiki/R4:_Ridge_Racer_Type_4)的原聲帶中。玩實感賽車不只可以選車子，選完手排自排以後，還可以選曲子，不過車子需要花時間解鎖，曲子不用。我沒玩過 R4，只玩過 PSP 版的 RR2，選曲的介面有好幾張專輯，每張專輯裡又有十幾首歌，玩久以後自然對這些配樂產生感情。<!--more-->
 　
 現在想想，[Namco](https://zh.wikipedia.org/zh-hant/南梦宫

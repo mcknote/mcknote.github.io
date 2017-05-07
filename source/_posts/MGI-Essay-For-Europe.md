@@ -15,7 +15,7 @@ McKinsey Global Institute（MGI）昨天開辦了 [**Essay For Europe**](http://
 > **IN 5,000 WORDS ANSWER THE QUESTION:**
 > How could a pro-growth reform programme be made deliverable by 2020, and appeal to electorates and decision makers alike at the national and European level?
 
-　
+
 ** 期限： **
 > 31ST JULY 2016
 

@@ -12,7 +12,7 @@ comments: true
 談完了 McKinsey 的資源，任何對諮詢感興趣的人應該都會好奇「其它公司也有這些資源嗎？」Well，當然有，而且其中還不乏與 MGI 並駕齊驅的網站，[bcg.perspetives](https://www.bcgperspectives.com/) 就是一例。
 <!--more-->
 
-　
+
 > **「研究」**系列文章（待續）：
 > * {% post_link Resource-MGI-MQ MGI 和 McKinsey Quarterly %}
 > * **bcg.perspectives**

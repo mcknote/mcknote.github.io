@@ -15,7 +15,7 @@ comments: true
 到頭來，幾乎每間諮詢公司都有自己的 Insights & Publications，介紹完我最常讀的 MGI 和 bcg.perspectives 後，接下來介紹比較特別的 [Bain Insights](http://www.bain.com/publications/)、[A. T. Kearney Ideas and Insights](http://www.atkearney.be/services)、[Accenture Newsroom](https://newsroom.accenture.com/) 以及 [OC&C Insights](http://www.occstrategy.com/insights)。
 <!--more-->
 
-　
+
 > **「研究」**系列文章（待續）：
 > * {% post_link Resource-MGI-MQ MGI 和 McKinsey Quarterly %}
 > * {% post_link Resource-bcgperspectives bcg.perspectives %}

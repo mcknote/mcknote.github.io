@@ -8,7 +8,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [證券分析研究](https://www.douban.com/group/topic/20488129/)（Equity Research）是一門投資學問，其目的是藉由完整分析目標企業的背景和財務狀況，並估計出合理的目標價格，以尋找潛在的投資機會。如果發現公司狀況其實比當前價格好很多，就可以考慮買入該公司的股票，坐等市場反應；反之則賣出（或賣空）。半年前，我和四位同學參加了 CFA Institute Research Challenge ，我們的工作就是分析[蘇寧雲商](https://zh.wikipedia.org/wiki/%E8%8B%8F%E5%AE%81%E4%BA%91%E5%95%86)（002024.SZ）的股票，並給出一個合理的目標價。<!--more-->
 
 ## 目的是調查並估值

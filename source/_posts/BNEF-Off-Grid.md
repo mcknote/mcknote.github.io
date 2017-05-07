@@ -9,7 +9,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 [這篇由 Bloomberg New Energy Finance （BNEF）和 Lighting Global 發佈的報告](http://about.bnef.com/white-papers/off-grid-solar-market-trends-report-2016/)分析了[「離網式太陽能發電」（Off-grid Solar）](https://en.wikipedia.org/wiki/Stand-alone_power_system)的發展前景。什麼是離網式太陽能發電？就是在自己屋頂上或後院中安裝太陽能板，自己生產用電的發電模式。由於一般人不太可能在自家後院蓋火力發電爐，或是設立高聳的風力發電機，所以離網發電通常指的就是太陽能發電。與離網相對的是連網（On-grid），連網式發電也是絕大多數人正在使用的發電模式，電廠統一發電以後，透過電網將電力運輸到家家戶戶。<!--more-->
 
 ## 另一種發展可能

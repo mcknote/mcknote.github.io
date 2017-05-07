@@ -7,7 +7,7 @@ tags:
 categories: 讀
 ---
 ![](cover.png)
-　
+
 你可以不創業，但你不能不認真面對自己的人生；你可以不喜歡 LinkedIn，但你不得不承認 Reid Hoffman 在職業發展上的見解很有一套。這一切得先從他的《自創思維》談起。<!--more-->
 
 前陣子，我的 Facebook 充滿了 Microsoft 收購 LinkedIn 的[新聞](http://technews.tw/2016/06/13/microsoft-purchase-linkedin/)。先不論這樁收購案對兩方和使用者來說是好是壞，我得先承認一直以來我都不太習慣用 LinkedIn，不管是不太順的操作介面，還是微妙的使用目的，都讓我沒辦法一直泡在上面。不過幾週前，當我讀到 LinkedIn 共同創辦人 Reid Hoffman 和 Ben Casnocha 所寫的 [*The Start-up of You*](http://www.thestartupofyou.com/)（台譯《[自創思維](http://www.taaze.tw/sing.html?pid=11100774707)》、陸譯《[至關重要的關係](https://book.douban.com/subject/24530336/)》）時，真心同意和佩服 Hoffman 的理念：

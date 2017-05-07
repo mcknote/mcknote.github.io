@@ -9,7 +9,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpg)
-　
+
 ** TL;DR **
 波士頓諮詢公司（BCG）正在招募全職跟兼職助理（PTA）：
 [全職報名](http://apply.bcg.com/TaiwanFullTime)：17:00 Feb 25, 2016 截止，之後有 Interview Workshop 和三輪面試；

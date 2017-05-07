@@ -8,7 +8,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpg)
-　
+
 回顧 CFA IRC [往屆冠軍](https://www.cfainstitute.org/community/challenge/about/Pages/past_champions.aspx)，會發現過去十屆裡面有四屆總冠軍來自東南亞（菲律賓、泰國和新加坡）， 如果算亞太區冠軍更是高達七屆。到底為什麼東南亞隊伍這麼威？我們又該從他們身上學些什麼？<!--more-->
 
 

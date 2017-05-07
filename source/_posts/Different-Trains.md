@@ -6,7 +6,7 @@ categories: 聽
 comments: true
 ---
 {% youtube 0aDNTCSY7UQ %}
-　
+
 一部讓人重新思考音樂意義的作品，曾在 1990 年榮獲葛萊美獎－最佳當代古典樂作曲。曲名 Different Trains 的意義很簡單：作曲者 [Steve Reich](https://en.wikipedia.org/wiki/Steve_Reich) 是名猶太人，他曾在年輕的時候搭著橫跨美國的火車，探望分居的父母並享受旅行的樂趣。多年以後他才瞭解到，如果他當時身處歐洲，他可能會搭上不同的列車，駛往恐怖的集中營。<!--more-->所以 Different Trains 分成三個樂章：
 
 * 第一樂章：[America - Before the War](https://www.youtube.com/watch?v=1q7Lwf2YtEs)

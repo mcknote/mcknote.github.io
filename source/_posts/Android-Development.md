@@ -9,7 +9,7 @@ categories: 想
 comments: true
 ---
 ![](cover.jpg)
-　
+
 這篇文章以 Android 和 iOS 裝置的市佔率、營利率差異為切入點，談 Apple 與 Google 的發展戰略，得出 Android 硬體商應該**「降低對 Google 的依賴，思考垂直（產品）戰略，開發水平（服務）收入模式」**的結論。以小米為例：
 　
 * 開發自有使用介面，甚至系統

@@ -8,7 +8,7 @@ categories: 聽
 comments: true
 ---
 {% youtube fDmO4YFdtKw %}
-　
+
 嗨，各位，不好意思，我趁著論文答辯後的空檔回來發文了。在談我這段時間做了什麼之前，我想先介紹音樂劇《Hamilton》裡的 *My Shot*。雖然這部劇還沒紅到台灣，但我希望這首歌能給每個正在努力的人一點能量。<!--more-->
 
 我是在兩三週前聽 Podcast [*Desert Island Discs, Bill Gates*](http://www.bbc.co.uk/programmes/b06z1zdt) 時聽到這首歌。當 Bill Gates 最後在談他創業至今的經歷以後，他推薦了 *My Shot* 作為第八首歌，他說這讓他回想起那個創立微軟、一心想改變世界的[年輕人](http://www.popsci.com/bill-gates-1973-high-school-yearbook-photo-recreated-reddit)。於是我去找了《Hamilton》來聽，並能慢慢理解作者 Lin-Manuel Miranda 在這部音樂劇裡放了些什麼。

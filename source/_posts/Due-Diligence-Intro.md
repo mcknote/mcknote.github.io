@@ -9,7 +9,7 @@ categories: ＃
 comments: true
 ---
 ![](cover.jpg)
-　
+
 上個月 {% post_link BCG-Connection-2016 BCG in Taiwan 的宣講會 %}上，任職於 Pfizer 的 John Chang 說明了進入諮詢能學到哪些東西。在 Hard Skill 一項裡，他回憶過去做 Due Diligence 時非常辛苦，「做完以後我跟別人說我再也不要做 DD 了！」結果台下沒什麼反應，John 只好說「沒關係，等你們以後做 DD 就知道！」雖然我不懂 DD，也就無從笑這些話的梗，但笑話不只是笑話，既然這是諮詢工作的一環，我認為我有必要弄懂（，然後回頭跟 John 說「哈哈哈」）。<!--more-->
 
 ## Due Diligence 是對目標企業的總體檢

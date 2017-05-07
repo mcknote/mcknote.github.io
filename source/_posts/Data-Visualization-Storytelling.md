@@ -8,7 +8,7 @@ tags:
 categories: ＃
 ---
 ![](cover.png)
-　
+
 為了讓自己上課不要偷懶，或乾脆在家睡覺不去上課，我打算把自己上課所學整理發布到 McK & Note 上。有興趣的人可以留意網站裡的 [#Cal Poly](https://www.mcknote.com/tags/Cal-Poly/) 標籤。這篇文章先談我 MSBA 生涯修完的第一門課。<!--more-->
 
 ## 這一年要學的東西

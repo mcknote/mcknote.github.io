@@ -8,7 +8,7 @@ categories: 聽
 comments: true
 ---
 {% youtube 0qp1rxBeFCk %}
-　
+
 *（無劇透，但包括配樂討論）*
 　
 這週跟女朋友去看[《丹麥女孩》](https://zh.wikipedia.org/zh-hant/%E4%B8%B9%E9%BA%A6%E5%A5%B3%E5%AD%A9)，看到一半突然感覺這應該是 [Alexandre Desplat](https://en.wikipedia.org/wiki/Alexandre_Desplat) 的配樂。他的作品用料極好，氣勢恢弘，卻又不失細節，總給人無微不至的感覺，這或許是拜他在巴黎音樂學院的學習所賜。他的老師 [Iannis Xenakis](https://en.wikipedia.org/wiki/Iannis_Xenakis) 雖受現代理念影響，被視為影響戰後現代音樂的重要推手，但他大部分的作品仍使用傳統樂器，並強調與希臘文化的連結。這些特徵在 Alexandre 的作品中很明顯：<!--more-->很少人工音效，豐富的樂器組合，和婉轉細膩的敘事節奏。雖然我沒辦法詳細說明他用了哪些樂器、作曲有什麼風格等等，但那種感覺很強烈，我看[《模仿遊戲》](https://zh.wikipedia.org/zh-hant/%E6%A8%A1%E4%BB%BF%E6%B8%B8%E6%88%8F)時也有相同想法，大概跟吉卜力迷也能分出久石讓作品是一樣道理。

@@ -9,7 +9,7 @@ categories: 聽
 comments: true
 ---
 {% youtube DcNosudgH2k %}
-　
+
 直到今天，當我整理起[《鳥人》](http://s.mcknote.com/1qnEsyI)的原聲帶時，還是覺得主角 Riggan 在深夜街頭喝著威士忌的一幕最動人，當時的配樂就是 Maurice Ravel 的 Passacaille (Très large)。但我古典樂懂得不多，只是比一般人常聽一點，所以只能就基本的資訊說文解字。<!--more-->
 
 *Passacaille (Très large)* 是 拉威爾[《A 小調鋼琴三重奏》](http://s.mcknote.com/1RSQpm2)（Piano Trio）中的第三樂章，其它樂章分別是 *I. Modéré*、*II. Pantoum (Assez vif)* 和 *IV. Finale (Animé)*，它們的[中文意思](http://www.m-restaurantgroup.com/mbund/m-m-event-detail-en/events/crystal-chamber-music-shanghai-conservatorys-atelier-of-chamber-music.html)分別是：

@@ -9,7 +9,7 @@ categories: 讀
 comments: true
 ---
 ![](cover.jpg)
-　
+
 有在留意宏觀經濟新聞的人，可能對[新常態（New normal）或新平庸（New mediocre）](http://wiki.mbalib.com/zh-tw/%E7%BB%8F%E6%B5%8E%E6%96%B0%E5%B8%B8%E6%80%81)這兩個詞不陌生，這是形容全球經濟將邁向不好不壞、低成長的時代，人們將緊縮消費與投資，使得經濟復甦難上加難。為了瞭解在這樣的潮流之下成長潛力何在，[經濟學人合作網路（ECN）調查了 223 間企業](https://www.facebook.com/TheEIU/photos/a.10150625608153728.403098.6431878727/10153842296008728/?type=3)，根據回應總結出它們對亞洲各個市場、各個產業的投資展望。所以當我們閱讀這篇報告的時候，應該注意這是一篇[以企業主觀預期為基礎的調查（Firmographic）](https://en.wikipedia.org/wiki/Firmographics)。<!--more-->
 
 ## 整體期望

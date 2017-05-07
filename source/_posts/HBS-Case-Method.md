@@ -7,7 +7,7 @@ tags:
 categories: 讀
 ---
 ![](cover.jpg)
-　
+
 我在幾個月前讀到台大 Biz Pro 的訓練內容，對其中的案例分析很感興趣，所以循著相關資源找到 HBS Case，並花了幾週瞭解傳說中的 Case Method 到底是什麼。<!--more-->
 
 ## What is HBS Case Method

@@ -7,7 +7,7 @@ tags:
 categories: 讀
 ---
 ![](cover.jpg)
-　
+
 今年八月中，我參加了一場 mbaMission 舉辦的免費 Webinar，內容如題，聽完以後覺得收穫很多，不只瞭解 Adcom 在意的是什麼，也重新想了自己應該往哪些方向努力。<!--more-->
 
 ## 什麼是 Webinar

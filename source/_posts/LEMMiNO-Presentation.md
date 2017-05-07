@@ -8,7 +8,7 @@ categories: 想
 comments: true
 ---
 {% youtube K4rCzA8fS84 %}
-　
+
 我很喜歡看 [LEMMiNO 的 10 Facts 系列](https://www.youtube.com/user/Top10Memes)，看他如何針對一個特定的題目，比方說足球、Metal Gear 或 Apple，蒐集資料、整理出十個有意思的知識並做成影片。有趣的點在於你可以很快瞭解他所介紹東西是什麼，或是重新認識自己過去認為理所當然、從未深思的事物。現在也有不少網友專門翻譯 10 Facts，在 Youtube 上搜尋「十大真相」可以找到他的許多作品，不過最近 LEMMiNO 上傳了一部新影片〈Simulated Reality〉，不同於過去零碎的十個知識，他完完整整地講了一個故事，從不同角度探討「模擬現實」的起源、現況和展望。在我看來，這不但是一支讓人瞭解模擬現實的有趣影片，更是一份 Presentation Skills 的好教材。<!--more-->
 
 我之所以會特別注意影片中的 Presentation Skills，是從看了他的[心理學十大真相](https://www.youtube.com/watch?v=Oons6amow3I)開始的。他在那集的最後一個知識中談到自己是如何利用漸進式揭露（Progressive Disclosure）安排十個知識的呈現－－先介紹基本常識，中間安排一些隨機的知識，最後介紹他認為複雜、有趣的常識。這讓我第一次感覺「原來這傢伙有認真在思考這些事情」，之後我看 10 Facts 不但會注意知識本身，也會注意 LEMMiNO 的表達方法。過去 10 Facts 的表達方式或許很難運用在企業或行業分析上，畢竟台下的聽眾（CEO、CFO 等）可能不只想知道十件事，而是一個完整的故事，即**「你想跟我說什麼？」**；〈Simulated Reality〉就沒有這個問題，所以我覺得這值得分析、整理出幾個重點，幫助大家做更好的 Presentation。

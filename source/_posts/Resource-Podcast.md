@@ -15,7 +15,7 @@ categories: Ｍ
 comments: true
 ---
 ![](cover.jpg)
-　
+
 終於，我可以來聊聊 Podcast 了。雖然之前我列了不少公司和媒體的 Podcast，但當時其實還沒認真利用這些資源。經過幾週的摸索和適應以後，我想分享怎麼聽、還有聽哪些 Podcast。<!--more-->
 
 　

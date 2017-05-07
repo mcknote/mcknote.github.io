@@ -20,7 +20,7 @@ comments: true
 如果你／妳志不在諮詢業，或是對更專精的商業領域感興趣，別擔心，現在四大會計師事務所和部分銀行也勤於公布各式各樣的免費報告，對想進入這些行業一展長才的人來說應該很有幫助。
 <!--more-->
 
-　
+
 > **「研究」**系列文章（待續）：
 > * {% post_link Resource-MGI-MQ MGI 和 McKinsey Quarterly %}
 > * {% post_link Resource-bcgperspectives bcg.perspectives %}

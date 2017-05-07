@@ -9,7 +9,7 @@ categories: 聽
 comments: true
 ---
 {% youtube fVCCe2tuL20 %}
-　
+
 在[椎名林檎](https://zh.wikipedia.org/zh-hant/%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E)這麼多專輯裡，我最喜歡[《平成風俗》](https://zh.wikipedia.org/zh-hant/平成風俗)這張專輯，雖然其中不少歌是延續[《加爾基 精液 栗ノ花》](https://zh.wikipedia.org/zh-hk/加爾基_精液_栗子花)的舊作，但她和[斎藤ネコ](https://ja.wikipedia.org/wiki/斎藤ネコ)的合作使這些舊作的風格變得更加復古典雅，電吉他變成了薩克斯風，貝斯變成大提琴。如果有人跟我說他無法適應 JPOP，我會建議他試試看《平成風俗》這張專輯。<!--more-->
 
 《平成風俗》其實是電影[《惡女花魁》](https://zh.wikipedia.org/wiki/惡女花魁)的原聲帶。我沒看過《惡女花魁》，但我願意為了《平成風俗》試試看，正如我願意為了[〈Strawberry Fields Forever〉](https://www.youtube.com/watch?v=8UQK-UcRezE)去看[《戀愛心曲》（Across the Universe）](https://zh.wikipedia.org/wiki/戀愛心曲)這部片，就算沒有看出個所以然，或許也會因為整部片充滿喜歡的音樂而感到心滿意足。整張專輯裡我特別喜歡由舊作改編的曲子，包括〈茎〉、〈意識〉、〈迷彩〉和〈ポルターガイスト〉，典雅的風格賦予了它們全新的意義，或許也更貼近電影的氛圍。椎名林檎本來就是個勇於創新的人，她的音樂用了各式各樣的樂器，她的演唱功力也足以支撐她的各種嘗試；另一方面，畢業於東京藝大的斎藤ネコ則協助她更好地處理爵士樂、古典樂的氛圍，在塑造風格方面功不可沒。斎藤ネコ的作品不少，但獨立發表的作品不多，兩人的合作或許是少數聽眾能一窺他創作風格的機會。
