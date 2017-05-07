@@ -6,6 +6,7 @@ tags:
 - Oracle
 - Cal Poly
 - Data Science
+- Storytelling
 categories: ＃
 ---
 ![Oracle Air Show](cover.jpg)

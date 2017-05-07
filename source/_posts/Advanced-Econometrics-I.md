@@ -4,6 +4,7 @@ date: 2016-12-26 7:30:00
 tags:
 - Cal Poly
 - MSBA
+- Data Science
 - Econometrics
 categories: ＃
 ---

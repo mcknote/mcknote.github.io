@@ -5,6 +5,7 @@ tags:
 - Cal Poly
 - MSBA
 - R
+- Data Science
 categories: ＃
 ---
 ![Cover](cover.jpg)
