@@ -25,7 +25,7 @@ categories: ＃
 
 由於四本書的內容多到可以寫另外一篇談 Data Visualization 的文章了，我就先簡單說 Edward 影響我的思考。這四本書沒有一本是談具體的圖表怎麼畫，或如何使用 Data Visualization 的相關套件等等⋯⋯相反地，Edward 深刻分析了自古而來人類如何透過視覺理解資訊，並給出許多關於分析和溝通的實例和建議。其中一項影響我最深的思考，可以在這份摘錄 [*The Cognitive Style of PowerPoint*](http://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf)（PDF，726 KB）中讀到。
 
-Edward 批評了傳統的 Powerpoint 能表達的內容不多，而且過於繁冗的 bullet points 只會讓文件更難懂。他舉了[哥倫比亞事故](https://zh.wikipedia.org/zh-hant/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E5%8F%B7%E8%88%AA%E5%A4%A9%E9%A3%9E%E6%9C%BA%E7%81%BE%E9%9A%BE)中 NASA 的內部文件為反例，並告誡 PowerPoint 在某些方面有著資訊過於片面的問題。讀完這些內容後，我了解到溝通應該要能讓聽眾體驗分析過程，也開始思考該如何整合上面提到的設計思考。於是，在進入第五週前，我跟組員們說「我要做一套供使用者探索資料的互動式 Dashboard，請告訴我你們感興趣的角度」。
+Edward 批評了傳統的 Powerpoint 能表達的內容不多，而且過於繁冗的 bullet points 只會讓文件更難懂。他舉了[哥倫比亞事故](https://zh.wikipedia.org/zh-hant/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E5%8F%B7%E8%88%AA%E5%A4%A9%E9%A3%9E%E6%9C%BA%E7%81%BE%E9%9A%BE)中 NASA 的內部文件為反例，並告誡 PowerPoint 在某些方面有著資訊過於片面的問題。讀完這些內容後，我了解到溝通應該要能讓聽眾體驗分析過程，也開始思考該如何整合上面提到的設計思考。於是，在進入第五週前，我跟組員們說「我要做一套供使用者探索資料的互動式 Dashboard，請告訴我你們感興趣的分析角度」。
 
 現在想想，這的確是有點獨斷的想法，而且在那之後我幾乎把 80% 的時間都投入在 Dashboard 上，從一開始的學習，到之後不斷改進效率和功能，換在其他狀況下可能是個很冒險的決定。不過考慮到前面提到的可持續性、開源、設計和溝通，我應該還是會選擇走相同的路。幸好接下來幾週我學得很快，也清楚該用怎樣的工具或方法做出理想中的成品。最後這套方法獲得了 Oracle 首席 Data Scientist 的青睞。
 
