@@ -16,7 +16,7 @@ categories: ＃
 
 ## 好，來做 Dashboard 吧！
 
-{% post_link Cal-Poly-Oracle-Analytics-Challenge-2017-1 上一篇 %}沒提到 Oracle 針對此次競賽所提供的獎品。為了讓戰況更加火熱，在一開始的專案介紹裡 Oracle 提到會供勝出隊伍去上 Professor [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte) 的 Data Visualization 培訓課程，從 Oracle 高管們介紹可以看出他們都是 Edward 的忠實粉絲。在中期發表前一週，我想起了這件事，並從圖書館借了四本 Edward 的書：
+{% post_link Cal-Poly-Oracle-Analytics-Challenge-2017-1 上一篇 %}沒提到 Oracle 針對此次競賽所提供的獎品。為了讓戰況更加火熱，在一開始的專案介紹裡 Oracle 提到會供勝出隊伍去上 Professor [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte) 的 Data Visualization 培訓課程，從 Oracle 高管們介紹可以看出他們都是 Edward 的忠實粉絲。在期中發表前一週，我想起了這件事，並從圖書館借了四本 Edward 的書：
 
 * [*Envisioning Information*](https://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/ref=asap_bc?ie=UTF8)
 * [*Beautiful Evidence*](https://www.amazon.com/Beautiful-Evidence-Edward-R-Tufte/dp/0961392177/ref=asap_bc?ie=UTF8)
