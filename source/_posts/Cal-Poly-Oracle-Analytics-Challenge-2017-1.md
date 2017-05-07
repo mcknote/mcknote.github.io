@@ -10,7 +10,7 @@ tags:
 categories: ＃
 ---
 ![Oracle Air Show](cover.jpg)
-　
+
 這是我開始學 Data Science 後做的第一個專案，也是我第一次負責完整的分析流程：從了解資料、釐清問題，到團隊合作、打造可持續的解決方案。收下了 Best Data Science 的殊榮後，我們的旅途才正要開始。
 
 <!--more-->
@@ -70,6 +70,6 @@ but we should pass on our end results and help them build the rocket.
 
 決定好方向以後，我們的研究包括「定性或定量」、「提出或驗證假設」兩個主軸。平常組員們會用 `Tableau` 等工具視覺化資料，我也會試著建立簡單的模型，回報比較重要的變量。這樣的工作大概持續了三週，一面思考產品們的定位，一面挖掘潛在商機。直到第五週的中期發表前，我才開始思考如何整合前面提到的三個設計思考。
 
-在下一篇分享裡，我會談在期中發表前針對以上想法和假設，我如何構思工作流程和設計 Dashboard。由於 Oracle Analytics Challenge 的分享滿長，考慮到閱讀體驗和我的寫作時間，**我決定將這篇文章和以後比較長的分享拆成幾篇連載**。對習慣一整篇讀完的讀者真是不好意思，希望長期而言這能幫助各位更好消化內容。
+在{% post_link Cal-Poly-Oracle-Analytics-Challenge-2017-2 下一篇分享 %}裡，我會談在期中發表前針對以上想法和假設，我如何構思工作流程和設計 Dashboard。由於 Oracle Analytics Challenge 的分享滿長，考慮到閱讀體驗和我的寫作時間，**我決定將這篇文章和以後比較長的分享拆成幾篇連載**。對習慣一整篇讀完的讀者真是不好意思，希望長期而言這能幫助各位更好消化內容。
 
 *走走拍拍：Oracle Corporation 500、[小王子徐任宏](https://www.facebook.com/PrinceXuRenHong/)的城市*
