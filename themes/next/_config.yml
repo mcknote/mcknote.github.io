@@ -174,9 +174,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  #display: post
+  display: post
   #display: always
-  display: hide
+  #display: hide
   #display: remove
 
 
@@ -346,7 +346,7 @@ tencent_analytics: 55480462
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: ture
 
 # Google Calendar
 # Share your recent schedule to others via calendar page

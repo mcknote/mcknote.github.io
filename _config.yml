@@ -69,11 +69,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    type: git
-    repo: git@github.com:mcknote/mcknote.github.io.git
-    branch: master
-    #type: git 
-    #repo: ssh://56f3fd930c1e6636730002df@backup-mcknote.rhcloud.com/~/git/backup.git/
+- type: git
+  repo: git@github.com:mcknote/mcknote.github.io.git
+  branch: master
+- type: baidu_url_submitter
 
 # Avatar
 avatar: /images/default_avatar.jpg
@@ -139,4 +138,11 @@ algolia:
     - slug
     - path
     - content:strip
+
+#hexo-baidu-url-submit
+baidu_url_submit:
+  count: 1
+  host: www.mcknote.com
+  token: bEfSMYslajHffnHQ
+  path: baidu_urls.txt
 

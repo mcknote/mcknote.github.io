@@ -16,6 +16,7 @@
     "hexo-algolia": "^0.2.0",
     "hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git",
     "hexo-autoprefixer": "^1.0.0",
+    "hexo-baidu-url-submit": "0.0.5",
     "hexo-deployer-git": "^0.1.0",
     "hexo-deployer-heroku": "^0.1.0",
     "hexo-deployer-openshift": "^0.1.0",
