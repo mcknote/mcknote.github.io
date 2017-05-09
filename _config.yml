@@ -69,10 +69,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repo: git@github.com:mcknote/mcknote.github.io.git
-  branch: master
-- type: baidu_url_submitter
+## commented due to travis-ci and baidu url  
+##   - type: git
+##     repo: git@github.com:mcknote/mcknote.github.io.git
+##     branch: master
+  - type: baidu_url_submitter
 
 # Avatar
 avatar: /images/default_avatar.jpg
@@ -141,7 +142,7 @@ algolia:
 
 #hexo-baidu-url-submit
 baidu_url_submit:
-  count: 1
+  count: 100
   host: www.mcknote.com
   token: bEfSMYslajHffnHQ
   path: baidu_urls.txt

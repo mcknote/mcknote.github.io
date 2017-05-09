@@ -1,0 +1,880 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-tw">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content= "This is where I started. Get inspired by the guides and stories from McK & Note and take the initiative to figure out solutions for life." />
+<meta property="article:author" content="https://www.facebook.com/mcknote" />
+<meta property="fb:pages" content="526667947506539" />
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="MSBA,Cal Poly,Data Science,Oracle," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="McK & Note" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+  <meta property="fb:admins" content="kiminire" />
+  <meta property="fb:app_id" content="537807449725839" />
+
+
+
+<meta name="description" content="在確定了資料分析的方向之後，Team 5 開始了日復一日的探索。不過，為了得出更深入的 insights，以及讓聽眾理解整個分析流程，在期中發表前，我們做了一個重要的決定。這篇文章來談打造 Dashboard 的過程。">
+<meta name="keywords" content="MSBA,Cal Poly,Data Science,Oracle">
+<meta property="og:type" content="article">
+<meta property="og:title" content="＃／Oracle Analytics Challenge（中）">
+<meta property="og:url" content="https://www.mcknote.com/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/index.html">
+<meta property="og:site_name" content="McK &amp; Note">
+<meta property="og:description" content="在確定了資料分析的方向之後，Team 5 開始了日復一日的探索。不過，為了得出更深入的 insights，以及讓聽眾理解整個分析流程，在期中發表前，我們做了一個重要的決定。這篇文章來談打造 Dashboard 的過程。">
+<meta property="og:image" content="https://www.mcknote.com/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/oracle_team.jpg">
+<meta property="og:updated_time" content="2017-05-07T23:17:19.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="＃／Oracle Analytics Challenge（中）">
+<meta name="twitter:description" content="在確定了資料分析的方向之後，Team 5 開始了日復一日的探索。不過，為了得出更深入的 insights，以及讓聽眾理解整個分析流程，在期中發表前，我們做了一個重要的決定。這篇文章來談打造 Dashboard 的過程。">
+<meta name="twitter:image" content="https://www.mcknote.com/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/oracle_team.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: false,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '作者'
+    },
+    algolia: {
+      applicationID: 'K2YQUUH3TO',
+      apiKey: 'abbed1615cd059b39d06a38037971aeb',
+      indexName: 'mcknote',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜尋主題、內容、資源⋯⋯","hits_empty":"找不到包含關鍵字「${query}」的文章","hits_stats":"找到了 ${hits} 篇相關文章（搜尋時間：${time} 毫秒）"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.mcknote.com/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/"/>
+
+
+
+
+
+  <title> ＃／Oracle Analytics Challenge（中） | McK & Note </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=176081199193364";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '537807449725839',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_tw/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-75181285-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=55480462";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+    <div class="site-meta-headline">
+      <a>
+        <img class="custom-logo-image" src="/images/logo.png"
+             alt="McK & Note"/>
+      </a>
+    </div>
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">McK & Note</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+            文庫
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+            標籤
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+            搜尋
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.mcknote.com/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jimmy Lin">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/default_avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="McK & Note">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="McK & Note" src="/images/logo.png">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ＃／Oracle Analytics Challenge（中）
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-16T07:30:00-07:00">
+              2017-05-16
+            </time>
+
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/＃/" itemprop="url" rel="index">
+                    <span itemprop="name">＃</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+            &nbsp; | &nbsp;
+            <div class="fb-like" data-layout="button_count" data-share="true"></div>
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="/2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/oracle_team.jpg" alt="Oracle Team USA"></p>
+<p>在確定了資料分析的方向之後，Team 5 開始了日復一日的探索。不過，為了得出更深入的 insights，以及讓聽眾理解整個分析流程，在期中發表前，我們做了一個重要的決定。這篇文章來談打造 Dashboard 的過程。</p>
+<a id="more"></a>
+<h2 id="好，來做-Dashboard-吧！"><a href="#好，來做-Dashboard-吧！" class="headerlink" title="好，來做 Dashboard 吧！"></a>好，來做 Dashboard 吧！</h2><p><a href="/2017/05/15/Cal-Poly-Oracle-Analytics-Challenge-2017-1/" title="上一篇">上一篇</a>沒提到 Oracle 針對此次競賽所提供的獎品。為了讓戰況更加火熱，在一開始的專案介紹裡 Oracle 提到會供勝出隊伍去上 Professor <a href="https://en.wikipedia.org/wiki/Edward_Tufte" target="_blank" rel="external">Edward Tufte</a> 的 Data Visualization 培訓課程，從 Oracle 高管們介紹可以看出他們都是 Edward 的忠實粉絲。在期中發表前一週，我想起了這件事，並從圖書館借了四本 Edward 的書：</p>
+<ul>
+<li><a href="https://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/ref=asap_bc?ie=UTF8" target="_blank" rel="external"><em>Envisioning Information</em></a></li>
+<li><a href="https://www.amazon.com/Beautiful-Evidence-Edward-R-Tufte/dp/0961392177/ref=asap_bc?ie=UTF8" target="_blank" rel="external"><em>Beautiful Evidence</em></a></li>
+<li><a href="https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=asap_bc?ie=UTF8" target="_blank" rel="external"><em>The Visual Display of Quantitative Information</em></a></li>
+<li><a href="https://www.amazon.com/Visual-Explanations-Quantities-Evidence-Narrative/dp/0961392126/ref=la_B000APET3Y_1_4?s=books&amp;ie=UTF8&amp;qid=1494111757&amp;sr=1-4" target="_blank" rel="external"><em>Visual Explanations</em></a></li>
+</ul>
+<p>由於四本書的內容多到可以寫另外一篇談 Data Visualization 的文章了，我就先簡單說 Edward 影響我的思考。這四本書沒有一本是談具體的圖表怎麼畫，或如何使用 Data Visualization 的相關套件等等⋯⋯相反地，Edward 深刻分析了自古而來人類如何透過視覺理解資訊，並給出許多關於分析和溝通的實例和建議。其中一項影響我最深的思考，可以在這份摘錄 <a href="http://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf" target="_blank" rel="external"><em>The Cognitive Style of PowerPoint</em></a>（PDF，726 KB）中讀到。</p>
+<p>Edward 批評了傳統的 Powerpoint 能表達的內容不多，而且過於繁冗的 bullet points 只會讓文件更難懂。他舉了<a href="https://zh.wikipedia.org/zh-hant/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E5%8F%B7%E8%88%AA%E5%A4%A9%E9%A3%9E%E6%9C%BA%E7%81%BE%E9%9A%BE" target="_blank" rel="external">哥倫比亞事故</a>中 NASA 的內部文件為反例，並告誡 PowerPoint 在某些方面有著資訊過於片面的問題。讀完這些內容後，我了解到溝通應該要能讓聽眾體驗分析過程，也開始思考該如何整合上面提到的設計思考。於是，在進入第五週前，我跟組員們說「我要做一套供使用者探索資料的互動式 Dashboard，請告訴我你們感興趣的分析角度」。</p>
+<p>現在想想，這的確是有點獨斷的想法，而且在那之後我幾乎把 80% 的時間都投入在 Dashboard 上，從一開始的學習，到之後不斷改進效率和功能，換在其他狀況下可能是個很冒險的決定。不過考慮到前面提到的可持續性、開源、設計和溝通，我應該還是會選擇走相同的路。幸好接下來幾週我學得很快，也清楚該用怎樣的工具或方法做出理想中的成品。最後這套方法獲得了 Oracle 首席 Data Scientist 的青睞。</p>
+<h2 id="簡易的分析和設計"><a href="#簡易的分析和設計" class="headerlink" title="簡易的分析和設計"></a>簡易的分析和設計</h2><p>說穿了，我們的設計流程分成四個很簡單的步驟，這是我們在幾週工作下來摸索出的切入角度。</p>
+<ol>
+<li>整理和初步分析資料，提出和驗證假設</li>
+<li>建模，著重 variable importance，並選出最重要的幾個變量（Dashboard I）</li>
+<li>根據重要變量觀察和歸納資料特徵（Dashboard II）</li>
+<li>藉由比較得出潛在的改進空間</li>
+</ol>
+<p>中間做了兩個 Dashboard 負責探索和視覺化的內容。雖然我不能分享任何截圖，讀者可以參考這篇 Cal Poly OCOB 發出的<a href="http://www.cob.calpoly.edu/newsevents/oracle-2017" target="_blank" rel="external">新聞稿</a>，圖片是我們組在報告第二個 Dashboard。所以這套包含分析、設計、研究和思考的過程，符合了前面提到的各種設計，也成了一個很完整的解決方案。美中不足的是，報告中我們在第四點只有點到幾個有趣的市場，並沒有根據每個市場提出更深入的建議。不過我們也展示了這類研究的可行性。</p>
+<h2 id="採用的工具"><a href="#採用的工具" class="headerlink" title="採用的工具"></a>採用的工具</h2><p>這邊是一些我在過程中用到或學到的工具。整體而言我們有滿完整的工作流程，<del>雖然沒有學到物件導向設計</del>也足以應付各種狀況。很多時候我是先發想預期效果，才去 Stack Overflow、Quora 等地尋找解答，並花上幾小時自學相關內容，所以雖然上學期我幾乎沒空完成完整課程，也在過程中學了不少 Data Science 界的街頭智慧。目的和意義永遠先於工具，別受必學的障礙限制，也別安於這樣就好的想法。</p>
+<h3 id="R"><a href="#R" class="headerlink" title="R"></a><code>R</code></h3><p>在不打算碰 Deep Learning 的情況下，<code>R</code> 自然是我的首選。我用 <code>R</code> 完成了大部分的 Data Cleaning &amp; Manipulation，並建了幾個試驗性的模型和圖表。下面提到的套件，有幾個也很需要 <code>R</code> 的基本功，大體來說我對 <code>R</code> 和 <code>RStudio</code> 所構築而成的工作流程非常滿意。</p>
+<h3 id="R-Markdown"><a href="#R-Markdown" class="headerlink" title="R Markdown"></a><code>R Markdown</code></h3><p>身為 Content Coordinator，我用了 <a href="http://rmarkdown.rstudio.com/" target="_blank" rel="external"><code>R Markdown</code></a> 紀錄了分析過程中的每個步驟，最後建了一個完整的 documentation <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html" target="_blank" rel="external">網站</a>。雖然 <code>R Markdown</code> 並不是協作度最高的方案，但在生成 document 上綽綽有餘，最終成果看起來非常專業。撇開 <code>R</code> 的內容，我之前也在架站筆記中強力推薦學習 <code>Markdown</code>。</p>
+<h3 id="Shiny"><a href="#Shiny" class="headerlink" title="Shiny"></a><code>Shiny</code></h3><p>由 <code>ui</code> 和 <code>server</code> 兩方面所組成的 <a href="https://shiny.rstudio.com/" target="_blank" rel="external"><code>Shiny</code></a> 架構是此次建立 Dashboard 的核心套件。便利的 <a href="http://shiny.rstudio.com/gallery/widgets.html" target="_blank" rel="external">Shiny Widget</a>、聰明（也需要時間掌握）的 <a href="https://shiny.rstudio.com/articles/reactivity-overview.html" target="_blank" rel="external">Reactive 設計</a>、和<a href="https://shiny.rstudio.com/gallery/" target="_blank" rel="external">豐富的支援列表</a>讓 <code>Shiny</code> 在互動式內容上幾乎無所不能。如果懂得使用 <code>HTML</code> 和 <code>CSS</code>，在樣式設計上應該會感到如魚得水，不過就算只具備 <code>R</code> 的知識，不用擔心前端的設計，也能直接設計後端的資料處理流程。對 <code>R</code> 的使用者而言，能直接使用 <code>Shiny</code> 真的是一大福音。</p>
+<h3 id="Leaflet"><a href="#Leaflet" class="headerlink" title="Leaflet"></a><code>Leaflet</code></h3><p><a href="https://rstudio.github.io/leaflet/" target="_blank" rel="external"><code>Leaflet</code></a> 是一套用於繪製互動式地理資料的套件，如<a href="http://www.cob.calpoly.edu/newsevents/oracle-2017" target="_blank" rel="external">新聞稿</a>所示，我們的第二個 Dashboard 基本上就是由 <code>Leaflet</code> 所組成。使用 <code>Leaflet</code> 時最好對 <a href="https://rstudio-pubs-static.s3.amazonaws.com/172289_67a42eebbd574197b6bb15d1ef6cfe97.html" target="_blank" rel="external">Spatial Data Types</a> 有些概念，因為本質上 <code>Leaflet</code> 所接受的資料是個包含向量圖案和資料的大表格。除此之外 <code>Leaflet</code> 很易用，功能很強大，也很符合預期效果。</p>
+<h3 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a><code>Plotly</code></h3><p><a href="https://plot.ly/" target="_blank" rel="external"><code>Plotly</code></a> 也是另一個支援互動圖表的套件，不過用途比 <code>Leaflet</code> 更廣，通吃各種常見的圖表，如長條圖、散點圖等等。唯一的缺點（或障礙）是 <code>Plotly</code> 支援的圖表種類太多，功能和支援詳細程度不一，有時會遇到部署困難或繁雜的問題。撇開這點，我相信 <code>Plotly</code> 是和 <code>D3</code>、<code>Google Charts</code> 並列的強大互動式圖表套件。</p>
+<h3 id="DataTable"><a href="#DataTable" class="headerlink" title="DataTable"></a><code>DataTable</code></h3><p><a href="https://rstudio.github.io/DT/" target="_blank" rel="external"><code>DataTable</code></a> 是個很便利的互動式表格 Widget，可以提供和 Excel 相近的預覽效果。雖然 <code>kable</code> 也能畫出不錯的表格，但資料一多就變得很冗長；<code>DataTable</code> 提供的互動元素可以解決收納問題。除此之外，<code>DataTable</code> 有很完整的輸出、排序等功能，連按鈕功能都可以自訂，彈性很高。</p>
+<h3 id="SAS"><a href="#SAS" class="headerlink" title="SAS"></a><code>SAS</code></h3><p>或許會讓某些讀者感到驚訝，我們在建模上採用的是 <code>SAS</code>。這一方面當然是因為 Cal Poly 有買，不過更重要的原因是 <code>SAS</code> 簡單、可靠的建模流程，讓其他 coding 能力中上的組員也能體驗建模的樂趣（？），從而達到更平衡的分工。在某些方面 <code>SAS</code> 的處理方法和能力也比 <code>R</code> 裡的統計套件更穩定，在不特別追求彈性的前提下，<code>SAS</code> 是個省時省力的方案。</p>
+<h3 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a><code>Tableau</code></h3><p>除了 <code>SAS</code> 之外，有些組員用了去年學的 <code>Tableau</code> 生成基本分析圖表。雖然我已經退化到搞不清楚該怎麼拖曳 variables，但班上還是有不少同學習慣用 <code>Tableau</code>，也是個溝通 business insights 的好工具。另外 <code>Tableau</code> 也是建立互動式內容的解決方案之一。</p>
+<h2 id="一些小提醒"><a href="#一些小提醒" class="headerlink" title="一些小提醒"></a>一些小提醒</h2><p>除了 <code>R</code>、<code>SAS</code> 和 <code>Tableau</code> 以外，我學這些工具的方法通常是直接 fork sample code 再根據自己所需慢慢改進，所以一開始花了很多時間試錯。我會建議比較不魯莽的學習方法，是跟著說明文件走一遍。</p>
+<p>在使用這些工具時，除了釐清目的之外需要有心理準備的一點，是這些工具的使用並不是特別難，但大部分的時間是在做 Data Manipulation，將資料有效率的轉換為套件支援的格式。以 <code>Plotly</code> 為例，由於各種圖表的維護和更新相對獨立，在散點圖所做的更動，在長條圖上不一定適用，所以就有許多時間花在嘗試和修改上。這點套用在其他套件上也成立，而且等應用一多，還得考慮到 optimization 跟 work flow 等問題。</p>
+<p>雖然打造 Dashboard 不算一件很輕鬆的事，我也因此體會到了許多過去沒想過的問題，像是如何安排 Dashboard 裡的 data flow、如何根據不同的用戶行為設計功能、以及最重要的，如何讓探索資料成為一件（和遊覽城市一樣）有趣的事。當時，在我的履歷上，我是一位 MSBA 學生；在我的腦海裡，我是個 Dashboard 開發者；但在我的心裡，我和觀眾一樣，都想更了解資料（<a href="https://zh.wikipedia.org/wiki/%E5%B2%A9%E7%94%B0%E8%81%B0" target="_blank" rel="external">？</a>）。</p>
+<h2 id="探索和解釋之間的平衡"><a href="#探索和解釋之間的平衡" class="headerlink" title="探索和解釋之間的平衡"></a>探索和解釋之間的平衡</h2><p>於是經過兩天左右的開發，在期中發表前我完成了各位在新聞稿中看到的 Dashboard II，不過時至今日，我都還在思考 Dashboard 定位和功能。一直到 Oracle Analytics Challenge 接近尾聲時，我讀到了 MIT Review 上的 <a href="https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/" target="_blank" rel="external"><em>The Dark Secret at the Heart of AI</em></a>，才漸漸理解 Dashboard 調和故事線的重要性。不管是 Edward 的提醒也好，還是 MIT Review 中提到的問題也好，都意外地包含在當初我們設想的框架（framework）內。</p>
+<p>為了讓 Oracle 方面理解我們的分析流程，並能隨時接手擴大規模（scalibility），我們從一開始強調明確的問題解決框架、敘事邏輯、和分析中每個步驟的可執行性，並用兩個 Dashboard 展示 research 和 insights，以及做了一個很完整的 documentation 網站。我會說探索和解釋並不是兩件分開的事情，如果一開始忘了解釋，事後才加 Dashboard 或許效果也不會太好。唯有在每個步驟留意自己想傳達的訊息，才能維持故事線的連貫性（consistency）。各位讀者不妨先從思考上一篇文章提到的三個問題開始：</p>
+<ol>
+<li><strong>這個結果正確嗎？</strong></li>
+<li><strong>正確的話，這個結果代表什麼？</strong></li>
+<li><strong>如何改善這個結果？</strong></li>
+</ol>
+<p>下一篇文章我會談期末報告時 live demo 的心得，以及最近才剛結束的 Oracle 總部之旅。</p>
+<p>　<br><em>走走拍拍：Oracle Campus</em></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/MSBA/" rel="tag"># MSBA</a>
+          
+            <a href="/tags/Cal-Poly/" rel="tag"># Cal Poly</a>
+          
+            <a href="/tags/Data-Science/" rel="tag"># Data Science</a>
+          
+            <a href="/tags/Oracle/" rel="tag"># Oracle</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/05/15/Cal-Poly-Oracle-Analytics-Challenge-2017-1/" rel="next" title="＃／Oracle Analytics Challenge（上）">
+                <i class="fa fa-chevron-left"></i> ＃／Oracle Analytics Challenge（上）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_inline_share_toolbox">
+  <script type = "text/javascript" src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590ce40d557ec312" async = "async" ></script>
+</div>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="Jimmy Lin" />
+          <p class="site-author-name" itemprop="name">Jimmy Lin</p>
+          <p class="site-description motion-element" itemprop="description">In reasoning we believe.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">93</span>
+              <span class="site-state-item-name">文章</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分類</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">159</span>
+                <span class="site-state-item-name">標籤</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        <div class="fb-page motion-element" data-href="https://www.facebook.com/mcknote" data-tabs="timeline" data-width="240" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/mcknote">
+              <a href="https://www.facebook.com/mcknote">McK &amp; Note</a></blockquote>
+          </div>
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#好，來做-Dashboard-吧！"><span class="nav-number">1.</span> <span class="nav-text">好，來做 Dashboard 吧！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#簡易的分析和設計"><span class="nav-number">2.</span> <span class="nav-text">簡易的分析和設計</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#採用的工具"><span class="nav-number">3.</span> <span class="nav-text">採用的工具</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#R"><span class="nav-number">3.1.</span> <span class="nav-text">R</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#R-Markdown"><span class="nav-number">3.2.</span> <span class="nav-text">R Markdown</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Shiny"><span class="nav-number">3.3.</span> <span class="nav-text">Shiny</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Leaflet"><span class="nav-number">3.4.</span> <span class="nav-text">Leaflet</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plotly"><span class="nav-number">3.5.</span> <span class="nav-text">Plotly</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DataTable"><span class="nav-number">3.6.</span> <span class="nav-text">DataTable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SAS"><span class="nav-number">3.7.</span> <span class="nav-text">SAS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tableau"><span class="nav-number">3.8.</span> <span class="nav-text">Tableau</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些小提醒"><span class="nav-number">4.</span> <span class="nav-text">一些小提醒</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#探索和解釋之間的平衡"><span class="nav-number">5.</span> <span class="nav-text">探索和解釋之間的平衡</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimmy Lin</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'mcknote';
+      var disqus_identifier = '2017/05/16/Cal-Poly-Oracle-Analytics-Challenge-2017-2/';
+
+      var disqus_title = "＃／Oracle Analytics Challenge（中）";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+  
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+</body>
+</html>
