@@ -22,7 +22,7 @@ script:
   - hexo v
   - hexo clean
   - hexo algolia
-  - hexo g
+  - hexo d
   - gulp
 
 after_script:

@@ -142,7 +142,7 @@ algolia:
 
 #hexo-baidu-url-submit
 baidu_url_submit:
-  count: 100
+  count: 5
   host: www.mcknote.com
   token: bEfSMYslajHffnHQ
   path: baidu_urls.txt
