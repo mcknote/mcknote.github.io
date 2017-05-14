@@ -91,7 +91,7 @@ McK & Case 上的個案討論按「票選、討論和總結」三個步驟進行
 這個名叫 *McK & Case Schedule* 的 Google 日曆包含了每份個案的投票、討論和總結日期，基本上和前面提到的[討論流程](#討論流程)一樣。參與者可以利用這個日曆的 [ICS 檔案](https://calendar.google.com/calendar/ical/9ptfvvg6bve88f5jomsu34dhig%40group.calendar.google.com/public/basic.ics)同步行程。
 
 {% raw %}
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=9ptfvvg6bve88f5jomsu34dhig%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Etc%2FGMT" style="border:solid 1px #DDD" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=9ptfvvg6bve88f5jomsu34dhig%40group.calendar.google.com&amp;color=#A41034&amp;ctz=Etc%2FGMT" style="border:solid 1px #DDD" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
 {% endraw %}
 
 ### 免費個案列表
