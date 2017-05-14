@@ -96,7 +96,7 @@ McK & Case 上的個案討論按「票選、討論和總結」三個步驟進行
 
 ### 免費個案列表
 
-網路上最完整的免費個案資源，應該是 The Case Centre（TCC）所提供的 [Free Case Collections](http://www.thecasecentre.org/educators/casemethod/resources/freecasesoverview)，上面有 MIT Sloan、Stanford GSB 等學校提供的免費個案。不過 TCC 的缺點是註冊跟購買報告的過程有點繁瑣，為了避免有人因為收不到確認信而無法參與討論，以下連結以非 TCC、不須註冊的來源優先；若只有 TCC 來源會特別註明。
+網路上最完整的免費個案資源，應該是 The Case Centre（TCC）所提供的 [Free Case Collections](http://www.thecasecentre.org/educators/casemethod/resources/freecasesoverview)，上面有 MIT Sloan、Stanford GSB 等學校提供的免費個案。不過 TCC 的缺點是註冊跟購買報告的過程有點繁瑣，為了避免有人因為收不到確認信而無法參與討論，**以下連結以非 TCC、不須註冊的來源優先；若只有 TCC 來源會特別註明**。
 
 #### TCC 的使用方法
 
