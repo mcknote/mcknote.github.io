@@ -2,7 +2,6 @@
 title: 想／McKinsey Global Institute 報告的可信度？
 date: 2016-1-1 14:30:00
 tags: 
-- 百度百家
 - MGI
 categories: 想
 comments: true

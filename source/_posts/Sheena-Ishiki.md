@@ -3,8 +3,6 @@ title: 聽／椎名林檎 - 意識
 date: 2016-03-18 7:30:00
 tags: 
 - 椎名林檎
-- 斎藤ネコ
-- 林原めぐみ
 categories: 聽
 comments: true
 ---

@@ -4,7 +4,6 @@ date: 2016-03-25 7:30:00
 tags: 
 - John Coltrane
 - Miles Davis
-- Kind of Blue
 categories: 聽
 comments: true
 ---

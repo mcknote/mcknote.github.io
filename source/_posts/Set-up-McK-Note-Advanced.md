@@ -3,12 +3,8 @@ title: ＃／McK & Note 架站筆記：進階篇
 date: 2016-4-6 14:30:00
 tags: 
 - Hexo
-- DNS
 - Cloudflare
 - Mailgun
-- SSL
-- HSTS
-- Bit.ly
 categories: ＃
 comments: true
 ---

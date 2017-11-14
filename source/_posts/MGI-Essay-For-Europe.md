@@ -3,7 +3,6 @@ title: ＃／MGI Essay For Europe
 date: 2016-3-19 05:30:00
 tags: 
 - MGI
-- EssayForEurope
 categories: ＃
 comments: true
 ---

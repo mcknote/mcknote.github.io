@@ -3,7 +3,6 @@ title: 讀／離網式太陽能發電
 date: 2016-3-14 14:30:00
 tags: 
 - BNEF
-- Lighting Global
 - Off-grid Solar
 categories: 讀
 comments: true

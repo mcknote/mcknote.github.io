@@ -2,7 +2,6 @@
 title: 想／矮子被捕，於事無補
 date: 2016-1-13 14:30:00
 tags: 
-- 美國
 - 毒品戰爭
 categories: 想
 comments: true
