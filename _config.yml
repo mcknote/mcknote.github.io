@@ -14,8 +14,8 @@ timezone: America/Los_Angeles
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.mcknote.com
 root: /
-permalink: :title/
-# permalink: :year/:month/:title/
+# permalink: :title/
+permalink: :year/:month/:title/
 permalink_defaults:
 enforce_ssl: www.mcknote.com
 
