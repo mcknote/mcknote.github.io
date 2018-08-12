@@ -72,6 +72,12 @@ categories: ＃
 
 比方說，當我很懶得一行一行比對資料的相似度時，我可以跑 kMeans cluster；當我看不清資料的起伏時，我可以用線性回歸簡單釐清變因（不過當然得算進{% post_link Advanced-Econometrics-II 季節性 %}等因素），或是用決策樹劃分資料。課堂上學到的知識，可以讓我在建模時免於犯下致命失誤，並合理解讀分析結果，但我也不會為了一兩個百分點的準確度斤斤計較。
 
-有人可能會說，這種程度的應用不是跟 Data Visualization 很像嗎？我確實覺得 Data Mining 就像 Data Visualization without Visualization。兩者都可以幫助分析者看見資料，只是 Data Mining 不靠圖片罷了，這在處理複雜資料時也是個優點。
+有人可能會說，這種程度的應用不是跟 Data Visualization 很像嗎？我確實覺得 Data Mining 就像 *Data Visualization without Visualization*。兩者都可以幫助分析者看見資料，只是 Data Mining 不靠圖片罷了，這在處理複雜資料時也是個優點。
 
-因此，在 Data Mining、Data Visualization 和 Data Management (SQL) 等輕便能力的輔助下，我能在很短的時間內開始對資料提出問題，並在過度沈迷於資料分析前，將自己引回提出問題、解決問題的正道上。這樣的應用固然和我前面提到的轉折和定位有關。回到 Data Mining 的工具性本質，我想每位初學者或一聽到 Data Mining 就渾身不舒服的資深人士，都可以試著想想作為一件中性的工具，Data Mining 可以為自己手上的工作帶來哪些價值。
+因此，在 Data Mining、Data Visualization 和 Data Management (SQL) 等輕便能力的輔助下，我能在很短的時間內開始對資料提出問題，並在過度沈迷於資料分析前，將自己引回提出問題、解決問題的正道上。這樣的應用固然和我前面提到的轉折和定位有關。
+
+回到 Data Mining 的工具性本質，我想每位初學者或一聽到 Data Mining 就渾身不舒服的資深人士，都可以試著想想作為一件中性的工具，Data Mining 可以為自己手上的工作帶來哪些價值。
+
+## 推薦的工具和資源
+
+
