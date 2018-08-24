@@ -1,6 +1,6 @@
 ---
 title: 讀／如何成為一名貝克學者（Baker Scholar）？
-date: 2018-08-22 07:30:00
+date: 2018-08-24 07:30:00
 tags:
 - HBS
 - MBA
